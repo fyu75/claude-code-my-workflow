@@ -2,7 +2,7 @@
 
 *Run 2026-05-16. Source: `scripts/python/23_acfr_multi_year_extraction.py`.*
 
-Parsed 21 PDFs across 5 counties × 10 fiscal years (range 2016–2025).
+Parsed 22 PDFs across 6 counties × 10 fiscal years (range 2016–2025).
 
 ## Extracted county-year panel
 
@@ -10,6 +10,7 @@ Units: dollars (raw from ACFR — typically already nominal $; some files report
 
 | County | State | FY | Property tax | Total revenue | Capital outlay | LT debt | Interest |
 |---|---|---:|---:|---:|---:|---:|---:|
+| Mayes County | OK | 2024 | — | — | — | — | — |
 | Crook County | OR | 2025 | $14,808,139 | $64,838,191 | $183,528 | $51,563,310 | $213,541 |
 | Morrow County | OR | 2018 | $8,100,960 | $23,708,471 | $903,228 | $347,139 | $40,668 |
 | Morrow County | OR | 2019 | $8,100,960 | $26,314,016 | $748,970 | $232,537 | $28,830 |
