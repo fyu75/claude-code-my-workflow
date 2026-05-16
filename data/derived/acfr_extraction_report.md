@@ -2,7 +2,7 @@
 
 *Run 2026-05-16. Source: `scripts/python/23_acfr_multi_year_extraction.py`.*
 
-Parsed 22 PDFs across 6 counties × 10 fiscal years (range 2016–2025).
+Parsed 40 PDFs across 23 counties × 11 fiscal years (range 2014–2025).
 
 ## Extracted county-year panel
 
@@ -10,6 +10,17 @@ Units: dollars (raw from ACFR — typically already nominal $; some files report
 
 | County | State | FY | Property tax | Total revenue | Capital outlay | LT debt | Interest |
 |---|---|---:|---:|---:|---:|---:|---:|
+| Cook County | GA | 2023 | — | $12,312,455 | $2,935,744 | — | — |
+| Washington County | GA | 2020 | — | — | — | — | — |
+| Wilkes County | GA | 2024 | $5,005,336 | $13,019,489 | $618,002 | $1,300,000 | $14,851 |
+| Lawrence County | KY | 2022 | — | — | — | $11,060,068 | — |
+| Lawrence County | KY | 2024 | — | — | — | — | — |
+| Marshall County | KY | 2023 | — | — | — | $9,424,759 | — |
+| Storey County | NV | 2023 | $22,769,019 | $52,136,000 | $1,065,500 | $140,947 | $118,120 |
+| Valencia County | NM | 2016 | $12,283,478 | $32,807,135 | $455,642 | $12,567,401 | — |
+| Cherokee County | NC | 2022 | $21,759,268 | $64,948,062 | $2,560,490 | — | $20,025 |
+| Franklin County | NC | 2024 | $67,090,739 | $146,507,294 | $5,662,674 | $123,929,781 | $1,194,384 |
+| Dickey County | ND | 2023 | $3,442,882 | $6,758,609 | — | $187,705 | $34,757 |
 | Mayes County | OK | 2024 | — | — | — | — | — |
 | Crook County | OR | 2025 | $14,808,139 | $64,838,191 | $183,528 | $51,563,310 | $213,541 |
 | Morrow County | OR | 2018 | $8,100,960 | $23,708,471 | $903,228 | $347,139 | $40,668 |
@@ -30,8 +41,15 @@ Units: dollars (raw from ACFR — typically already nominal $; some files report
 | Umatilla County | OR | 2023 | $22,713,457 | $29,785,525 | $551,759 | $6,555,000 | $393,182 |
 | Umatilla County | OR | 2024 | $23,768,779 | $32,455,314 | $1,173,049 | $5,320,000 | $336,111 |
 | Umatilla County | OR | 2025 | $25,403,483 | $34,243,545 | $2,033,686 | $3,945,000 | $272,791 |
+| Briscoe County | TX | 2024 | $3,661,357 | $5,526,120 | — | — | — |
+| Crane County | TX | 2024 | $2,550,539 | — | — | — | — |
+| Dickens County | TX | 2022 | $2,081,890 | — | — | — | — |
+| Glasscock County | TX | 2024 | $3,661,357 | $5,526,120 | — | — | — |
+| Pecos County | TX | 2022 | $2,761,636 | $42,596,429 | — | — | $43,185 |
+| Ward County | TX | 2024 | $3,661,357 | $5,526,120 | — | — | — |
 | Mecklenburg County | VA | 2023 | $10,700,962 | $40,962,523 | $6,913,176 | $19,683,525 | $825,482 |
 | Grant County | WA | 2023 | — | $177,010,677 | — | — | — |
+| Pend Oreille County | WA | 2014 | — | — | — | — | — |
 
 ## Sanity check vs Census 2017 ACFR
 
