@@ -50,6 +50,7 @@ SLUG_FIPS = {
     'umatilla_or':    ('41059','OR','Umatilla County'),
     'mecklenburg_va': ('51117','VA','Mecklenburg County'),
     'grant_wa':       ('53025','WA','Grant County'),
+    'mayes_ok':       ('40097','OK','Mayes County'),
 }
 
 # Patterns — keep narrow, prefer row-start matches
