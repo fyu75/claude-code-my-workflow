@@ -1,23 +1,20 @@
-# CLAUDE.MD -- Academic Project Development with Claude Code
+# CLAUDE.md — Data Centers and Municipality Finances
 
-<!-- HOW TO USE: Replace [BRACKETED PLACEHOLDERS] with your project info.
-     Customize Beamer environments and CSS classes for your theme.
-     Keep this file under ~150 lines — Claude loads it every session.
-     See the guide at docs/workflow-guide.html for full documentation. -->
-
-**Project:** [YOUR PROJECT NAME]
-**Institution:** [YOUR INSTITUTION]
+**Project (working title):** Corporate Investment and Municipality Finances: Evidence from Data Centers
+**Authors:** Henrik Cronqvist, Rui Dai, Mitch Warachka, Frank Yu (CEIBS)
 **Branch:** main
+**Initialized:** 2026-05-10
 
 ---
 
 ## Core Principles
 
-- **Plan first** -- enter plan mode before non-trivial tasks; save plans to `quality_reports/plans/`
-- **Verify after** -- compile/render and confirm output at the end of every task
-- **Single source of truth** -- Beamer `.tex` is authoritative; Quarto `.qmd` derives from it
-- **Quality gates** -- nothing ships below 80/100
-- **[LEARN] tags** -- when corrected, save `[LEARN:category] wrong → right` to [MEMORY.md](MEMORY.md)
+- **Plan first** — enter plan mode before non-trivial tasks; save plans to `quality_reports/plans/`
+- **Verify after** — run `Stata` / `R` / `xelatex` and confirm output at the end of every task
+- **Single source of truth** — Stata `.do` files are authoritative; tables / figures / numeric claims in the paper are derived (never hand-edited). See `.claude/rules/single-source-of-truth.md`.
+- **Quality gates** — nothing ships below 80/100 (advisory; enforced by `/commit`)
+- **Frame is broader than yields** — multiple downstream outcomes (tax revenue, capex, debt, ratings, AND yields). Don't narrow to bonds-only without team approval.
+- **[LEARN] tags** — when corrected, save `[LEARN:category] wrong → right` to [MEMORY.md](MEMORY.md)
 
 Cross-session context lives in [MEMORY.md](MEMORY.md); past plans, specs, and session logs are in [quality_reports/](quality_reports/).
 
@@ -26,20 +23,35 @@ Cross-session context lives in [MEMORY.md](MEMORY.md); past plans, specs, and se
 ## Folder Structure
 
 ```
-[YOUR-PROJECT]/
-├── CLAUDE.MD                    # This file
+datacenter2/
+├── CLAUDE.md                    # This file
+├── MEMORY.md                    # [LEARN] entries
 ├── .claude/                     # Rules, skills, agents, hooks
-├── Bibliography_base.bib        # Centralized bibliography
-├── Figures/                     # Figures and images
-├── Preambles/header.tex         # LaTeX headers
-├── Slides/                      # Beamer .tex files
-├── Quarto/                      # RevealJS .qmd files + theme
-├── docs/                        # GitHub Pages (auto-generated)
-├── scripts/                     # Utility scripts + R code
-├── quality_reports/             # Plans, session logs, merge reports, decision records
-├── explorations/                # Research sandbox (see rules)
-├── templates/                   # Session log, quality report templates
-└── master_supporting_docs/      # Papers and existing slides
+├── data/
+│   ├── raw -> /Users/fangyu/claude/datacenter/raw   # symlink (gitignored) — S&P 451 Research
+│   ├── external/                # ACFR, TRACE/MSRB, NCSL, ratings reports (gitignored)
+│   ├── intermediate/            # .dta after import (gitignored)
+│   └── derived/                 # analysis-ready
+├── scripts/
+│   ├── stata/                   # PRIMARY — _config.do, 00_run_all.do, 01–06
+│   └── R/                       # SUPPLEMENTARY — 00_run_all.R, 01–05
+├── paper/
+│   ├── main.tex                 # LaTeX-first authoritative paper
+│   ├── refs.bib                 # Bibliography (paper/refs.bib only — INV-5)
+│   ├── sections/                # intro / data / empirical / results / conclusion
+│   └── figures/                 # hand-drawn / non-code-generated figures
+├── output/
+│   ├── tables/                  # .tex tables → \input{} into paper
+│   └── figures/                 # .pdf figures → \includegraphics{} into paper
+├── master_supporting_docs/
+│   ├── related_papers/          # cited literature PDFs
+│   ├── case_studies/            # PWC VA fiscal report, Loudoun, etc.
+│   ├── industry_reports/        # Moody's, S&P Ratings, NCSL, Nuveen
+│   └── data_documentation/      # S&P 451 codebook, ACFR guide, MSRB docs
+├── notes/                       # team notes (Henrik, Mitch input)
+├── explorations/                # research sandbox
+├── quality_reports/             # plans, session logs, merge reports
+└── templates/                   # session log, quality report, requirements spec, etc.
 ```
 
 ---
@@ -47,38 +59,38 @@ Cross-session context lives in [MEMORY.md](MEMORY.md); past plans, specs, and se
 ## Commands
 
 ```bash
-# LaTeX (3-pass, XeLaTeX only)
-cd Slides && TEXINPUTS=../Preambles:$TEXINPUTS xelatex -interaction=nonstopmode file.tex
-BIBINPUTS=..:$BIBINPUTS bibtex file
-TEXINPUTS=../Preambles:$TEXINPUTS xelatex -interaction=nonstopmode file.tex
-TEXINPUTS=../Preambles:$TEXINPUTS xelatex -interaction=nonstopmode file.tex
+# Stata (primary). NEVER use `stata-mp` — unlicensed.
+/Applications/Stata/StataSE.app/Contents/MacOS/StataSE -e do scripts/stata/00_run_all.do
 
-# Deploy Quarto to GitHub Pages
-./scripts/sync_to_docs.sh LectureN
+# R supplementary
+Rscript scripts/R/00_run_all.R
+
+# LaTeX paper (3-pass + bibtex; from repo root)
+cd paper && \
+  xelatex -interaction=nonstopmode main.tex && \
+  bibtex main && \
+  xelatex -interaction=nonstopmode main.tex && \
+  xelatex -interaction=nonstopmode main.tex
 
 # Quality score
-python scripts/quality_score.py Quarto/file.qmd
+python scripts/quality_score.py paper/main.tex
+python scripts/quality_score.py scripts/stata/04_analyze.do
 
-# Palette sync (LaTeX ↔ SCSS)
-./scripts/check-palette-sync.sh
-
-# Surface-count sync (README ↔ CLAUDE.md ↔ guide ↔ landing page)
-./scripts/check-surface-sync.sh
+# Validate setup
+./scripts/validate-setup.sh
 ```
-
-**Palette contract:** color names in `Preambles/header.tex` must match SCSS variables in `Quarto/theme-template.scss`. See [`Preambles/README.md`](Preambles/README.md).
 
 ---
 
-## Quality Thresholds (advisory)
+## Quality Thresholds (advisory; enforced by `/commit`)
 
 | Score | Checkpoint | Meaning |
 |-------|------|---------|
 | 80 | Commit | Good enough to save |
-| 90 | PR | Ready for deployment |
-| 95 | Excellence | Aspirational |
+| 90 | PR / share with co-authors | Ready for collaborator review |
+| 95 | Submission-ready | Aspirational |
 
-Enforced by `/commit` (halts + asks for override); not enforced by a git pre-commit hook.
+Direct `git commit` bypasses the gate. See `.claude/rules/quality-gates.md`.
 
 ---
 
@@ -86,63 +98,56 @@ Enforced by `/commit` (halts + asks for override); not enforced by a git pre-com
 
 | Command | What It Does |
 |---------|-------------|
-| `/compile-latex [file]` | 3-pass XeLaTeX + bibtex |
-| `/deploy [LectureN]` | Render Quarto + sync to docs/ |
-| `/extract-tikz [LectureN]` | TikZ → PDF → SVG |
-| `/new-diagram [snippet] [output.tex]` | Scaffold a TikZ diagram from the gallery with prevention + review |
-| `/proofread [file]` | Grammar/typo/overflow review |
-| `/visual-audit [file]` | Slide layout audit |
-| `/pedagogy-review [file]` | Narrative, notation, pacing review |
+| `/compile-latex [file]` | 3-pass XeLaTeX + bibtex on `paper/main.tex` |
+| `/proofread [file]` | Grammar / typo / consistency review |
 | `/review-r [file]` | R code quality review |
-| `/qa-quarto [LectureN]` | Adversarial Quarto vs Beamer QA |
-| `/slide-excellence [file]` | Combined multi-agent review |
-| `/translate-to-quarto [file]` | Beamer → Quarto translation |
-| `/validate-bib` | Cross-reference citations |
-| `/devils-advocate` | Challenge slide design |
-| `/create-lecture` | Full lecture creation |
-| `/commit [msg]` | Stage, commit, PR, merge |
+| `/validate-bib` | Cross-reference citations vs `paper/refs.bib` |
+| `/commit [msg]` | Stage, commit, PR, merge (halts if score < 80) |
 | `/lit-review [topic]` | Literature search + synthesis |
 | `/research-ideation [topic]` | Research questions + strategies |
 | `/interview-me [topic]` | Interactive research interview |
-| `/review-paper [file]` | Manuscript review (single-pass / `--adversarial` / `--peer <journal>` simulated pipeline) |
+| `/review-paper [file]` | Manuscript review (single-pass / `--adversarial` / `--peer <journal>`) |
 | `/respond-to-referees [report] [manuscript]` | R&R cross-reference + response draft |
 | `/data-analysis [dataset]` | End-to-end R analysis |
-| `/audit-reproducibility [paper]` | Enforce replication tolerance thresholds on paper ↔ code |
+| `/audit-reproducibility [paper]` | Enforce tolerance thresholds on paper ↔ code |
+| `/seven-pass-review` | Seven-pass adversarial manuscript review |
+| `/verify-claims [file]` | CoVe fact-check (forked verifier, fresh context) |
+| `/checkpoint [topic]` | Save state snapshot before stop / handoff |
+| `/preregister [--style ...]` | Draft a preregistration document |
 | `/learn [skill-name]` | Extract discovery into persistent skill |
-| `/context-status` | Show session health + context usage |
+| `/context-status` | Show context usage and session health |
 | `/deep-audit` | Repository-wide consistency audit |
-| `/permission-check` | Diagnose permission layers when prompts fire unexpectedly |
-| `/seven-pass-review` | Seven-pass adversarial manuscript review (parallel forked subagents) |
-| `/verify-claims [file]` | Chain-of-Verification fact-check (forked verifier, fresh context) |
-| `/checkpoint [topic]` | Save a structured state snapshot (active plan, decisions, file pointers, next actions) before stopping or handing off |
-| `/preregister [--style osf|aspredicted|aea-rct]` | Draft a preregistration document (OSF / AsPredicted / AEA RCT Registry) from a research spec |
+| `/permission-check` | Diagnose permission layers |
 
 ---
 
-<!-- CUSTOMIZE: Replace placeholder rows ([your-env], [.your-class]) with your own.
-     Delete the rows marked "(example — delete)" once you've added yours. -->
+## Stata Conventions (snapshot — full rule in `.claude/rules/stata-code-conventions.md`)
 
-## Beamer Custom Environments
-
-| Environment | Effect | Use Case |
-| --- | --- | --- |
-| `[your-env]` | [Description] | [When to use] |
-| `keybox` | Gold background box | Key points *(example — delete)* |
-| `definitionbox[Title]` | Blue-bordered titled box | Formal definitions *(example — delete)* |
-
-## Quarto CSS Classes
-
-| Class | Effect | Use Case |
-| --- | --- | --- |
-| `[.your-class]` | [Description] | [When to use] |
-| `.smaller` | 85% font | Dense content *(example — delete)* |
-| `.positive` | Green bold | Good annotations *(example — delete)* |
+| Convention | Value |
+|---|---|
+| Binary | `/Applications/Stata/StataSE.app/Contents/MacOS/StataSE` |
+| Version directive | `version 19` (in `_config.do`) |
+| Project root | `$root = c(pwd)` (set in `00_run_all.do`); all paths derive from `$root` |
+| Seed | `set seed $PROJECT_SEED` with `$PROJECT_SEED 20260510` (set once in `_config.do`) |
+| Headless | `-e` (respects in-script log path) |
+| Estimates | `estimates save "$tab/est_<name>.ster", replace` for every regression |
+| Tables | `esttab` → `output/tables/<name>.tex`; AEA-style (no significance stars) |
+| Figures | `graph export "$fig/<name>.pdf", replace` with explicit `width()` |
 
 ---
 
 ## Current Project State
 
-| Lecture | Beamer | Quarto | Key Content |
-| --- | --- | --- | --- |
-| HelloWorld *(sample — delete when ready)* | `HelloWorld.tex` | `HelloWorld.qmd` | Minimal deck to verify setup |
-| 1: [Topic] | `Lecture01_Topic.tex` | `Lecture1_Topic.qmd` | [Brief description] |
+| Component | Status |
+|---|---|
+| Workflow scaffolding | ✅ Adapted from `pedrohcgs/claude-code-my-workflow` 2026-05-10 |
+| Stata pipeline skeleton | ✅ `scripts/stata/_config.do` + `00–06.do` placeholders |
+| R pipeline (template, supplementary) | ✅ `scripts/R/00_run_all.R` + `01–05.R` placeholders |
+| Paper LaTeX skeleton | ✅ `paper/main.tex` + 5 sections + `refs.bib` (16 pre-vetted refs) |
+| Bibliography | 🔵 Seeded by Henrik (2026-04-30); needs DOI / page verification |
+| Data: S&P 451 Research DC database | ✅ 23 SAS files at `data/raw` (symlink) |
+| Data: ACFR (county financials) | ☐ TODO |
+| Data: TRACE / MSRB EMMA muni bonds | ☐ TODO (later) |
+| Data: NCSL state DC incentives | ☐ TODO |
+| Data: Moody's / S&P 2026 ratings reports | ☐ TODO |
+| First analysis: tabulate US owners/providers/clients + geography | ☐ Plan 2 (next) |

@@ -1,0 +1,121 @@
+ISSUER,STATECODE,override_type,county_fips,note
+NYC Municipal Water Fin Auth,NY,metro_excluded,,NYC = 5-county consolidated fiscal unit; not borough-attributable; only 63/4507 DCs in NYC (1.4%) all in Manhattan carrier-hotel cluster — fiscal impact on $90B NYC budget is negligible
+NYC Housing Dev Corp,NY,metro_excluded,,NYC citywide — see Municipal Water Fin Auth note
+NYC Sales Tax Asset Rec Corp,NY,metro_excluded,,NYC citywide tobacco/sales-tax securitization
+Hudson Yards Infrastructure Corp,NY,metro_excluded,,Manhattan TIF but part of NYC citywide fiscal unit; treat as NYC
+Los Angeles USD,CA,county_override,06037,LA County
+Los Angeles Dept Wtr & Pwr (LADWP),CA,county_override,06037,LA City utility
+Los Angeles Municipal Imp Corp,CA,county_override,06037,LA City conduit
+San Diego USD,CA,county_override,06073,San Diego County
+San Diego Public Facs Fin Auth,CA,county_override,06073,San Diego County
+San Francisco City/Co Public Util Comm,CA,county_override,06075,SF
+San Francisco City/Co-California,CA,county_override,06075,SF consolidated city-county
+San Francisco City & Co Airport Comm,CA,county_override,06075,SF airport (SFO)
+Honolulu City & Co-Hawaii,HI,county_override,15003,Honolulu Co consolidated
+Indianapolis Loc Pub Imp Bond Bank,IN,county_override,18097,Marion County (Indy)
+Unified Gov of Wyandotte Co/Kansas City,KS,county_override,20209,Wyandotte Co consolidated
+Philadelphia SD,PA,county_override,42101,Philadelphia Co
+Dallas ISD,TX,county_override,48113,Dallas County
+Fort Bend ISD,TX,county_override,48157,Fort Bend Co
+Chicago Transit Authority,IL,county_override,17031,Cook County
+Metropolitan Pier & Expo Auth,IL,county_override,17031,Cook County
+Greater Chicago Metro Wtr Rec Dt,IL,county_override,17031,Cook County
+District of Columbia Wtr & Swr Au,DC,county_override,11001,DC
+Baltimore Mayor & City Council-Maryland,MD,county_override,24510,Baltimore independent city
+Jacksonville Electric Authority (JEA),FL,county_override,12031,Duval County (Jax consolidated)
+Orlando Utilities Commission (OUC),FL,county_override,12095,Orange County (FL)
+Las Vegas Valley Water Dt,NV,county_override,32003,Clark County
+Port of Seattle-Washington,WA,county_override,53033,King County
+Omaha Public Power Dt (OPPD),NE,county_override,31055,Douglas County (Omaha)
+Salt River Proj Agric Imp & Pwr Dt,AZ,county_override,04013,Maricopa County
+Foothill/Eastern Transp Corridor Agy,CA,county_override,06059,Orange County
+East Bay MUD,CA,multi_county_authority,,Alameda + Contra Costa
+So California Metro Water Dt,CA,multi_county_authority,,LA/Orange/Riverside/SD/SB/Ventura
+So California Pub Pwr Au (SCPPA),CA,multi_county_authority,,Multi-county JPA
+Bay Area Toll Authority (BATA),CA,multi_county_authority,,Bay Area bridges
+San Fran Bay Area Rapid Trans Dt,CA,multi_county_authority,,BART multi-county
+North Texas Tollway Auth (NTTA),TX,multi_county_authority,,DFW multi-county
+North Texas Municipal Water Dt,TX,multi_county_authority,,Multi-county wholesale water
+Tarrant Regional Water Dt,TX,multi_county_authority,,Multi-county TX
+Dallas Area Rapid Transit Auth,TX,multi_county_authority,,DART multi-county
+Lower Colorado River Authority (LCRA),TX,multi_county_authority,,Multi-county TX
+Grand Parkway Transport Corp,TX,multi_county_authority,,Multi-county TX toll
+Washington Suburban Sanitary Dt,MD,multi_county_authority,,Prince Georges + Montgomery
+Metro Washington Airports Auth,DC,multi_county_authority,,DC + VA + MD
+Long Island Power Authority,NY,multi_county_authority,,Nassau + Suffolk
+Colorado Reg Transportation Dt,CO,multi_county_authority,,Denver metro multi-county
+Regional Transportation Auth,IL,multi_county_authority,,Chicago RTA multi-county
+Metro Atlanta Rapid Transit Au (MARTA),GA,multi_county_authority,,Fulton + DeKalb + others
+Great Lakes Water Auth (GLWA),MI,multi_county_authority,,Detroit metro multi-county
+American Municipal Power Inc,OH,state_conduit,,Multi-state public power JPA
+Georgia Muni Electric Au (MEAG),GA,state_conduit,,Multi-county state JPA
+Buckeye Tobacco Settle Fin Au,OH,state_conduit,,State tobacco securitization
+Brazos Higher Education Auth,TX,state_conduit,,State higher-ed conduit
+Univ of Massachusetts Bldg Au,MA,state_conduit,,State public university
+Arizona School Facilities Board,AZ,state_conduit,,State agency
+Nebraska Public Power Dt,NE,state_conduit,,State public power
+Black Belt Energy Gas Dt,AL,state_conduit,,Gas prepayment conduit
+Southeast Energy Authority,AL,state_conduit,,Gas prepayment conduit
+Southeast Alabama Gas Dt,AL,state_conduit,,Gas prepayment conduit
+Main Street Natural Gas Inc,GA,state_conduit,,Gas prepayment conduit
+Central Plains Energy Project,NE,state_conduit,,Gas prepayment conduit
+De Kalb Co-Georgia,GA,county_override,13089,DeKalb Co — regex missed space in De Kalb
+Los Angeles (Long Beach) USD,CA,county_override,06037,Long Beach USD covers LB area within LA Co
+Battery Park City Authority,NY,metro_excluded,,NYC citywide (Manhattan TIF authority)
+San Francisco City & Co USD,CA,county_override,06075,SF
+Santa Clara Valley Trans Auth,CA,county_override,06085,VTA primary footprint Santa Clara Co
+San Diego Regional Airport Auth,CA,county_override,06073,SAN airport in San Diego Co
+Philadelphia Auth for Indus Dev,PA,county_override,42101,Philadelphia Co conduit
+San Francisco City/Co Redev Success Agy,CA,county_override,06075,SF redevelopment successor
+West Contra Costa USD,CA,county_override,06013,Contra Costa Co
+Port of Oakland-California,CA,county_override,06001,Oakland in Alameda Co
+Comal ISD,TX,county_override,48091,Comal County
+Santa Clara USD,CA,county_override,06085,Santa Clara Co
+Pittsburgh Water & Sewer Auth,PA,county_override,42003,Allegheny Co (Pittsburgh)
+Los Angeles Harbor Dept,CA,county_override,06037,Port of LA in San Pedro/LA Co
+Metro Nashville Airport Auth,TN,county_override,47037,BNA in Davidson Co (consolidated Nashville)
+San Jose Financing Authority,CA,county_override,06085,San Jose in Santa Clara Co
+Washington Conv Ctr Pub Facs Dt,WA,county_override,53033,Seattle Convention Ctr in King Co
+Port Of Houston Authority,TX,county_override,48201,Port of Houston in Harris Co
+Santa Clara Valley Water Dt,CA,county_override,06085,Predominantly Santa Clara Co
+Anaheim Public Financing Auth,CA,county_override,06059,Anaheim in Orange Co
+Greater Orlando Aviation Auth,FL,county_override,12095,MCO in Orange Co (FL)
+NYC Health & Hosp Corp,NY,metro_excluded,,NYC citywide hospital system
+NYC Industrial Dev Agency,NY,metro_excluded,,NYC citywide IDA
+Mount San Antonio Comm College Dt,CA,county_override,06037,"Mt SAC in Walnut, LA Co"
+El Paso ISD,TX,county_override,48141,El Paso County
+Eastern Municipal Water Dt,CA,county_override,06065,Riverside Co (Hemet/Moreno Valley/Perris)
+Hays CISD,TX,county_override,48209,Hays Co
+Davis SD BOE,UT,county_override,49011,"Davis County, UT"
+Chabot-Las Positas Comm Coll Dt,CA,county_override,06001,Alameda Co (Hayward/Livermore/Pleasanton)
+North Slope Boro-Alaska,AK,county_override,02185,AK Borough is a county-equivalent
+San Joaquin Hills Trans Corridor Agy,CA,county_override,06059,Orange Co toll roads (SR-73)
+Detroit Retirement Sys Fund Tr,MI,county_override,26163,Wayne Co (Detroit)
+Alameda Corridor Transport Auth,CA,county_override,06037,Rail corridor primarily in LA Co
+Northeast Ohio Regional Sewer Dt,OH,county_override,39035,Cuyahoga Co main footprint
+Central Puget Sound Reg Tran Au,WA,multi_county_authority,,Sound Transit (King/Pierce/Snohomish)
+Minneapolis-St Paul Metro Airports Comm,MN,multi_county_authority,,MSP airport (Hennepin/Ramsey)
+Ctl Texas Reg Mobility Au (CTRMA),TX,multi_county_authority,,Austin metro toll multi-county
+Delaware River Port Auth of PA NJ,NJ,multi_county_authority,,Bistate PA+NJ port authority
+Trinity River Authority,TX,multi_county_authority,,Multi-county TX wholesale water
+Hampton Roads Trans Acc Com (HRTAC),VA,multi_county_authority,,Hampton Roads regional transport
+Tampa Bay Water,FL,multi_county_authority,,Hillsborough+Pasco+Pinellas wholesale
+E-470 Public Highway Authority,CO,multi_county_authority,,Denver metro toll multi-county
+Tri-Co Metro Trans Dt,OR,multi_county_authority,,TriMet (Multnomah/Washington/Clackamas)
+Metropolitan Council,MN,multi_county_authority,,Twin Cities regional authority
+Minneapolis-St Paul Metro Council,MN,multi_county_authority,,Twin Cities regional council (same as above)
+Grand River Dam Authority,OK,multi_county_authority,,Multi-county OK power authority
+Metropolitan St Louis Sewer Dt,MO,multi_county_authority,,St Louis City+County
+Dallas-Fort Worth Intl Airport,TX,multi_county_authority,,DFW in Dallas+Tarrant
+Reedy Creek Improvement Dt,FL,multi_county_authority,,Disney district (Orange+Osceola)
+Hampton Roads Sanitation Dt,VA,multi_county_authority,,Multi-locality VA sanitation
+North Texas Hghr Education Auth,TX,state_conduit,,TX higher-ed student loan conduit
+Energy Southeast,AL,state_conduit,,Gas prepayment conduit
+Lower Alabama Gas Dt,AL,state_conduit,,Gas prepayment conduit
+PR Govt Dev Bank Recovery Auth,PR,state_conduit,,Puerto Rico (not US county)
+Colorado St Univ Sys Bd of Gov,CO,state_conduit,,State university system
+Railsplitter Tob Settlement Au,IL,state_conduit,,IL state tobacco securitization
+California Earthquake Auth,CA,state_conduit,,State-wide insurance authority
+Texas Muni Gas Acq & Supply Corp V,TX,state_conduit,,Gas prepayment conduit
+Bldg Equity Sooner For Tomorrow (BEST),SC,state_conduit,,SC state school facilities authority
+Arizona Water Infrastructure Fin Auth,AZ,state_conduit,,State infrastructure SRF conduit

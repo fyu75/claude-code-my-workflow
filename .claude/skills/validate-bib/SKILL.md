@@ -42,15 +42,14 @@ Report saved to `quality_reports/bib_audit_[structural|semantic].md`.
 ### Files scanned
 
 ```
-Slides/*.tex
-Quarto/*.qmd
-guide/*.qmd
+paper/main.tex
+paper/sections/*.tex
 master_supporting_docs/**/*.tex
 ```
 
 ### Bibliography location
 
-`Bibliography_base.bib` at repo root by default; override via CLAUDE.md.
+`paper/refs.bib` (canonical; INV-5).
 
 ## Mode 2: Semantic (`--semantic`)
 

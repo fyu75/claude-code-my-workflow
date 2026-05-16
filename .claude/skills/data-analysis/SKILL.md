@@ -17,9 +17,11 @@ Run an end-to-end data analysis in R: load, explore, analyze, and produce public
 
 - **Follow R code conventions** in `.claude/rules/r-code-conventions.md`
 - **Save all scripts** to `scripts/R/` with descriptive names
-- **Save all outputs** (figures, tables, RDS) to `output/`
-- **Use `saveRDS()`** for every computed object — Quarto slides may need them
-- **Use project theme** for all figures (check for custom theme in `.claude/rules/`)
+- **Save all outputs** (figures, tables, RDS) to `output/tables/` and `output/figures/`; intermediate RDS to `scripts/R/_outputs/`
+- **Use `saveRDS()`** for every computed regression object (INV-8) — `/audit-reproducibility` reads them
+- **Use project theme** (`theme_dcmuni` in `.claude/rules/r-code-conventions.md`) for all figures
+- **Read from `data/derived/`**, not `data/raw/` — Stata's `02_clean.do` is the SSOT for cleaning (INV-1)
+- **Match Stata cluster level** — if `04_analyze.do` clusters at county, R must too (INV-7)
 - **Run r-reviewer** on the generated script before presenting results
 
 ---
@@ -43,7 +45,7 @@ Output block (in your response to the user, before Phase 1):
 
 **Project conventions read:**
 - `.claude/rules/r-code-conventions.md` — [one-line summary of most relevant rule]
-- `.claude/rules/content-invariants.md` — [INV-9, INV-10, INV-11, INV-12 applicable]
+- `.claude/rules/content-invariants.md` — [INV-1, INV-2, INV-3, INV-7, INV-8 applicable]
 
 **Task interpretation:** [one sentence restating what the user asked for]
 
@@ -56,7 +58,7 @@ If any input cannot be read (missing file, unreadable format), stop and ask the 
 
 1. Create R script with proper header (title, author, purpose, inputs, outputs)
 2. Load required packages at top (`library()`, never `require()`)
-3. Set seed once at top in YYYYMMDD format (per `r-code-conventions.md`), e.g. `set.seed(20260415)` (INV-9)
+3. Set seed once at top in YYYYMMDD format (per `r-code-conventions.md`), e.g. `set.seed(20260510)` (INV-3)
 4. Load and inspect the dataset
 
 ### Phase 2: Exploratory Data Analysis
@@ -86,11 +88,11 @@ Based on the research question:
 - Export as `.tex` for LaTeX inclusion and `.html` for quick viewing
 
 **Figures:**
-- Use `ggplot2` with project theme
-- Set `bg = "transparent"` for Beamer compatibility
+- Use `ggplot2` with `theme_dcmuni()` (defined in `.claude/rules/r-code-conventions.md`)
+- White background (the paper uses white pages)
 - Include proper axis labels (sentence case, units)
-- Export with explicit dimensions: `ggsave(width = X, height = Y)`
-- Save as both `.pdf` and `.png`
+- Export with explicit dimensions: `ggsave(width = 6.5, height = 4.0, units = "in")` for single-column finance figures
+- Save as `.pdf` (vector); only add `.png` if the journal explicitly requires it
 
 ### Phase 5: Save and Review
 
@@ -125,7 +127,7 @@ library(tidyverse)
 library(fixest)
 library(modelsummary)
 
-set.seed(20260415)  # YYYYMMDD per r-code-conventions.md (INV-9)
+set.seed(20260510)  # YYYYMMDD per r-code-conventions.md (INV-3); matches $PROJECT_SEED
 
 dir.create("output/analysis", recursive = TRUE, showWarnings = FALSE)
 

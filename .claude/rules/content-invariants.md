@@ -1,33 +1,27 @@
+# Content Invariants (INV-1 through INV-9)
+
+Numbered non-negotiable rules for content produced in this repository. Critic agents, reviewers, and audit agents should cite invariants by number (e.g., "violates INV-3") when flagging issues. Adapted from clo-author's enforcement pattern; rewritten 2026-05-10 for the **dc-muni** empirical-paper context (slide-specific INV-1 through INV-8 from the template were dropped).
+
+## Pipeline invariants
+
+- **INV-1: Single source of truth.** Stata `.do` files in `scripts/stata/` are authoritative for analysis. Tables (`\input{}`) and figures (`\includegraphics{}`) in `paper/main.tex` are derived artifacts. Never hand-edit a `.tex` table or paste a number into the paper that doesn't trace to `output/`. See `single-source-of-truth.md`.
+- **INV-2: Relative paths only.** No absolute paths anywhere (`/Users/…`, `C:\…`, `~`). R uses `here::here(…)`; Stata uses `$root/…` derived from `_config.do`. Catches every co-author's machine.
+- **INV-3: Reproducibility seed.** `set.seed(20260510)` (R) or `set seed $PROJECT_SEED` (Stata, with `$PROJECT_SEED 20260510` in `_config.do`) is set ONCE at the top of `00_run_all.{do,R}`. Never inside loops or functions. `set sortseed` matches `set seed` in Stata.
+- **INV-4: US-firm filter at the cleaning stage.** The "filter to US firms" step happens in `02_clean.do`, never silently in analysis scripts. Sample restriction must be visible in the data lineage.
+- **INV-5: Single bibliography.** `paper/refs.bib` is the canonical bib file. No per-section `.bib` files. All `\cite{}` keys resolve against this one file.
+- **INV-6: Stata version locked.** `version 19` at the top of `_config.do`. Every other Stata script inherits.
+
+## Estimation invariants
+
+- **INV-7: Cluster level documented.** Every regression specifies the SE-cluster level (county, state, or issuer) in a comment next to the command. The choice is defended in the methods section of the paper.
+- **INV-8: Estimates persisted.** Every regression `estimates save`s to `output/tables/est_*.ster` (Stata) or `saveRDS` to `scripts/R/_outputs/` (R). `/audit-reproducibility` reads these to verify the paper's numeric claims.
+- **INV-9: No silent sample changes.** When the analysis sample changes from one specification to the next (added control, dropped non-overlapping units, balanced panel), the change is logged in the regression comment and an N row in the table makes it visible.
+
 ---
-paths:
-  - "Slides/**/*.tex"
-  - "Quarto/**/*.qmd"
-  - "Quarto/**/*.scss"
-  - "Preambles/header.tex"
-  - "scripts/R/**/*.R"
----
 
-# Content Invariants (INV-1 through INV-12)
+## What this rule does NOT cover
 
-Numbered non-negotiable rules for content produced in this repository. Critic agents, reviewers, and audit agents should cite invariants by number (e.g., "violates INV-3") when flagging issues. Adapted from clo-author's enforcement pattern.
-
-## Slide invariants
-
-- **INV-1: Palette sync.** Color names in `Preambles/header.tex` must match SCSS variables in `Quarto/theme-template.scss`. Verify with `./scripts/check-palette-sync.sh`. Any new color added to one must be added to the other.
-- **INV-2: Beamer↔Quarto notation parity.** Every math symbol, variable name, and subscript in a Beamer `.tex` slide must appear identically in its Quarto `.qmd` mirror. Notation drift between the two is a critical bug.
-- **INV-3: Quarto CSS override contract.** Styles that must override Bootstrap defaults (e.g., inline code color, code block background) go in `include-in-header` as a raw `<style>` tag, never in the SCSS file. SCSS is only for styles that do not need to beat Bootstrap's cascade — Bootstrap's own selectors win specificity wars otherwise.
-- **INV-4: TikZ as SVG.** Browsers cannot render PDF images inline. All TikZ diagrams in Quarto/HTML must be SVG, produced via `/extract-tikz`. Never embed a `.pdf` in a `.qmd` slide.
-- **INV-5: Single bibliography.** `Bibliography_base.bib` is the canonical bibliography. No per-lecture `.bib` files. All citations must resolve against this one file.
-
-## Slide design invariants
-
-- **INV-6: No `\pause` or overlays.** Beamer `\pause`, `\only`, `\visible`, `\onslide` commands are forbidden. See `.claude/rules/no-pause-beamer.md` for rationale.
-- **INV-7: Max 2 colored boxes per slide.** Overusing `keybox`, `definitionbox`, or callout environments creates "box fatigue." Two per slide maximum.
-- **INV-8: Motivation before formalism.** Every definition must be preceded by a motivating example, intuition, or real-world question. No unmotivated math.
-
-## R script invariants
-
-- **INV-9: `set.seed()` once at top.** Every R script that uses randomness must call `set.seed(N)` exactly once, at the top of the script, before any stochastic code. Never inside loops or functions.
-- **INV-10: Relative paths only.** No absolute paths (`/Users/...`, `C:\...`, `~` expansion). All paths relative to the repository root. Use `file.path()` for cross-platform compatibility.
-- **INV-11: Transparent backgrounds for Beamer figures.** All `ggsave()` calls producing figures for Beamer slides must include `bg = "transparent"`.
-- **INV-12: Project theme on all plots.** Every ggplot figure must use the project's custom theme. No default ggplot2 gray backgrounds should appear in any committed figure.
+- Notation conventions for the paper (yields vs spreads, unit definitions) — see `knowledge-base-template.md`.
+- Quality scoring rubrics — see `quality-gates.md`.
+- Replication tolerance thresholds — see `replication-protocol.md`.
+- Cross-artifact review (paper ↔ code) — see `cross-artifact-review.md`.

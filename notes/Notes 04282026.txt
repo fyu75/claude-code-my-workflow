@@ -1,0 +1,76 @@
+Corporate Investment and Municipality Finances 
+
+TRACE data. 
+
+Lit review: Need to understand how the research question of local corporate activities/profits/investments impact local governments has been addressed previously. Where did they get variation/identification from? Must have been addressed previously in finance/economics.   
+
+Data centers (DCs) = Largest ever corporate investment shock?   
+2026: ~1/5th of US Capex 
+Pure Capex/investment shock - no/small accompanying labor shock (DCs employ very few workers and require few complementary resources other than power and water)
+Relative size of shock varies: Small town vs. larger city, Urban vs. rural, Poor vs. affluent munis , etc. 
+
+Estimate elasticity/sensitivity of Muni Capex and Muni Tax Collection: For every $1, the tax collected increases by $X. (Depends on relative size of shock.) 
+
+What do the munis do with collected $?  Windfall? Tax cuts, de-lever (reduce debt), invest in infrastructure and public services (hospitals, schools, libraries), etc. 
+
+Impact on muni bond ratings? We do not have data on announcement but could estimate. Does muni market price risk? 
+
+Risk factors? Demand for DCs may change, public negative sentiment (even if makes business sense).  Does the muni bond market react?  
+Prisons: Used to be positive for munis but then number of inmates declined. 
+
+Munis used to give tax exemptions / incentives, but going away.  
+
+Literature on disappearing newspapers: Are DCs built in areas with disappearing newspapers / less media coverage? 
+
+Only game in town paper (Scott Yonker).  
+
+DCs pay a lot in property taxes. Is this correct? Do they negotiate lower taxes? (Like billionaires in Switzerland.) 
+Significant variation in property taxes across states.  
+Comparison: Warehouses (need infrastructure), prisons 
+Cash cow - need no hospitals, schools, etc. Perpetuity - good for muni/mayor. Why do citizens not buy into it?  Utility costs (but regulated). 
+
+Are DCs by consumer brands (e.g., Apple, Amazon) - less bad than AI companies.  People worry about their livelihood post-AI.  
+
+Endogeneity: Munis seek out DCs?  Even if they do, what is the effect? 
+
+Ravenpack: Not many construction companies build DCs.  Construction company press release? 
+
+
+From Mitch:
+
+Here is the website that lists the annual information that should be available on municipalities.
+
+https://www.munispot.com/blog/what-is-an-acfr-guide
+
+
+the potential relationship between data centers (approval or construction) and municipal bond yields (credit ratings). Overall, it could not find any paper examining the relationship but Clause asked me to take a close look at Loudoun County, Virginia, which is an extremely wealthy county. We would need to focus on "poor" counties like San Bernadino CA. While most of the current data centers are in urban areas, most planned data centers are in rural counties due to the availability of cheap land. This migration to rural counties is where I suspect we will find the greatest impact on municipal finances.
+Data centers can potentially contribute positively to a county's fiscal position, but the relationship with credit ratings is complex.
+Potential Positive Factors
+Property tax base expansion - large capital investments in real property
+Revenue diversification - additional tax revenue streams
+Economic stability signals - major investment can indicate economic vitality
+Infrastructure improvements that may benefit broader community
+Complicating Factors
+Tax incentives/abatements - many counties offer significant tax breaks to attract data centers, which can substantially reduce or eliminate fiscal benefits
+Low employment numbers - data centers create relatively few jobs for their size
+Infrastructure costs - they place significant demands on power and water
+Concentration risk - heavy dependence on one industry can actually concern rating agencies
+What Rating Agencies Actually Consider
+Credit rating agencies like Moody's, S&P, and Fitch focus on:
+Overall financial management
+Debt levels
+Revenue stability and diversity
+Economic base breadth
+
+This paper examines the impact of forest fires on municipal bonds due to higher healthcare costs:
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5101773
+
+Reading more about state-level and municipal-level taxation of data centers. As voter push back against data centers increases, companies will likely receive less valuable tax incentives.
+
+One issue is that certain parts of the data center often need replacement (chips not cooling equipment) and this short investment cycle causes the value of the asset to fluctuate, thereby causing property tax revenue to fluctuate.
+
+I also found that debt related to prisons has lost value. A lot of prison-specific debt is junk as the prison population has declined. Before data centers, prisons offered municipalities a way of raising revenue.
+
+
+
