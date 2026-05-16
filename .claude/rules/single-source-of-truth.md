@@ -1,69 +1,76 @@
 ---
 paths:
-  - "Figures/**/*"
-  - "Quarto/**/*.qmd"
-  - "Slides/**/*.tex"
+  - "paper/**"
+  - "scripts/**/*.do"
+  - "scripts/**/*.R"
+  - "output/**"
 ---
 
-# Single Source of Truth: Enforcement Protocol
+# Single Source of Truth: Paper Chain
 
-**The Beamer `.tex` file is the authoritative source for ALL content.** Everything else is derived.
+**Stata `.do` files in `scripts/stata/` are the authoritative source for analysis. Tables and figures in the paper are derived artifacts — never hand-edited.**
 
 ## The SSOT Chain
 
 ```
-Beamer .tex (SOURCE OF TRUTH)
-  ├── extract_tikz.tex → PDF → SVGs (derived)
-  ├── Quarto .qmd → HTML (derived)
-  ├── Bibliography_base.bib (shared)
-  └── Figures/LectureN/*.rds → plotly charts (data source)
+data/raw/ (S&P 451 Research SAS files)         data/external/ (ACFR, MSRB, NCSL, etc.)
+     │                                                  │
+     └─────────────────────┬────────────────────────────┘
+                           ▼
+              scripts/stata/01_import.do  →  data/intermediate/dc_*.dta
+                           │
+                           ▼
+              scripts/stata/02_clean.do  →  data/derived/<topic>.dta   ◄── SOURCE OF TRUTH for cleaned variables
+                           │
+              ┌────────────┴───────────────────────────┐
+              ▼                                        ▼
+   scripts/stata/03..06.do        (R supplementary)  scripts/R/*.R   ─── may NOT redefine cleaned variables
+              │                                        │
+              ▼                                        ▼
+       output/tables/*.tex                     output/tables/*.tex
+       output/figures/*.pdf                    output/figures/*.pdf
+              │                                        │
+              └──────────────────┬─────────────────────┘
+                                 ▼
+                         paper/main.tex      (consumes via \input{} and \includegraphics{})
+                                 │
+                                 ▼
+                          paper/main.pdf
 
-NEVER edit derived artifacts independently.
-ALWAYS propagate changes from source → derived.
+NEVER edit tables, figures, or numeric claims in the paper directly.
+ALWAYS propagate changes upstream: data → cleaning → analysis → output → paper.
 ```
 
 ---
 
-## TikZ Freshness Protocol (MANDATORY)
+## Tables
 
-**Before using ANY TikZ SVG in a Quarto slide, verify it matches the current Beamer source.**
+- **All regression tables enter the paper via `\input{../output/tables/<name>.tex}`.**
+- Tables are produced by `esttab` (Stata) or `modelsummary` (R) — never typed into the paper by hand.
+- AEA convention: SE in parentheses, no significance stars. The paper's `\bibliographystyle{aer}` matches.
+- If a table needs a layout-specific tweak (column widths, multirow), do it in the .tex output written by `esttab` (via `prefoot()` / `posthead()`) — not by editing the file after the fact.
 
-### Diff-Check Procedure
+## Figures
 
-1. Read the TikZ block from the Beamer `.tex` file
-2. Read the corresponding block from `Figures/LectureN/extract_tikz.tex`
-3. Compare EVERY coordinate, label, color, opacity, and anchor point
-4. If ANY difference exists: update `extract_tikz.tex` from Beamer, recompile, regenerate SVGs
-5. Only then reference the SVG in the QMD
+- **All figures enter the paper via `\includegraphics{<name>.pdf}`** with `\graphicspath{{../output/figures/}{figures/}}` resolving the path.
+- `output/figures/` is for code-generated figures (Stata `graph export`, R `ggsave`).
+- `paper/figures/` is for hand-drawn or non-code-generated diagrams (e.g., conceptual diagrams created in TikZ or external tools). Use sparingly.
+- Match the dimensions in `paper/main.tex` to the dimensions used in the upstream `graph export width(...)` / `ggsave(width=, height=)` call.
 
-### When to Re-Extract
+## Numbers in body text
 
-Re-extract ALL TikZ diagrams when:
-- The Beamer `.tex` file has been modified since last extraction
-- Starting a new Quarto translation
-- Any TikZ-related quality issue is reported
-- Before any commit that includes QMD changes
+- Inline numeric claims (the headline ATT, sample size, R²) should not be typed by hand.
+- Use `\input{../output/tables/inline_<stat>.tex}` for one-line scalars produced by Stata `file write` or R `writeLines`.
+- `/audit-reproducibility` will flag any inline number in the manuscript that doesn't match an upstream output file (within the tolerance defined in `replication-protocol.md`).
 
----
+## R supplementary
 
-## Environment Parity (MANDATORY)
+- `scripts/R/` is supplementary analysis (robustness, additional figures, simulations).
+- R scripts MUST read from `data/derived/<topic>.dta` (Stata's clean output) — never redefine cleaning logic independently.
+- If R needs to re-clean for a specific extension, do it in a clearly-labelled `99_R_extension_<topic>.R` script that loads from `data/derived/` and writes to `data/derived/_R_aux/`. The `99_` prefix flags it as outside the main pipeline.
 
-**Every Beamer environment MUST have a CSS equivalent before translation begins.**
+## Bibliography
 
-1. Scan the Beamer source for all custom environments
-2. Check each against your theme SCSS file
-3. If ANY environment is missing from SCSS, create it BEFORE translating
-
----
-
-## Content Fidelity Checklist
-
-```
-[ ] Frame count: Beamer frames == Quarto slides
-[ ] Math check: every equation appears with identical notation
-[ ] Citation check: every \cite has a @key in Quarto
-[ ] Environment check: every Beamer box has CSS equivalent
-[ ] Figure check: every \includegraphics has SVG or plotly equivalent
-[ ] No added content: Quarto does not invent slides not in Beamer
-[ ] No dropped content: every Beamer idea appears in Quarto
-```
+- `paper/refs.bib` is canonical. No per-section `.bib` files (INV-5).
+- All `\cite{}` keys must resolve against `paper/refs.bib`.
+- Verify with `/validate-bib` before submission.

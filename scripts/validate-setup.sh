@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # =============================================================================
-# validate-setup.sh — Verify all dependencies for the academic workflow
+# validate-setup.sh — Verify all dependencies for the dc-muni workflow.
 #
-# Run this after forking the repo to confirm your environment is ready.
+# Run this after cloning to confirm your environment is ready.
 # Exits 0 if all required tools are found; non-zero otherwise.
 # =============================================================================
 
@@ -20,7 +20,7 @@ warn=0
 fail=0
 
 echo ""
-echo -e "${BOLD}Validating Claude Code Academic Workflow setup...${RESET}"
+echo -e "${BOLD}Validating dc-muni workflow setup...${RESET}"
 echo ""
 
 check_required() {
@@ -32,6 +32,20 @@ check_required() {
         pass=$((pass + 1))
     else
         echo -e "  ${RED}✗${RESET} $name NOT FOUND — install: ${install_url}"
+        fail=$((fail + 1))
+    fi
+}
+
+check_required_path() {
+    # Variant for tools that don't live on PATH but at a known absolute path.
+    local name="$1"
+    local path="$2"
+    local install_url="$3"
+    if [ -x "$path" ]; then
+        echo -e "  ${GREEN}✓${RESET} $name found at $path"
+        pass=$((pass + 1))
+    else
+        echo -e "  ${RED}✗${RESET} $name NOT FOUND at $path — install: ${install_url}"
         fail=$((fail + 1))
     fi
 }
@@ -50,16 +64,18 @@ check_optional() {
 }
 
 echo -e "${BOLD}Required tools:${RESET}"
-check_required "Claude Code"  "claude"   "https://claude.ai/install"
-check_required "XeLaTeX"      "xelatex"  "https://tug.org/texlive/ (or MacTeX: https://tug.org/mactex/)"
-check_required "Quarto"       "quarto"   "https://quarto.org/docs/get-started/"
-check_required "git"          "git"      "https://git-scm.com/downloads"
-check_required "Python 3"     "python3"  "https://python.org (needed for hooks)"
+check_required      "Claude Code"   "claude"   "https://claude.ai/install"
+check_required      "XeLaTeX"       "xelatex"  "https://tug.org/texlive/ (or MacTeX: https://tug.org/mactex/)"
+check_required      "git"           "git"      "https://git-scm.com/downloads"
+check_required      "Python 3"      "python3"  "https://python.org (needed for hooks)"
+check_required      "R"             "Rscript"  "https://www.r-project.org/"
+check_required_path "Stata SE 19.0" "/Applications/Stata/StataSE.app/Contents/MacOS/StataSE" \
+                    "Stata SE 19.0 (institutional license required); place at /Applications/Stata/"
 echo ""
 
 echo -e "${BOLD}Recommended tools:${RESET}"
-check_optional "R"            "R"        "https://www.r-project.org/"
 check_optional "GitHub CLI"   "gh"       "https://cli.github.com/"
+check_optional "pandoc"       "pandoc"   "https://pandoc.org/installing.html  (LaTeX → Word export)"
 echo ""
 
 echo -e "${BOLD}Git configuration:${RESET}"
@@ -99,20 +115,22 @@ else
 fi
 echo ""
 
-echo -e "${BOLD}Palette sync (LaTeX ↔ SCSS):${RESET}"
-palette_script="$(dirname "$0")/check-palette-sync.sh"
-if [ -x "$palette_script" ]; then
-    # Rely on the helper's exit code — stable contract, not text matching.
-    # 0 = in sync, 1 = divergence.
-    if "$palette_script" >/dev/null 2>&1; then
-        echo -e "  ${GREEN}✓${RESET} Preambles/header.tex ↔ Quarto/theme-template.scss agree on the core palette"
+echo -e "${BOLD}Data symlink (data/raw):${RESET}"
+data_raw="$(dirname "$0")/../data/raw"
+if [ -L "$data_raw" ]; then
+    if [ -d "$data_raw" ]; then
+        target=$(readlink "$data_raw")
+        echo -e "  ${GREEN}✓${RESET} data/raw symlink resolves to: $target"
         pass=$((pass + 1))
     else
-        echo -e "  ${YELLOW}⚠${RESET} Palette drift — run ./scripts/check-palette-sync.sh for details"
+        echo -e "  ${YELLOW}⚠${RESET} data/raw symlink exists but target is missing"
+        echo -e "    Recreate: ln -sfn /Users/fangyu/claude/datacenter/raw data/raw"
         warn=$((warn + 1))
     fi
 else
-    echo -e "  ${YELLOW}⚠${RESET} scripts/check-palette-sync.sh missing or not executable — skipping"
+    echo -e "  ${YELLOW}⚠${RESET} data/raw symlink not present"
+    echo -e "    Create:   ln -sfn /Users/fangyu/claude/datacenter/raw data/raw"
+    echo -e "    (Each collaborator creates their own; not committed.)"
     warn=$((warn + 1))
 fi
 echo ""
@@ -120,13 +138,11 @@ echo ""
 echo -e "${BOLD}Summary:${RESET} ${GREEN}${pass} passed${RESET}, ${YELLOW}${warn} warnings${RESET}, ${RED}${fail} failed${RESET}"
 echo ""
 
-# Which tools did we actually find? Gate the next-step suggestions accordingly.
-# Use string flags (not command names) so shellcheck is happy and `if` bodies
-# read naturally.
+# Status flags for the next-steps section
 has_claude="false";  command -v claude  >/dev/null 2>&1 && has_claude="true"
 has_xelatex="false"; command -v xelatex >/dev/null 2>&1 && has_xelatex="true"
-has_quarto="false";  command -v quarto  >/dev/null 2>&1 && has_quarto="true"
-has_r="false";       command -v R       >/dev/null 2>&1 && has_r="true"
+has_r="false";       command -v Rscript >/dev/null 2>&1 && has_r="true"
+has_stata="false";   [ -x "/Applications/Stata/StataSE.app/Contents/MacOS/StataSE" ] && has_stata="true"
 
 if [ "$fail" -gt 0 ]; then
     echo -e "${RED}Some required tools are missing.${RESET}"
@@ -135,35 +151,32 @@ if [ "$fail" -gt 0 ]; then
     if [ "$has_claude" = "true" ]; then
         echo "  - Open Claude Code:                      claude"
         echo ""
-        echo "  ${BOLD}Inside Claude Code${RESET} (these are slash-commands, NOT shell commands):"
-        if [ "$has_quarto" = "true" ]; then
-            echo "    /deploy HelloWorld         # render Quarto sample"
-        fi
+        echo "  ${BOLD}Inside Claude Code${RESET} (slash-commands, NOT shell commands):"
         if [ "$has_xelatex" = "true" ]; then
-            echo "    /compile-latex HelloWorld  # compile Beamer sample"
+            echo "    /compile-latex           # compile paper/main.tex"
         fi
         if [ "$has_r" = "true" ]; then
-            echo "    /data-analysis             # orchestrate R analysis"
+            echo "    /data-analysis           # supplementary R analysis"
+        fi
+        if [ "$has_stata" != "true" ]; then
+            echo ""
+            echo "  (Stata pipeline disabled until Stata SE 19.0 is installed at the standard path.)"
         fi
         if [ "$has_xelatex" != "true" ]; then
-            echo ""
-            echo "  (Beamer workflow disabled until you install XeLaTeX: https://tug.org/texlive/)"
-        fi
-        if [ "$has_quarto" != "true" ]; then
-            echo "  (Quarto deploy disabled until you install Quarto: https://quarto.org/docs/get-started/)"
+            echo "  (Paper compile disabled until XeLaTeX is installed.)"
         fi
     else
         echo "  - Install Claude Code first: https://claude.ai/install"
-        echo "    (Everything else in this template is orchestrated through Claude.)"
     fi
     echo ""
-    echo -e "${BOLD}Next:${RESET} install the missing required tool(s) listed above, then re-run this script."
+    echo -e "${BOLD}Next:${RESET} install the missing required tool(s) above, then re-run this script."
     exit 1
 fi
 
 echo -e "${GREEN}Setup looks good!${RESET} Next steps:"
 echo "  1. Open Claude Code in this directory:  claude"
-echo "  2. Compile the sample deck:              /compile-latex HelloWorld"
-echo "  3. Deploy the Quarto sample:             /deploy HelloWorld"
+echo "  2. Create the data symlink (one-time):  ln -sfn /Users/fangyu/claude/datacenter/raw data/raw"
+echo "  3. Run the Stata pipeline:              /Applications/Stata/StataSE.app/Contents/MacOS/StataSE -e do scripts/stata/00_run_all.do"
+echo "  4. Compile the paper skeleton:          cd paper && xelatex main.tex && bibtex main && xelatex main.tex && xelatex main.tex"
 echo ""
 exit 0

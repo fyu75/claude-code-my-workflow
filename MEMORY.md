@@ -146,3 +146,41 @@ The key insight: each pattern enforces independence differently. Critic-fixer us
 [LEARN:audit] **Surface-sync gate covers numeric counts but NOT enumerative tables.** v1.8.0's deep-audit caught the appendix "All Skills" table missing `/checkpoint` + `/preregister` AND "All Agents" missing the v1.5.0 peer-review trio (editor / domain-referee / methods-referee — pre-existing drift inherited across 3 releases). The `check-surface-sync.py` script counts assertion phrasings ("30 skills") but doesn't verify enumerative tables tabulate the same N items. Pet-peeves entry added (#18). Future: when adding a skill/agent, check the appendix tables — surface-sync won't catch the row drift.
 
 [LEARN:pattern] **`disable-model-invocation: true` is a load-bearing-write discipline, not a "do not disturb" toggle.** Set it on skills that write a *persistent file the user must explicitly intend to create* (lecture .tex, TikZ source, SKILL.md, checkpoint snapshot, preregistration document). Don't set it on skills that produce transient analysis output (proofread / review-r / visual-audit reports). Codified in `templates/skill-template.md` under "When to set `disable-model-invocation: true`". The flag still allows direct invocation as `/skill-name` — it only blocks model auto-trigger on heuristic match.
+
+---
+
+## Project: dc-muni — Data Centers and Municipality Finances (added 2026-05-10)
+
+[LEARN:project] dc-muni = "Corporate Investment and Municipality Finances: Evidence from Data Centers". CEIBS-led, 4 authors (Cronqvist / Dai / Warachka / Yu). Repo forked from pedrohcgs/claude-code-my-workflow on 2026-05-10 and retargeted from a slide-template to an empirical-paper repo.
+
+[LEARN:project] Frame is BROADER than bond yields. Outcomes: muni tax-collection elasticity, muni capex, debt paydown, public services, ratings actions, AND bond yields/liquidity. Do not narrow to bonds-only without team approval.
+
+[LEARN:project] DCs ≈ 1/5 of US capex in 2026 — likely largest corporate-investment shock in modern US history. Pure capex with almost no labor shock. Channel runs through property/personal-property tax, not income or sales tax.
+
+[LEARN:project] Identification borrows from Greenstone–Hornbeck–Moretti (2010, JPE) "Million Dollar Plant" winner-vs-loser design. Closest existing precedent for muni-bond outcomes: Chava–Malakar–Singh corporate subsidies → 15.2 bps spread effect.
+
+[LEARN:project] Where the shock bites hardest: rural / poor counties (San Bernardino-style), NOT wealthy DC hubs. Most planned DCs are migrating rural for cheap land. Loudoun County, VA is the wealthy outlier — DON'T treat as representative.
+
+[LEARN:project] Stylized fact (Prince William County, VA): DC personal-property tax revenue $2.9M (FY13) → $54.4M (FY22), 38.4% CAGR. DCs = 96% of FY22 computer-equipment personal-property tax revenue.
+
+[LEARN:project] Speed matters — Giroud, Rauh, Chava, Gao all increasingly active in muni space. The DC angle is currently uncrowded but won't stay so. Move quickly through identification + descriptive stylized facts.
+
+[LEARN:project] Risk angle (per Mitch + S&P Global Ratings 2026 "Everywhere, All At Once"): concentration risk, tax-incentive erosion (NCSL: 38 states have dedicated DC incentives, all under reevaluation), short DC-asset replacement cycle → property-tax revenue volatility. Mirror of prison-bond unwind.
+
+[LEARN:data] Eight data sources expected: (1) S&P 451 Research DC Database (have, 23 SAS files at /Users/fangyu/claude/datacenter/raw/, accessed via gitignored data/raw symlink); (2) ACFR for county financials (need to collect; munispot.com guide); (3) WRDS-MSRB Municipal Securities Transaction Data (via Rui, Wharton WRDS) for secondary-market trades; (4) SDC Public Finance (via Rui, LSEG) for primary-market issuance; (5) EMMA scrape as supplement; (6) NCSL state DC incentive list (download); (7) Ratings agency reports (Moody's 2026 DC credit-risk hub, S&P Global Ratings 2026 DC piece); (8) silicondata.com (commercial; via Bloomberg/Refinitiv if Wharton has it) for GPU/hardware prices — feeds asset-cycle / depreciation modeling.
+
+[LEARN:data] **Muni bonds are NOT on FINRA TRACE.** TRACE covers corporate, agency, treasury, and securitized products. Muni trade reporting runs through the MSRB Real-Time Transaction Reporting System (RTRS), public-facing via EMMA (emma.msrb.org), licensed for research via WRDS-MSRB. Primary-market issuance is a separate product: the standard sources are Mergent MBSD or SDC Public Finance. The closest-precedent papers (Chava-Malakar-Singh 2023, Goldsmith-Pinkham et al 2022, Cornaggia et al 2018, Schwert 2017) all use MSRB for trades and Mergent or SDC for issuance — none use TRACE. Henrik's note saying "TRACE data" is shorthand; correct it whenever it surfaces in our writing.
+
+[LEARN:data] **silicondata.com = chip-price intelligence** (Carmen Li, $4.7M seed). GPU price series (A100, H100, B200), up to 8 years history, daily refresh. Products: SiliconNavigator (real-time rental/resale), SiliconMark (perf benchmarks), SiliconIndex (financial-product benchmark), SiliconPriceIQ (forecasts), SiliconCarbon (carbon). Available on Bloomberg + Refinitiv. Surfaced by Rui from a Baruch AI conference (2026-05-08). Use case: chip-replacement-cycle volatility → personal-property-tax base volatility (Mitch's risk angle).
+
+[LEARN:project] **Rui Dai (Wharton) confirmed coauthor** as of 2026-05-10. Reply on the silicondata thread: "It would be great to have a project with Mitch." Brings WRDS-MSRB and SDC access. Author team is now Cronqvist (Chapman, via Henrik) / Dai (Wharton) / Warachka (Chapman) / Yu (CEIBS).
+
+[LEARN:tools] Stata-primary (SE 19.0); R-supplementary; LaTeX-first paper; MS Word only via pandoc when needed.
+
+[LEARN:env] Stata SE binary at `/Applications/Stata/StataSE.app/Contents/MacOS/StataSE`. `stata-mp` on PATH is unlicensed — never use.
+
+[LEARN:workflow] Strip-then-install pattern works for forks where original template's domain ≠ new project's domain (slides → empirical paper). Trying to "ignore" rules is worse than removing them — they still load every session and cost attention.
+
+[LEARN:workflow] Pre-vetted bibliography (16 refs from Henrik 2026-04-30) saves significant lit-review time. When team members supply structured input, capture verbatim into refs.bib with provenance tags rather than re-deriving.
+
+[LEARN:workflow] First analysis task (separate plan, next): tabulate major US DC owners / providers / clients AND county-level geographic distribution (rural vs urban; per-state). Geographic component flagged because rural / poor counties are where the fiscal action happens (per Mitch).

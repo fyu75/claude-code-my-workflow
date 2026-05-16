@@ -1,0 +1,82 @@
+From Henrik: （april 30 2026) 
+The classic paper is in JPE on “Million Dollar Plant” effects, comparing munis that competed for a big plant and one won and one lost.  Clean identification.
+
+I found a case study of sorts about Prince William County Virginia that shows the huge effect on the tax/revenue base.  The county’s DC revenue went from $2.9M to $54.4M in a decade - wow!
+
+Interestingly Moody’s now has a data center department assessing risk in that space.  I also found an S&P report on DCs.  This suggests that ratings agencies think DCs are material projects impacting bond ratings.
+
+There are a number of related/relevant papers - I list some in the attachment, but a more thorough lit review would be a next step.  But seems like there is room for our idea, but clearly there are more and more people working in the muni space (Giroud, Rauh, Chava, Gao, etc.).  Speed will be of essence...
+
+*******
+
+
+
+So-called Million Dollar Plant paper: 
+Identifying Agglomeration Spillovers: Evidence from Winners and Losers of Large Plant Openings (JPE) 
+Michael Greenstone, Richard Hornbeck, and Enrico Moretti
+
+We quantify agglomeration spillovers by comparing changes in total factor productivity (TFP) among incumbent plants in “winning” counties that attracted a large manufacturing plant and “losing” counties that were the new plant's runner‐up choice. Winning and losing counties have similar trends in TFP prior to the new plant opening. Five years after the opening, incumbent plants' TFP is 12 percent higher in winning counties. This productivity spillover is larger for plants sharing similar labor and technology pools with the new plant. Consistent with spatial equilibrium models, labor costs increase in winning counties, indicating that profits ultimately increase less than productivity.
+
+Follow-ups: 
+- Gupta & Rodriguez, “Firms for Funding: The Effect of Million Dollar Plants on School Finances and Student Achievement”, Journal of Urban Economics 
+- Chava, Malakar & Singh, “Communities as Stakeholders: Impact of Corporate Bankruptcies on Local Governments”, SSRN 
+
+---
+
+Financing dies in darkness? The impact of newspaper closures on public finance (JFE) 
+Author links open overlay panel
+Pengjie Gao, Chang Lee, Dermot Murphy
+
+We examine how local newspaper closures affect public finance outcomes for local governments. Following a newspaper closure, municipal borrowing costs increase by 5–11 basis points, costing the municipality an additional $650,000 per issue. This effect is causal and not driven by underlying economic conditions. The loss of government monitoring resulting from a closure is associated with higher government wages and deficits and increased likelihoods of costly advance refundings and negotiated sales. Overall, our results indicate that local newspapers hold their governments accountable, keeping municipal borrowing costs low and ultimately saving local taxpayers money.
+
+---
+
+Impact of Corporate Subsidies on Borrowing Costs of Local Governments: Evidence from Municipal Bonds Get access Arrow
+Sudheer Chava, Baridhi Malakar, Manpreet Singh
+
+We analyze the impact of $40 billion of corporate subsidies given by US local governments on their borrowing costs. We find that winning counties experience a 15.2 basis points (bps) increase in bond yield spread as compared to the losing counties. The increase in yields is higher (18–26 bps) when the subsidy deal is associated with a lower jobs multiplier or when the winning county has a lower debt capacity. However, a high jobs multiplier does not seem to alleviate the debt capacity constraints of local governments. Our results highlight the potential costs of corporate subsidies for local governments.
+
+---
+
+Other: 
+
+Jiang, E. X., Jing, B., & Zhang, A. L. (2024). The Pricing of Property Tax Revenues. SSRN. 
+
+Cornaggia, K., Hund, J., & Nguyen, G. (2022). Investor attention and municipal bond returns. Journal of Financial Markets, 60, 100738. 
+
+Adelino, Cunha & Ferreira, “The Economic Effects of Public Financing: Evidence from Municipal Bond Ratings Recalibration”, RFS 2017 
+
+Cornaggia, Cornaggia, and Israelsen (2018), "Credit Ratings and the Cost of Municipal Financing." Review of Financial Studies 31(6), 2038–2079.
+
+Newell and Raimi (2015), "Shale Public Finance: Local Government Revenues and Costs Associated with Oil and Gas Development." NBER WP 21542.
+
+---
+
+Prisons: Chirakijja, J. (2024), "The Local Economic Impacts of Prisons." Review of Economics and Statistics 106(6), 1442–1459. 
+
+Amazon Warehouses: Cunningham, E. R. (2024), "Local Labor Market Effects of Amazon." Working paper from his University of Minnesota economics PhD dissertation. 
+
+---
+
+Overview paper: Slattery and Zidar (2020), "Evaluating State and Local Business Incentives." Journal of Economic Perspectives 34(2), 90–118.
+
+---
+
+Case Study: 
+
+The clearest local fiscal example I found is Prince William County, Virginia. Its fiscal-impact analysis shows that data-center-related business tangible property tax revenue rose from about $2.9 million in FY2013 to about $54.4 million in FY2022, a 38.4% compound annual growth rate. The same report says data centers accounted for more than 96% of computer-equipment-and-peripherals personal-property tax revenue in FY2022
+https://www.pwcva.gov/assets/2022-07/Data%20Center%20Fiscal%20Impact%20Analysis_6.30.22_lock.pdf
+
+---
+
+Reports: 
+
+The National Conference of State Legislatures reports that 38 states currently offer dedicated data-center tax incentives, including sales-tax exemptions, electricity exemptions, and property-tax abatements. (But being re-evaluated)
+https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers
+
+Nuveen explicitly frames data centers as both a municipal opportunity and a municipal risk: they can expand local tax bases, but they may also require tax incentives and utility infrastructure investment.
+https://www.nuveen.com/en-us/insights/municipal-bond-investing/data-centers-impact-muni-issuers-risk-and-reward
+
+Moody’s has a 2026 data-center credit-risk hub. S&P Global Ratings also published a 2026 piece titled “Everywhere, All At Once: How The Growth Of Data Centers Could Carry Risks For U.S. Local Governments,” which is a very useful institutional validation of the credit-risk angle.
+https://www.spglobal.com/ratings/en/regulatory/article/everywhere-all-at-once-how-the-growth-of-data-centers-could-carry-risks-for-us-local-governments-s101673051
+

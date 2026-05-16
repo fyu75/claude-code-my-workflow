@@ -1,0 +1,59 @@
+% =============================================================================
+% main.tex — Corporate Investment and Municipality Finances:
+%            Evidence from Data Centers
+%
+% Authors: Henrik Cronqvist, Rui Dai, Mitch Warachka, Frank Yu
+%
+% Compile (3-pass + bibtex, from this directory or via /compile-latex):
+%   xelatex  -interaction=nonstopmode main.tex
+%   bibtex   main
+%   xelatex  -interaction=nonstopmode main.tex
+%   xelatex  -interaction=nonstopmode main.tex
+%
+% Tables come from ../output/tables/*.tex via \input{...}
+% Figures come from ../output/figures/*.pdf via \includegraphics{...}
+% NEVER hand-edit a table or figure body — change the upstream Stata/R script.
+% =============================================================================
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{booktabs, array}
+% multirow added on first use of \multirow{} (install via tlmgr if needed)
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[round, authoryear]{natbib}
+\usepackage{setspace}
+
+\graphicspath{{../output/figures/}{figures/}}
+
+\title{Corporate Investment and Municipality Finances:\\
+       Evidence from Data Centers}
+\author{Henrik Cronqvist \and Rui Dai \and Mitch Warachka \and Frank Yu}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent\emph{Draft — \today.}\\[0.5em]
+[TODO: Abstract. Frame the data-center buildout as the largest corporate-investment shock in modern US public finance, document the elasticity of municipal tax collection to data-center investment, and trace the response across muni capex, debt, ratings, and bond yields.]
+\end{abstract}
+
+\onehalfspacing
+
+\input{sections/intro}
+\input{sections/data}
+\input{sections/empirical}
+\input{sections/results}
+\input{sections/conclusion}
+
+% Bibliography: paper/refs.bib is the canonical bib file (see INV-5)
+% plainnat is bundled with natbib and works in any TeX Live install.
+% Switch to {aer} once tlmgr has the AEA bib style installed.
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}
