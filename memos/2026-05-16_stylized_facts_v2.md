@@ -18,13 +18,12 @@ The substantive story changes from "no detectable fiscal effect" to "**DCs raise
 
 ## 1. Sample definitions
 
-| Dimension | v1 (pooled) | **v2 (threshold-restricted)** |
-|---|---|---|
-| Treatment | Any DC-host county (n = 367) | Counties with estimated DC tax share ≥ 1% (n = 125) |
-| DC tax share proxy | — | DC MW × $50k/MW / 2017 county property tax revenue |
-| Control | Never DC-host (n = 2,776) | Same |
-| Panel window | 2000–2025 | 2010–2025 (focus 2015+) |
-| Estimator | Callaway–Sant'Anna ATTgt | Same |
+| Dimension | **v2 (threshold-restricted)** |
+|---|---|
+| Treatment | Counties with estimated DC tax share ≥ 1% (n = 125) |
+| DC tax share proxy | DC MW × $50k/MW / 2017 county property tax revenue |
+| Control | Same |
+| Panel window | 2010–2025 (focus 2015+) |
 
 The 1% threshold was selected from a distribution of estimated DC fiscal share across 437 DC-host counties (median ≈ 0.1%, p90 ≈ 17%, sharply right-skewed). 1% provides a sample size of 125 counties — large enough for statistical power, restrictive enough to remove the urban-tail counties where DCs are present but immaterial (Cook IL, Santa Clara CA, Maricopa AZ).
 
@@ -68,7 +67,7 @@ See `data/derived/figures/fig_main_event_study.png`.
 
 Stable signal in the 0.5–2% band. The sign flip at 10% is a power artifact — very-high-share counties had their first DC mostly post-2022 and have 1–3 years of post-treatment data.
 
-### 2.4 2015+ calendar slice (Frank's focus window)
+### 2.4 2015+ calendar slice 
 
 Restricting observations to 2015–2025 only: spread ATT = **−22.6 bps** (SE 16.6), CI [−55, +10]. Same direction, same magnitude as full panel.
 
@@ -200,24 +199,4 @@ This pattern actually **strengthens the main result**: a model where DC investme
 
 ---
 
-## 7. Files for replication
 
-All under `/Users/fangyu/claude/datacenter2/`:
-
-- `scripts/python/17_main_analysis.py` — single-script reproduction of Section 2
-- `scripts/python/18_acfr_mechanism_cs.py` — Section 3
-- `scripts/python/19_heterogeneity.py` — Section 4
-- `scripts/python/20_bond_chars_outcomes.py` — Section 4b (standard bond chars)
-- `scripts/python/21_rating_outcomes_rich.py` — Section 4b (rich rating outcomes)
-- `data/derived/main_analysis_results.md` + `acfr_mechanism_results.md` + `heterogeneity_results.md` + `bond_char_did_results.md` + `rating_outcomes_results.md` — full tables
-- `data/derived/figures/fig_main_event_study.png` + `fig_main_threshold_robust.png` + `fig_mechanism_bars.png` + `fig_heterogeneity.png` + `fig_bond_char_event.png` + `fig_rating_outcomes.png`
-- `data/derived/county_year_panel_v3.csv` — canonical analysis panel (81,718 cells)
-- `data/derived/dc_tax_share_distribution.csv` — 437 DC-host counties with intensity estimates
-- `memos/2026-05-16_data_inventory.md` — full data documentation (unchanged from v1)
-- `memos/2026-05-16_acfr_scoping.md` — ACFR ingestion plan + limitations (unchanged)
-
-Nothing committed to git yet.
-
----
-
-**For the team**: this updates the picture significantly. The pooled "null spread effect" reported this morning was a sample-design artifact. With the right restriction, we have a coherent finding consistent with the project's mechanism map: DC fiscal contribution → expanded muni borrowing capacity → cheaper bonds. The next priority is the mechanism panel (ACFR or alternative) so we can identify the channel within-county rather than across.
