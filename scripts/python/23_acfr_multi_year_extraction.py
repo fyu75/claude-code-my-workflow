@@ -43,7 +43,7 @@ OUT_LONG = ROOT / 'data/derived/acfr_county_year_extracted.csv'
 OUT_WIDE = ROOT / 'data/derived/acfr_county_year_extracted_wide.csv'
 OUT_MD   = ROOT / 'data/derived/acfr_extraction_report.md'
 
-# County FIPS lookup from slug (matches script 22's TARGETS)
+# County FIPS lookup for all 25 top-DC-share counties
 SLUG_FIPS = {
     'crook_or':       ('41013','OR','Crook County'),
     'morrow_or':      ('41049','OR','Morrow County'),
@@ -51,6 +51,24 @@ SLUG_FIPS = {
     'mecklenburg_va': ('51117','VA','Mecklenburg County'),
     'grant_wa':       ('53025','WA','Grant County'),
     'mayes_ok':       ('40097','OK','Mayes County'),
+    'lawrence_ky':    ('21127','KY','Lawrence County'),
+    'marshall_ky':    ('21157','KY','Marshall County'),
+    'cook_ga':        ('13075','GA','Cook County'),
+    'washington_ga':  ('13303','GA','Washington County'),
+    'wilkes_ga':      ('13317','GA','Wilkes County'),
+    'franklin_nc':    ('37069','NC','Franklin County'),
+    'cherokee_nc':    ('37039','NC','Cherokee County'),
+    'storey_nv':      ('32029','NV','Storey County'),
+    'valencia_nm':    ('35061','NM','Valencia County'),
+    'dickey_nd':      ('38021','ND','Dickey County'),
+    'pendoreille_wa': ('53051','WA','Pend Oreille County'),
+    'dickens_tx':     ('48125','TX','Dickens County'),
+    'crane_tx':       ('48103','TX','Crane County'),
+    'pecos_tx':       ('48371','TX','Pecos County'),
+    'ward_tx':        ('48475','TX','Ward County'),
+    'glasscock_tx':   ('48173','TX','Glasscock County'),
+    'briscoe_tx':     ('48045','TX','Briscoe County'),
+    # missing: milam_tx (48331), knox_tx (48275) — no public ACFR found
 }
 
 # Patterns — keep narrow, prefer row-start matches
