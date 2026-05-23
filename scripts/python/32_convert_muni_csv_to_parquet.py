@@ -19,9 +19,12 @@ Run:
   python3 scripts/python/32_convert_muni_csv_to_parquet.py
 """
 from pathlib import Path
+import shutil
 import sys
 import time
 import pandas as pd
+import pyarrow as pa
+import pyarrow.dataset as pa_ds
 
 ROOT = Path(__file__).resolve().parents[2]
 SRC  = ROOT / "data" / "muni" / "data"
@@ -46,7 +49,9 @@ def load_csv(path: Path) -> pd.DataFrame:
     df = pd.read_csv(path, dtype=dtype, low_memory=False)
     # reported_value: ensure numeric (already in raw USD per README §4.5)
     df["reported_value"] = pd.to_numeric(df["reported_value"], errors="coerce")
-    df["fiscal_year"]    = pd.to_numeric(df["fiscal_year"], errors="coerce").astype("Int32")
+    # Use plain int64 (not pandas-nullable Int32) so the partition key roundtrips
+    # cleanly through pyarrow.dataset without dictionary-encoding coercion issues.
+    df["fiscal_year"]    = pd.to_numeric(df["fiscal_year"], errors="coerce").astype("int64")
     # Derived 5-digit county GEOID — what our existing DC / SDC data joins on
     df["county_fips"] = (df["state_fips"].fillna("") + df["fips_county"].fillna("")).where(
         df["state_fips"].notna() & df["fips_county"].notna()
@@ -64,25 +69,47 @@ property_tax_frames = []
 total_rev_frames    = []
 total_exp_frames    = []
 
+# Clean any prior partial output so the partition layout is consistent
+if OUT_PARQUET.exists():
+    shutil.rmtree(OUT_PARQUET)
+OUT_PARQUET.mkdir(parents=True, exist_ok=True)
+
 t0 = time.time()
 for csv_path in csvs:
     parts = csv_path.stem.split("_")
     statement_type = "_".join(parts[1:-1])   # 'income_statement' or 'balance_sheet'
     fy             = int(parts[-1].replace("FY", ""))
 
-    out_dir = OUT_PARQUET / f"statement_type={statement_type}" / f"fiscal_year={fy}"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "part-0.parquet"
-
     t1 = time.time()
     df = load_csv(csv_path)
-    df.to_parquet(out_path, compression="zstd", index=False)
+
+    # Use pyarrow.dataset.write_dataset for proper Hive partitioning. Critically,
+    # the partition columns (statement_type, fiscal_year) are written to the
+    # PATH only — NOT stored inside the files. This avoids the schema-merge
+    # error you get when partition keys appear both in path and as file columns
+    # (pyarrow infers path values as plain string; file columns may end up as
+    # dictionary<string>, and a multi-file read fails to reconcile them).
+    table = pa.Table.from_pandas(df, preserve_index=False)
+    # Explicit partition schema avoids both the dict<string> auto-encoding (file
+    # vs path schema mismatch) AND the Int32-vs-dictionary<int32> read-back error.
+    part_schema = pa.schema([("statement_type", pa.string()),
+                             ("fiscal_year",    pa.int64())])
+    pa_ds.write_dataset(
+        table,
+        OUT_PARQUET,
+        format="parquet",
+        partitioning=pa_ds.partitioning(part_schema, flavor="hive"),
+        existing_data_behavior="overwrite_or_ignore",
+        file_options=pa_ds.ParquetFileFormat().make_write_options(compression="zstd"),
+    )
     elapsed = time.time() - t1
 
     n = len(df)
     total_rows += n
     src_mb = csv_path.stat().st_size / 1e6
-    dst_mb = out_path.stat().st_size / 1e6
+    # Sum sizes of files written for this partition (write_dataset may emit >1 file)
+    part_dir = OUT_PARQUET / f"statement_type={statement_type}" / f"fiscal_year={fy}"
+    dst_mb = sum(f.stat().st_size for f in part_dir.rglob("*.parquet")) / 1e6
     print(f"  {csv_path.name:<40} {n:>8,} rows  {src_mb:>6.1f} MB CSV → {dst_mb:>5.1f} MB Parquet  ({elapsed:>4.1f}s)")
 
     # Stash subsets for derived files
