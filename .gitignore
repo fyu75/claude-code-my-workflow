@@ -45,6 +45,16 @@ data/msrb/
 *.sas7bdat
 *.rar
 
+# MuniSpot Academic License delivery — license-restricted (no redistribution
+# per LICENSE.pdf §3/§4). Raw CSVs, Parquet conversion, and any pre-filtered
+# derived subsets must NOT be committed. Aggregated outputs in memos / tables
+# are fine (§5 permits analytical results in publications).
+data/muni/
+data/warachka_munispot_delivery*.zip
+data/derived/muni_property_tax_*
+data/derived/muni_total_revenue_*
+data/derived/muni_total_expenditures_*
+
 # Logs directory — script outputs only, not source
 logs/
 
