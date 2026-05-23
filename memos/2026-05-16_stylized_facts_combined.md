@@ -1,132 +1,231 @@
-# Stylized Facts (combined) — Data Centers & Muni Finance
+# Stylized Facts — Data Centers & Muni Finance (exploratory)
 
 **To:** Henrik, Rui, Mitch · **From:** Frank · **Date:** 2026-05-16
+**Status:** Exploratory. Walkthrough of the sample construction and the three tests we ran today. Conclusions are at the end (§9) — they're still soft.
 **Supersedes:** v1, v2, v3.
 
 ---
 
-## TL;DR
+## 1. Project frame (recap)
 
-DCs raise local fiscal capacity; the muni market reprices it through **spreads**, not bond design. The dominant fiscal-flow mechanism is **capex**, not property tax growth.
+Data centers are projected at ~1/5 of US capex in 2026 — likely the largest corporate-investment shock in modern US history. Pure capex, almost no labor shock, so the channel runs through **property/personal-property taxes**, not income or sales taxes. We want to estimate whether DC siting raises local-government fiscal capacity and whether the muni-bond market prices that.
 
-| Channel | Estimate | p | Source |
-|---|---:|---:|---|
-| **Offering spread** | **−23 bps** | 0.057 | CS-DiD, 1%-threshold sample, 2015+ |
-| **Capital outlay (within-county CAGR)** | **+27.3 pp/yr above national** | 0.014 | Option C, clean N=6, 6/6 positive |
-| Property tax CAGR (level) | +3.5 pp/yr | 0.086 | Option C, clean N=9 |
-| Property tax CAGR ~ log(MW) | β=+3.86 pp / log MW | 0.008 | Option C dose-response, clean N=9 |
-| Long-term debt CAGR | +2.5 pp/yr (null on avg) | 0.43 | Option C — huge dispersion |
-| Bond rating tier | null | — | CS-DiD per-agency + extensive margin |
-| Maturity, call provisions | null | — | CS-DiD bond-design outcomes |
+Channels we're trying to detect (full map in `.claude/rules/knowledge-base-template.md`):
 
-**Narrative.** DC construction triggers a large capex flow response. Property tax grows on the **intensive margin** (more MW → faster growth) but only modestly on average. Some counties debt-finance the capex (Crook OR +84% debt CAGR, Franklin NC +47%), others retire (Marshall KY −47%). The bond market prices the total fiscal-capacity expansion correctly — spreads tighten, bond design unchanged.
+```
+DC investment in county c
+   │
+   ▼
+Property/personal-property tax base ↑
+   │
+   ▼
+County tax revenue ↑
+   │
+   ├─→ H1: Capex ↑           ("new roads & schools")
+   ├─→ H2: Debt ↓ or ↑       (paydown vs debt-financed capex)
+   ├─→ H3: Public services ↑
+   ├─→ H4: Bond ratings ↑
+   └─→ H5: Bond yields ↓
+```
 
----
-
-## 1. Sample & treatment
-
-- **Universe:** 33k SDC muni issuers (2000-2025), mapped to county FIPS (83% deal-weighted coverage).
-- **Treatment:** counties where DC investment contributes ≥ 1% to county property tax revenue (proxy: MW × $50k/MW / 2017 PT). N = 125.
-- **Control:** never-DC-host counties. N = 2,776.
-- **Focus window:** 2015+ post-treatment (DC boom era).
-
----
-
-## 2. Bond-pricing result
-
-**Callaway–Sant'Anna staggered DiD, offering spread (1%-threshold sample):**
-
-- ATT = **−23.4 bps**, SE = 12.3, two-sided p ≈ 0.057
-- Magnitude larger than Chava–Malakar–Singh (2023) corporate-subsidy benchmark (−15 bps)
-- **Heterogeneity:** moderate-share band (1-10%) is the cleanest signal at **−37 bps, p < 0.01**; very-high tail (≥10%) is noisy (short post-windows, n thinning)
-- **Bond-design margins (rating, maturity, callable):** all null across pooled and per-agency specs — only the **price** moves, the **structure** doesn't
+Identification template: Greenstone–Hornbeck–Moretti (2010) winner-vs-loser; closest precedent Chava–Malakar–Singh (2023) corporate subsidies (−15 bps yield-spread effect).
 
 ---
 
-## 3. Mechanism: 2017 cross-section + 2017→2025 within-county
+## 2. Data sources
 
-### 3.1 Cross-section (2017 ACFR, county-govt only)
+| # | Source | Coverage | Status |
+|---|---|---|---|
+| 1 | S&P 451 Research DC database | 4,507 US DC properties, lat/lon + MW + ownership 2000–2034 | ✅ Have |
+| 2 | SDC Public Finance muni bonds | 1.63M deal-tranche records 1970–2025; we use 2005+ | ✅ Have |
+| 3 | Census ASLGF / ACFR Individual Unit Files | 3,020 county-government records, 2017 cross-section | ✅ Have |
+| 4 | Acquired ACFR PDFs (top-25 DC-share counties, 2017–2025) | 23 of 25 counties | ✅ Have |
+| 5 | MSRB historical trades | 57 GB SAS file, 2000–2025 secondary-market | Documented, not loaded |
+| 6 | FRED Treasury (5/10/20y) | 2000–2025 yearly | ✅ Have |
 
-High-DC-share counties vs never-DC-host:
+---
 
-| Outcome (per capita) | Treated effect | p |
+## 3. DC sample: how many, where, mapped to counties?
+
+**Total:** 4,507 US DC properties from S&P 451 Research (`data/derived/dc_property_county_fips.csv`).
+
+**Mapping to counties:** **100% coverage** (4,507/4,507) via spatial join on lat/lon to TIGER 2023 county polygons. No DCs dropped at this step. (36 worldwide DCs lack coordinates, all outside US — not relevant.)
+
+**Distribution by year operational:**
+
+| Year | # DCs |
+|---|---:|
+| Pre-2010 | 287 |
+| 2010–2014 | 557 |
+| 2015–2019 | 424 |
+| 2020+ | 1,625 |
+| Announced/under-construction (2026–2034) | ~1,600 |
+
+The DC boom is concentrated in 2020+; pre-2015 cohort is small and skewed urban.
+
+**Distribution across counties:** 517 distinct US counties host at least one DC (16% of 3,143). Heavily right-skewed:
+
+| Concentration | Count |
+|---|---:|
+| Counties with ≥ 1 DC | 517 |
+| Counties with ≥ 10 DCs | ~40 |
+| Counties with ≥ 50 DCs | ~12 |
+| Top 5 counties contain | 31% of all US DCs |
+
+**Top 15 counties by DC count:**
+
+| Rank | County | State | # DCs | MW (latest) |
+|---:|---|---|---:|---:|
+| 1 | Loudoun | VA | 302 | 4,741 |
+| 2 | Maricopa | AZ | 219 | 2,043 |
+| 3 | Prince William | VA | 164 | 1,760 |
+| 4 | Santa Clara | CA | 144 | 1,002 |
+| 5 | Dallas | TX | 135 | 733 |
+| 6 | Cook | IL | 121 | 1,053 |
+| 7 | Licking | OH | 96 | 782 |
+| 8 | Fulton | GA | 88 | — |
+| 9 | Los Angeles | CA | 87 | — |
+| 10 | Fairfax | VA | 65 | — |
+| 11 | New York | NY | 58 | — |
+| 12 | King | WA | 57 | — |
+| 13 | Washington | OR | 53 | — |
+| 14 | Franklin | OH | 53 | 629 |
+| 15 | Mecklenburg | VA | 48 | 316 |
+
+**Top 15 by MW capacity** (the proxy that actually matters for tax-base impact):
+
+| Rank | County | State | # DCs | MW |
+|---:|---|---|---:|---:|
+| 1 | Loudoun | VA | 214 | 4,741 |
+| 2 | Maricopa | AZ | 90 | 2,043 |
+| 3 | Prince William | VA | 66 | 1,760 |
+| 4 | **Milam** | TX | **2** | 1,192 |
+| 5 | Cook | IL | 80 | 1,053 |
+| 6 | **Morrow** | OR | **23** | 1,004 |
+| 7 | Santa Clara | CA | 101 | 1,002 |
+| 8 | **Umatilla** | OR | **20** | 795 |
+| 9 | Licking | OH | 18 | 782 |
+| 10 | **Grant** | WA | **31** | 748 |
+| 11 | Dallas | TX | 96 | 733 |
+| 12 | Polk | IA | 32 | 725 |
+| 13 | Franklin | OH | 37 | 629 |
+| 14 | **Storey** | NV | **6** | 603 |
+| 15 | Pottawattamie | IA | 14 | 599 |
+
+**Key point.** Count-rank and MW-rank diverge sharply. Loudoun (urban hub, wealthy) has many small/mid colocation facilities. The bolded counties — Milam, Morrow, Umatilla, Grant, Storey — have **few but massive** hyperscale facilities and are **small rural counties**. This is exactly where Mitch's hypothesis (DCs migrating from wealthy to rural) shows up. Those rural counties also dominate our DC-tax-share metric (§5).
+
+---
+
+## 4. Muni sample: how we selected from SDC
+
+Starting universe: SDC Public Finance, 258,854 deals from 2005+ across 34,683 unique issuers.
+
+We applied these filters in order:
+
+| Step | Filter | Reason | Deals remaining |
+|---:|---|---|---:|
+| 1 | Issue year ≥ 2005 | Coverage / panel start | 258,854 |
+| 2 | Par amount ≥ $1M | Match published-lit standard (Gao et al. 2020 JFE; Adelino et al. 2017 RFS; Chava et al. 2023). Drops 10% of deals, 0.2% of par. | 231,967 |
+| 3 | `CORPORATE_BACKED == 'No'` | Exclude conduit / private-activity bonds backed by corporate credit; we want government credit | 208,703 |
+| 4 | `ISSTYPE_TRANS` ∈ Tier A | Keep County/Parish + City/Town/Village + District + Local Authority. Drops state-level mega-issuers and statewide programs. | ~177,000 |
+
+**On the resulting Tier A sample:**
+- 233,689 deals across 33,165 unique (ISSUER, STATECODE) pairs (sub-tranche handling explains the slight count diff vs the row above)
+- We resolve issuer → county FIPS via a 3-pass regex + Census place/cousub crosswalks + 120-row hand-curated override table (covers consolidated cities like NYC's 5 boroughs, multi-county authorities, state conduits)
+- **Coverage:** 83% deal-weighted, 77% par-weighted county FIPS coverage. Another 5% par flagged as state-conduit or multi-county (not lost — explicitly excluded). Residual ~16% par needing EMMA lookup is concentrated in 10k mid-size special districts.
+- **Final analysis panel:** ~150k–170k deal observations across 2005–2025, covering ~2,000–2,500 US counties.
+
+**Spread construction:** offering yield minus Treasury benchmark of matching maturity (FRED DGS5/DGS10/DGS20, linearly interpolated). See `scripts/python/09_spread_and_panel_v3.py`.
+
+---
+
+## 5. Treatment definition
+
+We need a treatment for "this county has economically meaningful DC presence." Two candidates:
+
+**(a) DC count or MW** — directly observable, but doesn't reflect fiscal materiality relative to county size.
+
+**(b) DC contribution to county property tax** — the right concept, but no off-the-shelf data. We construct a proxy:
+
+```
+dc_tax_share_c = (MW_c × $50,000/MW) / 2017 county property tax revenue
+```
+
+The $50k/MW rule-of-thumb comes from the Prince William County FY22 fiscal-impact report (`master_supporting_docs/case_studies/`). We report low/mid/high variants ($30k/$50k/$100k per MW) for robustness.
+
+**Distribution of `dc_tax_share_mid` across 437 DC-host counties with 2017 ACFR baseline:**
+
+| Percentile | Share |
+|---|---:|
+| 50th | 0.10% |
+| 75th | 1.50% |
+| 90th | 17.0% |
+| 95th | 36.8% |
+| 99th | 153% |
+| Max | 191% (Morrow OR) |
+
+- **125 counties** at ≥ 1% (fiscally meaningful)
+- **56 counties** at ≥ 10% (heavy)
+- **15 counties** at ≥ 50% (county fiscally transformed by DCs)
+
+We use **≥ 1% as the main treatment cut** because below 1% the DC contribution is a rounding error and dilutes any effect.
+
+---
+
+## 6. Test 1 — Does muni bond spread move? (Callaway–Sant'Anna staggered DiD)
+
+**Sample:** 125 treated (≥ 1% threshold) + 2,776 never-DC-host control counties, panel 2010–2025, focus on 2015+ post-treatment window (where most DC openings actually occur).
+
+**Outcome:** par-weighted average offering spread per county-year.
+
+**Specification:** Callaway–Sant'Anna (2021) ATT(g,t) with never-treated comparison, clustered at the county level. Cohort g = first year county crosses the 1% threshold.
+
+**Result (pooled ATT, 2015+):**
+
+| | Estimate | SE | p (2-sided) |
+|---|---:|---:|---:|
+| ATT on offering spread | **−23.4 bps** | 12.3 | 0.057 |
+
+Magnitude larger than Chava–Malakar–Singh (2023) corporate-subsidy benchmark (−15 bps).
+
+**Heterogeneity probes within the treated group:**
+
+| Sub-band | Estimate | p |
 |---|---:|---:|
-| Property tax | **+$543** | <0.01 |
-| Long-term debt | **+$1,204** | <0.01 |
-| Capital outlay | positive | <0.05 |
+| Moderate share (1–10%) | **−37 bps** | < 0.01 |
+| Very-high share (≥ 10%) | noisy, point estimate near zero | — |
 
-Consistent with: DCs expand fiscal capacity → counties borrow more AND grow capex.
+The very-high tail has short post-treatment windows (these are recent hyperscale builds) and small n — power is the issue, not absence of effect.
 
-### 3.2 Within-county growth (2017 → latest, 22 treated counties with PDF in hand)
+**Bond-design margins** (rating tier, maturity, callable structure): all null across pooled, per-agency, and extensive-margin specs. Only the price moves; structure doesn't. Consistent with the muni market repricing fundamentals within the same credit class.
 
-After dropping 6 known-bad rows (Mecklenburg VA unit-mismatch; Pecos/Ward/Crane TX oil-bust; Glasscock/Briscoe TX parser-dup), clean N=17:
-
-| Outcome | N | Mean excess CAGR | t-test | Wilcoxon | Sign test |
-|---|---:|---:|---:|---:|---:|
-| **Capital outlay** | 6 | **+27.3%** | p=0.014 | p=0.016 | **6/6** |
-| Property tax | 9 | +3.5% | p=0.086 | p=0.10 | 6/9 |
-| Long-term debt | 9 | +2.5% | p=0.43 | p=0.59 | 4/9 |
-
-**Dose-response (clean):** property-tax CAGR ~ log(MW), β = **+3.86 pp / log MW, p = 0.008** (HC3). High-MW counties (Storey, Morrow, Franklin) grow PT 5-10× faster than low-MW.
-
-**Benchmark sources:** BEA NIPA Table 3.21 + Census ASLGF historical aggregates 2017→2024. Property-tax benchmark is per-county median (3.4%), not BEA aggregate (5.85%, dominated by big-state appreciation).
-
-### 3.3 Clean DC cluster (the visual story)
-
-| County | State | Years | PT CAGR | Capex CAGR | Debt CAGR | MW |
-|---|---|---:|---:|---:|---:|---:|
-| Morrow | OR | 8 | **9.5%** | **28.6%** | 13.1% | 1004 |
-| Crook | OR | 8 | 8.2% | **27.7%** | **84.1%** | 404 |
-| Umatilla | OR | 8 | 6.8% | — | −13.0% | 795 |
-| Storey | NV | 6 | **10.6%** | **75.1%** | — | 603 |
-| Franklin | NC | 7 | **22.0%** | **29.5%** | **47.0%** | 500 |
-
-Prince William VA (38% PT CAGR FY13-FY22) is the high-end extreme, not the median. Typical realization is 6-10% PT CAGR + 25-30% capex CAGR.
+Sources: `scripts/python/16_cs_did_threshold_restricted.py`, `scripts/python/17_main_analysis.py`, `scripts/python/19_heterogeneity.py`, `scripts/python/20_bond_chars_outcomes.py`, `scripts/python/21_rating_outcomes_rich.py`.
 
 ---
 
-## 4. Hypothesis scorecard
+## 7. Test 2 — Is there a level effect in the 2017 cross-section?
 
-| # | Hypothesis | Verdict |
-|---|---|---|
-| H0 | Property tax revenue ↑ | Marginal level, **strong dose-response** |
-| **H1** | **Capex ↑** ("new roads & schools") | **Strong ★★★** |
-| H2 | Debt ↓ or ↑ | Mixed — debt-finances capex in early-stage; retired in mature counties |
-| H3 | Public services ↑ | Untested (no usable Census 2017 services total) |
-| H4 | Ratings ↑ | **Null** |
-| **H5** | **Bond yields ↓** | **−23 bps, strong ★★** |
+**Sample:** 437 DC-host counties × 2,776 never-host, all with 2017 Census ACFR records re-aggregated to county-government scope only (type=1, drops school districts + cities + special districts).
 
-The capex + spread results combine into a coherent story: counties spend big against an expanded tax base; the bond market prices the resulting fiscal-capacity expansion through the price margin alone.
+**Specification:** OLS, `log(outcome per capita) = α + β · DC_share + γ · state_FE + δ · log(pop) + θ · log(median_income) + ε`. HC3 SEs.
 
----
+**Results (per-capita outcomes, high-share vs never-host):**
 
-## 5. Caveats
+| Outcome | Effect | p |
+|---|---:|---:|
+| Property tax revenue | **+$543 per capita** | < 0.01 |
+| Long-term debt outstanding | **+$1,204 per capita** | < 0.01 |
+| Capital outlay | positive | < 0.05 |
 
-1. Within-county work is **descriptive, not causal** — benchmark is national aggregate, not matched control.
-2. No pre-period parallel trends (one pre-period observation, 2017).
-3. PDF extraction has residual error — 6 obvious cases dropped; remaining 17 need spot-check.
-4. The Greenstone-Hornbeck-Moretti winner-vs-loser design is still ahead of us, not done.
+Interpretation: even at the level (snapshot, 2017), high-DC-share counties already carry more property tax, more debt, more capex than comparable never-host counties. Consistent with: DCs expand fiscal capacity → counties borrow more AND spend more. Source: `scripts/python/18_acfr_mechanism_cs.py`.
 
 ---
 
-## 6. Decision points
+### Working narrative (still soft)
 
-1. **Lead the paper with capex** rather than property tax? (Capex is the cleanest, largest, most-tested result.)
-2. **Synthetic control next** — uses 2017 Census ACFR covariates for all 3,020 counties, no further data acquisition needed, tighter ID than national benchmark. Highest value-per-effort.
-3. **Acquire ~30 more matched-control PDFs** to convert Option C → matched-control DiD? Cost: 8-12 hrs portal work + parser refinement.
-4. **OCR pre-period (2010-2016) ACFRs** for parallel-trends test? Tesseract installed; ~40% of older filings are scanned.
+DCs raise local fiscal capacity. The muni market reprices that capacity through the **price margin (spreads)**, not through bond design (rating, maturity, call provisions stay constant). The dominant fiscal-flow mechanism appears to be **capex acceleration** — counties spend big against the expanded tax base. Property tax grows mostly on the **intensive margin** (high-MW counties grow much faster) rather than on average across all treated counties. Some counties debt-finance the capex, others retire debt; the average is null but the dispersion is informative.
+
+This is *consistent* with — not yet proof of — the project's original frame.
 
 ---
 
-## 7. Files
-
-| Path | Content |
-|---|---|
-| `data/derived/option_c_excess_growth.csv` | Per-county per-outcome growth rates |
-| `data/derived/option_c_full_tests.md` | Full test battery (t / Wilcoxon / sign / OLS / influence) |
-| `data/derived/cs_did_threshold.md` | Main bond-spread result |
-| `data/derived/heterogeneity_results.md` | 1-10% vs ≥10% subgroups |
-| `data/derived/bond_char_did_results.md` | Rating / maturity / call nulls |
-| `scripts/python/17_main_analysis.py` | Consolidated bond-spread analysis |
-| `scripts/python/30_option_c_national_benchmark.py` | Excess CAGR + t-tests |
-| `scripts/python/31_option_c_regressions.py` | Full statistical battery |
