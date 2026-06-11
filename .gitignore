@@ -50,6 +50,7 @@ data/msrb/
 # derived subsets must NOT be committed. Aggregated outputs in memos / tables
 # are fine (§5 permits analytical results in publications).
 data/muni/
+data/munispot/
 data/warachka_munispot_delivery*.zip
 data/derived/muni_property_tax_*
 data/derived/muni_total_revenue_*
@@ -150,3 +151,9 @@ quality_reports/preregistrations/*
 
 # Personal memory (machine-specific)
 .claude/state/personal-memory.md
+
+# Firecrawl scrape cache (session artifacts)
+.firecrawl/
+# Derived temp files (underscore prefix) and regenerable deal-level caches
+data/derived/_*
+data/derived/sdc_deal_rating.csv

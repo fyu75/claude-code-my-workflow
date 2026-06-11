@@ -20,7 +20,7 @@ Run an end-to-end data analysis in R: load, explore, analyze, and produce public
 - **Save all outputs** (figures, tables, RDS) to `output/tables/` and `output/figures/`; intermediate RDS to `scripts/R/_outputs/`
 - **Use `saveRDS()`** for every computed regression object (INV-8) — `/audit-reproducibility` reads them
 - **Use project theme** (`theme_dcmuni` in `.claude/rules/r-code-conventions.md`) for all figures
-- **Read from `data/derived/`**, not `data/raw/` — Stata's `02_clean.do` is the SSOT for cleaning (INV-1)
+- **Read from `data/derived/`**, not `data/raw/` — Stata's `02_clean.do` is authoritative for cleaning (INV-1)
 - **Match Stata cluster level** — if `04_analyze.do` clusters at county, R must too (INV-7)
 - **Run r-reviewer** on the generated script before presenting results
 

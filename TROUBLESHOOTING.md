@@ -179,7 +179,7 @@ This is the verifier being honest, not stubborn. It means:
 - The claim is worded in a way that doesn't map to a specific verifiable question (e.g., "this is a promising direction" is an opinion, not a factual claim).
 - The evidence exists but in a venue the agent can't reach (conference proceedings behind a login wall, working paper not on arXiv).
 
-Resolution: supply a canonical source (DOI / arXiv / repo path), or accept the `cannot-verify` flag in the final output and manually confirm yourself.
+Resolution: supply an authoritative source (DOI / arXiv / repo path), or accept the `cannot-verify` flag in the final output and manually confirm yourself.
 
 ### Integration skill (e.g., `/lit-review`) hangs at Post-Flight step
 

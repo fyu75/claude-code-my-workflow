@@ -1,0 +1,174 @@
+county_fips,county_name,STATE,CITY,dcname,mw_peak,YEARFACILITYBECAMEOPERATIONAL,dc_class,dominant,has_county_announce
+01089,Madison County,Alabama,Huntsville,Alabama 3,80.0,2023.0,clean_dc,True,True
+01089,Madison County,Alabama,Huntsville,Alabama 5,80.0,2024.0,clean_dc,True,True
+01089,Madison County,Alabama,Huntsville,Alabama 6,80.0,2025.0,clean_dc,True,True
+01089,Madison County,Alabama,Huntsville,Alabama 7,80.0,2025.0,clean_dc,True,True
+04013,Maricopa County,Arizona,Mesa,Mesa,152.2584,2016.0,clean_dc,True,True
+04013,Maricopa County,Arizona,Mesa,Mesa 1,70.08,2023.0,clean_dc,False,True
+04013,Maricopa County,Arizona,Mesa,Mesa 2,70.08,2024.0,clean_dc,False,True
+04013,Maricopa County,Arizona,Mesa,Mesa 3,70.08,2024.0,clean_dc,False,True
+04013,Maricopa County,Arizona,Mesa,Mesa 4,70.08,2024.0,clean_dc,False,True
+04013,Maricopa County,Arizona,Mesa,Mesa 5,70.08,2025.0,clean_dc,False,True
+04013,Maricopa County,Arizona,Phoenix,PHX06,54.0,2025.0,clean_dc,False,True
+13075,Cook County,Georgia,Adel,Cook County,270.0,2019.0,crypto,True,True
+13097,Douglas County,Georgia,Lithia Springs,Douglasville 2 (Woodside),240.0,2016.0,clean_dc,True,True
+13097,Douglas County,Georgia,Lithia Springs,Douglasville,100.0,2003.0,clean_dc,False,True
+13121,Fulton County,Georgia,Atlanta,ATL01-2,100.0,2025.0,mixed,True,True
+13121,Fulton County,Georgia,Atlanta,QTS Atlanta- Metro,52.718599999999995,2006.0,mixed,False,True
+13217,Newton County,Georgia,Social Circle,Social Circle 1,50.0,2021.0,clean_dc,True,True
+13217,Newton County,Georgia,Social Circle,Social Circle 2,50.0,2022.0,clean_dc,True,True
+13217,Newton County,Georgia,Social Circle,Social Circle 3,50.0,2024.0,clean_dc,True,True
+13217,Newton County,Georgia,Social Circle,Social Circle 4,50.0,2025.0,clean_dc,True,True
+13303,Washington County,Georgia,Sandersville,"Sandersville, GA",222.0,2022.0,crypto,True,True
+13313,Whitfield County,Georgia,Dalton,Dalton 3,144.949175,2023.0,crypto,True,True
+13313,Whitfield County,Georgia,Dalton,"Dalton 1, GA",97.5,2018.0,crypto,False,True
+13313,Whitfield County,Georgia,Dalton,"Dalton 2, GA",97.5,2018.0,crypto,False,True
+13317,Wilkes County,Georgia,Washington,"Washington, GA",82.0,2022.0,crypto,True,True
+16001,Ada County,Idaho,Kuna,Boise,96.0,2024.0,clean_dc,True,True
+17037,DeKalb County,Illinois,Dekalb,DeKalb 3,99.6,2024.0,clean_dc,True,True
+17037,DeKalb County,Illinois,Dekalb,DeKalb 4,99.6,2025.0,clean_dc,True,True
+17037,DeKalb County,Illinois,Dekalb,DeKalb 1,90.0,2024.0,clean_dc,False,True
+17037,DeKalb County,Illinois,Dekalb,DeKalb 2,90.0,2024.0,clean_dc,False,True
+18127,Porter County,Indiana,Portage,Portage,60.0,2024.0,clean_dc,True,True
+18141,St. Joseph County,Indiana,New Carlisle,New Carlisle 1,60.0,2024.0,clean_dc,True,True
+18141,St. Joseph County,Indiana,New Carlisle,New Carlisle 2,60.0,2025.0,clean_dc,True,True
+18153,Sullivan County,Indiana,Sullivan,Sullivan,115.0,2022.0,crypto,True,True
+19153,Polk County,Iowa,Altoona,ATN 3-4,50.142,2016.0,mixed,True,True
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 5,60.0,2015.0,clean_dc,True,True
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 6,60.0,2015.0,clean_dc,True,True
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 8,60.0,2023.0,clean_dc,True,True
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 9,60.0,2023.0,clean_dc,True,True
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 10,60.0,2023.0,clean_dc,True,True
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 4,60.0,2015.0,clean_dc,True,True
+21127,Lawrence County,Kentucky,Louisa,Louisa,250.0,2024.0,crypto,True,True
+21157,Marshall County,Kentucky,Calvert City,"Calvert City, KY",150.0,2019.0,mixed,True,True
+28089,Madison County,Mississippi,Canton,"Madison County, MS Canton 1",80.0,2025.0,clean_dc,True,True
+28089,Madison County,Mississippi,Ridgeland,"Madison County, MS Ridgeland 1",80.0,2025.0,clean_dc,True,True
+29047,Clay County,Missouri,Kansas City,Meta Kansas City 1,60.1955,2024.0,clean_dc,True,True
+30093,Silver Bow County,Montana,Butte,Butte Montana,75.0,2020.0,mixed,True,False
+31019,Buffalo County,Nebraska,Kearney,"Kearney, NE",100.0,2019.0,crypto,True,True
+31153,Sarpy County,Nebraska,Springfield,Sarpy 1,80.0,2018.0,clean_dc,True,True
+31153,Sarpy County,Nebraska,Springfield,Sarpy 6,80.0,2021.0,clean_dc,True,True
+31153,Sarpy County,Nebraska,Springfield,Sarpy 7,80.0,2024.0,clean_dc,True,True
+31153,Sarpy County,Nebraska,Springfield,Sarpy 8,80.0,2024.0,clean_dc,True,True
+32003,Clark County,Nevada,Henderson,Henderson-1,60.0,2020.0,clean_dc,True,True
+32003,Clark County,Nevada,Henderson,Henderson-2,60.0,2020.0,clean_dc,True,True
+32003,Clark County,Nevada,Henderson,Henderson-3,60.0,2025.0,clean_dc,True,True
+32029,Storey County,Nevada,Sparks,US-RNO 2,214.656,2024.0,clean_dc,True,False
+32029,Storey County,Nevada,Sparks,US-RNO 4,174.55679999999998,2024.0,clean_dc,False,False
+32029,Storey County,Nevada,Sparks,Supernap Tahoe Reno 1,80.9856,2017.0,clean_dc,False,False
+32029,Storey County,Nevada,Sparks,Supernap Tahoe Reno 3,53.6256,2025.0,clean_dc,False,False
+32031,Washoe County,Nevada,Sparks,Reno 3 (4 more sections),54.9333333,2019.0,clean_dc,True,True
+32031,Washoe County,Nevada,Sparks,Reno 4 (4 more sections),54.9333333,2019.0,clean_dc,True,True
+35061,Valencia County,New Mexico,Los Lunas,Los Lunas 7,92.0,2024.0,clean_dc,True,True
+35061,Valencia County,New Mexico,Los Lunas,Los Lunas 8,92.0,2024.0,clean_dc,True,True
+36063,Niagara County,New York,Somerset,Lake Mariner,153.0,2022.0,mixed,True,True
+36063,Niagara County,New York,North Tonawanda,Tonawanda County,60.0,2021.0,mixed,False,True
+36063,Niagara County,New York,Niagara Falls,"Niagara Falls, NY (Alpha)",50.0,2023.0,mixed,False,True
+36089,St. Lawrence County,New York,Massena,"Massena, NY",50.0,2021.0,crypto,True,True
+37027,Caldwell County,North Carolina,Lenoir,Lenoir 3,120.0,2014.0,clean_dc,True,True
+37039,Cherokee County,North Carolina,Marble,"Marble 2, NC",69.0,2018.0,mixed,True,False
+37069,Franklin County,North Carolina,Franklinton,Franklin County,500.0,2017.0,crypto,True,True
+37161,Rutherford County,North Carolina,Forest City,Forest City 3,80.0,2016.0,mixed,True,True
+38021,Dickey County,North Dakota,Ellendale,"Ellendale, ND",180.0,2023.0,crypto,True,True
+38021,Dickey County,North Dakota,Ellendale,"Ellendale, ND",180.0,2023.0,crypto,True,True
+38021,Dickey County,North Dakota,Ellendale,HPC datacenter North Dakota building 1,80.0,2025.0,crypto,False,True
+38035,Grand Forks County,North Dakota,Grand Forks,"Grand Forks, ND",100.0,2021.0,crypto,True,True
+38093,Stutsman County,North Dakota,Jamestown,Applied Dig JMS01,100.0,2022.0,crypto,True,True
+38105,Williams County,North Dakota,Williston,Williston North Dakota,480.0,2022.0,mixed,True,True
+39045,Fairfield County,Ohio,Lancaster,Lancaster 1,50.0,2024.0,clean_dc,True,True
+39045,Fairfield County,Ohio,Lancaster,Lancaster 2,50.0,2024.0,clean_dc,True,True
+39049,Franklin County,Ohio,Lockbourne,Columbus (Lockbourne) 1,50.0,2024.0,clean_dc,True,True
+39049,Franklin County,Ohio,New Albany,New Albany 4a,50.0,2024.0,clean_dc,True,True
+39049,Franklin County,Ohio,New Albany,New Albany 5a,50.0,2025.0,clean_dc,True,True
+39049,Franklin County,Ohio,Lockbourne,Columbus (Lockbourne) 2,50.0,2025.0,clean_dc,True,True
+39049,Franklin County,Ohio,New Albany,New Albany 6a,50.0,2025.0,clean_dc,True,True
+39063,Hancock County,Ohio,Findlay,"Findlay, OH",90.0,2024.0,crypto,True,True
+39089,Licking County,Ohio,Johnstown,Newton Court 1,60.0,2021.0,clean_dc,True,True
+39089,Licking County,Ohio,Johnstown,Newton Court 2,60.0,2022.0,clean_dc,True,True
+39089,Licking County,Ohio,Johnstown,Newton Court 3,60.0,2024.0,clean_dc,True,True
+39089,Licking County,Ohio,New Albany,New Albany 3a,50.0,2023.0,clean_dc,False,True
+39089,Licking County,Ohio,New Albany,New Albany 7a,50.0,2024.0,clean_dc,False,True
+39111,Monroe County,Ohio,Hannibal,Hannibal,100.0,2022.0,crypto,True,True
+40101,Muskogee County,Oklahoma,Muskogee,Muskogee,200.0,2024.0,crypto,True,True
+41049,Morrow County,Oregon,Boardman,PDX61,53.7,2018.0,clean_dc,True,True
+41049,Morrow County,Oregon,Boardman,PDX62,53.4,2017.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX66,51.9,2021.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX92,50.0,2021.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX93,50.0,2022.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX109,50.0,2022.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX110,50.0,2023.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX111,50.0,2023.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX112,50.0,2024.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX181,50.0,2024.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX179,50.0,2024.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX180,50.0,2024.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX178,50.0,2024.0,clean_dc,False,True
+41049,Morrow County,Oregon,Boardman,PDX170,50.0,2024.0,clean_dc,False,True
+41059,Umatilla County,Oregon,Umatilla,PDX63,50.0,2022.0,clean_dc,True,True
+41059,Umatilla County,Oregon,Umatilla,PDX130,50.0,2023.0,clean_dc,True,True
+41059,Umatilla County,Oregon,Umatilla,PDX131,50.0,2023.0,clean_dc,True,True
+41059,Umatilla County,Oregon,Hermiston,PDX138,50.0,2024.0,clean_dc,True,True
+41059,Umatilla County,Oregon,Umatilla,PDX132,50.0,2024.0,clean_dc,True,True
+41059,Umatilla County,Oregon,Umatilla,PDX194,50.0,2024.0,clean_dc,True,True
+41059,Umatilla County,Oregon,Umatilla,PDX133,50.0,2025.0,clean_dc,True,True
+41059,Umatilla County,Oregon,Umatilla,PDX195,50.0,2025.0,clean_dc,True,True
+41065,Wasco County,Oregon,The Dalles,The Dalles 3,65.60010000000001,2014.0,clean_dc,True,True
+42007,Beaver County,Pennsylvania,Hookstown,Beaver County,300.0,2024.0,crypto,True,True
+42007,Beaver County,Pennsylvania,Midland,"Midland, PA",100.0,2023.0,crypto,False,True
+42079,Luzerne County,Pennsylvania,Berwick,Nautilus Cryptomine,50.0,2023.0,mixed,True,True
+42121,Venango County,Pennsylvania,Kennerdell,Scrubgrass,90.0,2021.0,crypto,True,True
+45015,Berkeley County,South Carolina,Moncks Corner,Berkeley County 5,50.8248,2015.0,clean_dc,True,True
+45091,York County,South Carolina,York,York County/Charlotte 1,72.0,2025.0,clean_dc,True,True
+48045,Briscoe County,Texas,Silverton,Project Dorothy,50.0,2025.0,clean_dc,True,True
+48103,Crane County,Texas,McCamey,"King Mountain, TX (Echo)",280.0,2023.0,crypto,True,True
+48109,Culberson County,Texas,,"Salt Creek, Culberson County, TX",63.0,2024.0,crypto,True,True
+48125,Dickens County,Texas,Afton,"Helios, Dicken County, TX",180.0,2022.0,crypto,True,True
+48135,Ector County,Texas,Odessa,"Odessa Facility, TX",207.0,2022.0,crypto,True,True
+48173,Glasscock County,Texas,Garden City,"Garden City, TX",200.0,2023.0,crypto,True,True
+48221,Hood County,Texas,McCamey,"McCamey, TX",200.0,2023.0,crypto,True,True
+48221,Hood County,Texas,Granbury,Granbury/Wolf Hollow,100.0,2023.0,crypto,False,True
+48221,Hood County,Texas,Granbury,Texas 3,65.4,2023.0,crypto,False,True
+48275,Knox County,Texas,Seymour,Project Kati,166.0,2025.0,clean_dc,True,True
+48331,Milam County,Texas,Rockdale,Texas,742.0,2019.0,crypto,True,True
+48331,Milam County,Texas,Rockdale,"Rockdale, Texas",450.0,2021.0,crypto,False,True
+48349,Navarro County,Texas,Corsicana,"Corsicana, Texas",400.0,2025.0,crypto,True,True
+48355,Nueces County,Texas,Corpus Christi,Saxet Energy Park,300.0,2023.0,mixed,True,True
+48355,Nueces County,Texas,Corpus Christi,Corpus Christi,100.0,2024.0,mixed,False,True
+48371,Pecos County,Texas,Fort Stockton,Fort Stockton,325.0,2021.0,mixed,True,True
+48371,Pecos County,Texas,Fort Stockton,"Garden City, TX",100.0,2023.0,mixed,False,True
+48389,Reeves County,Texas,Pecos,"Pecos, TX",50.0,2022.0,crypto,True,True
+48441,Taylor County,Texas,Abilene,Project Artemis,200.0,2022.0,mixed,True,True
+48475,Ward County,Texas,Pyote,Pyote Texas,370.0,2022.0,mixed,True,True
+49035,Salt Lake County,Utah,West Jordan,Salt Lake City 2,72.0,2025.0,clean_dc,True,True
+49035,Salt Lake County,Utah,West Jordan,SLC-02,50.0,2020.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Ashburn,IAD39,225.0,2018.0,clean_dc,True,True
+51107,Loudoun County,Virginia,Sterling,24086 Bears School Road,95.985,2023.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Sterling,Digital Dulles 2,95.985,2024.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Sterling,Digital Dulles 4,95.985,2025.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Sterling,Digital Dulles 3,95.985,2024.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Sterling,IAD-03,72.0,2024.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Ashburn,Ashburn,69.23073720000001,2023.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Leesburg,Leesburg 1,66.15385,2024.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Sterling,NVAL2,60.0,2023.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Sterling,NVAL2b,60.0,2024.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Leesburg,SBP2,57.508,2021.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Sterling,Sterling V Data Center,57.45,2017.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Ashburn,IAD-02,56.6046,2020.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Sterling,VA1,54.0,2022.0,clean_dc,False,True
+51107,Loudoun County,Virginia,Ashburn,IAD-01,50.00079,2019.0,clean_dc,False,True
+51153,Prince William County,Virginia,Gainesville,Gainesville East,107.6923077,2025.0,clean_dc,True,True
+51153,Prince William County,Virginia,Bristow,Bristow 1 (Google RLF DC),93.8462477,2024.0,clean_dc,False,True
+51153,Prince William County,Virginia,Manassas,MCC3,58.461631999999994,2024.0,clean_dc,False,True
+51153,Prince William County,Virginia,Gainesville,Gainesville Crossing 2,55.384620000000005,2024.0,clean_dc,False,True
+51153,Prince William County,Virginia,Gainesville,Gainesville Crossing 1,55.384,2023.0,clean_dc,False,True
+51153,Prince William County,Virginia,Bristow,Bristow 2,50.000099999999996,2025.0,clean_dc,False,True
+53025,Grant County,Washington,Quincy,CO1 and CO2,71.1,2008.0,mixed,True,True
+53025,Grant County,Washington,Quincy,WA13,63.6,2023.0,mixed,False,True
+53025,Grant County,Washington,Quincy,MWH09,52.8,2022.0,mixed,False,True
+53051,Pend Oreille County,Washington,Usk,Ponderay,100.0,2024.0,crypto,True,True
+54047,McDowell County,Pennsylvania,Nesquehoning,Panther,90.0,2021.0,crypto,True,False
+55101,Racine County,Wisconsin,Mount Pleasant,Mount Pleasant 01,90.0,2024.0,clean_dc,True,True
+56021,Laramie County,Wyoming,Cheyenne,Cheyenne,65.0,2013.0,mixed,True,True
+56021,Laramie County,Wyoming,Cheyenne,Cheyenne 2,65.0,2015.0,mixed,True,True
+56021,Laramie County,Wyoming,Cheyenne,Cheyenne 3,65.0,2020.0,mixed,True,True

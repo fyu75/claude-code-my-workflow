@@ -37,7 +37,7 @@ Repeat
 - Verification (compile, render, tolerance checks)
 - Documentation (logs, MEMORY [LEARN] entries)
 - Plotting / tabulation per established standards
-- Following the SSOT chain (Stata → output → paper)
+- Following the authoritative chain (Stata → output → paper)
 
 ---
 
@@ -99,7 +99,7 @@ For experimental work, use the **Fast-Track** workflow:
 
 - `CLAUDE.md` — top-level project info, folder layout, commands
 - `MEMORY.md` — accumulated [LEARN] entries
-- `.claude/rules/single-source-of-truth.md` — paper SSOT chain
+- `.claude/rules/authoritative-source.md` — paper authoritative chain
 - `.claude/rules/content-invariants.md` — INV-1 through INV-9
 - `.claude/rules/quality-gates.md` — scoring rubric
 - `.claude/rules/r-code-conventions.md` — R standards

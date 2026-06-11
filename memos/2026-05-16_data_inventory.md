@@ -131,7 +131,7 @@ The `msrb_lookup.sas7bdat` (57 MB) almost certainly carries CUSIP-level static f
 
 Bond/trade identifiers:
 - `RTRS_CONTROL_NUMBER` — trade-level ID, unique within a 10-year window (re-used across decades — keep this in mind).
-- `CUSIP` — 9-char security ID. WRDS warns that `SECURITY_DESCRIPTION`, `DATED_DATE`, `MATURITY_DATE` may differ across reports for the same CUSIP; pick one canonical source at clean stage.
+- `CUSIP` — 9-char security ID. WRDS warns that `SECURITY_DESCRIPTION`, `DATED_DATE`, `MATURITY_DATE` may differ across reports for the same CUSIP; pick one authoritative source at clean stage.
 - `(RTRS_CONTROL_NUMBER, CUSIP, TRADE_DATE)` is the recommended unique-trade key.
 
 Trade attributes:

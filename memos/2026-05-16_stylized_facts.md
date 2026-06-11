@@ -197,7 +197,7 @@ Build a CUSIP universe for the top-30 DC-host counties from the v3 panel, then d
 
 All under `/Users/fangyu/claude/datacenter2/`:
 
-- `data/derived/county_year_panel_v3.csv` — canonical analysis panel (21 cols)
+- `data/derived/county_year_panel_v3.csv` — primary analysis panel (21 cols)
 - `data/derived/dc_property_county_fips.csv` — every DC mapped to county
 - `data/derived/sdc_issuer_county_full_v3.csv` — every SDC issuer mapped or annotated
 - `data/derived/sdc_deal_spread.csv` — deal-level spread

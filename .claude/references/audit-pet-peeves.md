@@ -92,13 +92,13 @@
 
 ---
 
-## 8. Count shorthand in non-canonical order
+## 8. Count shorthand in non-standard order
 
-**Example:** PR #89. I wrote `27/22/13/6` which reordered the canonical convention (`27 skills / 13 agents / 22 rules / 6 hooks` — agents before rules) and dropped the labels. Copilot caught.
+**Example:** PR #89. I wrote `27/22/13/6` which reordered the standard convention (`27 skills / 13 agents / 22 rules / 6 hooks` — agents before rules) and dropped the labels. Copilot caught.
 
-**How to catch.** Use only the canonical labeled form `N skills / M agents / K rules / L hooks`. Avoid bare digit shorthands like `27/13/22/6` — they drift every time someone reorders them.
+**How to catch.** Use only the standard labeled form `N skills / M agents / K rules / L hooks`. Avoid bare digit shorthands like `27/13/22/6` — they drift every time someone reorders them.
 
-**Why deep-audit missed it.** Surface-sync checks that counts match disk, not that phrasings are canonical.
+**Why deep-audit missed it.** Surface-sync checks that counts match disk, not that phrasings are standard.
 
 **When to apply.** Any summary that mentions all four counts. For single-count mentions, labels are sufficient.
 
@@ -130,13 +130,13 @@
 
 ## 11. Stale prose counts outside the surface-sync regex
 
-**Example:** PR #92 Round 1. Four locations in README.md and the guide said "13 specialized agents" / "13 focused agents" / "reviewed by 13 specialized agents" even after counts moved to 14. Surface-sync didn't catch these because its regex only matches the canonical `N agents, M skills, K rules, L hooks` form. Bots caught all four.
+**Example:** PR #92 Round 1. Four locations in README.md and the guide said "13 specialized agents" / "13 focused agents" / "reviewed by 13 specialized agents" even after counts moved to 14. Surface-sync didn't catch these because its regex only matches the standard `N agents, M skills, K rules, L hooks` form. Bots caught all four.
 
 **How to catch.** Grep for the old count in any modifier context: `N specialized`, `N focused`, `reviewed by N`, `template's N`. Also consider updating surface-sync to match a wider set of phrasings — but beware of false positives on unrelated numerics.
 
 **Why deep-audit missed it.** Agent 1's "counts match reality" check relied on surface-sync.
 
-**When to apply.** Any count change. Grep the whole tree for the OLD value, not just the canonical phrasing.
+**When to apply.** Any count change. Grep the whole tree for the OLD value, not just the standard phrasing.
 
 ---
 

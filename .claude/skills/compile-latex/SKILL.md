@@ -59,5 +59,5 @@ open paper/${ARGUMENTS:-main}.pdf          # macOS
 
 - **Always use XeLaTeX**, never pdflatex (the paper uses Unicode characters and modern font handling).
 - **No `TEXINPUTS=../Preambles`** — that was the Beamer-template pattern; `paper/main.tex` is self-contained and uses standard `article` class.
-- **`paper/refs.bib`** is the canonical bibliography (INV-5). All `\cite{}` keys must resolve there.
+- **`paper/refs.bib`** is the authoritative bibliography (INV-5). All `\cite{}` keys must resolve there.
 - **Tables and figures** referenced in `main.tex` come from `../output/` via `\input{}` and `\includegraphics{}`. If a `\input{}` fails, run the upstream Stata script first.

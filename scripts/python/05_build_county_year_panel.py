@@ -1,7 +1,7 @@
 """
 05_build_county_year_panel.py
 
-Build the canonical county-year analysis panel.
+Build the primary county-year analysis panel.
 
 Inputs:
   data/derived/dc_property_county_fips.csv   (4,507 US DCs with county_fips)

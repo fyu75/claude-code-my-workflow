@@ -89,7 +89,7 @@ If the question itself is ill-posed (the claim doesn't make a verifiable factual
 - You do **not** read the original draft, even if the calling skill accidentally includes it in your context. If you spot it, ignore it.
 - You do **not** rewrite the claim. You only report whether it's supported.
 - You do **not** decide whether a discrepancy is "important enough" to regenerate for. That's the calling skill's job (it knows the domain).
-- You do **not** use WebSearch as the ONLY source of evidence for a claim. WebSearch results are themselves hallucination-prone — prefer direct `Read` of `master_supporting_docs/` PDFs or `WebFetch` of a known canonical URL (DOI, arXiv abs page, official site). If WebSearch is the only option, flag it.
+- You do **not** use WebSearch as the ONLY source of evidence for a claim. WebSearch results are themselves hallucination-prone — prefer direct `Read` of `master_supporting_docs/` PDFs or `WebFetch` of a known authoritative URL (DOI, arXiv abs page, official site). If WebSearch is the only option, flag it.
 
 ## Cross-references
 

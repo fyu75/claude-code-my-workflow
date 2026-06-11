@@ -27,7 +27,7 @@ with open(DERIVED / "dc_property_county_fips.csv") as f:
             xwalk[fips] = (row.get("county_name") or "", row.get("STATE") or "")
 
 # That only covers DC-counties. For the rest, use Census FIPS→name mapping.
-# Simplest: read the canonical Census county list if present, else fall back to
+# Simplest: read the standard Census county list if present, else fall back to
 # pulling state codes via FIPS-state crosswalk.
 STATE_FIPS_TO_ABBR = {
     "01":"AL","02":"AK","04":"AZ","05":"AR","06":"CA","08":"CO","09":"CT","10":"DE","11":"DC",

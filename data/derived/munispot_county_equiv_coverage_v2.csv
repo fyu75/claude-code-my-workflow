@@ -1,0 +1,2050 @@
+geoid,state,county_name,municipality_name,covered_any_year,covered_2period_FY17_FY24,covered_n_years,covered_balanced9,covered_gf_any_year,covered_gf_2period_FY17_FY24,covered_gf_n_years,fiscal_year_max
+01003,AL,Baldwin County,Baldwin County Commission,True,False,2,False,True,False,1,2017
+01005,AL,Barbour County,Barbour County Commission,True,False,6,False,True,False,6,2024
+01007,AL,Bibb County,Bibb County Commission,True,False,3,False,True,False,3,2020
+01009,AL,Blount County,Blount County Commission,True,False,7,False,True,False,7,2024
+01015,AL,,Calhoun County Commission,True,False,6,False,True,False,6,2024
+01019,AL,Cherokee County,Cherokee County Commission,True,False,5,False,True,False,4,2024
+01021,AL,Chilton County,Chilton County Commission,True,False,6,False,True,False,6,2024
+01025,AL,Clarke County,Clarke County Commission,True,False,6,False,True,False,6,2024
+01027,AL,Clay County,Clay County Commission,True,False,3,False,True,False,3,2020
+01029,AL,Cleburne County,Cleburne County Commission,True,False,4,False,True,False,4,2023
+01033,AL,Colbert County,Colbert County Commission,True,False,6,False,True,False,6,2024
+01041,AL,,Crenshaw County Commission,True,True,7,False,True,True,7,2024
+01043,AL,,Cullman County Commission on Education,True,True,8,False,True,True,8,2024
+01045,AL,Dale County,Dale County Commission,True,False,7,False,True,False,7,2024
+01047,AL,Dallas County,DALLAS COUNTY COMMISSION,True,False,6,False,True,False,6,2022
+01053,AL,Escambia County,Escambia County Commission,True,False,3,False,True,False,3,2023
+01055,AL,Etowah County,Etowah County Commission,True,False,7,False,True,False,6,2024
+01057,AL,Fayette County,Fayette County Commission,True,False,8,False,True,False,8,2024
+01059,AL,Franklin County,Franklin County Commission,True,False,6,False,True,False,6,2022
+01061,AL,GENEVA,GENEVA COUNTY COMMISSION,True,False,4,False,True,False,4,2022
+01067,AL,,Henry County Commission,True,False,5,False,True,False,5,2024
+01071,AL,Jackson County,Jackson County Commission,True,False,7,False,True,False,7,2023
+01081,AL,Lee County,Lee County Commission,True,False,5,False,True,False,5,2023
+01087,AL,Macon County,Macon County Commission,True,False,5,False,True,False,5,2020
+01089,AL,Madison County,Madison County Commission,True,False,5,False,True,False,5,2023
+01091,AL,Marengo County,Marengo County Commission,True,False,4,False,True,False,4,2023
+01093,AL,MARION,MARION COUNTY COMMISSION,True,False,2,False,True,False,2,2019
+01097,AL,Mobile County,Mobile County Commission,True,True,4,False,True,True,4,2024
+01099,AL,Monroe County,Monroe County Commission,True,False,4,False,True,False,4,2022
+01101,AL,Montgomery County,Montgomery County Commission,True,True,6,False,True,True,6,2024
+01103,AL,Morgan County,Morgan County Commission,True,False,6,False,True,False,6,2024
+01109,AL,Pike County,Pike County Commission,True,True,5,False,True,True,5,2024
+01113,AL,Russell County,Russell County Commission,True,False,6,False,True,False,6,2022
+01115,AL,St. Clair County,St. Clair County Commission,True,True,7,False,True,True,7,2024
+01117,AL,Shelby County,Shelby County Commission,True,True,8,False,True,True,8,2024
+01121,AL,Talladega County,Talladega County Commission,True,False,5,False,True,False,5,2024
+01123,AL,Tallapoosa County,Tallapoosa County Commission,True,False,5,False,True,False,5,2024
+01125,AL,Tuscaloosa County,Tuscaloosa County Commission,True,False,5,False,True,False,5,2023
+01127,AL,Walker County,Walker County Commission,True,False,4,False,True,False,4,2021
+01129,AL,Washington County,"Washington County, FL",True,True,9,True,True,True,9,2024
+01133,AL,DeKalb County,DeKalb County Commission,True,True,8,False,True,True,8,2024
+01209,FL,Montgomery County,"Sumter County, Florida",True,False,3,False,True,False,3,2025
+02013,AK,Anchorage Municipality,Aleutians East Borough,True,True,9,True,True,True,9,2024
+02020,AK,,"Municipality of Anchorage, Alaska",True,False,3,False,True,False,3,2018
+02060,AK,,Bristol Bay Borough,True,False,8,False,True,False,8,2023
+02068,AK,,DENALI BOROUGH,True,False,2,False,True,False,2,2022
+02100,AK,,Haines Borough,True,True,9,True,True,True,9,2024
+02110,AK,Juneau City and Borough,"City and Borough of Juneau, Alaska",True,True,8,False,True,True,8,2024
+02122,AK,,"Kenai Peninsula Borough, Alaska",True,False,9,True,True,False,9,2025
+02150,AK,,KODIAK ISLAND BOROUGH,True,True,9,True,True,True,9,2024
+02164,AK,,LAKE AND PENINSULA BOROUGH,True,False,5,False,True,False,5,2023
+02170,AK,,Matanuska-Susitna Borough,True,True,9,True,True,True,9,2024
+02185,AK,,North Slope Borough,True,True,8,False,True,True,8,2025
+02188,AK,,NORTHWEST ARCTIC BOROUGH,True,True,8,False,True,True,8,2024
+02195,AK,,"Petersburg Borough, Alaska",True,True,9,True,True,True,9,2025
+02220,AK,Prince of Wales-Hyder Census Area,"City and Borough of Sitka, Alaska",True,True,8,False,True,True,8,2024
+02275,AK,,"City and Borough of Wrangell, Alaska",True,True,9,True,True,True,9,2024
+02282,AK,,"City and Borough of Yakutat, Alaska",True,False,8,False,True,False,8,2024
+04001,AZ,Apache County,"Apache County, Arizona",True,False,7,False,True,False,7,2022
+04003,AZ,Cochise County,Cochise County,True,True,9,True,True,True,9,2024
+04005,AZ,Coconino County,Coconino County,True,True,8,False,True,True,8,2024
+04007,AZ,Gila County,Gila County,True,True,8,False,True,True,8,2024
+04009,AZ,Graham County,Graham County,True,True,9,True,True,True,9,2024
+04011,AZ,,"GREENLEE COUNTY, ARIZONA",True,True,8,False,True,True,8,2024
+04012,AZ,La Paz County,La Paz County,True,True,9,True,True,True,9,2024
+04013,AZ,Maricopa County,Maricopa County,True,True,9,True,True,False,8,2024
+04015,AZ,Mohave County,Mohave County,True,True,9,True,True,True,9,2024
+04017,AZ,Navajo County,Navajo County,True,True,9,True,True,True,9,2024
+04019,AZ,Pima County,Pima County,True,True,10,True,True,True,10,2025
+04021,AZ,Pinal County,"Pinal County, Arizona",True,True,9,True,True,True,9,2024
+04023,AZ,,Santa Cruz County,True,False,8,False,True,False,8,2023
+04025,AZ,Yavapai County,Yavapai County,True,True,9,True,True,True,9,2024
+04027,AZ,Yuma County,Yuma County,True,True,9,True,True,True,9,2024
+05005,AR,,"Baxter County, Arkansas",True,False,1,False,True,False,1,2022
+05031,AR,,"Craighead County, Arkansas",True,False,1,False,True,False,1,2020
+05063,AR,Independence County,Independence County,True,False,2,False,True,False,2,2017
+05085,AR,Lonoke County,Lonoke County,True,False,1,False,True,False,1,2018
+05087,AR,Madison County,"Madison County, Arkansas",True,False,1,False,True,False,1,2017
+05119,AR,Pulaski County,"Pulaski County, Arkansas",True,True,6,False,True,True,6,2024
+05137,AR,Stone County,"Stone County, Arkansas",True,False,1,False,True,False,1,2019
+06003,CA,,County of Alpine,True,True,9,True,True,True,9,2024
+06005,CA,Amador County,County of Amador,True,True,9,True,True,True,9,2024
+06007,CA,Butte County,County of Butte,True,True,9,True,True,True,9,2024
+06009,CA,Calaveras County,County of Calaveras,True,True,9,True,True,False,8,2024
+06011,CA,Colusa County,COUNTY OF COLUSA,True,True,8,False,True,True,8,2024
+06013,CA,Contra Costa County,County of Contra Costa,True,True,9,True,True,True,9,2024
+06015,CA,Del Norte County,County of Del Norte,True,True,9,True,True,True,9,2024
+06017,CA,El Dorado County,County of El Dorado,True,False,8,False,True,False,8,2023
+06019,CA,Fresno County,County of Fresno,True,False,7,False,True,False,7,2023
+06021,CA,Glenn County,County of Glenn,True,True,9,True,True,True,9,2024
+06023,CA,Humboldt County,County of Humboldt,True,True,7,False,True,True,7,2024
+06025,CA,Imperial County,County of Imperial,True,False,8,False,True,False,8,2023
+06027,CA,,County of Inyo,True,True,10,True,True,True,10,2025
+06029,CA,Kern County,County of Kern,True,True,9,True,True,True,9,2024
+06031,CA,Kings County,County of Kings,True,True,9,True,True,True,9,2025
+06033,CA,Lake County,COUNTY OF LAKE,True,True,9,True,True,True,9,2024
+06035,CA,Lassen County,County of Lassen,True,False,7,False,True,False,7,2023
+06037,CA,Los Angeles County,County of Los Angeles,True,True,8,False,True,True,8,2024
+06039,CA,,County of Madera,True,True,8,False,True,True,8,2024
+06041,CA,Marin County,County of Marin,True,True,9,True,True,True,9,2024
+06043,CA,Mariposa County,COUNTY OF MARIPOSA,True,True,9,True,True,True,9,2025
+06045,CA,Mendocino County,County of Mendocino,True,True,9,True,True,True,9,2024
+06047,CA,Merced County,MERCED COUNTY,True,True,9,True,True,True,9,2024
+06049,CA,Modoc County,County of Modoc,True,True,7,False,True,True,7,2024
+06051,CA,,County of Mono,True,False,9,True,True,False,9,2025
+06053,CA,,County of Monterey,True,True,9,True,True,True,9,2024
+06055,CA,Napa County,County of Napa,True,True,9,True,True,True,9,2024
+06057,CA,Nevada County,COUNTY OF NEVADA,True,True,10,True,True,True,10,2025
+06059,CA,Orange County,"County of Orange, California",True,False,8,False,True,False,8,2023
+06061,CA,Placer County,County of Placer,True,True,8,False,True,False,7,2024
+06063,CA,Plumas County,County of Plumas,True,False,8,False,True,False,8,2023
+06065,CA,Riverside County,County of Riverside,True,True,9,True,True,True,9,2024
+06067,CA,Sacramento County,COUNTY OF SACRAMENTO,True,True,9,True,True,True,9,2024
+06071,CA,San Bernardino County,SAN BERNARDINO COUNTY,True,True,9,True,True,True,9,2024
+06073,CA,San Diego County,County of San Diego,True,False,6,False,True,False,6,2025
+06075,CA,San Francisco County,City and County of San Francisco,True,False,4,False,True,False,4,2023
+06077,CA,San Joaquin County,County of San Joaquin,True,True,9,True,True,False,8,2024
+06079,CA,San Luis Obispo County,COUNTY OF SAN LUIS OBISPO,True,True,9,True,True,True,9,2024
+06081,CA,San Mateo County,COUNTY OF SAN MATEO,True,False,6,False,True,False,5,2025
+06083,CA,Santa Barbara County,County of Santa Barbara,True,True,8,False,True,True,8,2024
+06085,CA,Santa Clara County,County of Santa Clara,True,True,8,False,True,True,8,2024
+06087,CA,,County of Santa Cruz,True,True,9,True,True,True,9,2024
+06089,CA,Shasta County,COUNTY OF SHASTA,True,False,8,False,True,False,8,2023
+06091,CA,Sierra County,County of Sierra,True,True,8,False,True,True,8,2024
+06093,CA,Siskiyou County,County of Siskiyou,True,True,9,True,True,True,9,2024
+06095,CA,Solano County,COUNTY OF SOLANO,True,True,9,True,True,True,9,2024
+06097,CA,Sonoma County,First 5 Sonoma County Commission,True,False,1,False,True,False,1,2024
+06099,CA,Stanislaus County,COUNTY OF STANISLAUS,True,True,10,True,True,True,10,2025
+06101,CA,Sutter County,COUNTY OF SUTTER,True,True,9,True,True,True,9,2024
+06103,CA,Tehama County,County of Tehama,True,True,8,False,True,True,8,2024
+06105,CA,,County of Trinity,True,True,8,False,True,True,8,2024
+06107,CA,,COUNTY OF TULARE,True,True,8,False,True,True,8,2024
+06115,CA,Yuba County,County of Yuba,True,True,9,True,True,True,9,2024
+08001,CO,Adams County,"Adams County, Colorado",True,True,9,True,True,True,9,2024
+08003,CO,,ALAMOSA COUNTY,True,True,9,True,True,True,9,2024
+08005,CO,Arapahoe County,Arapahoe County,True,False,6,False,True,False,6,2023
+08007,CO,Archuleta County,"Archuleta County, Colorado",True,True,8,False,True,True,8,2024
+08009,CO,,"Baca County, Colorado",True,True,9,True,True,True,9,2024
+08011,CO,,"Bent County, Colorado",True,True,9,True,True,True,9,2024
+08013,CO,Boulder County,Boulder County,True,True,9,True,True,True,9,2024
+08014,CO,Broomfield County,City and County of Broomfield,True,True,9,True,True,True,9,2024
+08017,CO,,"Cheyenne County, Colorado",True,True,5,False,True,True,5,2024
+08019,CO,Clear Creek County,Clear Creek County,True,True,9,True,True,True,9,2024
+08021,CO,,"CONEJOS COUNTY, COLORADO",True,True,9,True,True,True,9,2024
+08023,CO,,COSTILLA COUNTY,True,True,9,True,True,True,9,2024
+08025,CO,Crowley County,"Crowley County, Colorado",True,True,9,True,True,True,9,2024
+08027,CO,Custer County,Custer County,True,False,6,False,True,False,6,2024
+08029,CO,Delta County,DELTA COUNTY,True,True,9,True,True,True,9,2024
+08031,CO,Denver County,City and County of Denver,True,True,10,True,True,True,9,2025
+08033,CO,Dolores County,DOLORES COUNTY COLORADO,True,True,9,True,True,True,9,2024
+08035,CO,,Douglas County Government,True,True,9,True,True,True,9,2024
+08037,CO,,Eagle County,True,True,9,True,True,False,8,2024
+08039,CO,Elbert County,Elbert County Government,True,True,9,True,True,True,9,2024
+08041,CO,El Paso County,El Paso County,True,True,9,True,True,True,9,2024
+08043,CO,Fremont County,"Fremont County, Colorado",True,False,7,False,True,False,6,2024
+08045,CO,Garfield County,"Garfield County, Colorado",True,True,9,True,True,True,9,2024
+08047,CO,,Gilpin County,True,True,9,True,True,True,9,2024
+08049,CO,Grand County,"GRAND COUNTY , COLORADO",True,True,9,True,True,True,9,2024
+08051,CO,Gunnison County,Gunnison County,True,True,9,True,True,True,9,2024
+08053,CO,Hinsdale County,"HINSDALE COUNTY, COLORADO",True,True,9,True,True,True,9,2024
+08055,CO,,COUNTY OF HUERFANO,True,False,7,False,True,False,7,2022
+08057,CO,,"Jackson County, Colorado",True,True,7,False,True,True,7,2024
+08059,CO,Jefferson County,Jefferson County Government,True,False,8,False,True,False,8,2024
+08063,CO,Kit Carson County,KIT CARSON COUNTY,True,True,9,True,True,True,9,2024
+08065,CO,,"LAKE COUNTY, COLORADO",True,True,9,True,True,True,9,2024
+08067,CO,La Plata County,La Plata County,True,True,9,True,True,True,9,2024
+08069,CO,Larimer County,"Larimer County, Colorado",True,True,9,True,True,True,9,2024
+08071,CO,Las Animas County,Las Animas County,True,True,6,False,True,False,4,2024
+08073,CO,Lincoln County,"Lincoln County, Colorado",True,True,9,True,True,True,9,2024
+08075,CO,Logan County,"Logan County, Colorado",True,True,9,True,True,True,9,2024
+08077,CO,Mesa County,"Mesa County, Colorado",True,False,7,False,True,False,7,2022
+08079,CO,Mineral County,Mineral County,True,True,8,False,True,True,8,2024
+08081,CO,Moffat County,Moffat County,True,True,9,True,True,True,9,2024
+08083,CO,Montezuma County,MONTEZUMA COUNTY COLORADO,True,True,9,True,True,True,9,2024
+08085,CO,Montrose County,"MONTROSE COUNTY, COLORADO",True,True,9,True,True,True,9,2024
+08087,CO,Morgan County,Morgan County,True,True,9,True,True,True,9,2024
+08091,CO,Ouray County,OURAY COUNTY,True,True,9,True,True,True,9,2024
+08093,CO,Park County,"Park County, Colorado",True,True,9,True,True,True,9,2024
+08095,CO,Phillips County,"Phillips County, Colorado",True,True,6,False,True,True,6,2024
+08097,CO,Pitkin County,Pitkin County,True,True,9,True,True,True,8,2024
+08099,CO,Prowers County,"Prowers County, Colorado",True,True,9,True,True,True,9,2024
+08101,CO,Pueblo County,PUEBLO COUNTY COLORADO,True,True,8,False,True,True,8,2024
+08103,CO,Rio Blanco County,RIO BLANCO COUNTY,True,True,9,True,True,True,9,2024
+08105,CO,Rio Grande County,RIO GRANDE COUNTY,True,True,9,True,True,True,9,2024
+08107,CO,Routt County,Routt County,True,True,9,True,True,True,9,2024
+08109,CO,Saguache County,SAGUACHE COUNTY,True,True,9,True,True,True,9,2024
+08113,CO,San Miguel County,San Miguel County,True,False,7,False,True,False,7,2024
+08115,CO,,"Sedgwick County, Colorado",True,False,6,False,True,False,6,2021
+08117,CO,Summit County,Summit County Colorado,True,True,9,True,True,False,8,2024
+08119,CO,Teller County,TELLER COUNTY GOVERNMENT,True,True,9,True,True,True,9,2024
+08121,CO,Washington County,"Washington County, Colorado",True,True,9,True,True,True,9,2024
+08123,CO,Weld County,WELD COUNTY GOVERNMENT,True,True,8,False,True,True,8,2024
+08125,CO,Yuma County,"Yuma County, Colorado",True,True,9,True,True,True,9,2024
+10001,DE,,"Kent County, DE Government (Kent County Levy Court)",True,True,7,False,True,True,7,2024
+10003,DE,New Castle County,"New Castle County, Delaware",True,True,9,True,True,True,9,2024
+10005,DE,Sussex County,"Sussex County, Delaware",True,True,9,True,True,True,9,2024
+12001,FL,Alachua County,Alachua County,True,False,7,False,True,False,7,2022
+12003,FL,Baker County,"BAKER COUNTY, FLORIDA",True,True,6,False,True,True,6,2024
+12009,FL,Brevard County,"BREVARD COUNTY, FLORIDA",True,True,9,True,True,True,9,2025
+12011,FL,Broward County,Broward County,True,True,9,True,True,True,9,2024
+12013,FL,Calhoun County,"Calhoun County, Florida",True,True,8,False,True,False,7,2024
+12015,FL,Charlotte County,"CHARLOTTE COUNTY, FLORIDA",True,False,5,False,True,False,5,2025
+12017,FL,Citrus County,Citrus County Florida,True,True,9,True,True,True,9,2024
+12019,FL,Clay County,"CLAY COUNTY, FLORIDA",True,False,7,False,True,False,7,2024
+12021,FL,Collier County,Collier County,True,True,10,True,True,True,10,2025
+12023,FL,Columbia County,"COLUMBIA COUNTY, FLORIDA",True,False,4,False,True,False,4,2024
+12027,FL,,DeSoto County Board of County Commissioners,True,True,9,True,True,True,9,2024
+12029,FL,,"Dixie County, Florida",True,False,3,False,True,False,3,2024
+12033,FL,Escambia County,"ESCAMBIA COUNTY, FLORIDA",True,True,10,True,True,True,10,2025
+12035,FL,,"FLAGLER COUNTY, FLORIDA",True,True,9,True,True,True,9,2024
+12037,FL,Franklin County,"FRANKLIN COUNTY, FLORIDA",True,True,9,True,True,True,9,2024
+12039,FL,Gadsden County,"Gadsden County, Florida",True,True,7,False,True,True,7,2024
+12041,FL,Gilchrist County,GILCHRIST COUNTY,True,False,5,False,True,False,5,2024
+12043,FL,Glades County,"GLADES COUNTY, FLORIDA",True,True,7,False,True,True,7,2024
+12045,FL,,"GULF COUNTY, FLORIDA",True,False,8,False,True,False,8,2024
+12047,FL,Hamilton County,"Hamilton County, Fl",True,False,7,False,True,False,7,2024
+12049,FL,Hardee County,"Hardee County, FL",True,False,6,False,True,False,6,2024
+12053,FL,Hernando County,"Hernando County, Florida",True,True,9,True,True,True,9,2024
+12055,FL,Highlands County,HIGHLANDS COUNTY FLORIDA,True,False,5,False,True,False,5,2025
+12057,FL,Hillsborough County,Hillsborough County,True,True,9,True,True,True,9,2024
+12059,AL,Holmes County,Holmes County Florida,True,True,9,True,True,True,9,2025
+12061,FL,Indian River County,County of Indian River,True,True,10,True,True,True,10,2025
+12063,FL,Jackson County,"JACKSON COUNTY, FLORIDA",True,True,9,True,True,True,9,2024
+12067,FL,Lafayette County,Lafayette County Board of County Commissioners,True,False,3,False,True,False,3,2023
+12069,FL,Lake County,LAKE COUNTY,True,True,10,True,True,True,10,2025
+12071,FL,Lee County,"Lee County, Florida",True,True,10,True,True,True,10,2025
+12073,FL,Leon County,Leon County,True,True,9,True,True,True,9,2024
+12075,FL,Levy County,LEVY COUNTY,True,True,9,True,True,True,9,2024
+12077,FL,Liberty County,LIBERTY COUNTY BOARD OF COUNTY COMMISSIONERS,True,False,8,False,True,False,8,2024
+12079,FL,,"MADISON COUNTY, FLORIDA",True,False,5,False,True,False,5,2024
+12081,FL,Manatee County,"Manatee County, Florida",True,True,10,True,True,True,10,2025
+12083,FL,Marion County,Marion County Board of County Commissioners,True,True,10,True,True,True,10,2025
+12085,FL,Martin County,Martin County Board of County Commissioners,True,True,10,True,True,True,10,2025
+12087,FL,Monroe County,"Monroe County, Florida",True,True,10,True,True,True,10,2025
+12089,FL,,"NASSAU COUNTY, FL",True,False,7,False,True,False,7,2024
+12091,FL,Okaloosa County,"OKALOOSA COUNTY, FLORIDA",True,True,8,False,True,True,8,2024
+12093,FL,Okeechobee County,"Okeechobee County, FL",True,False,8,False,True,False,8,2024
+12095,FL,Orange County,"ORANGE COUNTY, FLORIDA",True,False,5,False,True,False,5,2025
+12097,FL,,Osceola County Board of County Commissioners,True,True,10,True,True,True,10,2025
+12099,FL,Palm Beach County,Palm Beach County Board of County Commissioners,True,False,1,False,True,False,1,2024
+12103,FL,Pinellas County,"Pinellas County, Florida",True,True,10,True,True,True,10,2025
+12105,FL,Polk County,"Polk County, Florida Board of County Commissioners",True,True,9,True,True,True,9,2024
+12107,FL,Putnam County,PUTNAM COUNTY,True,True,10,True,True,True,10,2025
+12109,FL,St. Johns County,"County of St. Johns, Florida",True,True,9,True,True,True,9,2024
+12111,FL,St. Lucie County,ST LUCIE COUNTY,True,True,10,True,True,True,10,2025
+12113,FL,Santa Rosa County,"Santa Rosa County, Florida",True,True,10,True,True,True,10,2025
+12115,FL,Sarasota County,"SARASOTA COUNTY, FLORIDA",True,True,10,True,True,True,10,2025
+12117,FL,Seminole County,"Seminole County, Florida",True,True,10,True,True,True,10,2025
+12119,FL,Sumter County,"Sumter County, Florida",True,False,8,False,True,False,8,2023
+12121,FL,Suwannee County,Suwannee County,True,False,7,False,True,False,6,2024
+12123,FL,Taylor County,Taylor County Florida,True,True,8,False,True,True,8,2024
+12125,FL,Union County,Union County Board of County Commissioners,True,False,5,False,True,False,5,2024
+12127,FL,Volusia County,COUNTY OF VOLUSIA,True,True,9,True,True,True,9,2024
+12129,FL,Wakulla County,County of Wakulla Board of County Commissioners,True,True,10,True,True,True,10,2025
+12131,NC,Walton County,"Walton County, Florida",True,True,9,True,True,True,9,2024
+12133,FL,Miami-Dade County,MIAMI DADE COUNTY,True,True,9,True,True,True,9,2024
+13001,GA,Appling County,"Appling County, Georgia",True,False,1,False,True,False,1,2020
+13005,GA,BACON,"BACON COUNTY, GEORGIA",True,False,1,False,True,False,1,2019
+13007,GA,,"Baker County, Georgia",True,True,10,True,True,True,10,2025
+13009,GA,Baldwin County,"Baldwin County, Georgia",True,False,8,False,True,False,8,2023
+13011,GA,Banks County,"Banks County, Georgia",True,False,2,False,True,False,2,2024
+13013,GA,Barrow County,Barrow County Board of Commissioners,True,True,10,True,True,True,10,2025
+13015,GA,Bartow County,"BARTOW COUNTY, GEORGIA",True,True,9,True,True,True,9,2024
+13017,GA,,"Ben Hill County, GA",True,False,7,False,True,False,7,2024
+13019,GA,Berrien County,"Berrien County, GA",True,True,8,False,True,True,8,2024
+13021,GA,Bibb County,MACON-BIBB COUNTY,True,True,9,True,True,True,9,2024
+13023,GA,,"Bleckley County, Georgia",True,False,8,False,True,False,8,2023
+13025,GA,Brantley County,"Brantley County, Georgia",True,False,1,False,True,False,1,2022
+13027,GA,BROOKS,"BROOKS COUNTY, GEORGIA",True,False,1,False,True,False,1,2021
+13029,GA,Bryan County,"Bryan County, GA",True,True,8,False,True,True,8,2024
+13031,GA,Bulloch County,"Bulloch County, Georgia",True,True,10,True,True,True,10,2025
+13037,GA,,"Calhoun County, Georgia",True,False,6,False,True,False,6,2021
+13039,GA,Camden County,"Camden County, Georgia",True,True,10,True,True,True,10,2025
+13043,GA,,"Candler County, Georgia",True,False,5,False,True,False,5,2023
+13045,GA,Carroll County,"CARROLL COUNTY, GEORGIA",True,True,10,True,True,True,10,2025
+13047,GA,Catoosa County,"Catoosa County, Georgia",True,True,10,True,True,True,10,2025
+13049,GA,Charlton County,Charlton County,True,False,3,False,True,False,3,2024
+13053,GA,,"Unified Government of Cusseta - Chattahoochee County, Georgia",True,False,1,False,True,False,1,2022
+13055,GA,Chattooga County,"Chattooga County, Georgia",True,False,2,False,True,False,1,2022
+13059,GA,Clarke County,"Athens-Clarke County, Georgia",True,True,10,True,True,True,10,2025
+13063,GA,Clayton County,Clayton County Board of Commissioners,True,True,10,True,True,True,10,2025
+13065,GA,Clinch County,"Clinch County, Georgia",True,False,2,False,True,False,2,2024
+13067,GA,Cobb County,COUNTY OF COBB,True,True,9,True,True,True,9,2024
+13069,GA,Coffee County,"Coffee County, Georgia",True,False,3,False,True,False,3,2024
+13071,GA,Colquitt County,"COLQUITT COUNTY, GEORGIA",True,True,9,True,True,True,9,2025
+13073,GA,Columbia County,"Columbia County, Georgia",True,True,10,True,True,True,10,2025
+13075,GA,Cook County,"Cook County, GA",True,True,8,False,True,True,8,2024
+13077,GA,Coweta County,"Coweta County, Georgia",True,True,10,True,True,True,10,2025
+13079,GA,Crawford County,"Crawford County, Georgia",True,True,9,True,True,True,9,2024
+13081,GA,Crisp County,"Crisp County, Georgia",True,True,10,True,True,True,10,2025
+13083,GA,Dade County,"Dade County, Georgia",True,True,9,True,True,True,9,2025
+13085,GA,Dawson County,"Dawson County, Georgia",True,True,9,True,True,True,9,2024
+13089,GA,DeKalb County,"DeKalb County, GA",True,False,8,False,True,False,8,2024
+13091,GA,Dodge County,"Dodge County, Georgia",True,False,5,False,True,False,5,2024
+13093,GA,DOOLY,"DOOLY COUNTY, GEORGIA",True,False,7,False,True,False,7,2022
+13095,GA,Dougherty County,"DOUGHERTY COUNTY, GEORGIA",True,True,9,True,True,True,9,2024
+13099,GA,,"Early County, Georgia",True,False,5,False,True,False,5,2024
+13101,GA,,"Echols County, Georgia",True,False,1,False,True,False,1,2021
+13103,GA,Effingham County,"Effingham County, Ga",True,True,9,True,True,True,9,2025
+13105,GA,Elbert County,"Elbert County, Georgia",True,False,4,False,True,False,4,2024
+13109,GA,,"Evans County, Georgia",True,False,8,False,True,False,8,2025
+13111,GA,Fannin County,"FANNIN COUNTY, GEORGIA",True,False,7,False,True,False,7,2025
+13113,GA,Fayette County,"Fayette County, Georgia",True,True,10,True,True,True,10,2025
+13115,GA,Floyd County,"Floyd County, Georgia",True,False,5,False,True,False,5,2024
+13117,GA,Forsyth County,"Forsyth County, Georgia",True,True,9,True,True,True,9,2024
+13119,GA,Franklin County,"Franklin County, Georgia",True,False,6,False,True,False,6,2025
+13121,GA,Fulton County,Fulton County Government,True,False,8,False,True,False,8,2023
+13123,GA,Gilmer County,"Gilmer County, Georgia",True,True,9,True,True,True,9,2024
+13125,GA,Glascock County,"Glascock County, Georgia",True,False,1,False,True,False,1,2024
+13127,GA,Glynn County,"Glynn County, Georgia",True,True,9,True,True,True,9,2024
+13129,GA,,"GORDON COUNTY, GEORGIA",True,False,9,True,True,False,9,2025
+13131,GA,Grady County,"Grady County, Georgia",True,True,9,True,True,True,9,2024
+13133,GA,GREENE,"Greene County, Georgia",True,True,3,False,True,True,3,2024
+13137,GA,Habersham County,"Habersham County, Georgia",True,True,9,True,True,True,9,2024
+13139,GA,,"Hall County, Georgia",True,True,9,True,True,True,9,2025
+13141,GA,,"Hancock County, Georgia",True,True,8,False,True,True,8,2024
+13143,GA,Haralson County,"Haralson County, Georgia",True,False,2,False,True,False,2,2023
+13145,GA,Harris County,Harris County,True,True,10,True,True,True,10,2025
+13147,GA,Hart County,"HART COUNTY, GEORGIA",True,False,3,False,True,False,3,2023
+13149,GA,,"Heard County, Georgia",True,False,3,False,True,False,3,2024
+13151,GA,Henry County,Henry County Georgia,True,True,9,True,True,True,9,2024
+13153,GA,Houston County,Houston County Board of Commissioners,True,True,10,True,True,True,10,2025
+13155,GA,,"Irwin County, Georgia",True,False,6,False,True,False,6,2021
+13157,GA,Jackson County,Jackson County Georgia,True,True,9,True,True,True,9,2024
+13159,GA,Jasper County,"Jasper County, Georgia",True,False,7,False,True,False,7,2025
+13161,GA,,"Jeff Davis County, Georgia",True,False,8,False,True,False,8,2023
+13163,GA,Jefferson County,"JEFFERSON COUNTY, GEORGIA",True,False,4,False,True,False,4,2024
+13165,GA,,Jenkins County Commissioners,True,False,5,False,True,False,5,2022
+13169,GA,JONES,"Jones County, Georgia",True,True,10,True,True,True,10,2025
+13171,GA,Lamar County,LAMAR COUNTY GEORGIA,True,False,7,False,True,False,7,2023
+13173,GA,Lanier County,"Lanier County, Georgia",True,False,6,False,True,False,6,2024
+13175,GA,,Laurens County,True,True,9,True,True,True,9,2024
+13177,GA,Lee County,"Lee County, Georgia",True,True,10,True,True,True,10,2025
+13179,GA,Liberty County,"Liberty County, Ga",True,True,10,True,True,True,10,2025
+13181,GA,Lincoln County,"LINCOLN COUNTY, GEORGIA",True,True,10,True,True,True,10,2025
+13183,GA,Long County,"Long County, Georgia",True,False,8,False,True,False,8,2023
+13185,GA,Lowndes County,"Lowndes County, Georgia",True,True,8,False,True,True,8,2024
+13187,GA,Lumpkin County,"Lumpkin County, Georgia",True,True,9,True,True,True,9,2024
+13191,GA,McIntosh County,McIntosh County,True,True,9,True,True,True,9,2024
+13193,GA,,"Macon County, Georgia",True,True,9,True,True,True,9,2025
+13195,GA,Madison County,"Madison County, Georgia",True,False,7,False,True,False,7,2022
+13199,GA,,"Meriwether County, Georgia",True,False,4,False,True,False,4,2022
+13201,GA,,"Miller County, Georgia",True,False,1,False,True,False,1,2017
+13205,GA,Mitchell County,"Mitchell County, Ga",True,True,8,False,True,True,8,2024
+13207,GA,Monroe County,"Monroe County, Georgia",True,True,9,True,True,True,9,2024
+13209,GA,Montgomery County,"Montgomery County, Georgia",True,False,4,False,True,False,4,2023
+13211,GA,Morgan County,Morgan County Georgia,True,True,8,False,True,True,8,2025
+13213,GA,Murray County,"Murray County, Georgia",True,False,6,False,True,False,6,2022
+13215,GA,,"Consolidated Government of Columbus, Georgia",True,True,10,True,True,True,10,2025
+13221,GA,Oglethorpe County,"Oglethorpe County, Georgia",True,False,1,False,True,False,1,2020
+13223,GA,Paulding County,"Paulding County, Georgia",True,True,10,True,True,True,10,2025
+13225,GA,Peach County,"PEACH COUNTY, GEORGIA",True,True,10,True,True,True,10,2025
+13227,GA,Pickens County,"Pickens County, Georgia",True,True,8,False,True,True,8,2024
+13231,GA,,"Pike County, Georgia",True,False,2,False,True,False,2,2022
+13233,GA,Polk County,"Polk County, Georgia",True,False,3,False,True,False,3,2025
+13235,GA,,"Pulaski County, Georgia",True,True,9,True,True,True,9,2024
+13237,GA,Putnam County,"Putnam County, Georgia",True,False,5,False,True,False,5,2025
+13241,GA,,"Rabun County, Georgia",True,True,10,True,True,True,10,2025
+13243,GA,,"Randolph County, Georgia",True,True,8,False,True,True,8,2024
+13245,GA,,Augusta Georgia,True,False,8,False,True,False,8,2023
+13247,GA,Rockdale County,"Rockdale County, GA",True,True,9,True,True,True,9,2024
+13251,GA,Screven County,"Screven County, Georgia",True,False,5,False,True,False,5,2022
+13253,GA,Seminole County,"Seminole County, Georgia",True,False,1,False,True,False,1,2024
+13255,GA,Spalding County,"Spalding County, Georgia",True,True,11,True,True,True,11,2026
+13257,GA,Stephens County,Stephens County Georgia,True,True,10,True,True,True,10,2025
+13259,GA,,Stewart County,True,False,3,False,True,False,3,2023
+13261,GA,Sumter County,"Sumter County, Georgia",True,True,9,True,True,True,9,2025
+13263,GA,,"Talbot County, Georgia",True,False,5,False,True,False,5,2025
+13265,GA,,"Taliaferro County, Georgia",True,False,6,False,True,False,6,2024
+13267,GA,Tattnall County,Tattnall County,True,False,5,False,True,False,5,2025
+13269,GA,Taylor County,"Taylor County, Georgia",True,True,9,True,True,True,9,2024
+13271,GA,,"Telfair County, Georgia",True,False,5,False,True,False,5,2023
+13275,GA,Thomas County,"THOMAS COUNTY, GEORGIA",True,True,9,True,True,True,9,2024
+13277,GA,Tift County,COUNTY OF WARE,True,False,5,False,True,False,5,2025
+13279,GA,Toombs County,"Toombs County, Georgia",True,False,7,False,True,False,7,2024
+13281,GA,Towns County,Towns County,True,False,6,False,True,False,6,2021
+13283,GA,,"Treutlen County, Georgia",True,False,7,False,True,False,7,2022
+13285,GA,Troup County,"Troup County, Georgia",True,True,9,True,True,True,9,2024
+13287,GA,Turner County,"Turner County, Georgia",True,False,2,False,True,False,2,2023
+13289,GA,Jones County,"Twiggs County, Georgia",True,False,4,False,True,False,4,2024
+13291,GA,Union County,"UNION COUNTY, GEORGIA",True,True,9,True,True,True,9,2024
+13293,GA,Upson County,"Upson County, Georgia",True,True,8,False,True,True,8,2024
+13295,GA,Walker County,"WALKER COUNTY, GEORGIA",True,True,9,True,True,True,9,2024
+13297,GA,Walton County,"Walton County, Georgia",True,True,9,True,True,True,9,2025
+13299,GA,Ware County,"WARE COUNTY, GEORGIA",True,True,10,True,True,True,10,2025
+13301,GA,Warren County,Warren County Board of  Education,True,False,4,False,True,False,3,2024
+13303,GA,Washington County,"Washington County, Georgia",True,False,4,False,True,False,4,2024
+13305,GA,WAYNE,"Wayne County, Georgia",True,True,5,False,True,True,5,2024
+13309,GA,,"Wheeler County, Georgia",True,False,7,False,True,False,7,2023
+13311,GA,,"White County, Georgia",True,True,10,True,True,True,10,2025
+13313,GA,Whitfield County,"Whitfield County, Georgia",True,True,9,True,True,False,8,2024
+13315,GA,,"Wilcox County, Georgia",True,True,10,True,True,True,10,2026
+13317,GA,Wilkes County,"Wilkes County, Georgia",True,False,6,False,True,False,6,2025
+13321,GA,Atkinson County,Atkinson County Board of Commissioners,True,True,8,False,True,True,8,2024
+15001,HI,Hawaii County,County of Hawaii,True,True,4,False,True,True,4,2024
+15003,HI,Honolulu County,City and County of Honolulu,True,True,9,True,True,True,9,2024
+15007,HI,Kauai County,COUNTY OF KAUAI,True,True,8,False,True,True,8,2024
+15009,HI,Maui County,COUNTY OF MAUI,True,True,8,False,True,True,3,2024
+16001,ID,Ada County,"Ada County, Idaho",True,True,8,False,True,True,8,2024
+16003,ID,,"Adams County, Idaho",True,False,2,False,True,False,2,2024
+16005,ID,Bannock County,"Bannock County, Idaho",True,False,8,False,True,False,8,2023
+16007,ID,Bear Lake County,Bear Lake County,True,False,1,False,True,False,1,2021
+16009,ID,Benewah County,Benewah County,True,False,1,False,True,False,1,2022
+16011,ID,Bingham County,"Bingham County, Idaho",True,False,1,False,True,False,1,2020
+16013,ID,Blaine County,Blaine County,True,False,4,False,True,False,4,2024
+16015,ID,,"Boise County, Idaho",True,False,7,False,True,False,7,2024
+16017,ID,Bonner County,"Bonner County, Idaho",True,False,8,False,True,False,8,2024
+16021,ID,Boundary County,COUNTY OF BOUNDARY,True,True,10,True,True,True,10,2025
+16025,ID,,Camas County,True,False,1,False,True,False,1,2024
+16027,ID,Canyon County,"CANYON COUNTY, IDAHO",True,True,10,True,True,True,10,2025
+16031,ID,Cassia County,CASSIA COUNTY,True,True,10,True,True,False,9,2025
+16035,ID,Clearwater County,"CLEARWATER COUNTY, STATE OF IDAHO",True,True,9,True,True,True,9,2024
+16037,ID,Custer County,"Custer County, Idaho",True,False,1,False,True,False,1,2024
+16039,ID,Elmore County,"Elmore County, Idaho",True,False,1,False,True,False,1,2024
+16043,ID,Fremont County,Fremont County,True,False,3,False,True,False,3,2019
+16045,ID,Gem County,Gem County,True,False,3,False,True,False,3,2023
+16047,ID,Minidoka County,Minidoka County,True,False,5,False,True,False,5,2023
+16049,ID,Idaho County,Idaho County,True,True,10,True,True,True,10,2025
+16051,ID,Jefferson County,Jefferson County,True,False,3,False,True,False,3,2025
+16053,ID,Jerome County,Jerome County,True,False,4,False,True,False,4,2024
+16055,ID,Kootenai County,Kootenai County,True,True,9,True,True,True,9,2024
+16057,ID,Latah County,"Latah County, Idaho",True,False,5,False,True,False,5,2024
+16059,ID,Lemhi County,Lemhi County,True,False,3,False,True,False,3,2024
+16063,ID,,COUNTY OF LINCOLN,True,False,3,False,True,False,3,2025
+16069,ID,Nez Perce County,NEZ PERCE COUNTY,True,False,5,False,True,False,5,2024
+16071,ID,,Oneida County,True,False,1,False,True,False,1,2023
+16073,ID,,Owyhee County,True,False,8,False,True,False,8,2024
+16075,ID,Payette County,Payette County,True,False,2,False,True,False,2,2024
+16079,ID,,Shoshone County,True,True,8,False,True,True,8,2024
+16083,ID,Twin Falls County,County of Twin Falls,True,False,5,False,True,False,5,2024
+16085,ID,Valley County,"Valley County, Idaho",True,True,7,False,True,True,7,2024
+16087,ID,Washington County,"WASHINGTON COUNTY, IDAHO",True,False,3,False,True,False,3,2024
+17001,IL,Adams County,COUNTY OF ADAMS,True,True,9,True,True,True,9,2024
+17005,IL,,Bond County,True,False,3,False,True,False,3,2023
+17007,IL,Boone County,"BOONE COUNTY, ILLINOIS",True,True,9,True,True,True,9,2024
+17011,IL,Bureau County,"Bureau County, Illinois",True,False,8,False,True,False,8,2023
+17013,IL,Calhoun County,CALHOUN COUNTY,True,False,3,False,True,False,3,2025
+17015,IL,,"SANGAMON COUNTY, ILLINOIS",True,True,8,False,True,True,8,2024
+17017,IL,Cass County,"Cass County, Illinois",True,True,9,True,True,False,7,2024
+17019,IL,Champaign County,"Champaign, County of",True,False,8,False,True,False,8,2023
+17021,IL,Christian County,"Christian County, Illinois",True,False,1,False,True,False,1,2024
+17023,IL,Clark County,Clark County,True,False,2,False,True,False,2,2024
+17029,IL,Coles County,"Coles County, Illinois",True,True,9,True,True,True,9,2024
+17031,IL,Cook County,"Cook County, Illinois",True,True,9,True,True,True,9,2024
+17033,IL,Crawford County,Crawford County,True,False,5,False,True,False,5,2024
+17037,IL,DeKalb County,DeKalb County,True,True,11,True,True,True,11,2026
+17039,IL,De Witt County,Dewitt County,True,False,1,False,True,False,1,2022
+17041,IL,,Douglas County,True,False,3,False,True,False,3,2024
+17043,IL,DuPage County,"DUPAGE COUNTY, ILLINOIS",True,True,9,True,True,True,9,2024
+17045,IL,Edgar County,Edgar County,True,False,3,False,True,False,3,2022
+17049,IL,Effingham County,EFFINGHAM COUNTY,True,False,7,False,True,False,7,2024
+17051,IL,,County of Fayette Illinois,True,False,6,False,True,False,5,2021
+17053,IL,Ford County,Ford County,True,False,1,False,True,False,1,2022
+17055,IL,Franklin County,Franklin County Government,True,False,5,False,True,False,5,2024
+17057,IL,Fulton County,COUNTY OF FULTON,True,True,10,True,True,False,9,2025
+17061,IL,Greene County,"GREENE COUNTY, ILLINOIS",True,False,5,False,True,False,5,2024
+17065,IL,Hamilton County,"Hamilton County, Illinois",True,False,2,False,True,False,2,2021
+17067,IL,Hancock County,"HANCOCK COUNTY, ILLINOIS",True,False,6,False,True,False,6,2024
+17073,IL,Henry County,Henry County,True,True,9,True,True,True,9,2024
+17075,IL,Iroquois County,"IROQUOIS COUNTY, ILLINOIS",True,False,4,False,True,False,4,2023
+17077,IL,,"Jackson County, IL",True,False,4,False,True,False,4,2024
+17079,IL,,Jasper County,True,False,4,False,True,False,4,2024
+17081,IL,Jefferson County,JEFFERSON COUNTY,True,False,5,False,True,False,5,2024
+17085,IL,Jo Daviess County,"Jo Daviess County, Illinois",True,False,2,False,True,False,2,2021
+17089,IL,Kane County,Kane County,True,True,10,True,True,True,10,2025
+17091,IL,Kankakee County,"KANKAKEE COUNTY, ILLINOIS",True,True,9,True,True,True,9,2024
+17093,IL,Kendall County,"COUNTY OF KENDALL, IL",True,True,9,True,True,True,9,2024
+17095,IL,Knox County,COUNTY OF KNOX,True,False,8,False,True,False,8,2025
+17097,IL,Lake County,"Lake County, Illinois",True,False,5,False,True,False,5,2025
+17099,IL,LaSalle County,COUNTY OF LASALLE,True,True,10,True,True,True,10,2025
+17103,IL,Lee County,County of Lee,True,True,9,True,True,True,9,2024
+17105,IL,Livingston County,Livingston County,True,False,5,False,True,False,5,2024
+17107,IL,Logan County,"LOGAN, COUNTY OF",True,False,9,True,True,False,9,2025
+17109,IL,McDonough County,"Mcdonough County, Illinois",True,False,4,False,True,False,4,2022
+17113,IL,McLean County,"McLean County, Illinois",True,True,7,False,True,True,7,2024
+17115,IL,Macon County,"Macon County, Illinois",True,True,9,True,True,True,9,2024
+17117,IL,Macoupin County,Macoupin County,True,False,2,False,True,False,2,2024
+17119,IL,Madison County,MADISON COUNTY,True,True,9,True,True,True,9,2024
+17121,IL,Marion County,MARION COUNTY,True,False,1,False,True,False,1,2022
+17123,IL,,Marshall County,True,False,1,False,True,False,1,2022
+17125,IL,Mason County,"Mason County, Illinois",True,False,4,False,True,False,4,2023
+17129,IL,Menard County,"Menard County, Illinois",True,False,5,False,True,False,5,2023
+17131,IL,,MERCER COUNTY,True,False,5,False,True,False,5,2023
+17133,IL,Monroe County,Monroe County Illinois,True,False,5,False,True,False,5,2023
+17135,IL,Montgomery County,"Montgomery County, Il",True,False,6,False,True,False,6,2024
+17137,IL,Morgan County,"MORGAN COUNTY, ILLINOIS",True,True,8,False,True,True,8,2024
+17141,IL,Ogle County,Ogle County,True,True,9,True,True,True,9,2025
+17143,IL,Peoria County,Peoria County,True,True,9,True,True,True,9,2024
+17145,IL,Perry County,PERRY COUNTY,True,False,6,False,True,False,6,2025
+17147,IL,Piatt County,"Piatt County, Illinois",True,False,3,False,True,False,3,2024
+17149,IL,Pike County,"Pike County, Illinois",True,False,1,False,True,False,1,2020
+17157,IL,Randolph County,"Randolph County, Illinois",True,False,3,False,True,False,3,2022
+17159,IL,Richland County,Richland County Illinois,True,False,1,False,True,False,1,2022
+17161,IL,Rock Island County,"Rock Island County, Illinois",True,True,10,True,True,True,10,2025
+17163,IL,,St Clair County Illinois,True,False,2,False,True,False,2,2020
+17165,IL,,"Saline County, Illinois",True,False,2,False,True,False,2,2023
+17169,IL,Schuyler County,Schuyler County,True,False,1,False,True,False,1,2022
+17171,IL,Scott County,County of Scott,True,False,2,False,True,False,2,2022
+17173,IL,Shelby County,County of Shelby,True,False,5,False,True,False,5,2023
+17177,IL,Stephenson County,STEPHENSON COUNTY,True,True,8,False,True,True,8,2024
+17179,IL,,"tazewell county, illinois",True,True,9,True,True,True,9,2024
+17183,IL,Vermilion County,vermilion county,True,True,9,True,True,True,9,2024
+17185,IL,Wabash County,WABASH COUNTY,True,False,1,False,True,False,1,2021
+17187,IL,Warren County,WARREN COUNTY,True,True,8,False,True,False,7,2024
+17193,IL,White County,"White County, Illinois",True,False,1,False,True,False,1,2022
+17195,IL,Whiteside County,WHITESIDE COUNTY,True,True,10,True,True,True,10,2025
+17197,WI,McHenry County,McHenry County,True,True,9,True,True,True,9,2024
+17199,IL,Williamson County,Williamson County Government,True,False,2,False,True,False,2,2022
+17201,IL,Winnebago County,"COUNTY OF WINNEBAGO, ILLINOIS",True,True,10,True,True,True,10,2025
+17203,IL,Woodford County,"woodford county, illinois",True,False,5,False,True,False,4,2025
+18003,IN,Allen County,Allen County,True,True,8,False,True,True,8,2024
+18019,IN,Clark County,CLARK COUNTY,True,False,4,False,True,False,4,2024
+18035,IN,Delaware County,Delaware County,True,False,5,False,True,False,5,2024
+18039,IN,Elkhart County,Elkhart County,True,False,6,False,True,False,6,2024
+18057,IN,Hamilton County,Hamilton County,True,True,9,True,True,True,9,2024
+18063,IN,Hendricks County,Hendricks County,True,False,6,False,True,False,6,2024
+18081,IN,Johnson County,Johnson County,True,False,6,False,True,False,5,2024
+18089,IN,Lake County,Lake County,True,False,2,False,True,False,2,2021
+18091,IN,LaPorte County,Laporte County,True,False,2,False,True,False,2,2020
+18095,IN,,Madison County Indiana,True,False,6,False,True,False,6,2024
+18105,IN,Monroe County,Monroe County,True,False,6,False,True,False,6,2024
+18127,IN,Porter County,Porter County,True,False,5,False,True,False,5,2024
+18133,IN,Marion County,"Marion County, Indiana",True,False,8,False,True,False,8,2023
+18141,IN,St. Joseph County,St. Joseph County,True,False,6,False,True,False,6,2024
+18157,IN,Tippecanoe County,Tippecanoe County,True,False,6,False,True,False,6,2024
+18163,IN,Vanderburgh County,VANDERBURGH COUNTY,True,False,6,False,True,False,6,2024
+18167,IN,Vigo County,Vigo County,True,False,4,False,True,False,4,2022
+19001,IA,ADAIR,ADAIR COUNTY,True,True,10,True,True,True,10,2025
+19003,IA,Adams County,"Adams County, Iowa",True,False,6,False,True,False,6,2021
+19005,IA,Allamakee County,Allamakee County,True,True,10,True,True,True,10,2025
+19007,IA,,"Appanoose County, Iowa",True,True,10,True,True,True,10,2025
+19011,IA,Benton County,Benton County,True,True,10,True,True,True,10,2025
+19013,IA,Black Hawk County,Black Hawk County,True,True,10,True,True,True,10,2025
+19017,IA,BREMER,"Bremer County, Iowa",True,False,7,False,True,False,7,2025
+19019,IA,Buchanan County,Buchanan County,True,True,10,True,True,True,10,2025
+19021,IA,Buena Vista County,Buena Vista County,True,False,8,False,True,False,8,2025
+19023,IA,,"Butler County, Iowa",True,True,9,True,True,True,9,2024
+19025,IA,,"Calhoun County, Iowa",True,False,7,False,True,False,7,2024
+19029,IA,,"Cass County, Iowa",True,True,7,False,True,True,7,2024
+19031,IA,Cedar County,"Cedar County, Iowa",True,False,8,False,True,False,8,2025
+19033,IA,Cerro Gordo County,Cerro Gordo County,True,True,10,True,True,True,10,2025
+19035,IA,CHEROKEE,CHEROKEE COUNTY,True,True,9,True,True,True,9,2025
+19037,IA,,"Chickasaw County, Iowa",True,True,10,True,True,True,10,2025
+19039,IA,,CLARKE COUNTY,True,False,8,False,True,False,8,2023
+19041,IA,,"Clay County, Iowa",True,True,9,True,True,True,9,2025
+19043,IA,Clayton County,CLAYTON COUNTY,True,True,10,True,True,True,10,2025
+19045,IA,Clinton County,"Clinton County, Iowa",True,False,7,False,True,False,7,2024
+19047,IA,CRAWFORD,"Crawford County, Iowa",True,True,8,False,True,True,8,2024
+19049,IA,Dallas County,Dallas County,True,True,10,True,True,True,10,2025
+19051,IA,Davis County,"Davis County, Iowa",True,True,9,True,True,True,9,2025
+19053,IA,,"Decatur County, Iowa",True,True,9,True,True,True,9,2024
+19055,IA,Delaware County,Delaware County,True,True,9,True,True,True,9,2024
+19057,IA,Des Moines County,"Des Moines County, Iowa",True,False,7,False,True,False,7,2024
+19059,IA,Dickinson County,Dickinson County,True,True,10,True,True,True,10,2025
+19061,IA,Dubuque County,"Dubuque County, Iowa",True,True,10,True,True,True,10,2025
+19063,IA,,"Emmet County, Iowa",True,False,8,False,True,False,8,2025
+19065,IA,Fayette County,FAYETTE COUNTY,True,True,9,True,True,True,9,2025
+19067,IA,Floyd County,County of Floyd,True,True,10,True,True,True,10,2025
+19069,IA,,Franklin County,True,True,10,True,True,True,10,2025
+19071,IA,,Fremont County Iowa,True,True,7,False,True,True,7,2024
+19073,IA,Greene County,Greene County,True,False,3,False,True,False,3,2024
+19075,IA,GRUNDY,GRUNDY COUNTY,True,True,10,True,True,True,10,2025
+19077,IA,,"Guthrie County, Iowa",True,True,9,True,True,True,9,2024
+19079,IA,HAMILTON,"HAMILTON COUNTY, IOWA",True,True,10,True,True,True,10,2025
+19083,IA,Hardin County,Hardin County,True,True,6,False,True,True,6,2025
+19085,IA,,HARRISON COUNTY,True,True,9,True,True,True,9,2024
+19087,IA,Henry County,"Henry County, Iowa",True,True,8,False,True,True,8,2024
+19089,IA,Howard County,County of Howard,True,True,10,True,True,True,10,2025
+19091,IA,,"Humboldt County, Iowa",True,True,10,True,True,True,10,2025
+19093,IA,,"Ida County, Iowa",True,True,10,True,True,True,10,2025
+19095,IA,,Iowa County,True,True,9,True,True,True,9,2024
+19097,IA,Jackson County,Jackson County,True,True,8,False,True,True,8,2024
+19099,IA,Jasper County,Jasper County,True,True,6,False,True,True,6,2024
+19101,IA,Jefferson County,"Jefferson County, Iowa",True,False,7,False,True,False,7,2024
+19103,IA,Johnson County,"JOHNSON COUNTY, IOWA",True,False,8,False,True,False,8,2023
+19105,IA,Jones County,Jones County,True,True,10,True,True,True,10,2025
+19107,IA,Keokuk County,"Keokuk County, Iowa",True,False,5,False,True,False,5,2024
+19109,IA,Kossuth County,Kossuth County,True,True,8,False,True,True,8,2025
+19111,IA,Lee County,Lee County,True,True,10,True,True,True,10,2025
+19113,IA,Linn County,Linn County,True,True,10,True,True,True,10,2025
+19115,IA,,Louisa County,True,True,10,True,True,True,10,2025
+19117,IA,Lucas County,LUCAS COUNTY,True,True,9,True,True,True,9,2024
+19119,IA,,"Lyon County, Iowa",True,True,6,False,True,True,6,2024
+19121,IA,MADISON,MADISON COUNTY,True,False,7,False,True,False,7,2022
+19125,IA,MARION,Marion County,True,True,9,True,True,True,9,2024
+19127,IA,Marshall County,Marshall County,True,False,4,False,True,False,4,2024
+19129,IA,,Mills County,True,True,9,True,True,True,9,2024
+19131,IA,,"Mitchell County, Iowa",True,False,2,False,True,False,2,2025
+19133,IA,Monona County,Monona County,True,False,9,True,True,False,9,2025
+19135,IA,Monroe County,Monroe County,True,True,9,True,True,True,9,2024
+19137,IA,Montgomery County,Montgomery County,True,True,9,True,True,True,9,2024
+19139,IA,Muscatine County,Muscatine County,True,True,10,True,True,True,10,2025
+19141,IA,O'Brien County,O'brien County,True,True,9,True,True,True,9,2024
+19143,IA,,"Osceola County, Iowa",True,True,9,True,True,True,9,2024
+19145,IA,Page County,Page County,True,True,9,True,True,True,9,2024
+19147,IA,Palo Alto County,Palo Alto County,True,True,10,True,True,True,10,2025
+19149,IA,Plymouth County,"Plymouth County, Iowa",True,False,8,False,True,False,8,2025
+19151,IA,,"Pocahontas County, Iowa",True,True,9,True,True,True,9,2024
+19153,IA,Polk County,"Polk County, Iowa",True,True,10,True,True,True,10,2025
+19155,IA,POTTAWATTAMIE,POTTAWATTAMIE COUNTY,True,False,4,False,True,False,4,2025
+19157,IA,Poweshiek County,Poweshiek County,True,True,8,False,True,True,8,2024
+19161,IA,,"Sac County, Iowa",True,True,9,True,True,True,9,2025
+19163,IA,Scott County,"County of Scott, Iowa",True,False,9,True,True,False,8,2025
+19165,IA,,"Shelby County, Iowa",True,True,6,False,True,True,6,2024
+19167,IA,Sioux County,SIOUX COUNTY IOWA,True,False,7,False,True,False,7,2025
+19169,IA,Story County,Story County,True,True,10,True,True,True,10,2025
+19171,IA,Tama County,Tama County,True,True,8,False,True,False,7,2025
+19173,IA,TAYLOR,TAYLOR COUNTY,True,True,10,True,True,True,10,2025
+19175,IA,Union County,Union County,True,True,10,True,True,True,10,2025
+19177,IA,,"Van Buren County, Iowa",True,False,5,False,True,False,5,2021
+19179,IA,Wapello County,"Wapello County, Iowa",True,False,7,False,True,False,7,2024
+19181,IA,Warren County,Warren County,True,True,9,True,True,True,9,2024
+19183,IA,Washington County,Washington County,True,True,9,True,True,True,9,2024
+19185,IA,,"Wayne County, Iowa",True,True,9,True,True,True,9,2024
+19187,IA,Webster County,Webster County,True,True,9,True,True,True,9,2024
+19189,IA,,"Winnebago County, Iowa",True,True,10,True,True,True,10,2025
+19191,IA,Winneshiek County,WINNESHIEK COUNTY,True,True,10,True,True,True,10,2025
+19193,IA,Woodbury County,"WOODBURY COUNTY, IOWA",True,True,9,True,True,True,9,2024
+19195,IA,,"Worth County, Iowa",True,True,10,True,True,True,10,2025
+19197,IA,,Wright County,True,True,9,True,True,True,9,2025
+20015,KS,Butler County,"Butler County, Kansas",True,False,1,False,True,False,1,2019
+20047,KS,,Edwards County,True,False,1,False,True,False,1,2024
+20055,KS,,"Finney County, Kansas",True,False,1,False,True,False,1,2023
+20057,KS,,"Ford County, Kansas",True,False,1,False,True,False,1,2024
+20091,KS,Johnson County,"Johnson County, Kansas",True,True,9,True,True,True,9,2024
+20113,KS,McPherson County,"County of Mcpherson, Kansas",True,False,1,False,True,False,1,2020
+20125,KS,Wyandotte County,"Unified Government of Wyandotte County and Kansas City, Kansas",True,True,9,True,True,True,9,2024
+20173,KS,Sedgwick County,"Sedgwick County, KS",True,True,10,True,True,True,10,2025
+21001,KY,,ADAIR COUNTY FISCAL COURT,True,False,1,False,True,False,1,2022
+21007,KY,,Ballard County Fiscal Court,True,False,1,False,True,False,1,2023
+21011,KY,,Bath County Fiscal Court,True,False,1,False,True,False,1,2022
+21013,KY,,BELL COUNTY FISCAL COURT,True,False,3,False,True,False,3,2022
+21015,KY,,BOONE COUNTY FISCAL COURT,True,False,8,False,True,False,8,2025
+21019,KY,,BOYD COUNTY BOARD EDUCATION,True,True,10,True,True,False,9,2025
+21029,KY,,Bullitt County Fiscal Court,True,False,3,False,True,False,3,2023
+21037,KY,,Campbell County Fiscal Court,True,True,6,False,True,True,6,2024
+21043,KY,,CARTER COUNTY FISCAL COURT,True,False,2,False,True,False,2,2024
+21045,KY,,CASEY COUNTY FISCAL COURT,True,False,1,False,True,False,1,2022
+21059,KY,,DAVIESS COUNTY FISCAL COURT,True,False,6,False,True,False,6,2024
+21069,KY,,Fleming County Fiscal Court,True,False,1,False,True,False,1,2024
+21071,KY,,FLOYD COUNTY FISCAL COURT,True,False,5,False,True,False,5,2023
+21073,KY,,FRANKLIN COUNTY FISCAL COURT,True,False,3,False,True,False,3,2022
+21081,KY,,Grant County Fiscal Court,True,False,2,False,True,False,2,2024
+21085,KY,,Grayson County Fiscal Court,True,False,3,False,True,False,3,2024
+21087,KY,,Green County Fiscal Court,True,False,1,False,True,False,1,2022
+21093,KY,,Hardin County Fiscal Court,True,False,5,False,True,False,5,2025
+21095,KY,,Harlan County Fiscal Court,True,False,4,False,True,False,4,2023
+21099,KY,,Hart County Fiscal Court,True,False,3,False,True,False,3,2023
+21115,KY,,JOHNSON COUNTY FISCAL COURT,True,False,6,False,True,False,6,2024
+21117,KY,,Kenton County Fiscal Court,True,True,8,False,True,True,8,2025
+21125,KY,,Laurel County Fiscal Court,True,False,1,False,True,False,1,2023
+21127,KY,,Lawrence County Fiscal Court,True,False,3,False,True,False,3,2023
+21135,KY,,LEWIS COUNTY FISCAL COURT,True,False,2,False,True,False,2,2023
+21145,KY,,MCCRACKEN COUNTY FISCAL COURT,True,False,3,False,True,False,3,2023
+21147,KY,,McCreary County Fiscal Court,True,False,4,False,True,False,4,2024
+21151,KY,,Madison County Fiscal Court,True,False,5,False,True,False,5,2024
+21169,KY,,METCALFE COUNTY FISCAL COURT,True,False,2,False,True,False,2,2023
+21175,KY,,MORGAN COUNTY FISCAL COURT,True,False,2,False,True,False,2,2024
+21177,KY,,MUHLENBERG COUNTY FISCAL COURT,True,False,4,False,True,False,4,2024
+21183,KY,,OHIO COUNTY FISCAL COURT,True,False,5,False,True,False,5,2024
+21189,KY,,OWSLEY COUNTY FISCAL COURT,True,False,1,False,True,False,1,2022
+21195,KY,,PIKE COUNTY FISCAL COURT,True,False,7,False,True,False,7,2024
+21197,KY,,Powell County Fiscal Court,True,False,3,False,True,False,3,2023
+21205,KY,,ROWAN COUNTY FISCAL COURT-EIN NOTED,True,False,1,False,True,False,1,2021
+21209,KY,,Scott County Fiscal Court,True,False,4,False,True,False,4,2024
+21211,KY,,SHELBY COUNTY FISCAL COURT,True,False,2,False,True,False,2,2023
+21233,KY,,Webster County Fiscal Court,True,False,1,False,True,False,1,2022
+21235,KY,,WHITLEY COUNTY FISCAL COURT,True,False,4,False,True,False,4,2023
+21239,KY,,Woodford County Fiscal Court,True,False,2,False,True,False,2,2023
+22001,LA,,Acadia Parish Police Jury,True,True,7,False,True,True,7,2024
+22003,LA,,ALLEN PARISH POLICE JURY,True,False,3,False,True,False,3,2022
+22005,LA,,Ascension Parish Government,True,False,7,False,True,False,7,2024
+22007,LA,,Assumption Parish Police Jury,True,True,7,False,True,True,7,2024
+22009,LA,,Avoyelles Parish Police Jury,True,True,9,True,True,True,9,2024
+22013,LA,,BIENVILLE PARISH POLICE JURY,True,False,1,False,True,False,1,2022
+22015,LA,,BOSSIER PARISH POLICE JURY,True,True,9,True,True,True,9,2024
+22019,LA,,Calcasieu Parish Police Jury,True,True,9,True,True,True,9,2024
+22021,LA,,CALDWELL PARISH POLICE JURY,True,False,7,False,True,False,7,2023
+22023,LA,,CAMERON PARISH POLICE JURY,True,False,1,False,True,False,1,2020
+22025,LA,,"Catahoula Parish, Louisiana",True,False,8,False,True,False,8,2023
+22027,LA,,CLAIBORNE PARISH POLICE JURY,True,False,1,False,True,False,1,2018
+22029,LA,,CONCORDIA PARISH POLICE JURY,True,False,3,False,True,False,3,2024
+22035,LA,,East Carroll Parish Police Jury,True,False,5,False,True,False,5,2022
+22037,LA,,EAST FELICIANA PARISH POLICE JURY,True,False,3,False,True,False,3,2024
+22039,LA,,Evangeline Parish Police Jury,True,True,9,True,True,True,9,2024
+22041,LA,,FRANKLIN PARISH POLICE JURY,True,False,3,False,True,False,3,2023
+22043,LA,,GRANT PARISH POLICE JURY,True,True,9,True,True,True,9,2024
+22045,LA,,IBERIA PARISH GOVERNMENT,True,True,9,True,True,True,9,2024
+22047,LA,,Iberville Parish Government,True,True,9,True,True,True,9,2024
+22051,LA,,Jefferson Parish,True,True,9,True,True,True,9,2024
+22053,LA,,Jefferson Davis Parish Police Jury,True,False,8,False,True,False,8,2023
+22057,LA,,LAFOURCHE PARISH GOVERNMENT,True,True,9,True,True,True,9,2024
+22059,LA,,LaSalle Parish Police Jury,True,False,1,False,True,False,1,2024
+22061,LA,,"Lincoln Parish, Louisiana",True,True,6,False,True,True,6,2024
+22063,LA,,LIVINGSTON PARISH COUNCIL,True,True,8,False,True,True,8,2024
+22065,LA,,MADISON PARISH POLICE JURY,True,True,9,True,True,True,9,2024
+22067,LA,,"Morehouse Parish, Louisiana",True,False,6,False,True,False,6,2023
+22069,LA,,Natchitoches Parish Government,True,True,9,True,True,True,9,2024
+22073,LA,,OUACHITA PARISH POLICE JURY,True,True,9,True,True,True,9,2024
+22075,LA,,Plaquemines Parish Government,True,True,9,True,True,True,9,2024
+22077,LA,,Pointe Coupee Parish Government,True,True,8,False,True,True,8,2024
+22079,LA,,Rapides Parish Police Jury,True,True,9,True,True,True,9,2024
+22081,LA,,RED RIVER PARISH POLICE JURY,True,True,7,False,True,True,7,2024
+22083,LA,,RICHLAND PARISH POLICE JURY,True,False,3,False,True,False,3,2024
+22085,LA,,SABINE PARISH POLICE JURY,True,False,2,False,True,False,2,2024
+22087,LA,,St Bernard Parish Government,True,True,9,True,True,True,9,2024
+22089,LA,,ST. CHARLES PARISH COUNCIL,True,True,9,True,True,True,9,2024
+22091,LA,,ST. HELENA PARISH POLICE JURY,True,False,4,False,True,False,4,2024
+22093,LA,,St. James Parish,True,False,7,False,True,False,7,2023
+22095,LA,,St. John the Baptist Parish Council,True,True,9,True,True,True,9,2024
+22097,LA,,St. Landry Parish Government,True,False,4,False,True,False,4,2020
+22099,LA,,St. Martin Parish Government,True,True,6,False,True,True,6,2024
+22101,LA,,St. Mary Parish Government,True,True,3,False,True,True,3,2024
+22103,LA,,"St. Tammany Parish, Louisiana",True,True,9,True,True,True,9,2024
+22105,LA,,Tangipahoa Parish Government,True,True,7,False,True,True,7,2024
+22107,LA,,"Tensas Parish, Louisiana",True,False,7,False,True,False,7,2023
+22109,LA,,TERREBONNE PARISH CONSOLIDATED GOVERNMENT,True,True,9,True,True,True,9,2024
+22111,LA,,Union Parish Police Jury,True,False,2,False,True,False,2,2023
+22113,LA,,VERMILION PARISH POLICE JURY,True,True,9,True,True,True,9,2024
+22115,LA,,Vernon Parish Police Jury,True,True,4,False,True,True,4,2024
+22117,LA,,WASHINGTON PARISH GOVERNMENT,True,False,1,False,True,False,1,2018
+22119,LA,,WEBSTER PARISH POLICE JURY,True,False,3,False,True,False,3,2020
+22121,LA,,West Baton Rouge Parish Council,True,True,8,False,True,True,8,2024
+22123,LA,,West Carroll Parish Police Jury,True,False,1,False,True,False,1,2017
+22125,LA,,West Feliciana Parish Government,True,True,10,True,True,True,10,2025
+22127,LA,,Caddo Parish Commission,True,True,9,True,True,True,9,2024
+23001,ME,Androscoggin County,"Androscoggin, County of",True,False,4,False,True,False,3,2024
+23003,ME,Aroostook County,County of Aroostook,True,False,2,False,True,False,2,2021
+23005,ME,Cumberland County,"County of Cumberland, Maine",True,True,7,False,True,False,4,2025
+23007,ME,,"Franklin County, Maine",True,False,5,False,True,False,5,2025
+23009,ME,Hancock County,"County of Hancock, Maine",True,False,2,False,True,False,1,2022
+23011,ME,Kennebec County,County of Kennebec,True,False,3,False,True,False,3,2024
+23013,ME,Knox County,COUNTY OF KNOX,True,True,9,True,True,True,9,2024
+23017,ME,Oxford County,COUNTY OF OXFORD,True,False,1,False,True,False,1,2024
+23019,ME,Penobscot County,"County of Penobscot, Maine",True,False,7,False,True,False,5,2022
+23021,ME,,"Piscataquis County, Maine",True,False,2,False,True,False,2,2022
+23023,ME,,"Sagadahoc County, Maine",True,False,1,False,True,False,1,2021
+23025,ME,,"Somerset County, Maine",True,False,5,False,True,False,5,2025
+23027,ME,,"Waldo County, Maine",True,False,2,False,True,False,2,2022
+23029,ME,,"Washington County, Maine",True,False,1,False,True,False,1,2022
+23031,ME,York County,YORK COUNTY,True,False,4,False,True,False,4,2024
+24001,MD,Allegany County,"Allegany County, Maryland",True,True,9,True,True,True,9,2025
+24003,MD,Anne Arundel County,"Anne Arundel County, Maryland",True,True,9,True,True,True,9,2024
+24005,MD,Baltimore County,"Baltimore County, Maryland",True,True,9,True,True,True,9,2024
+24009,MD,Calvert County,"COUNTY OF COMMISSIONERS OF CALVERT COUNTY, MARYLAND",True,True,9,True,True,True,9,2024
+24011,MD,Caroline County,Caroline County Commissioners,True,True,6,False,True,True,6,2024
+24013,MD,Carroll County,Carroll County Commissioners,True,True,9,True,True,True,7,2024
+24015,MD,Cecil County,"Cecil County, Maryland",True,True,8,False,True,True,8,2024
+24017,MD,Charles County,"The County Commissioners of Charles County, Maryland",True,True,4,False,True,True,4,2024
+24019,MD,,"Dorchester County, Maryland",True,False,8,False,True,False,8,2023
+24021,MD,Frederick County,"Frederick County, Maryland",True,True,8,False,True,True,8,2024
+24023,MD,Garrett County,"The Board of Commissioners of Garrett County, Maryland",True,False,2,False,True,False,2,2023
+24025,MD,Harford County,"Harford County, Maryland",True,False,9,True,True,False,9,2025
+24029,MD,Kent County,"THE COUNTY COMMISSIONERS OF KENT COUNTY, MARYLAND",True,True,7,False,True,True,7,2024
+24031,MD,Montgomery County,"Montgomery County, Maryland",True,True,3,False,True,True,3,2024
+24033,MD,Prince George's County,"Prince George's County, MD",True,True,9,True,True,True,9,2024
+24035,MD,Queen Anne's County,"Queen Anne's County, Maryland",True,False,2,False,False,False,0,2024
+24037,MD,St. Mary's County,"ST. MARY'S COUNTY, MARYLAND",True,False,5,False,True,False,5,2024
+24039,MD,Somerset County,Somerset County Maryland,True,True,8,False,True,True,8,2024
+24041,MD,,"TALBOT COUNTY, MARYLAND",True,True,9,True,True,True,9,2024
+24043,MD,Washington County,"COUNTY COMMISSIONERS OF WASHINGTON COUNTY, MARYLAND",True,True,10,True,True,True,10,2025
+24045,MD,Wicomico County,"Wicomico County, Maryland",True,False,6,False,True,False,6,2022
+24047,MD,Worcester County,WORCESTER COUNTY MARYLAND,True,True,8,False,True,True,8,2024
+25001,MA,Barnstable County,BARNSTABLE COUNTY,True,True,9,True,True,True,9,2024
+25005,MA,Bristol County,"COUNTY OF BRISTOL, MASSACHUSETTS",True,False,3,False,True,False,3,2024
+25007,MA,,"County of Dukes County, Massachusetts",True,True,5,False,True,True,4,2024
+25021,MA,Norfolk County,County of Norfolk,True,False,2,False,True,False,2,2022
+25023,MA,Plymouth County,"County of Plymouth, Massachusetts",True,False,3,False,True,False,3,2022
+26001,MI,Alcona County,Alcona County,True,False,5,False,True,False,5,2024
+26003,MI,Alger County,"County of Alger, Michigan",True,False,4,False,True,False,4,2024
+26005,MI,Allegan County,Allegan County,True,True,9,True,True,True,9,2024
+26007,MI,Alpena County,"County of Alpena, Michigan",True,True,9,True,True,True,9,2024
+26009,MI,Antrim County,County of Antrim,True,False,2,False,True,False,2,2021
+26011,MI,Arenac County,Arenac County,True,False,3,False,True,False,3,2024
+26013,MI,,"Baraga County, Michigan",True,False,8,False,True,False,8,2025
+26015,MI,Barry County,Barry County,True,True,9,True,True,True,9,2024
+26017,MI,Bay County,Bay County,True,True,9,True,True,True,9,2024
+26019,MI,BENZIE,COUNTY OF BENZIE,True,False,2,False,True,False,2,2023
+26021,MI,Berrien County,County of Berrien,True,True,9,True,True,True,9,2024
+26023,MI,Branch County,COUNTY OF BRANCH,True,False,6,False,True,False,6,2024
+26025,MI,Calhoun County,COUNTY OF CALHOUN,True,True,9,True,True,True,9,2024
+26027,MI,Cass County,"County of Cass, Michigan",True,False,3,False,True,False,3,2024
+26029,MI,Charlevoix County,Charlevoix County,True,True,9,True,True,True,9,2024
+26031,MI,Cheboygan County,County of Cheboygan,True,True,9,True,True,True,9,2024
+26033,MI,,Chippewa County,True,True,9,True,True,True,9,2024
+26035,MI,Clare County,CLARE COUNTY,True,False,5,False,True,False,5,2024
+26037,MI,Clinton County,CLINTON COUNTY,True,True,9,True,True,True,9,2024
+26039,MI,Crawford County,County of Crawford,True,True,10,True,True,True,10,2025
+26041,MI,Delta County,County of Delta,True,True,9,True,True,True,9,2024
+26043,MI,Dickinson County,DICKINSON COUNTY,True,False,4,False,True,False,4,2024
+26045,MI,Eaton County,EATON COUNTY,True,True,9,True,True,True,9,2024
+26047,MI,Emmet County,County of Emmet,True,True,9,True,True,True,9,2024
+26049,MI,Genesee County,"GENESEE COUNTY, MICHIGAN",True,True,10,True,True,True,10,2025
+26051,MI,Gladwin County,Gladwin County,True,False,4,False,True,False,4,2024
+26053,MI,Gogebic County,GOGEBIC COUNTY,True,False,5,False,True,False,5,2025
+26055,MI,Grand Traverse County,GRAND TRAVERSE COUNTY,True,True,9,True,True,True,9,2024
+26057,MI,Gratiot County,Gratiot County,True,True,9,True,True,True,9,2024
+26059,MI,Hillsdale County,Hillsdale County,True,False,5,False,True,False,5,2024
+26061,MI,Houghton County,Houghton County,True,True,8,False,True,True,8,2024
+26063,MI,Huron County,COUNTY OF HURON,True,True,8,False,True,True,8,2024
+26065,MI,Ingham County,"Ingham County, Michigan",True,False,7,False,True,False,7,2024
+26067,MI,Ionia County,Ionia County,True,True,9,True,True,True,9,2024
+26069,MI,Iosco County,Iosco County,True,False,3,False,True,False,3,2024
+26071,MI,Iron County,Iron County,True,True,9,True,True,True,9,2024
+26073,MI,Isabella County,Isabella County,True,True,9,True,True,True,9,2025
+26075,MI,Jackson County,"COUNTY OF JACKSON, MICHIGAN",True,True,9,True,True,True,9,2024
+26077,MI,Kalamazoo County,"County of Kalamazoo, Michigan",True,True,8,False,True,True,8,2024
+26079,MI,Kalkaska County,KALKASKA COUNTY,True,False,2,False,True,False,2,2023
+26081,MI,Kent County,"COUNTY OF KENT, MICHIGAN",True,True,9,True,True,True,9,2024
+26083,MI,,"Keweenaw County, Michigan",True,True,8,False,True,True,8,2024
+26085,MI,Lake County,LAKE COUNTY,True,False,4,False,True,False,4,2024
+26089,MI,,"Leelanau County, Michigan",True,False,2,False,True,False,2,2024
+26091,MI,Lenawee County,Lenawee County,True,True,9,True,True,True,9,2024
+26093,MI,Livingston County,"LIVINGSTON COUNTY, MICHIGAN",True,True,8,False,True,True,8,2024
+26095,MI,Luce County,Luce County,True,False,7,False,True,False,6,2024
+26099,MI,Macomb County,Macomb County,True,False,8,False,True,False,8,2023
+26101,MI,Manistee County,MANISTEE COUNTY,True,True,7,False,True,True,7,2025
+26103,MI,Marquette County,"County of Marquette, Michigan",True,True,9,True,True,True,9,2024
+26105,MI,Mason County,Mason County,True,False,3,False,True,False,3,2022
+26107,MI,Mecosta County,County of Mecosta,True,False,7,False,True,False,7,2023
+26109,MI,Menominee County,Menominee County,True,False,1,False,True,False,1,2020
+26111,MI,Midland County,Midland County,True,True,9,True,True,True,9,2024
+26113,MI,Missaukee County,Missaukee County,True,False,1,False,True,False,1,2022
+26115,MI,Monroe County,Monroe County,True,True,9,True,True,True,9,2024
+26117,MI,Montcalm County,MONTCALM COUNTY,True,True,10,True,True,True,10,2025
+26119,MI,Montmorency County,County of Montmorency,True,False,1,False,True,False,1,2022
+26123,MI,Newaygo County,"County of Newaygo, Michigan",True,True,9,True,True,True,9,2024
+26125,MI,Oakland County,Oakland County,True,False,5,False,True,False,5,2025
+26127,MI,,Oceana County,True,True,7,False,True,True,7,2024
+26129,MI,Ogemaw County,Ogemaw of County,True,False,4,False,True,False,2,2021
+26131,MI,,"Ontonagon County, Michigan",True,False,2,False,True,False,2,2021
+26133,MI,Osceola County,County of Osceola,True,False,4,False,True,False,3,2024
+26135,MI,,"Oscoda County, Michigan",True,True,9,True,True,True,9,2024
+26137,MI,Otsego County,County of Otsego,True,False,5,False,True,False,5,2024
+26139,MI,Ottawa County,County of Ottawa,True,True,10,True,True,True,10,2025
+26141,MI,,"Presque Isle County, Michigan",True,True,10,True,True,True,10,2025
+26143,MI,,Roscommon County,True,False,1,False,True,False,1,2020
+26145,MI,Saginaw County,County of Saginaw,True,True,9,True,True,True,9,2024
+26147,MI,St. Clair County,St. Clair County,True,True,9,True,True,True,9,2024
+26149,MI,St. Joseph County,St. Joseph County,True,True,9,True,True,True,9,2024
+26151,MI,,County of Sanilac,True,True,7,False,True,True,7,2024
+26153,MI,Schoolcraft County,Schoolcraft County,True,False,1,False,True,False,1,2024
+26155,MI,Shiawassee County,Shiawassee County,True,True,9,True,True,True,9,2024
+26157,MI,Tuscola County,County of Tuscola,True,True,9,True,True,True,9,2024
+26159,MI,Van Buren County,VAN BUREN COUNTY,True,True,9,True,True,True,9,2024
+26161,MI,Washtenaw County,County of Washtenaw,True,True,10,True,True,True,10,2025
+26163,MI,Wayne County,"CHARTER COUNTY OF WAYNE, MICHIGAN",True,True,10,True,True,True,10,2025
+26165,MI,,LAPEER COUNTY,True,True,10,True,True,True,10,2025
+27001,MN,Aitkin County,Aitkin County,True,True,9,True,True,True,9,2024
+27003,MN,,Anoka County,True,True,6,False,True,True,6,2024
+27005,MN,,Becker County,True,False,3,False,True,False,3,2018
+27007,MN,Beltrami County,Beltrami County,True,True,9,True,True,True,9,2024
+27009,MN,Benton County,Benton County,True,True,9,True,True,True,9,2024
+27011,MN,Big Stone County,Big Stone County,True,True,8,False,True,True,8,2024
+27013,MN,Blue Earth County,Blue Earth County,True,True,10,True,True,True,10,2025
+27015,MN,Brown County,Brown County,True,True,9,True,True,True,9,2024
+27017,MN,Carlton County,"Carlton County, Minnesota",True,True,9,True,True,True,9,2024
+27019,MN,Carver County,Carver County,True,True,8,False,True,True,8,2024
+27021,MN,,"Cass County, Minnesota",True,True,8,False,True,True,8,2024
+27023,MN,CHIPPEWA,Chippewa County,True,True,7,False,True,True,7,2024
+27025,MN,Chisago County,Chisago County,True,False,1,False,True,False,1,2021
+27027,MN,Clay County,Clay County,True,True,8,False,True,False,7,2024
+27029,MN,Clearwater County,Clearwater County,True,True,9,True,True,True,9,2024
+27031,MN,Cook County,"Cook County, Minnesota",True,True,8,False,True,True,8,2024
+27033,MN,COTTONWOOD,Cottonwood County,True,True,9,True,True,True,9,2024
+27035,MN,Crow Wing County,Crow Wing County,True,True,9,True,True,True,9,2024
+27037,MN,,Dakota County,True,False,5,False,True,False,5,2024
+27039,MN,,"Dodge County, Minnesota",True,False,5,False,True,False,5,2020
+27041,MN,Douglas County,DOUGLAS COUNTY,True,True,9,True,True,True,9,2024
+27043,MN,Faribault County,Faribault County,True,True,9,True,True,True,9,2024
+27045,MN,Fillmore County,Fillmore County,True,True,9,True,True,True,9,2024
+27047,MN,Freeborn County,Freeborn County,True,True,9,True,True,True,9,2024
+27049,MN,Goodhue County,Goodhue County,True,True,9,True,True,True,9,2024
+27051,MN,Grant County,Grant County,True,True,8,False,True,True,8,2024
+27053,MN,,Hennepin County,True,True,7,False,True,True,7,2024
+27055,MN,HOUSTON,Houston County,True,True,8,False,True,True,8,2024
+27057,MN,Hubbard County,Hubbard County,True,False,6,False,True,False,6,2022
+27059,MN,Isanti County,Isanti County,True,False,8,False,True,False,8,2023
+27063,MN,Jackson County,"Jackson County, Minnesota",True,True,9,True,True,True,9,2024
+27065,MN,,Kanabec County,True,True,9,True,True,True,9,2024
+27067,MN,Kandiyohi County,KANDIYOHI COUNTY,True,True,9,True,True,True,9,2024
+27069,MN,Kittson County,Kittson County,True,False,6,False,True,False,6,2021
+27071,MN,Koochiching County,Koochiching County,True,False,8,False,True,False,8,2024
+27073,MN,Lac qui Parle County,Lac Qui Parle County,True,False,6,False,True,False,6,2024
+27075,MN,Lake County,Lake County,True,True,9,True,True,True,9,2024
+27077,MN,Lake of the Woods County,Lake of the Woods County,True,False,6,False,True,False,6,2024
+27079,MN,Le Sueur County,Le Sueur County,True,True,9,True,True,True,9,2024
+27081,MN,Lincoln County,Lincoln County,True,False,4,False,True,False,4,2024
+27083,MN,Lyon County,Lyon County,True,False,4,False,True,False,4,2024
+27085,MN,McLeod County,Mcleod County,True,True,8,False,True,True,8,2024
+27087,MN,Mahnomen County,MAHNOMEN COUNTY,True,True,8,False,True,True,8,2024
+27089,MN,,MASHALL COUNTY,True,True,9,True,True,True,9,2024
+27091,MN,Martin County,Martin County,True,False,4,False,True,False,4,2024
+27093,MN,MEEKER,MEEKER COUNTY,True,True,8,False,True,True,8,2024
+27095,MN,,Mille Lacs County,True,True,8,False,True,True,8,2024
+27097,MN,Morrison County,Morrison County,True,True,9,True,True,True,9,2024
+27099,MN,Mower County,Mower County,True,True,9,True,True,True,9,2024
+27101,MN,Murray County,Murray County,True,True,8,False,True,True,8,2024
+27103,MN,Nicollet County,Nicollet County,True,False,8,False,True,False,8,2023
+27105,MN,Nobles County,Nobles County,True,True,9,True,True,True,9,2024
+27107,MN,Norman County,Norman County,True,False,8,False,True,False,8,2023
+27109,MN,Olmsted County,OLMSTED COUNTY,True,True,9,True,True,True,9,2024
+27111,MN,Otter Tail County,Otter Tail County,True,True,9,True,True,True,9,2024
+27113,MN,Pennington County,Pennington County,True,True,9,True,True,True,9,2024
+27115,MN,Pine County,Pine County,True,True,7,False,True,True,7,2024
+27117,MN,Pipestone County,Pipestone County,True,False,4,False,True,False,4,2022
+27119,MN,Polk County,Polk County,True,True,9,True,True,True,9,2024
+27121,MN,,Pope County,True,False,6,False,True,False,6,2022
+27123,MN,Ramsey County,Ramsey County,True,True,9,True,True,True,9,2024
+27125,MN,Red Lake County,Red Lake County,True,False,3,False,True,False,3,2024
+27127,MN,Redwood County,Redwood County,True,False,7,False,True,False,7,2022
+27129,MN,Renville County,Renville County,True,True,9,True,True,True,9,2024
+27131,MN,Rice County,"Rice County, Minnesota",True,True,9,True,True,True,9,2024
+27133,MN,,Rock County,True,False,3,False,True,False,3,2022
+27135,MN,,Roseau County,True,True,9,True,True,True,9,2024
+27137,MN,St. Louis County,St. Louis County,True,True,9,True,True,True,9,2024
+27139,MN,Scott County,Scott County,True,True,4,False,True,True,4,2024
+27141,MN,Sherburne County,Sherburne County,True,True,9,True,True,True,9,2024
+27143,MN,SIBLEY,Sibley County,True,True,7,False,True,True,7,2024
+27145,MN,Stearns County,Stearns County,True,True,9,True,True,True,9,2024
+27147,MN,Steele County,STEELE COUNTY,True,True,7,False,True,True,7,2024
+27149,MN,Stevens County,Stevens County,True,True,9,True,True,True,9,2024
+27151,MN,Swift County,Swift County,True,True,9,True,True,True,9,2024
+27153,MN,Todd County,TODD COUNTY,True,True,9,True,True,True,9,2024
+27155,MN,TRAVERSE,Traverse County,True,True,8,False,True,True,8,2024
+27157,MN,Wabasha County,Wabasha County,True,True,9,True,True,True,9,2024
+27159,MN,Wadena County,WADENA COUNTY,True,False,5,False,True,False,5,2024
+27161,MN,Waseca County,Waseca County,True,True,6,False,True,True,6,2024
+27163,MN,Washington County,"Washington County, Minnesota",True,True,8,False,True,True,8,2024
+27165,MN,Watonwan County,Watonwan County,True,True,8,False,True,True,8,2024
+27167,MN,Wilkin County,Wilkin County,True,False,8,False,True,False,8,2023
+27169,MN,Winona County,Winona County,True,False,6,False,True,False,6,2023
+27171,MN,Wright County,Wright County,True,True,9,True,True,True,9,2024
+27173,MN,Yellow Medicine County,Yellow Medicine County,True,True,9,True,True,True,9,2024
+28003,MS,,ALCORN COUNTY,True,False,1,False,True,False,1,2016
+28007,MS,,Attala County,True,False,1,False,True,False,1,2024
+28013,MS,Calhoun County,CALHOUN COUNTY,True,False,3,False,True,False,3,2023
+28017,MS,,"Chickasaw County, Mississippi",True,False,2,False,True,False,2,2021
+28019,MS,,"Choctaw County, Mississippi",True,False,4,False,True,False,4,2021
+28021,MS,CLAIBORNE,"CLAIBORNE COUNTY, MISSISSIPPI",True,False,4,False,True,False,4,2019
+28023,MS,,CLARKE COUNTY MISSISSIPPI,True,False,1,False,True,False,1,2022
+28025,MS,,"Clay County, Mississippi",True,False,1,False,True,False,1,2021
+28027,MS,COAHOMA,COAHOMA COUNTY MISSISSIPPI,True,False,3,False,True,False,3,2022
+28031,MS,Covington County,"Covington County, Mississippi",True,False,3,False,True,False,3,2023
+28035,MS,Forrest County,"Forrest County, Mississippi",True,True,8,False,True,True,8,2024
+28039,MS,George County,"GEORGE COUNTY, MISSISSIPPI",True,False,3,False,True,False,3,2024
+28045,MS,Hancock County,"Hancock County, MS",True,False,3,False,True,False,3,2022
+28047,MS,Harrison County,"HARRISON COUNTY, MISSISSIPPI",True,False,8,False,True,False,8,2023
+28049,MS,Hinds County,PRENTISS COUNTY MISSISSIPPI,True,True,9,True,True,True,9,2024
+28055,MS,,"Issaquena County, Mississippi",True,False,2,False,True,False,2,2021
+28057,MS,Itawamba County,Itawamba County,True,False,3,False,True,False,3,2022
+28059,MS,Jackson County,"Jackson County, Mississippi",True,True,8,False,True,True,8,2024
+28067,MS,Jones County,"Jones County, Mississippi",True,True,6,False,True,True,6,2024
+28069,MS,,"Kemper County, Mississippi",True,False,1,False,True,False,1,2019
+28073,MS,Lamar County,Lamar County,True,True,6,False,True,True,6,2024
+28075,MS,Lauderdale County,"Lauderdale County, Mississippi",True,False,4,False,True,False,4,2024
+28077,MS,Lawrence County,"Lawrence County, Mississippi",True,False,3,False,True,False,3,2024
+28081,MS,,"Lee County, Mississippi",True,False,6,False,True,False,6,2023
+28091,MS,Marion County,"Marion County, Mississippi",True,False,3,False,True,False,3,2024
+28093,MS,Marshall County,Marshall County Board of Supervisors,True,False,5,False,True,False,5,2024
+28097,MS,Montgomery County,Montgomery County,True,False,3,False,True,False,3,2024
+28099,MS,Neshoba County,Neshoba County,True,False,3,False,True,False,3,2024
+28105,MS,Oktibbeha County,"Oktibbeha County, Mississippi",True,False,3,False,True,False,3,2022
+28109,MS,Pearl River County,"Pearl River County, Mississippi",True,False,4,False,True,False,4,2023
+28115,MS,Pontotoc County,Pontotoc County Mississippi,True,False,6,False,True,False,6,2023
+28121,MS,Rankin County,COUNTY OF RANKIN BOARD SUPERVISORS,True,False,6,False,True,False,6,2024
+28125,MS,,"Sharkey County, Mississippi",True,False,1,False,True,False,1,2020
+28127,MS,Simpson County,"Simpson County, Mississippi",True,False,2,False,True,False,2,2023
+28131,MS,Stone County,"Stone County, Mississippi",True,False,5,False,True,False,5,2023
+28135,MS,,Tallahatchie County,True,False,2,False,True,False,2,2021
+28137,MS,Tate County,"Tate County, Mississippi",True,False,1,False,True,False,1,2020
+28139,MS,Tippah County,Tippah County,True,False,3,False,True,False,3,2023
+28141,MS,Tishomingo County,Tishomingo County,True,False,3,False,True,False,3,2022
+28143,MS,TUNICA,TUNICA COUNTY,True,False,2,False,True,False,2,2024
+28145,MS,Union County,"Union County, Mississippi",True,False,4,False,True,False,4,2023
+28153,MS,Wayne County,"Wayne County, Mississippi",True,False,2,False,True,False,2,2020
+28155,MS,,"Webster County, Mississippi",True,False,2,False,True,False,2,2024
+28159,MS,WINSTON,"WINSTON COUNTY, MISSISSIPPI",True,False,1,False,True,False,1,2018
+29007,MO,St. Charles County,The Community and Children's Resource Board of St. Charles County,True,False,2,False,True,False,2,2024
+29019,MO,Boone County,"Boone County, Missouri",True,True,9,True,True,True,9,2024
+29021,MO,Buchanan County,"Buchanan County, Missouri",True,True,9,True,True,True,9,2024
+29027,MO,Callaway County,"Callaway County, Missouri",True,False,5,False,True,False,5,2024
+29035,MO,,"CARTER COUNTY, MISSOURI",True,False,1,False,True,False,1,2022
+29037,MO,Cass County,County of Cass,True,True,7,False,True,True,6,2024
+29041,MO,,"County of Cape Girardeau, Missouri",True,True,7,False,True,True,7,2024
+29047,MO,Clay County,"Clay County, Missouri",True,True,9,True,True,True,9,2024
+29061,MO,,"NEW MADRID COUNTY, MISSOURI",True,False,3,False,True,False,3,2021
+29063,MO,,"Pulaski County, Missouri",True,False,2,False,True,False,2,2024
+29069,MO,,"Christian County, Missouri",True,True,7,False,True,True,7,2024
+29071,MO,Franklin County,"Franklin County, Missouri",True,True,9,True,True,True,9,2024
+29077,MO,Greene County,"Greene County, Missouri",True,False,7,False,True,False,7,2022
+29079,MO,,"JOHNSON COUNTY, MISSOURI",True,False,3,False,True,False,3,2022
+29091,MO,Howell County,Howell County Missouri,True,False,1,False,False,False,0,2024
+29095,MO,Jackson County,"Jackson County, Missouri",True,True,9,True,True,True,9,2024
+29097,MO,,"Jasper County, Missouri",True,False,5,False,True,False,5,2023
+29099,MO,Jefferson County,The County of Jefferson,True,False,6,False,True,False,6,2024
+29107,MO,Lafayette County,"Lafayette County, Missouri",True,False,5,False,True,False,5,2024
+29153,MO,,Ozark County Missouri,True,False,1,False,True,False,1,2020
+29159,MO,,County of Pettis,True,False,3,False,True,False,3,2024
+29161,MO,,Phelps County,True,False,1,False,True,False,1,2022
+29165,MO,Platte County,"Platte County, Missouri",True,True,9,True,True,True,9,2024
+29167,MO,,"Polk County, Missouri",True,False,1,False,True,False,1,2024
+29183,MO,St. Charles County,St. Charles County,True,True,9,True,True,True,9,2024
+29187,MO,St. Francois County,St Francois County,True,False,5,False,True,False,5,2024
+29189,MO,,"St. Louis County, Missouri",True,False,3,False,True,False,3,2024
+29201,MO,,"Scott County, Missouri",True,False,1,False,True,False,1,2022
+29213,MO,,"Taney County, Missouri",True,False,5,False,True,False,5,2024
+29215,MO,Texas County,"TEXAS COUNTY, MISSOURI",True,False,3,False,True,False,2,2024
+30001,MT,Beaverhead County,Beaverhead County,True,True,9,True,True,True,9,2024
+30003,MT,Big Horn County,BIG HORN COUNTY,True,False,5,False,True,False,5,2024
+30005,MT,Blaine County,Blaine County,True,False,2,False,True,False,2,2024
+30007,MT,Broadwater County,Broadwater County,True,False,5,False,True,False,4,2024
+30009,MT,Carbon County,CARBON COUNTY,True,True,9,True,True,True,9,2024
+30011,MT,Carter County,Carter County,True,False,1,False,True,False,1,2023
+30013,MT,Cascade County,"CASCADE COUNTY, MONTANA",True,True,9,True,True,True,9,2024
+30015,MT,Chouteau County,CHOUTEAU COUNTY,True,False,6,False,True,False,6,2025
+30017,MT,Custer County,CUSTER COUNTY,True,False,4,False,True,False,4,2024
+30019,MT,Daniels County,Daniels County,True,False,2,False,True,False,2,2024
+30021,MT,Dawson County,Dawson County,True,True,4,False,True,True,4,2024
+30023,MT,Deer Lodge County,Anaconda Deer Lodge County,True,True,9,True,True,True,9,2024
+30025,MT,Fallon County,FALLON COUNTY,True,False,4,False,True,False,4,2024
+30027,MT,Fergus County,Fergus County,True,False,7,False,True,False,7,2024
+30029,MT,Flathead County,Flathead County,True,True,9,True,True,True,9,2024
+30031,MT,Gallatin County,COUNTY OF GALLATIN,True,False,8,False,True,False,8,2023
+30033,MT,,Garfield County,True,False,4,False,True,False,4,2024
+30039,MT,Granite County,GRANITE COUNTY,True,False,5,False,True,False,5,2024
+30041,MT,,"Hill County, Montana",True,False,8,False,True,False,8,2023
+30043,MT,Jefferson County,Jefferson County,True,False,5,False,True,False,5,2024
+30045,MT,Judith Basin County,Judith Basin County,True,False,3,False,True,False,3,2024
+30047,MT,Lake County,Lake County,True,True,8,False,True,True,8,2024
+30049,MT,Lewis and Clark County,Lewis & Clark County,True,True,9,True,True,True,9,2024
+30051,MT,Liberty County,Liberty County,True,False,2,False,True,False,2,2024
+30053,MT,Lincoln County,Lincoln County,True,True,9,True,True,True,9,2024
+30057,MT,,Madison County,True,True,9,True,True,True,9,2024
+30059,MT,Meagher County,Meagher County,True,False,1,False,False,False,0,2024
+30061,MT,Mineral County,Mineral County,True,False,8,False,True,False,8,2024
+30063,MT,Missoula County,MISSOULA COUNTY,True,False,8,False,True,False,8,2023
+30065,MT,Musselshell County,Musselshell County,True,False,5,False,True,False,5,2024
+30067,MT,Park County,COUNTY OF PARK,True,True,10,True,True,True,10,2025
+30071,MT,,Phillips County,True,False,2,False,True,False,2,2024
+30073,MT,Pondera County,Pondera County,True,False,4,False,True,False,4,2024
+30075,MT,,Powder River County,True,False,3,False,True,False,3,2024
+30077,MT,Powell County,Powell County,True,False,6,False,True,False,6,2024
+30081,MT,Ravalli County,Ravalli County,True,False,3,False,True,False,3,2021
+30083,MT,Richland County,Richland County,True,False,6,False,True,False,6,2024
+30085,MT,Roosevelt County,ROOSEVELT COUNTY,True,False,3,False,True,False,3,2024
+30087,MT,Rosebud County,ROSEBUD COUNTY,True,True,6,False,True,True,6,2024
+30089,MT,Sanders County,Sanders County,True,True,9,True,True,True,9,2024
+30091,MT,Sheridan County,Sheridan County,True,False,2,False,True,False,2,2022
+30095,MT,Stillwater County,Stillwater County,True,False,8,False,True,False,8,2025
+30097,MT,Sweet Grass County,Sweet Grass County,True,False,2,False,True,False,2,2024
+30099,MT,Teton County,Teton County,True,False,2,False,True,False,2,2021
+30101,MT,Toole County,Toole County,True,False,7,False,True,False,7,2024
+30105,MT,Valley County,VALLEY COUNTY,True,True,8,False,True,True,8,2024
+30107,MT,WHEATLAND,WHEATLAND COUNTY,True,False,1,False,True,False,1,2016
+30111,MT,Yellowstone County,"YELLOWSTONE COUNTY, MONTANA",True,False,7,False,True,False,7,2025
+31015,NE,,Saunders County,True,False,5,False,True,False,5,2024
+31019,NE,Buffalo County,"Buffalo County, Nebraska",True,False,3,False,True,False,3,2025
+31025,NE,,CASS COUNTY NEBRASKA,True,False,3,False,True,False,3,2024
+31033,NE,Cheyenne County,CHEYENNE COUNTY,True,False,2,False,True,False,1,2024
+31037,NE,Colfax County,Colfax County,True,False,4,False,True,False,4,2024
+31039,NE,Cuming County,Cuming County,True,False,1,False,True,False,1,2020
+31043,NE,,Dakota County,True,False,4,False,True,False,4,2025
+31047,NE,,"Dawson County, Nebraska",True,False,3,False,True,False,3,2024
+31053,NE,Dodge County,"Dodge County, Nebraska",True,False,5,False,True,False,5,2024
+31055,NE,Douglas County,"Douglas County, Nebraska",True,True,10,True,True,True,10,2025
+31067,NE,GAGE,GAGE COUNTY,True,False,2,False,True,False,2,2024
+31079,NE,Hall County,Hall County,True,False,2,False,True,False,2,2024
+31105,NE,Kimball County,"Kimball County, Nebraska",True,False,5,False,True,False,5,2024
+31109,KS,Lancaster County,"Lancaster County, Nebraska",True,False,8,False,True,False,8,2024
+31111,NE,,"Lincoln County, Nebraska",True,False,4,False,True,False,4,2024
+31119,NE,Madison County,"Madison County, Nebraska",True,False,3,False,True,False,3,2024
+31131,NE,,"OTOE COUNTY, NE",True,False,4,False,True,False,4,2025
+31139,NE,PIERCE,Pierce County,True,False,2,False,True,False,2,2024
+31141,NE,Platte County,"Platte County, Nebraska",True,False,5,False,True,False,5,2024
+31153,NE,Sarpy County,"Sarpy County, Nebraska",True,True,8,False,True,True,7,2024
+31157,NE,Scotts Bluff County,Scotts Bluff County,True,False,1,False,True,False,1,2024
+31159,NE,SEWARD,Seward County,True,False,5,False,True,False,5,2024
+31177,NE,Washington County,Washington County,True,False,2,False,True,False,2,2024
+31179,NE,,ADAMS COUNTY,True,False,4,False,True,False,4,2025
+31181,NE,,Antelope County,True,False,5,False,True,False,5,2025
+31183,NE,,"Cherry County, Nebraska",True,False,3,False,True,False,3,2025
+31185,NE,,Holt County,True,False,6,False,True,False,6,2024
+32001,NV,Churchill County,Churchill County,True,True,9,True,True,True,9,2024
+32003,NV,Clark County,"CLARK COUNTY, NEVADA",True,True,9,True,True,True,9,2024
+32005,NV,Douglas County,"Douglas County, Nevada",True,True,9,True,True,True,9,2024
+32007,NV,Elko County,"ELKO COUNTY, NEVADA",True,True,9,True,True,True,9,2024
+32009,NV,,"Esmeralda County, Nevada",True,False,6,False,True,False,6,2023
+32011,NV,,"Eureka County, Nevada",True,False,2,False,True,False,2,2024
+32013,NV,Humboldt County,HUMBOLDT COUNTY,True,True,10,True,True,True,10,2025
+32015,NV,Lander County,"Lander County, Nevada",True,True,5,False,True,True,4,2024
+32017,NV,,Lincoln County Nevada,True,True,7,False,True,True,5,2024
+32019,NV,Lyon County,LYON COUNTY,True,True,10,True,True,True,10,2025
+32021,NV,,"Mineral County, Nevada",True,True,9,True,True,True,9,2024
+32023,NV,Nye County,"Nye County, Nevada",True,True,8,False,True,True,6,2024
+32027,NV,Pershing County,"Pershing County, Nevada",True,True,9,True,True,True,9,2024
+32029,NV,,Storey County,True,True,7,False,True,False,6,2024
+32031,NV,Washoe County,Washoe County,True,True,9,True,True,True,9,2024
+32033,NV,White Pine County,"White Pine County, Nevada",True,False,7,False,True,False,7,2024
+33001,NH,Belknap County,"County of Belknap, New Hampshire",True,False,3,False,True,False,3,2022
+33003,NH,Carroll County,"County of Carroll, New Hampshire",True,False,5,False,True,False,5,2024
+33005,NH,Cheshire County,"County of Cheshire, New Hampshire",True,True,10,True,True,True,10,2026
+33007,NH,Coos County,"County of Coos, New Hampshire",True,False,5,False,True,False,5,2024
+33009,NH,,"County of Grafton, New Hampshire",True,False,8,False,True,False,8,2024
+33011,NH,Hillsborough County,Hillsborough County,True,True,5,False,True,True,5,2024
+33013,NH,Merrimack County,COUNTY OF MERRIMACK,True,False,7,False,True,False,6,2025
+33015,NH,,County of Rockingham. New Hampshire,True,False,3,False,True,False,3,2022
+33017,NH,Strafford County,"County of Strafford, New Hampshire",True,True,8,False,True,True,8,2024
+33019,NH,Sullivan County,Sullivan County,True,False,6,False,True,False,6,2024
+35001,NM,,State of New Mexico County of Bernalillo,True,True,9,True,True,True,9,2025
+35003,NM,Catron County,Catron County,True,True,10,True,True,True,10,2025
+35005,NM,Chaves County,Chaves County,True,True,10,True,True,True,10,2025
+35006,NM,Cibola County,Cibola County,True,True,10,True,True,True,10,2025
+35007,NM,Colfax County,Colfax County,True,True,9,True,True,True,9,2024
+35009,NM,Curry County,CURRY COUNTY,True,True,9,True,True,True,9,2025
+35011,NM,,"De Baca County, New Mexico",True,True,10,True,True,True,10,2025
+35013,NM,Doña Ana County,Dona Ana County,True,True,9,True,True,True,9,2024
+35017,NM,Grant County,Grant County,True,True,10,True,True,True,9,2025
+35019,NM,Guadalupe County,Guadalupe County,True,False,8,False,True,False,8,2025
+35021,NM,,"Harding County, New Mexico",True,True,10,True,True,True,10,2025
+35023,NM,,County of Hidalgo,True,False,6,False,True,False,6,2023
+35025,NM,Lea County,LEA COUNTY,True,True,10,True,True,True,10,2025
+35027,NM,Lincoln County,Lincoln County,True,True,10,True,True,True,10,2025
+35029,NM,Luna County,LUNA COUNTY,True,True,10,True,True,True,10,2025
+35031,NM,McKinley County,McKinley County,True,True,10,True,True,True,10,2025
+35033,NM,,"Mora County, New Mexico",True,False,8,False,True,False,8,2023
+35035,NM,Otero County,Otero County,True,True,10,True,True,True,10,2025
+35037,NM,Quay County,"Quay County, New Mexico",True,True,10,True,True,True,10,2025
+35039,NM,Rio Arriba County,Rio Arriba County,True,True,10,True,True,True,10,2025
+35041,NM,Roosevelt County,ROOSEVELT COUNTY,True,True,9,True,True,True,9,2024
+35043,NM,,Sandoval County,True,True,10,True,True,True,10,2025
+35045,NM,San Juan County,SAN JUAN COUNTY,True,True,10,True,True,True,10,2025
+35047,NM,San Miguel County,State of New Mexico San Miguel County,True,False,8,False,True,False,8,2023
+35049,NM,Santa Fe County,Santa Fe County,True,True,10,True,True,True,10,2025
+35051,NM,Sierra County,SIERRA COUNTY,True,True,10,True,True,True,10,2025
+35053,NM,,Socorro County,True,True,9,True,True,True,9,2024
+35055,NM,Taos County,TAOS COUNTY,True,True,10,True,True,True,10,2025
+35057,NM,Torrance County,Torrance County,True,True,10,True,True,True,10,2025
+35059,NM,,"Union County, New Mexico",True,True,10,True,True,True,10,2025
+35061,NM,Valencia County,VALENCIA COUNTY,True,True,10,True,True,True,10,2025
+36001,NY,Albany County,COUNTY OF ALBANY,True,True,9,True,True,False,8,2024
+36003,NY,Allegany County,"County of Allegany, State of New York",True,False,7,False,True,False,7,2024
+36007,NY,Broome County,"County of Broome, New York",True,True,9,True,True,True,9,2024
+36009,NY,Cattaraugus County,"CATTARAUGUS COUNTY, NEW YORK",True,True,9,True,True,True,9,2024
+36011,NY,Cayuga County,"COUNTY OF CAYUGA, NEW YORK",True,True,9,True,True,True,9,2024
+36013,NY,Chautauqua County,"CHAUTAUQUA COUNTY, NEW YORK",True,True,10,True,True,True,10,2025
+36017,NY,Chenango County,County of Chenango,True,True,9,True,True,True,9,2024
+36019,NY,Clinton County,"COUNTY OF CLINTON, NEW YORK",True,True,7,False,True,True,7,2024
+36021,NY,Columbia County,"COUNTY OF COLUMBIA, NEW YORK",True,True,8,False,True,True,8,2024
+36023,NY,Cortland County,COUNTY OF CORTLAND,True,True,9,True,True,True,9,2024
+36025,NY,Delaware County,"COUNTY OF DELAWARE, NEW YORK",True,True,9,True,True,True,9,2024
+36027,NY,Dutchess County,DUTCHESS COUNTY,True,True,9,True,True,True,9,2024
+36029,NY,Erie County,"County of Erie, New York",True,True,9,True,True,True,9,2024
+36031,NY,Essex County,"County of Essex, New York",True,True,9,True,True,True,9,2024
+36033,NY,Franklin County,County of Franklin,True,True,9,True,True,True,9,2024
+36035,NY,,County of Fulton New York,True,True,8,False,True,True,8,2024
+36037,NY,Genesee County,"County of Genesee, New York",True,True,9,True,True,True,9,2024
+36039,NY,Greene County,COUNTY OF GREENE,True,True,9,True,True,True,9,2024
+36041,NY,,"COUNTY OF HAMILTON, NEW YORK",True,False,6,False,True,False,6,2024
+36045,NY,Jefferson County,County of Jefferson,True,True,9,True,True,True,9,2024
+36049,NY,Lewis County,"COUNTY OF LEWIS, NEW YORK",True,True,8,False,True,True,7,2024
+36051,NY,Livingston County,"County of Livingston, New York",True,False,6,False,True,False,6,2024
+36053,NY,,"COUNTY OF MADISON, NEW YORK",True,True,8,False,True,True,8,2024
+36055,NY,Monroe County,"COUNTY OF MONROE, NEW YORK",True,True,8,False,True,True,8,2024
+36057,NY,Montgomery County,County of Montgomery,True,False,6,False,True,False,6,2023
+36059,NY,Nassau County,"COUNTY OF NASSAU, NEW YORK",True,True,8,False,True,True,8,2024
+36063,NY,Niagara County,"COUNTY OF NIAGARA, NEW YORK",True,True,9,True,True,True,9,2024
+36065,NY,Oneida County,"Oneida County, New York",True,True,9,True,True,True,9,2024
+36067,NY,Onondaga County,"COUNTY OF ONONDAGA, NEW YORK",True,False,5,False,True,False,5,2023
+36069,NY,Ontario County,COUNTY OF ONTARIO,True,True,10,True,True,False,9,2025
+36071,NY,Orange County,COUNTY OF ORANGE,True,True,9,True,True,True,9,2024
+36073,NY,Orleans County,"County of Orleans, State of New York",True,False,1,False,True,False,1,2020
+36075,NY,Oswego County,"County of Oswego, NY",True,True,9,True,True,True,9,2024
+36077,NY,,County of Otsego,True,True,9,True,True,True,9,2024
+36079,NY,Putnam County,COUNTY OF PUTNAM,True,True,9,True,True,True,9,2024
+36083,NY,Rensselaer County,"COUNTY OF RENSSELAER, NEW YORK",True,True,9,True,True,True,9,2024
+36087,NY,Rockland County,COUNTY OF ROCKLAND,True,True,9,True,True,True,9,2024
+36089,NY,St. Lawrence County,ST. LAWRENCE COUNTY,True,True,9,True,True,True,9,2024
+36091,NY,Saratoga County,COUNTY OF SARATOGA,True,True,8,False,True,True,8,2024
+36095,NY,,County of Schoharie,True,True,9,True,True,True,9,2024
+36097,NY,Schuyler County,County of Schuyler,True,True,9,True,True,True,9,2024
+36099,NY,Seneca County,"County of Seneca, New York",True,True,9,True,True,True,9,2024
+36103,NY,,"SUFFOLK COUNTY, NEW YORK",True,True,9,True,True,True,9,2024
+36105,NY,Sullivan County,"COUNTY OF SULLIVAN, NEW YORK",True,True,9,True,True,True,9,2024
+36107,NY,Tioga County,County of Tioga,True,True,9,True,True,True,9,2024
+36109,NY,Tompkins County,County of Tompkins,True,True,9,True,True,True,9,2024
+36111,NY,Ulster County,COUNTY OF ULSTER,True,True,9,True,True,True,9,2024
+36113,NY,,COUNTY OF WARREN,True,True,9,True,True,True,9,2024
+36115,NY,Washington County,"COUNTY OF WASHINGTON, NEW YORK",True,True,9,True,True,True,9,2024
+36117,NY,Wayne County,"County of Wayne, New York",True,True,9,True,True,True,9,2024
+36119,NY,Westchester County,County of Westchester,True,True,9,True,True,True,9,2024
+36121,NY,Wyoming County,Wyoming County,True,True,9,True,True,True,9,2024
+36123,NY,Yates County,County of Yates,True,True,10,True,True,True,10,2025
+37001,NC,Alamance County,Alamance County,True,True,10,True,True,True,10,2025
+37003,NC,Alexander County,"Alexander County, North Carolina",True,True,10,True,True,True,10,2025
+37005,NC,Alleghany County,"Alleghany County, North Carolina",True,True,10,True,True,True,10,2025
+37007,NC,Anson County,Anson County,True,True,9,True,True,True,9,2025
+37009,NC,Ashe County,COUNTY OF ASHE,True,False,2,False,True,False,2,2025
+37011,NC,Avery County,"Avery County, North Carolina",True,True,10,True,True,True,10,2025
+37013,NC,Beaufort County,Beaufort County,True,True,10,True,True,True,10,2025
+37015,SC,Bertie County,Bertie County,True,False,8,False,True,False,8,2024
+37017,NC,Bladen County,Bladen County,True,True,10,True,True,True,10,2025
+37019,NC,,Brunswick County,True,True,10,True,True,False,9,2025
+37021,NC,Buncombe County,"Buncombe County, NC",True,True,10,True,True,True,10,2025
+37023,NC,Burke County,Burke County,True,True,9,True,True,True,9,2024
+37025,NC,Cabarrus County,Cabarrus County,True,True,7,False,True,True,7,2025
+37027,NC,Caldwell County,"Caldwell County, North Carolina",True,True,10,True,True,True,10,2025
+37029,NC,Camden County,Camden County,True,True,8,False,True,True,8,2025
+37031,NC,Carteret County,"Carteret County, North Carolina",True,True,10,True,True,True,10,2025
+37033,NC,,CASWELL COUNTY,True,True,9,True,True,True,9,2024
+37035,NC,Catawba County,Catawba County,True,True,10,True,True,True,10,2025
+37037,NC,Chatham County,"Chatham County, North Carolina",True,True,7,False,True,True,6,2024
+37039,NC,Cherokee County,Cherokee County,True,True,9,True,True,True,9,2024
+37041,NC,Chowan County,Chowan County,True,True,10,True,True,True,10,2025
+37043,NC,Clay County,Clay County,True,True,10,True,True,True,10,2025
+37045,NC,Cleveland County,CLEVELAND COUNTY,True,True,10,True,True,True,10,2025
+37047,NC,Columbus County,County of Columbus,True,True,9,True,True,True,9,2024
+37049,NC,Craven County,CRAVEN COUNTY,True,True,10,True,True,True,10,2025
+37051,NC,Cumberland County,County of Cumberland,True,True,10,True,True,True,10,2025
+37053,NC,Currituck County,Currituck County,True,True,10,True,True,True,10,2025
+37055,NC,Dare County,"Dare County, Nc",True,False,7,False,True,False,7,2024
+37057,NC,Davidson County,Davidson County,True,True,10,True,True,True,10,2025
+37059,NC,Davie County,"DAVIE COUNTY, NORTH CAROLINA",True,True,10,True,True,True,10,2025
+37061,NC,,Duplin County,True,False,8,False,True,False,8,2024
+37063,NC,Durham County,DURHAM COUNTY,True,True,10,True,True,True,10,2025
+37065,NC,Edgecombe County,EDGECOMBE COUNTY,True,True,10,True,True,True,10,2025
+37067,NC,FORSYTH,"FORSYTH COUNTY, NORTH CAROLINA",True,True,8,False,True,True,8,2024
+37069,NC,Franklin County,"FRANKLIN COUNTY, NORTH CAROLINA",True,True,10,True,True,True,10,2025
+37071,NC,Gaston County,Gaston County,True,True,9,True,True,True,9,2024
+37073,NC,Gates County,"GATES COUNTY, NORTH CAROLINA",True,True,10,True,True,True,10,2025
+37075,NC,Graham County,Graham County,True,True,9,True,True,True,9,2024
+37077,NC,Granville County,GRANVILLE COUNTY,True,False,7,False,True,False,7,2025
+37079,NC,Greene County,County of Greene,True,True,10,True,True,True,10,2025
+37081,NC,,Guilford County,True,True,10,True,True,True,10,2025
+37083,NC,Halifax County,"Halifax County, North Carolina",True,True,10,True,True,True,10,2025
+37085,NC,Harnett County,Harnett County,True,True,10,True,True,True,10,2025
+37087,NC,Haywood County,Haywood County,True,True,9,True,True,True,9,2025
+37089,NC,Henderson County,Henderson County Board of Public Education,True,True,10,True,True,True,10,2025
+37091,NC,,HERTFORD COUNTY,True,True,9,True,True,True,9,2025
+37093,NC,Hoke County,"HOKE COUNTY, NORTH CAROLINA",True,True,9,True,True,True,9,2024
+37095,NC,,HYDE COUNTY,True,True,10,True,True,True,10,2025
+37097,NC,Iredell County,"Iredell County, North Carolina",True,True,9,True,True,True,9,2025
+37099,NC,Jackson County,Jackson County,True,True,9,True,True,True,8,2025
+37101,NC,,JOHNSTON COUNTY,True,True,10,True,True,True,10,2025
+37103,NC,Jones County,Jones County,True,True,10,True,True,True,10,2025
+37105,NC,Lee County,Lee County,True,True,10,True,True,True,10,2025
+37107,NC,Lenoir County,Lenoir County,True,False,9,True,True,False,9,2025
+37109,NC,Lincoln County,Lincoln County,True,True,10,True,True,True,10,2025
+37111,NC,McDowell County,MCDOWELL COUNTY,True,True,10,True,True,True,10,2025
+37113,NC,Macon County,Macon County,True,True,10,True,True,True,10,2025
+37115,NC,Madison County,"MADISON COUNTY, NORTH CAROLINA",True,True,8,False,True,True,8,2024
+37117,NC,Martin County,Martin County,True,True,9,True,True,True,9,2024
+37119,NC,Mecklenburg County,Mecklenburg County,True,True,10,True,True,True,10,2025
+37121,NC,Mitchell County,Mitchell County,True,True,10,True,True,True,10,2025
+37123,NC,Montgomery County,"Montgomery County, North Carolina",True,True,9,True,True,True,9,2024
+37125,NC,Moore County,"Moore County, North Carolina",True,True,10,True,True,True,10,2025
+37127,NC,Nash County,Nash County,True,True,9,True,True,True,9,2024
+37129,NC,New Hanover County,New Hanover County,True,False,9,True,True,False,9,2025
+37131,NC,Northampton County,NORTHAMPTON COUNTY,True,True,10,True,True,True,10,2025
+37133,NC,Onslow County,"Onslow County, North Carolina",True,True,10,True,True,True,10,2025
+37135,NC,Orange County,"Orange County, North Carolina",True,True,8,False,True,False,6,2024
+37137,NC,Pamlico County,Pamlico County,True,True,10,True,True,True,10,2025
+37139,NC,,Pasquotank County,True,True,8,False,True,True,8,2025
+37141,NC,Pender County,"PENDER COUNTY, NORTH CAROLINA",True,True,9,True,True,True,9,2024
+37143,NC,Perquimans County,Perquimans County,True,True,10,True,True,True,10,2025
+37145,NC,,Person County,True,True,10,True,True,True,10,2025
+37147,NC,Pitt County,"Pitt County,north Carolina",True,True,10,True,True,True,10,2025
+37149,NC,,"Polk County, North Carolina",True,True,10,True,True,True,10,2025
+37151,NC,Randolph County,"Randolph County, North Carolina",True,True,8,False,True,True,8,2024
+37153,NC,,RICHMOND COUNTY,True,True,8,False,True,True,8,2025
+37155,NC,ROBESON,ROBESON COUNTY,True,False,2,False,True,False,2,2025
+37157,NC,Rockingham County,Rockingham County,True,True,8,False,True,True,8,2024
+37159,NC,ROWAN,"Rowan County, North Carolina",True,False,3,False,True,False,3,2025
+37161,NC,Rutherford County,RUTHERFORD COUNTY,True,True,9,True,True,True,9,2025
+37163,NC,Sampson County,COUNTY OF SAMPSON,True,True,10,True,True,True,10,2025
+37165,NC,Scotland County,SCOTLAND COUNTY,True,True,9,True,True,True,9,2024
+37167,NC,,Stanly County,True,True,9,True,True,True,9,2024
+37169,NC,Stokes County,Stokes County,True,True,10,True,True,True,10,2025
+37171,NC,Surry County,SURRY COUNTY,True,True,9,True,True,True,9,2025
+37173,NC,,County of Swain,True,True,9,True,True,True,9,2024
+37175,NC,Transylvania County,Transylvania County,True,True,9,True,True,True,9,2024
+37177,NC,,"TYRRELL COUNTY, NORTH CAROLINA",True,True,10,True,True,True,10,2025
+37179,NC,,Union County,True,True,9,True,True,True,9,2024
+37181,NC,Vance County,Vance County,True,True,10,True,True,True,10,2025
+37183,NC,Wake County,"Wake County, North Carolina",True,True,10,True,True,True,10,2025
+37185,NC,Warren County,"WARREN COUNTY, NORTH CAROLINA",True,True,9,True,True,True,9,2024
+37187,NC,Washington County,Washington County,True,True,10,True,True,True,10,2025
+37189,NC,Caldwell County,Watauga County,True,True,10,True,True,True,10,2025
+37191,NC,Wayne County,"County of Wayne, North Carolina",True,True,10,True,True,True,10,2025
+37193,NC,Wilkes County,"Wilkes County, North Carolina",True,True,10,True,True,True,10,2025
+37195,NC,Wilson County,Wilson County,True,True,10,True,True,True,10,2025
+37197,NC,Yadkin County,Yadkin County,True,True,10,True,True,True,10,2025
+37199,NC,Yancey County,YANCEY COUNTY,True,True,9,True,True,True,9,2025
+38001,ND,,Adams County,True,False,3,False,True,False,3,2024
+38007,ND,,Billings County,True,False,8,False,True,False,8,2023
+38009,ND,,Bottineau County,True,False,3,False,True,False,3,2022
+38011,ND,Bowman County,Bowman County,True,False,5,False,True,False,5,2024
+38015,ND,Burleigh County,Burleigh County,True,True,7,False,True,True,7,2024
+38017,ND,Cass County,Cass County,True,False,6,False,True,False,6,2024
+38019,ND,Cavalier County,Cavalier County,True,False,3,False,True,False,3,2023
+38021,ND,Dickey County,Dickey County,True,False,2,False,True,False,2,2023
+38025,ND,Dunn County,DUNN COUNTY,True,False,7,False,True,False,5,2024
+38029,ND,Emmons County,Emmons County,True,False,1,False,False,False,0,2020
+38033,ND,,Golden Valley County,True,True,9,True,True,True,9,2024
+38035,ND,Grand Forks County,GRAND FORKS COUNTY,True,False,3,False,True,False,3,2024
+38053,ND,McKenzie County,Mckenzie County,True,False,7,False,True,False,7,2023
+38057,ND,Mercer County,Mercer County,True,False,2,False,True,False,2,2020
+38059,ND,Morton County,Morton County,True,False,4,False,True,False,4,2024
+38061,ND,Mountrail County,Mountrail County,True,False,4,False,True,False,4,2023
+38067,ND,LaMoure County,LaMoure County,True,False,5,False,True,False,5,2024
+38073,ND,Ransom County,Ransom County,True,False,1,False,True,False,1,2020
+38077,ND,Richland County,Richland County,True,True,5,False,True,True,5,2024
+38079,ND,Rolette County,Rolette County,True,False,2,False,True,False,2,2022
+38081,ND,Sargent County,Sargent County,True,False,1,False,True,False,1,2020
+38087,ND,,Slope County,True,False,8,False,True,False,8,2023
+38089,ND,Stark County,Stark County,True,False,4,False,True,False,4,2022
+38091,ND,,Steele County,True,False,2,False,True,False,2,2024
+38093,ND,,Stutsman County,True,False,6,False,True,False,6,2024
+38097,ND,Traill County,Traill County,True,False,4,False,True,False,4,2024
+38099,ND,Walsh County,Walsh County,True,False,2,False,True,False,2,2021
+38101,ND,Ward County,Ward County,True,False,5,False,True,False,5,2024
+38105,ND,Williams County,Williams County,True,False,5,False,True,False,5,2023
+39005,OH,Ashland County,Ashland County,True,True,9,True,True,True,9,2024
+39007,OH,Ashtabula County,Ashtabula County,True,False,8,False,True,False,8,2023
+39009,OH,Athens County,ATHENS COUNTY,True,True,9,True,True,True,9,2024
+39011,OH,Auglaize County,Auglaize County,True,True,8,False,True,True,8,2024
+39015,OH,BROWN,BROWN COUNTY,True,False,7,False,True,False,7,2024
+39017,OH,,"BUTLER COUNTY, OHIO TRANSPORTATION IMPROVEMENT DISTRICT",True,False,2,False,True,False,2,2024
+39019,OH,,Carroll County,True,True,9,True,True,True,9,2024
+39021,OH,,"Champaign County, Ohio",True,False,4,False,True,False,4,2023
+39025,OH,Clermont County,CLERMONT COUNTY,True,True,9,True,True,True,9,2024
+39029,OH,Columbiana County,Columbiana County,True,True,9,True,True,True,9,2024
+39031,OH,,Coshocton County,True,True,8,False,True,True,8,2024
+39033,OH,,Crawford County,True,True,9,True,True,True,9,2024
+39035,OH,Cuyahoga County,Cuyahoga County,True,False,4,False,True,False,4,2023
+39039,WV,Kanawha County,KANAWHA COUNTY COMMISSION,True,True,9,True,True,True,9,2024
+39041,OH,Delaware County,Delaware County,True,True,10,True,True,True,10,2025
+39043,OH,Erie County,Erie County,True,True,9,True,True,True,9,2024
+39051,OH,,"Fulton County, Ohio",True,False,6,False,True,False,6,2024
+39053,OH,Gallia County,Gallia County,True,True,9,True,True,True,9,2024
+39055,OH,Geauga County,Geauga County,True,False,8,False,True,False,8,2023
+39059,OH,,Guernsey County,True,False,6,False,True,False,6,2024
+39061,OH,,"Hamilton County, Ohio",True,False,5,False,True,False,5,2024
+39063,OH,Hancock County,Hancock County,True,True,9,True,True,True,9,2024
+39065,OH,Hardin County,Hardin County,True,False,7,False,True,False,7,2024
+39067,OH,Harrison County,Harrison County,True,False,3,False,True,False,3,2023
+39069,OH,Henry County,Henry County,True,True,9,True,True,True,9,2024
+39071,OH,,Highland County,True,False,6,False,True,False,6,2023
+39073,OH,,Hocking County,True,True,9,True,True,True,9,2024
+39075,OH,Holmes County,Holmes County,True,True,7,False,True,True,7,2024
+39077,OH,Huron County,HURON COUNTY,True,True,9,True,True,True,9,2024
+39079,OH,,"Jackson County, Ohio",True,False,1,False,True,False,1,2024
+39081,OH,Jefferson County,Jefferson County,True,True,9,True,True,True,9,2024
+39091,OH,Logan County,Logan County,True,True,9,True,True,True,9,2024
+39095,OH,Lucas County,Lucas County,True,True,7,False,True,True,7,2024
+39099,OH,Mahoning County,Mahoning County,True,True,9,True,True,True,9,2024
+39105,OH,Meigs County,Meigs County,True,True,9,True,True,True,9,2024
+39107,OH,,"Mercer County, Ohio",True,False,2,False,True,False,2,2023
+39109,OH,Miami County,MIAMI COUNTY,True,True,8,False,True,True,8,2024
+39111,OH,Monroe County,Monroe County,True,True,9,True,True,True,9,2024
+39113,OH,,"Montgomery County, Ohio",True,False,6,False,True,False,6,2024
+39115,OH,Morgan County,MORGAN COUNTY,True,False,2,False,True,False,2,2024
+39117,OH,Morrow County,MORROW COUNTY,True,True,9,True,True,True,9,2024
+39121,OH,,Noble County,True,True,9,True,True,True,9,2024
+39123,OH,Ottawa County,Ottawa County,True,False,4,False,True,False,4,2023
+39125,OH,,PAULDING COUNTY,True,True,9,True,True,True,9,2024
+39127,OH,,"Perry County, Ohio",True,False,3,False,True,False,3,2024
+39129,OH,Pickaway County,PICKAWAY COUNTY,True,True,9,True,True,True,9,2024
+39131,OH,,PIKE COUNTY,True,True,9,True,True,True,9,2024
+39133,OH,Portage County,Portage County,True,True,9,True,True,True,9,2024
+39135,OH,Preble County,Preble County,True,True,9,True,True,True,9,2024
+39139,OH,,"Richland County, Ohio",True,False,6,False,True,False,6,2024
+39143,OH,Sandusky County,Sandusky County,True,True,7,False,True,True,7,2024
+39149,OH,,"Shelby County, Ohio",True,False,1,False,True,False,1,2022
+39151,OH,,Stark County,True,True,8,False,True,True,8,2024
+39161,OH,Van Wert County,van wert county,True,True,8,False,True,True,8,2024
+39165,OH,Warren County,Warren County,True,True,10,True,True,True,10,2025
+39167,OH,Montgomery County,PUBLIC HEALTH - DAYTON AND MONTGOMERY COUNTY,True,True,9,True,True,True,9,2024
+39173,OH,Wood County,Wood County,True,True,9,True,True,True,9,2024
+39175,OH,Wyandot County,Wyandot County,True,False,3,False,True,False,3,2024
+40015,OK,,Caddo County,True,False,1,False,True,False,1,2021
+40109,OK,Oklahoma County,Oklahoma County,True,True,9,True,True,True,9,2024
+40151,OK,Tulsa County,Tulsa County,True,True,8,False,True,True,8,2024
+41001,OR,,Baker County,True,False,3,False,True,False,2,2020
+41003,OR,Benton County,BENTON COUNTY,True,True,9,True,True,True,9,2025
+41005,OR,Clackamas County,"Clackamas County, Oregon",True,True,6,False,True,True,6,2024
+41007,OR,Clatsop County,Clatsop County,True,True,9,True,True,True,9,2024
+41009,OR,,COLUMBIA COUNTY,True,True,9,True,True,True,9,2024
+41011,OR,Coos County,COOS COUNTY,True,True,9,True,True,True,9,2024
+41013,OR,Crook County,CROOK COUNTY,True,True,9,True,True,True,9,2025
+41015,OR,Curry County,Curry County,True,False,8,False,True,False,8,2023
+41017,OR,Deschutes County,Deschutes County,True,True,9,True,True,True,9,2024
+41019,OR,Douglas County,"Douglas County, Oregon",True,True,9,True,True,True,9,2024
+41021,OR,,"Gilliam County, Oregon",True,False,1,False,True,False,1,2021
+41023,OR,Grant County,Grant County,True,False,8,False,True,False,8,2023
+41025,OR,Harney County,County of Harney,True,True,8,False,True,True,8,2024
+41027,OR,Hood River County,Hood River County,True,True,7,False,True,True,7,2024
+41029,OR,Jackson County,Jackson County,True,True,9,True,True,True,9,2024
+41031,OR,Jefferson County,County of Jefferson,True,True,9,True,True,True,9,2024
+41033,OR,Josephine County,Josephine County,True,True,9,True,True,True,9,2024
+41035,OR,Klamath County,Klamath County,True,False,8,False,True,False,8,2024
+41037,OR,Lake County,Lake County,True,True,8,False,True,True,8,2024
+41039,OR,Lane County,"LANE COUNTY, OREGON",True,True,8,False,True,True,8,2024
+41041,OR,Lincoln County,Lincoln County,True,True,7,False,True,True,7,2024
+41043,OR,Linn County,LINN COUNTY,True,False,7,False,True,False,6,2024
+41045,OR,,County of Malheur,True,True,10,True,True,True,10,2025
+41047,OR,Marion County,Marion County,True,True,10,True,True,False,8,2025
+41049,OR,Morrow County,Morrow County,True,True,10,True,True,True,10,2025
+41051,OR,Multnomah County,Multnomah County Oregon,True,True,9,True,True,True,9,2024
+41053,OR,Polk County,Polk County,True,True,6,False,True,True,6,2024
+41057,OR,Tillamook County,Tillamook County,True,False,7,False,True,False,7,2025
+41061,OR,Union County,"Union County, Oregon",True,True,9,True,True,True,9,2024
+41065,OR,Wasco County,Wasco County,True,False,5,False,True,False,5,2021
+41067,OR,Washington County,Washington County,True,True,9,True,True,True,9,2024
+41069,OR,,Wheeler County,True,False,4,False,True,False,3,2024
+41071,OR,Yamhill County,Yamhill County,True,False,6,False,True,False,6,2023
+42001,PA,Adams County,COUNTY OF ADAMS,True,True,8,False,True,True,8,2024
+42003,PA,Allegheny County,"County of Allegheny, Pennsylvania",True,False,1,False,True,False,1,2024
+42005,PA,Armstrong County,County of Armstrong,True,True,6,False,True,True,6,2024
+42007,PA,Beaver County,"County of Beaver, Pennsylvania",True,True,8,False,True,True,8,2024
+42009,PA,Bedford County,County of Bedford,True,True,7,False,True,True,7,2024
+42011,PA,Berks County,COUNTY OF BERKS,True,True,9,True,True,True,9,2024
+42013,PA,Blair County,COUNTY OF BLAIR,True,True,8,False,True,True,8,2024
+42015,PA,Bradford County,COUNTY OF BRADFORD,True,True,9,True,True,True,9,2024
+42017,PA,Bucks County,"BUCKS, THE COUNTY OF",True,False,6,False,True,False,6,2022
+42019,PA,Butler County,COUNTY OF BUTLER,True,True,9,True,True,True,9,2024
+42021,PA,Cambria County,"County of Cambria, Pennsylvania",True,False,1,False,True,False,1,2021
+42023,PA,Cameron County,"COUNTY OF CAMERON, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+42025,PA,Carbon County,COUNTY OF CARBON,True,True,7,False,True,True,7,2024
+42027,PA,Centre County,"COUNTY OF CENTRE, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+42029,PA,,COUNTY OF CHESTER,True,False,8,False,True,False,8,2023
+42031,PA,Clarion County,COUNTY OF CLARION,True,False,8,False,True,False,8,2023
+42033,PA,Clearfield County,Clearfield County,True,False,6,False,True,False,6,2022
+42035,PA,Clinton County,"County of Clinton, Pennsylvania",True,True,6,False,True,True,5,2024
+42037,PA,Columbia County,"COUNTY OF COLUMBIA, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+42039,PA,Crawford County,"The County of Crawford, Pennsylvania",True,True,9,True,True,True,9,2024
+42041,PA,Cumberland County,"COUNTY OF CUMBERLAND, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+42043,PA,Dauphin County,COUNTY OF DAUPHIN,True,True,9,True,True,False,7,2024
+42045,PA,Delaware County,"County of Delaware, Pennsylvania",True,True,9,True,True,True,9,2024
+42047,PA,Elk County,"COUNTY OF ELK, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+42049,PA,Erie County,"County of Erie, Pennsylvania",True,True,9,True,True,True,9,2024
+42051,PA,Fayette County,County of Fayette,True,False,6,False,True,False,6,2022
+42053,PA,Forest County,COUNTY OF FOREST,True,True,9,True,True,True,8,2024
+42055,PA,Franklin County,"COUNTY OF FRANKLIN, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+42057,PA,Fulton County,County of Fulton,True,True,9,True,True,True,9,2024
+42059,PA,Greene County,"COUNTY OF GREENE, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+42061,PA,Huntingdon County,COUNTY OF HUNTINGDON,True,False,5,False,True,False,5,2022
+42063,PA,Indiana County,"County of Indiana, Pennslyvania",True,True,9,True,True,True,9,2024
+42065,PA,Jefferson County,County of Jefferson,True,True,8,False,True,True,8,2024
+42073,PA,Lawrence County,"COUNTY OF LAWRENCE, PENNSYLVANIA",True,True,8,False,True,True,8,2024
+42075,PA,Lebanon County,COUNTY OF LEBANON,True,False,2,False,True,False,2,2017
+42077,PA,,Lehigh County,True,True,7,False,True,True,7,2024
+42081,PA,,"COUNTY OF LYCOMING, PENNSYLVANIA",True,False,7,False,True,False,7,2022
+42083,PA,McKean County,"COUNTY OF MCKEAN, PENNSYLVANIA",True,True,8,False,True,True,8,2024
+42085,PA,,COUNTY OF MERCER,True,True,8,False,True,True,8,2024
+42087,PA,,COUNTY OF MIFFLIN,True,True,9,True,True,True,9,2024
+42089,PA,Monroe County,"County of Monroe, Pennsylvania",True,True,9,True,True,True,9,2024
+42093,PA,Montour County,Montour County,True,False,6,False,True,False,6,2024
+42095,PA,Northampton County,"COUNTY OF NORTHAMPTON, PENNSYLVANIA",True,False,8,False,True,False,8,2024
+42099,PA,,COUNTY OF PERRY,True,False,7,False,True,False,7,2023
+42103,PA,Pike County,County of Pike,True,True,9,True,True,True,9,2024
+42105,PA,Potter County,County of Potter,True,False,7,False,True,False,7,2022
+42107,PA,Schuylkill County,County of Schuylkill,True,True,8,False,True,True,8,2024
+42109,PA,Snyder County,COUNTY OF SNYDER,True,False,7,False,True,False,7,2024
+42111,PA,Somerset County,SOMERSET COUNTY,True,True,9,True,True,True,9,2024
+42113,PA,,COUNTY OF SULLIVAN,True,False,6,False,True,False,6,2024
+42115,PA,Susquehanna County,"County of Susquehanna, Pennsylvania",True,True,9,True,True,True,9,2024
+42117,PA,Tioga County,County of Tioga,True,True,8,False,True,False,2,2024
+42121,MD,Northumberland County,"County of Northumberland, PA",True,True,9,True,True,True,9,2024
+42123,PA,Warren County,County of Warren,True,False,8,False,True,False,8,2023
+42125,PA,Washington County,"COUNTY OF WASHINGTON, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+42127,PA,Wayne County,"County of Wayne, Pennsylvania",True,True,9,True,True,True,9,2024
+42129,PA,Westmoreland County,"County of Westmoreland, Pennsylvania",True,True,8,False,True,True,8,2024
+42131,PA,Wyoming County,Wyoming County,True,False,2,False,True,False,1,2020
+42133,PA,York County,"COUNTY OF YORK, PENNSYLVANIA",True,True,9,True,True,True,9,2024
+45001,SC,Abbeville County,COUNTY OF ABBEVILLE,True,False,3,False,True,False,3,2024
+45003,SC,,"Aiken County, Sc",True,True,9,True,True,True,9,2024
+45005,SC,,ALLENDALE COUNTY,True,True,3,False,True,True,3,2024
+45007,SC,Anderson County,Anderson County,True,True,8,False,True,True,8,2024
+45009,SC,,Bamberg County,True,False,1,False,True,False,1,2024
+45013,SC,,"BEAUFORT COUNTY, SOUTH CAROLINA",True,True,10,True,True,True,10,2025
+45019,SC,Charleston County,"County of Charleston, South Carolina",True,True,10,True,True,True,10,2025
+45021,SC,Cherokee County,Cherokee County,True,False,2,False,True,False,2,2024
+45023,SC,Chester County,Chester County,True,False,5,False,True,False,5,2023
+45025,SC,Chesterfield County,"Chesterfield, County Of",True,False,2,False,True,False,2,2024
+45027,SC,Clarendon County,Clarendon County,True,False,9,True,True,False,9,2025
+45029,SC,Colleton County,"COLLETON COUNTY, SOUTH CAROLINA",True,True,10,True,True,True,10,2025
+45031,SC,Darlington County,Darlington County,True,False,7,False,True,False,7,2024
+45033,SC,Dillon County,Dillon County,True,False,4,False,True,False,4,2024
+45035,SC,Dorchester County,"Dorchester County, South Carolina",True,False,8,False,True,False,8,2024
+45039,SC,Fairfield County,Fairfield County,True,True,8,False,True,True,8,2024
+45041,SC,Florence County,"FLORENCE COUNTY, SOUTH CAROLINA",True,True,9,True,True,False,8,2024
+45045,SC,Greenville County,Greenville County,True,True,9,True,True,True,9,2024
+45047,SC,Greenwood County,GREENWOOD COUNTY,True,True,10,True,True,True,10,2025
+45049,SC,Hampton County,"Hampton County, South Carolina",True,True,8,False,True,True,8,2024
+45051,SC,Horry County,Horry County Government,True,True,8,False,True,True,8,2024
+45053,SC,,"Jasper County, South Carolina",True,False,6,False,True,False,6,2021
+45055,SC,Kershaw County,County of Kershaw,True,False,3,False,True,False,3,2021
+45057,SC,Lancaster County,"LANCASTER COUNTY, SOUTH CAROLINA",True,True,10,True,True,True,10,2025
+45059,SC,,Laurens County,True,True,6,False,True,True,6,2025
+45061,SC,Lee County,"Lee County, South Carolina",True,False,1,False,True,False,1,2024
+45063,SC,Lexington County,County of Lexington,True,True,9,True,True,True,9,2024
+45065,SC,McCormick County,"MCCORMICK COUNTY, SOUTH CAROLINA",True,False,3,False,True,False,3,2024
+45067,SC,,County of Marion,True,False,4,False,True,False,2,2022
+45069,SC,MARLBORO,MARLBORO COUNTY,True,False,3,False,True,False,3,2024
+45073,SC,Oconee County,"Oconee County, South Carolina",True,True,9,True,True,False,8,2024
+45075,SC,Orangeburg County,County of Orangeburg,True,True,8,False,True,True,8,2024
+45077,SC,Pickens County,PICKENS COUNTY,True,True,7,False,True,True,7,2024
+45079,SC,Richland County,"Richland County, South Carolina",True,True,9,True,True,True,9,2024
+45081,SC,Saluda County,Saluda County,True,False,2,False,True,False,2,2024
+45083,SC,,SPARTANBURG COUNTY,True,True,10,True,True,True,10,2025
+45085,SC,Sumter County,"Sumter County, Sc",True,True,8,False,True,True,8,2024
+45087,SC,Union County,"Union County, South Carolina",True,False,5,False,True,False,5,2024
+45089,SC,Williamsburg County,Williamsburg County,True,False,6,False,True,False,6,2021
+45091,SC,Georgetown County,County of Georgetown,True,True,10,True,True,True,10,2025
+47001,TN,,"Anderson County, Tennessee",True,False,2,False,True,False,2,2024
+47003,TN,,"Bedford County, Tennessee",True,True,9,True,True,True,9,2024
+47005,TN,Benton County,Benton County Tennessee,True,True,6,False,True,True,6,2024
+47007,TN,Bledsoe County,"Bledsoe County, Tennessee",True,False,3,False,True,False,3,2024
+47009,TN,Blount County,"Blount County, Tennessee",True,True,5,False,True,True,5,2024
+47011,TN,Bradley County,"Bradley County, Tennessee",True,True,6,False,True,True,6,2024
+47013,TN,Campbell County,"Campbell County, Tennessee",True,False,5,False,True,False,5,2024
+47015,TN,Cannon County,"Cannon County, Tennessee",True,True,8,False,True,True,8,2024
+47017,TN,Carroll County,"Carroll County, Tennessee",True,False,4,False,True,False,4,2024
+47019,TN,CARTER,"CARTER COUNTY, TENNESSEE",True,False,1,False,True,False,1,2024
+47021,TN,Cheatham County,"Cheatham County, Tennessee",True,True,8,False,True,True,8,2024
+47023,TN,,"Chester County, Tennessee",True,True,8,False,True,True,8,2024
+47025,TN,,"CLAIBORNE COUNTY, TENNESSEE",True,True,6,False,True,True,6,2024
+47027,TN,Clay County,"Clay County, Tennessee",True,True,5,False,True,True,5,2024
+47029,TN,Cocke County,"COCKE COUNTY, TENNESSEE",True,False,2,False,True,False,2,2024
+47031,TN,Coffee County,"Coffee County, Tennessee",True,True,7,False,True,True,7,2024
+47033,TN,,Crockett County Tennessee,True,True,7,False,True,True,7,2024
+47035,TN,Cumberland County,"Cumberland County, Tennessee",True,True,3,False,True,True,3,2024
+47037,TN,,"The Metropolitan Government of Nashville and Davidson County, Tennessee",True,False,2,False,True,False,2,2022
+47039,TN,Decatur County,"Decatur County, Tn",True,True,6,False,True,True,6,2024
+47041,TN,DeKalb County,"Dekalb County, Tennessee",True,True,9,True,True,True,9,2024
+47043,TN,,"DICKSON COUNTY, TENNESSEE",True,True,7,False,True,True,7,2024
+47045,TN,,"Dyer County, Tennessee",True,False,1,False,True,False,1,2024
+47047,TN,,"Fayette County, Tennessee",True,True,7,False,True,True,7,2024
+47049,TN,Fentress County,"Fentress County, Tennessee",True,False,2,False,True,False,2,2024
+47051,TN,,"Franklin County, Tennessee",True,False,1,False,True,False,1,2024
+47053,TN,,"Gibson County, Tennessee",True,False,4,False,True,False,4,2024
+47055,TN,Giles County,"Giles County, Tennessee",True,True,9,True,True,True,9,2024
+47057,TN,,"Grainger County, Tennessee",True,True,6,False,True,True,6,2024
+47059,TN,GREENE,"Greene County, Tennessee",True,True,2,False,True,True,2,2024
+47061,TN,GRUNDY,Grundy County,True,False,1,False,True,False,1,2024
+47063,TN,HAMBLEN,"HAMBLEN COUNTY, TENNESSEE",True,True,5,False,True,True,5,2024
+47065,TN,Hamilton County,"Hamilton County, Tennessee",True,True,9,True,True,True,9,2024
+47067,TN,Hancock County,"Hancock County, Tennessee",True,True,5,False,True,True,5,2024
+47069,TN,Hardeman County,"Hardeman County, Tennessee",True,True,7,False,True,True,7,2024
+47071,TN,Hardin County,"Hardin County, Tennessee",True,True,7,False,True,True,7,2024
+47073,TN,HAWKINS,"Hawkins County, Tennessee",True,True,5,False,True,True,5,2024
+47075,TN,Haywood County,"Haywood County, Tennessee",True,True,6,False,True,True,6,2024
+47077,TN,,"Henderson County, Tennessee",True,False,1,False,True,False,1,2024
+47079,TN,Henry County,"Henry County, Tennessee",True,False,3,False,True,False,3,2020
+47081,TN,Hickman County,Hickman County Tennessee,True,True,9,True,True,True,9,2024
+47083,TN,Houston County,"Houston County, Tennessee",True,True,8,False,True,True,8,2024
+47085,TN,Humphreys County,"Humphreys County, Tennessee",True,True,7,False,True,True,7,2024
+47087,TN,Jackson County,"Jackson County, Tennessee",True,True,9,True,True,True,9,2025
+47089,TN,Jefferson County,"Jefferson County, Tennessee",True,True,7,False,True,True,7,2024
+47091,TN,Johnson County,"Johnson County, Tennessee",True,False,2,False,True,False,2,2024
+47093,TN,Knox County,Knox County Government,True,True,9,True,True,True,9,2024
+47095,TN,Lake County,LAKE COUNTY TENNESSEE,True,True,6,False,True,True,6,2024
+47097,TN,Lauderdale County,"LAUDERDALE COUNTY, TENNESSEE",True,True,5,False,True,True,5,2024
+47099,TN,Lawrence County,Lawrence County Tennessee,True,True,5,False,True,True,5,2024
+47101,TN,Lewis County,"Lewis County, Tennessee",True,True,3,False,True,True,3,2024
+47103,TN,,"Lincoln County, Tennessee",True,True,5,False,True,True,5,2024
+47105,TN,Loudon County,"LOUDON COUNTY, TENNESSEE",True,True,3,False,True,True,3,2024
+47107,TN,McMinn County,"Mcminn County, Tennessee",True,True,8,False,True,True,8,2024
+47109,TN,McNairy County,"Mcnairy County, Tennessee",True,False,2,False,True,False,2,2024
+47111,TN,,"Macon County, Tennessee",True,True,6,False,True,True,6,2024
+47113,TN,,"Madison County, Tennessee",True,True,2,False,True,True,2,2024
+47115,TN,,"Marion County, Tennessee",True,True,3,False,True,True,3,2024
+47117,TN,Marshall County,"Marshall County, Tennessee",True,True,8,False,True,True,8,2024
+47119,TN,Maury County,"Maury County, Tennessee",True,False,1,False,True,False,1,2024
+47121,TN,,"Meigs County, Tennessee",True,True,4,False,True,True,4,2024
+47123,TN,,"MONROE COUNTY, TENNESSEE",True,True,4,False,True,True,4,2024
+47125,TN,MONTGOMERY,"Montgomery County, Tennessee",True,False,2,False,True,False,2,2024
+47127,TN,Moore County,Metropolitan Government of Lynchburg Moore County,True,True,6,False,True,True,6,2024
+47129,TN,Morgan County,"Morgan County, Tennessee",True,False,2,False,True,False,2,2024
+47131,TN,,"Obion County, Tennessee",True,True,9,True,True,True,9,2024
+47133,TN,Overton County,"Overton County, Tennessee",True,True,7,False,True,True,7,2024
+47135,TN,Perry County,Perry County Tennessee,True,True,9,True,True,True,9,2024
+47137,TN,,Pickett County Tennessee,True,True,5,False,True,True,5,2024
+47139,TN,Polk County,"Polk County, Tennessee",True,True,7,False,True,True,7,2024
+47141,TN,Putnam County,"Putnam County, Tennessee",True,True,3,False,True,True,3,2024
+47143,TN,Rhea County,"Rhea County, Tennessee",True,False,2,False,True,False,2,2024
+47145,TN,Roane County,Roane County Tennessee,True,False,2,False,True,False,2,2018
+47147,TN,,"Robertson, County Of",True,True,5,False,True,True,5,2024
+47149,TN,,"Rutherford County, Tennessee",True,False,3,False,True,False,3,2025
+47151,TN,Scott County,"Scott County, Tennessee",True,False,5,False,True,False,5,2024
+47155,TN,Sevier County,"Sevier County, Tennessee",True,True,7,False,True,True,7,2024
+47157,TN,Shelby County,"Shelby County, Tn",True,True,9,True,True,True,9,2024
+47159,TN,Smith County,"Smith County, Tennessee",True,True,7,False,True,True,7,2024
+47161,TN,,Stewart County Tennessee,True,False,7,False,True,False,7,2024
+47163,TN,,"SULLIVAN COUNTY, TENNESSEE",True,False,1,False,True,False,1,2024
+47165,TN,Sumner County,"Sumner County, Tennessee",True,True,7,False,True,True,7,2024
+47167,TN,Tipton County,"Tipton County, Tennessee",True,True,8,False,True,True,8,2024
+47169,TN,,"Hartsville/trousdale County Government, Tennessee",True,False,5,False,True,False,5,2025
+47171,TN,,"Unicoi County, Tennessee",True,True,5,False,True,True,5,2024
+47173,TN,Union County,"Union County, Tennessee",True,False,1,False,True,False,1,2016
+47175,TN,Van Buren County,"Van Buren County, Tennessee",True,True,7,False,True,True,7,2024
+47177,TN,,"Warren County, Tennessee",True,False,1,False,True,False,1,2024
+47179,TN,Washington County,"Washington County, Tennessee",True,False,6,False,True,False,6,2024
+47181,TN,Wayne County,"Wayne County, Tennessee",True,True,6,False,True,True,6,2024
+47183,TN,Weakley County,"Weakley County, Tennessee",True,False,3,False,True,False,3,2024
+47185,TN,,"White County, Tennessee",True,True,8,False,True,True,8,2024
+47187,TN,,Williamson County,True,True,3,False,True,True,3,2024
+47189,TN,Wilson County,"Wilson County, Tennessee",True,True,5,False,True,True,5,2024
+48001,TX,Anderson County,"ANDERSON COUNTY, TEXAS",True,True,5,False,True,True,5,2024
+48005,TX,Angelina County,"Angelina County, Texas",True,False,6,False,True,False,6,2024
+48007,TX,Aransas County,Aransas County,True,True,9,True,True,True,9,2024
+48009,TX,,"Archer County, Texas",True,False,1,False,True,False,1,2023
+48013,TX,Atascosa County,"ATASCOSA COUNTY, TEXAS",True,False,1,False,False,False,0,2021
+48015,TX,Austin County,"Austin County, Texas",True,True,10,True,True,True,10,2025
+48019,TX,Bandera County,Bandera County,True,False,3,False,True,False,3,2023
+48021,TX,Bastrop County,Bastrop County,True,True,10,True,True,True,10,2025
+48025,TX,Bee County,"Bee County, Texas",True,False,5,False,True,False,5,2025
+48027,TX,Bell County,Bell County,True,False,9,True,True,False,9,2025
+48029,TX,Bexar County,"Bexar County, Texas",True,True,9,True,True,True,9,2024
+48037,TX,Bowie County,"BOWIE COUNTY, TEXAS",True,True,9,True,True,True,9,2024
+48039,TX,Brazoria County,"Brazoria County, Texas",True,True,9,True,True,True,9,2024
+48043,TX,Brewster County,"Brewster County, Texas",True,True,6,False,True,True,6,2024
+48047,TX,Brooks County,"Brooks County, Texas",True,False,2,False,True,False,2,2022
+48051,TX,Burleson County,"BURLESON COUNTY, TEXAS",True,False,2,False,True,False,2,2023
+48053,TX,Burnet County,Burnet County,True,False,5,False,True,False,5,2024
+48055,TX,,Caldwell County,True,False,2,False,True,False,2,2022
+48057,TX,Calhoun County,Calhoun County,True,False,7,False,True,False,7,2024
+48059,TX,CALLAHAN,"Callahan County, Texas",True,False,2,False,True,False,2,2023
+48061,TX,,"Cameron County, Texas",True,True,10,True,True,True,10,2025
+48067,TX,Cass County,"Cass County, Texas",True,False,4,False,True,False,4,2024
+48071,TX,,"CHAMBERS COUNTY, TEXAS",True,True,9,True,True,True,9,2024
+48073,TX,Cherokee County,County of Cherokee,True,False,3,False,True,False,3,2024
+48077,TX,Clay County,"Clay County, Texas",True,False,3,False,True,False,3,2024
+48083,TX,COLEMAN,COUNTY OF COLEMAN,True,False,1,False,True,False,1,2017
+48085,TX,,Collin County,True,True,9,True,True,True,9,2024
+48089,TX,Colorado County,Colorado County,True,False,5,False,True,False,5,2024
+48091,TX,Comal County,"Comal County, Texas",True,False,5,False,True,False,5,2025
+48097,TX,Cooke County,"COOKE COUNTY, TEXAS",True,True,10,True,True,True,10,2025
+48099,TX,Coryell County,"Coryell County, Texas",True,False,3,False,True,False,3,2022
+48107,TX,Crosby County,"Crosby County, Texas",True,False,1,False,True,False,1,2022
+48109,TX,Culberson County,"Culberson County, Texas",True,False,1,False,True,False,1,2024
+48113,TX,Dallas County,Dallas County,True,True,5,False,True,True,5,2024
+48115,TX,Dawson County,"Dawson County, Texas",True,False,1,False,True,False,1,2022
+48121,TX,Denton County,"Denton County, Texas",True,True,8,False,True,True,8,2024
+48127,TX,Dimmit County,"Dimmit County, Texas",True,True,9,True,True,True,9,2024
+48131,TX,Duval County,DUVAL COUNTY,True,True,6,False,True,True,6,2024
+48133,TX,Eastland County,County of Eastland,True,True,7,False,True,False,1,2024
+48135,TX,Ector County,"ECTOR COUNTY, TEXAS",True,False,3,False,True,False,3,2023
+48137,TX,,"Edwards County, Texas",True,False,1,False,False,False,0,2024
+48139,TX,Ellis County,Ellis County,True,True,9,True,True,True,9,2025
+48141,TX,El Paso County,"EL PASO, COUNTY OF",True,True,10,True,True,True,10,2025
+48143,TX,Erath County,"ERATH COUNTY, TEXAS",True,False,2,False,True,False,2,2024
+48147,TX,Fannin County,"Fannin County, Texas",True,False,3,False,True,False,3,2023
+48149,TX,,"FAYETTE COUNTY, TEXAS",True,False,3,False,True,False,3,2019
+48157,FL,Fort Bend County,FORT BEND COUNTY,True,True,10,True,True,True,10,2025
+48161,TX,Freestone County,"Freestone County, Texas",True,False,2,False,True,False,2,2024
+48167,TX,Galveston County,"Galveston County, Texas",True,True,9,True,True,True,9,2024
+48171,TX,Gillespie County,Gillespie County,True,False,3,False,True,False,3,2021
+48175,TX,,Goliad County Texas,True,False,3,False,True,False,3,2023
+48177,TX,Gonzales County,Gonzales County Texas,True,False,1,False,True,False,1,2022
+48179,TX,Gray County,"Gray County, Texas",True,False,1,False,True,False,1,2022
+48181,TX,Grayson County,Grayson County,True,True,10,True,True,True,10,2025
+48183,TX,Gregg County,"Gregg County, Texas",True,True,8,False,True,True,8,2024
+48187,TX,Guadalupe County,GUADALUPE COUNTY,True,True,8,False,True,True,8,2024
+48189,TX,Hale County,"HALE COUNTY, TEXAS",True,False,2,False,True,False,2,2024
+48197,TX,HARDEMAN,"HARDEMAN COUNTY, TEXAS",True,False,1,False,True,False,1,2016
+48199,TX,Hardin County,Hardin County,True,True,9,True,True,True,9,2024
+48203,TX,Harrison County,"Harrison County, Texas",True,False,4,False,True,False,4,2024
+48209,TX,Hays County,Hays County,True,True,9,True,True,True,8,2024
+48213,TX,Henderson County,Henderson County,True,False,4,False,True,False,4,2024
+48215,TX,Hidalgo County,"County of Hidalgo, Texas",True,True,9,True,True,True,9,2024
+48217,TX,Hill County,"Hill County, Texas",True,True,7,False,True,True,7,2024
+48219,TX,HOCKLEY,Hockley County,True,False,3,False,True,False,3,2024
+48221,TX,Hood County,"Hood County, Texas",True,False,4,False,True,False,4,2024
+48223,TX,Hopkins County,"Hopkins County, Texas",True,True,6,False,True,True,6,2024
+48225,TX,Houston County,"Houston County, Texas",True,True,9,True,True,True,9,2024
+48227,TX,Howard County,"Howard County, Texas",True,False,3,False,True,False,3,2024
+48231,TX,Hunt County,HUNT COUNTY,True,True,6,False,True,True,6,2024
+48233,TX,,"Hutchinson County, Texas",True,False,1,False,True,False,1,2022
+48239,TX,Jackson County,"Jackson County, Texas",True,False,2,False,True,False,2,2024
+48241,TX,McLennan County,Jasper County,True,True,7,False,True,False,6,2024
+48245,TX,Jefferson County,Jefferson County,True,True,9,True,True,True,9,2025
+48247,TX,Jim Hogg County,"Jim Hogg County, Texas",True,False,5,False,True,False,5,2024
+48249,TX,Jim Wells County,"JIM WELLS COUNTY, TEXAS",True,True,6,False,True,False,5,2024
+48251,TX,Johnson County,"Johnson County, Texas",True,False,6,False,True,False,5,2025
+48253,TX,Jones County,JONES COUNTY,True,True,8,False,True,False,7,2024
+48255,TX,Karnes County,Karnes County Texas,True,False,3,False,True,False,3,2024
+48257,TX,Kaufman County,"Kaufman County, Texas",True,False,4,False,True,False,4,2024
+48259,TX,Kendall County,Kendall County,True,False,3,False,True,False,3,2022
+48261,TX,,Kenedy County,True,True,5,False,True,True,5,2024
+48265,TX,KERR,Kerr County,True,False,3,False,True,False,3,2024
+48271,TX,,"Kinney County, Texas",True,True,7,False,True,True,7,2024
+48273,TX,Kleberg County,"KLEBERG COUNTY, TEXAS",True,True,7,False,True,True,7,2024
+48277,TX,Lamar County,"Lamar County, Texas",True,True,5,False,True,True,5,2024
+48279,TX,Lamb County,Lamb County,True,False,1,False,True,False,1,2022
+48281,TX,,"Lampasas County, Texas",True,False,3,False,True,False,3,2024
+48283,TX,La Salle County,"La Salle County, Texas",True,False,2,False,True,False,2,2020
+48285,TX,,"Lavaca County, Texas",True,False,2,False,True,False,2,2024
+48287,TX,,Lee County,True,False,4,False,True,False,4,2024
+48289,TX,,"Leon County, Texas",True,True,3,False,True,True,3,2024
+48291,TX,Liberty County,"LIBERTY COUNTY, TEXAS",True,True,9,True,True,True,9,2024
+48293,TX,Limestone County,"Limestone County, Texas",True,False,2,False,True,False,2,2023
+48297,TX,Live Oak County,LIVE OAK COUNTY,True,False,3,False,True,False,3,2024
+48299,TX,,"Llano County, Texas",True,False,2,False,True,False,2,2021
+48303,TX,Lubbock County,"LUBBOCK COUNTY, TEXAS",True,True,7,False,True,False,4,2024
+48309,TX,McLennan County,"MCLENNAN COUNTY, TEXAS",True,True,7,False,True,True,7,2024
+48313,TX,,"Madison County, Texas",True,False,3,False,True,False,3,2022
+48315,TX,Marion County,"Marion County, Texas",True,False,5,False,True,False,5,2024
+48321,TX,Matagorda County,"Matagorda County, Texas",True,True,9,True,True,True,9,2024
+48323,TX,Maverick County,"Maverick County, Texas",True,False,6,False,True,False,5,2024
+48325,TX,Medina County,"Medina County, Texas",True,True,10,True,True,True,10,2025
+48329,TX,Midland County,"Midland County, Texas",True,False,5,False,True,False,5,2024
+48331,TX,Milam County,"Milam County, Texas",True,False,5,False,True,False,5,2024
+48337,TX,,"Montague County, Texas",True,True,9,True,True,True,9,2024
+48339,TX,Montgomery County,Montgomery County,True,True,10,True,True,True,10,2025
+48341,TX,Moore County,"Moore County, Texas",True,False,2,False,True,False,2,2022
+48343,TX,Morris County,"Morris County, Texas",True,False,1,False,True,False,1,2021
+48347,TX,Nacogdoches County,"NACOGDOCHES COUNTY, TEXAS",True,False,5,False,True,False,5,2025
+48349,TX,Navarro County,"Navarro County, Texas",True,True,9,True,True,True,9,2024
+48351,TX,,COUNTY OF NEWTON,True,False,8,False,True,False,7,2023
+48353,TX,,"Nolan County, Texas",True,False,1,False,True,False,1,2023
+48355,TX,Nueces County,"Nueces County, Texas",True,True,9,True,True,True,9,2024
+48361,TX,Orange County,"Orange County, Texas",True,True,9,True,True,True,9,2024
+48365,TX,Panola County,Panola County,True,False,4,False,True,False,4,2024
+48367,TX,Parker County,"Parker County, Texas",True,False,2,False,True,False,2,2024
+48371,TX,,PECOS COUNTY,True,False,2,False,True,False,2,2024
+48373,TX,Polk County,"Polk County, Texas",True,True,8,False,True,True,8,2024
+48375,TX,Potter County,"POTTER COUNTY, TEXAS",True,True,9,True,True,True,9,2024
+48377,TX,,"Presidio County, Texas",True,False,1,False,True,False,1,2023
+48381,TX,Randall County,"Randall County, Texas",True,False,5,False,True,False,5,2024
+48387,TX,Red River County,"Red River County, Texas",True,False,3,False,True,False,3,2023
+48391,TX,Refugio County,"Refugio County, Texas",True,False,7,False,True,False,7,2024
+48397,TX,,"ROCKWALL COUNTY, TEXAS",True,False,4,False,True,False,4,2025
+48401,TX,Rusk County,Rusk County,True,True,9,True,True,True,9,2024
+48403,TX,Sabine County,Sabine County,True,False,8,False,True,False,8,2024
+48405,TX,,San Augustine County,True,False,2,False,True,False,2,2024
+48407,TX,San Jacinto County,San Jacinto County,True,True,6,False,True,True,6,2024
+48409,TX,San Patricio County,San Patricio County,True,True,8,False,True,True,8,2024
+48411,TX,,SAN SABA COUNTY TEXAS,True,True,6,False,True,True,6,2024
+48419,TX,Shelby County,"Shelby County, Texas",True,False,5,False,True,False,5,2024
+48423,TX,Smith County,Smith County,True,True,8,False,True,True,8,2024
+48427,TX,Starr County,"STARR COUNTY, TEXAS",True,True,9,True,True,True,8,2024
+48429,TX,Stephens County,County of Stephens,True,True,6,False,True,True,6,2024
+48437,TX,Swisher County,"Swisher County, Texas",True,False,5,False,True,False,5,2023
+48439,TX,Tarrant County,Tarrant County,True,True,10,True,True,True,10,2025
+48441,TX,Taylor County,"TAYLOR COUNTY, TEXAS",True,False,5,False,True,False,5,2024
+48443,TX,Terrell County,Terrell County,True,False,1,False,True,False,1,2024
+48447,TX,Throckmorton County,"Throckmorton County, Texas",True,False,1,False,True,False,1,2021
+48449,TX,Titus County,"titus county, texas",True,True,8,False,True,True,8,2024
+48451,TX,Tom Green County,Tom Green County,True,False,7,False,True,False,7,2025
+48453,TX,Travis County,Travis County Texas,True,True,9,True,True,True,8,2024
+48455,TX,TRINITY,"TRINITY COUNTY, TEXAS",True,False,2,False,True,False,2,2023
+48457,TX,,"Tyler County, Texas",True,False,5,False,True,False,5,2024
+48459,TX,Upshur County,"Upshur County, Texas",True,True,9,True,True,True,9,2024
+48463,TX,,COUNTY OF UVALDE,True,True,8,False,True,True,7,2025
+48465,TX,Val Verde County,COUNTY OF VAL VERDE,True,True,9,True,True,True,9,2025
+48467,TX,Van Zandt County,"Van Zandt County, Texas",True,True,5,False,True,True,5,2024
+48471,TX,Walker County,Walker County,True,False,8,False,True,False,8,2025
+48473,TX,Waller County,"Waller County, Texas",True,False,6,False,True,False,6,2023
+48477,TX,Washington County,WASHINGTON COUNTY,True,True,10,True,True,True,10,2025
+48479,TX,Webb County,County of Webb,True,True,10,True,True,True,10,2025
+48481,TX,Wharton County,Wharton County,True,True,8,False,True,True,8,2024
+48485,TX,Wichita County,"Wichita County, Texas",True,True,4,False,True,True,4,2024
+48489,TX,Willacy County,"Willacy County, Texas",True,True,9,True,True,True,9,2024
+48491,TX,Williamson County,WILLIAMSON COUNTY,True,True,8,False,True,True,8,2024
+48493,TX,,Wilson County,True,True,8,False,True,True,8,2024
+48497,TX,,WISE COUNTY TEXAS,True,False,2,False,True,False,2,2024
+48499,TX,Wood County,"Wood County, Texas",True,False,3,False,True,False,3,2024
+48503,TX,,"Young County, Texas",True,False,2,False,True,False,2,2021
+48505,TX,Webb County,"ZAPATA COUNTY, TEXAS",True,True,6,False,True,True,6,2024
+48507,TX,Zavala County,"Zavala County, Texas",True,False,3,False,True,False,3,2024
+49003,UT,Box Elder County,COUNTY OF BOX ELDER,True,True,9,True,True,True,9,2025
+49007,UT,Carbon County,Carbon County,True,True,6,False,True,True,6,2024
+49009,UT,,Daggett County,True,False,6,False,True,False,6,2021
+49013,UT,,Duchesne County,True,False,5,False,True,False,5,2022
+49015,UT,Emery County,Emery County,True,True,9,True,True,True,9,2024
+49017,UT,,GARFIELD COUNTY,True,True,9,True,True,True,9,2024
+49019,UT,Grand County,Grand County,True,True,9,True,True,True,9,2024
+49021,UT,Iron County,Iron County,True,True,9,True,True,True,9,2024
+49023,UT,Juab County,Juab County,True,True,9,True,True,True,9,2024
+49025,UT,Kane County,Kane County,True,False,4,False,True,False,4,2024
+49027,UT,Millard County,Millard County,True,True,9,True,True,True,9,2024
+49029,UT,Morgan County,Morgan County,True,True,9,True,True,True,9,2024
+49037,UT,San Juan County,San Juan County,True,False,7,False,True,False,7,2024
+49039,UT,Sanpete County,Sanpete County,True,True,9,True,True,True,9,2024
+49041,UT,Sevier County,Sevier County,True,True,9,True,True,True,9,2024
+49043,UT,Summit County,SUMMIT COUNTY,True,False,2,False,True,False,1,2024
+49047,UT,Uintah County,Uintah County,True,True,9,True,True,False,8,2024
+49049,UT,Utah County,UTAH COUNTY,True,True,9,True,True,True,9,2024
+49051,UT,Wasatch County,Wasatch County,True,True,9,True,True,True,9,2024
+49053,UT,Washington County,Washington County,True,True,9,True,True,True,9,2024
+49055,UT,Wayne County,Wayne County,True,True,9,True,True,True,9,2024
+51001,VA,Accomack County,"County of Accomack, Virginia",True,True,10,True,True,True,10,2025
+51003,VA,Charlottesville city,"COUNTY OF ALBEMARLE, VIRGINIA",True,True,9,True,True,True,9,2024
+51005,VA,Covington city,"County of Alleghany, Virginia",True,True,10,True,True,True,10,2025
+51007,VA,Amelia County,"County of Amelia, Virginia",True,True,10,True,True,True,10,2025
+51009,VA,,"COUNTY OF AMHERST, VIRGINIA",True,True,9,True,True,True,9,2024
+51011,VA,Appomattox County,"County of Appomattox, Virginia",True,True,10,True,True,True,10,2025
+51013,VA,Arlington County,"Arlington County, Virginia",True,True,10,True,True,True,10,2025
+51015,VA,,"County of Augusta, Virginia",True,False,7,False,True,False,3,2022
+51017,VA,Bath County,"County of Bath, Virginia",True,True,9,True,True,True,9,2024
+51019,VA,Bedford County,"County of Bedford, Virginia",True,True,10,True,True,True,10,2025
+51021,VA,,"County of Bland, Virginia",True,True,10,True,True,True,10,2025
+51023,VA,Botetourt County,"County of Botetourt, Virginia",True,True,10,True,True,True,10,2025
+51025,VA,Brunswick County,COUNTY OF BRUNSWICK,True,True,9,True,True,True,9,2025
+51027,VA,,"County of Buchanan, Virginia",True,True,10,True,True,True,10,2025
+51029,VA,,"County of Buckingham, Virginia",True,True,9,True,True,True,9,2024
+51031,VA,Campbell County,"County of Campbell, Virginia",True,True,10,True,True,True,10,2025
+51033,VA,Caroline County,"COUNTY OF CAROLINE, VIRGINIA",True,True,9,True,True,True,8,2024
+51035,VA,Carroll County,County of Carroll,True,True,10,True,True,True,10,2025
+51036,VA,,"County of Charles City, Virginia",True,True,10,True,True,True,10,2025
+51037,VA,Charlotte County,"County of Charlotte, Virginia",True,True,10,True,True,True,10,2025
+51041,VA,Chesterfield County,"Chesterfield County, Virginia",True,False,9,True,True,False,9,2025
+51043,MD,Clarke County,"County of Clarke, Virginia",True,True,10,True,True,True,10,2025
+51045,VA,,"County of Craig, Virginia",True,True,10,True,True,True,10,2025
+51047,VA,Culpeper County,"County of Culpeper, Virginia",True,True,9,True,True,True,9,2025
+51049,VA,Cumberland County,"County of Cumberland, Virginia",True,True,10,True,True,True,10,2025
+51051,VA,Dickenson County,"County of Dickenson, Virginia",True,True,10,True,True,True,10,2025
+51053,VA,,"County of Dinwiddie, Virginia",True,True,9,True,True,True,9,2024
+51057,VA,Essex County,"County of Essex, Virginia",True,True,10,True,True,True,10,2025
+51059,VA,Fairfax County,"County of Fairfax, Virginia",True,True,10,True,True,True,10,2025
+51061,VA,Fauquier County,"County of Fauquier, Virginia",True,True,10,True,True,False,9,2025
+51065,VA,Fluvanna County,"County of Fluvanna, Virginia",True,True,10,True,True,True,10,2025
+51067,VA,Franklin County,"County of Franklin, Virginia",True,True,10,True,True,True,10,2025
+51069,VA,Winchester city,"County of Frederick, Virginia",True,True,9,True,True,True,9,2024
+51071,VA,Giles County,County of Giles,True,True,10,True,True,True,10,2025
+51073,VA,Gloucester County,"County of Gloucester, Virginia",True,True,10,True,True,True,9,2025
+51075,VA,Goochland County,County of Goochland,True,True,9,True,True,True,9,2024
+51077,VA,Grayson County,"County of Grayson, Virginia",True,True,10,True,True,True,10,2025
+51079,VA,Greene County,"County of Greene, Virginia",True,True,10,True,True,True,10,2025
+51081,VA,Greensville County,"County of Greensville, Virginia",True,True,9,True,True,True,9,2024
+51083,VA,Halifax County,"County of Halifax, Virginia",True,True,9,True,True,True,9,2024
+51085,VA,Hanover County,"County of Hanover, Virginia",True,True,9,True,True,True,9,2025
+51087,VA,Henrico County,"County of Henrico, Virginia",True,True,9,True,True,True,9,2024
+51089,VA,Martinsville city,"County of Henry, Va",True,True,9,True,True,True,9,2024
+51091,VA,Wise County,"County of Highland, Virginia",True,True,10,True,True,True,10,2025
+51093,VA,,"County of Isle of Wight, Virginia",True,True,9,True,True,True,9,2024
+51095,VA,James City County,James City County,True,True,9,True,True,True,9,2024
+51097,VA,,"King and Queen County, Virginia",True,True,9,True,True,True,9,2024
+51099,VA,King George County,"County of King George, Virginia",True,True,7,False,True,True,7,2025
+51101,VA,King William County,"County of King William, Virginia",True,True,9,True,True,True,9,2024
+51103,VA,Lancaster County,"County of Lancaster, Virginia",True,True,10,True,True,True,10,2025
+51105,VA,,"County of Lee, Virginia",True,True,9,True,True,True,9,2024
+51107,VA,Loudoun County,"COUNTY OF LOUDOUN, VIRGINIA",True,True,10,True,True,True,10,2025
+51109,VA,Louisa County,"County of Louisa, Virginia",True,True,9,True,True,True,9,2024
+51111,VA,Lunenburg County,"County of Lunenburg, Virginia",True,True,10,True,True,True,10,2025
+51113,VA,Madison County,"County of Madison, Virginia",True,True,10,True,True,True,10,2025
+51115,VA,,"Mathews County, Virginia",True,True,10,True,True,True,10,2025
+51117,VA,Mecklenburg County,"County of Mecklenburg, VA",True,True,10,True,True,True,10,2025
+51119,VA,Middlesex County,"County of Middlesex, Virginia",True,True,10,True,True,True,10,2025
+51121,VA,Montgomery County,Montgomery County Va,True,True,9,True,True,True,9,2024
+51125,VA,Nelson County,"County of Nelson, Virginia",True,True,10,True,True,True,10,2025
+51127,VA,,"COUNTY OF NEW KENT, VIRGINIA",True,True,10,True,True,True,10,2025
+51131,VA,,"County of Northampton, Virginia",True,True,10,True,True,True,10,2025
+51133,VA,Northumberland County,"Northumberland County, Virginia",True,True,9,True,True,True,9,2024
+51135,VA,Rockingham County,"County of Nottoway, Virginia",True,True,10,True,True,True,10,2025
+51137,VA,Orange County,"County of Orange, Va",True,False,8,False,True,False,1,2025
+51139,VA,Page County,"County of Page, Virginia",True,True,10,True,True,True,10,2025
+51141,VA,Patrick County,"County of Patrick, Virginia",True,True,10,True,True,True,10,2025
+51143,VA,Pittsylvania County,"County of Pittsylvania, Virginia",True,True,9,True,True,True,9,2024
+51145,VA,Powhatan County,"County of Powhatan, Virginia",True,True,9,True,True,True,9,2024
+51147,VA,Prince Edward County,"County of Prince Edward, Virginia",True,True,10,True,True,True,10,2025
+51149,VA,,"County of Prince George, Virginia",True,True,9,True,True,True,9,2025
+51153,VA,Prince William County,PRINCE WILLIAM COUNTY,True,True,7,False,True,True,7,2024
+51155,VA,Pulaski County,"County of Pulaski, VA",True,True,10,True,True,True,10,2025
+51157,VA,,"County of Rappahannock, Virginia",True,True,9,True,True,True,9,2024
+51159,VA,,"County of Richmond, Virginia",True,True,10,True,True,True,10,2025
+51161,VA,Roanoke County,"County of Roanoke, Virginia",True,True,9,True,True,True,9,2024
+51163,VA,Lexington city,"County of Rockbridge, Virginia",True,True,10,True,True,True,10,2025
+51165,VA,Harrisonburg city,"County of Rockingham, Virginia",True,True,8,False,True,True,5,2025
+51167,VA,,"County of Russell, Virginia",True,True,9,True,True,True,9,2024
+51169,VA,Scott County,"County of Scott, Virginia",True,True,10,True,True,True,10,2025
+51171,VA,Shenandoah County,"County of Shenandoah, Virginia",True,True,10,True,True,True,10,2025
+51173,VA,Smyth County,"County of Smyth, Va",True,True,10,True,True,True,10,2025
+51175,VA,Southampton County,"County of Southampton, Virginia",True,True,10,True,True,True,10,2025
+51177,VA,Spotsylvania County,County of Spotsylvania,True,True,9,True,True,True,9,2025
+51179,VA,Stafford County,"Stafford County, Virginia",True,True,9,True,True,True,9,2024
+51181,VA,,"County of Surry, Virginia",True,True,10,True,True,True,10,2025
+51183,VA,,"Sussex County, Virginia",True,True,10,True,True,True,10,2025
+51185,VA,Tazewell County,"County of Tazewell, VA",True,True,10,True,True,True,10,2025
+51187,VA,Warren County,"County of Warren, Virginia",True,False,8,False,True,False,8,2023
+51191,VA,Washington County,County of Washington,True,True,10,True,True,True,10,2025
+51193,VA,,"COUNTY OF WESTMORELAND, VIRGINIA",True,True,10,True,True,True,10,2025
+51195,VA,,"Wise County, Virginia",True,True,10,True,True,True,10,2025
+51197,VA,Wythe County,"County of Wythe, Virginia",True,True,10,True,True,True,9,2025
+51199,VA,York County,"County of York, Virginia",True,True,9,True,True,True,8,2025
+53005,WA,Benton County,Benton County,True,False,7,False,True,False,7,2022
+53007,WA,Chelan County,Chelan County,True,False,7,False,True,False,7,2023
+53011,WA,Clark County,Clark County,True,True,7,False,True,True,7,2024
+53015,WA,,Cowlitz County,True,False,5,False,True,False,5,2022
+53021,WA,,Franklin County,True,True,9,True,True,True,9,2024
+53029,WA,Island County,Island County,True,True,7,False,True,True,7,2024
+53033,WA,King County,King County,True,True,8,False,True,True,8,2024
+53035,WA,Kitsap County,Kitsap County,True,False,8,False,True,False,8,2024
+53037,WA,,Kittitas County,True,True,8,False,True,True,8,2024
+53041,WA,Lewis County,Lewis County,True,True,9,True,True,True,9,2024
+53045,WA,,Mason County,True,False,1,False,True,False,1,2016
+53053,WA,Pierce County,Pierce County,True,True,7,False,True,False,6,2024
+53057,WA,Skagit County,Skagit County,True,True,4,False,True,True,4,2024
+53063,WA,Spokane County,Spokane County,True,True,7,False,True,True,7,2024
+53067,WA,Thurston County,Thurston County,True,False,8,False,True,False,8,2023
+53071,WA,Walla Walla County,Walla Walla County,True,False,4,False,True,False,4,2022
+53073,WA,Whatcom County,Whatcom County,True,True,8,False,True,True,8,2024
+53077,WA,Yakima County,Yakima County,True,False,5,False,True,False,4,2023
+54001,WV,Barbour County,Barbour County Commission,True,False,2,False,True,False,2,2023
+54003,WV,Berkeley County,Berkeley County Commission,True,False,5,False,True,False,5,2024
+54005,WV,Boone County,Boone County Commission,True,False,1,False,True,False,1,2021
+54007,WV,,Braxton County Commission,True,False,1,False,True,False,1,2016
+54009,WV,Brooke County,Brooke County Commission,True,False,2,False,True,False,2,2021
+54011,WV,,Cabell County Commission,True,False,8,False,True,False,8,2025
+54013,WV,,Calhoun County Commission,True,False,8,False,True,False,8,2023
+54015,WV,CLAY,CLAY COUNTY COMMISSION,True,False,3,False,True,False,3,2019
+54017,WV,,Doddridge County Commission,True,True,8,False,True,True,8,2025
+54019,OH,Fayette County,FAYETTE COUNTY COMMISSION,True,True,8,False,True,True,8,2025
+54021,WV,,Gilmer County Commission,True,False,7,False,True,False,7,2022
+54023,WV,Grant County,Grant County Commission,True,False,1,False,True,False,1,2021
+54025,WV,,Greenbrier County Commission,True,False,9,True,True,False,9,2025
+54027,WV,Hampshire County,Hampshire County Commission,True,False,3,False,True,False,3,2024
+54029,WV,Hancock County,Hancock County Commission,True,False,3,False,True,False,3,2024
+54031,WV,Hardy County,Hardy County Commission,True,False,1,False,True,False,1,2021
+54033,WV,Harrison County,Harrison County Commission,True,False,1,False,True,False,1,2024
+54035,WV,Jackson County,Jackson County Commission,True,False,5,False,True,False,5,2023
+54041,WV,Lewis County,Lewis County Commission,True,False,1,False,True,False,1,2021
+54043,WV,Lincoln County,Lincoln County Commission,True,False,6,False,True,False,6,2024
+54045,WV,,Logan County Commission,True,False,4,False,True,False,4,2024
+54047,WV,McDowell County,McDowell County Commission,True,False,3,False,True,False,3,2024
+54049,WV,Marion County,Marion County Commission,True,False,5,False,True,False,5,2024
+54051,WV,,Marshall County Commission,True,False,6,False,True,False,6,2021
+54053,WV,Mason County,Mason County Commission,True,True,4,False,True,True,4,2024
+54055,WV,Mercer County,Mercer County Commission,True,False,5,False,True,False,5,2024
+54057,WV,Mineral County,Mineral County Commission,True,True,4,False,True,True,4,2024
+54059,WV,Mingo County,Mingo County Commission,True,False,5,False,True,False,5,2023
+54063,WV,,Monroe County Commission,True,False,7,False,True,False,7,2022
+54065,WV,Morgan County,Morgan County Commission,True,False,1,False,True,False,1,2016
+54067,WV,Nicholas County,NICHOLAS COUNTY COMMISSION,True,True,10,True,True,True,10,2025
+54069,WV,Ohio County,"Ohio County, West Virginia",True,False,1,False,True,False,1,2023
+54071,WV,PENDLETON,PENDLETON COUNTY COMMISSION,True,False,2,False,True,False,2,2019
+54075,WV,,Pocahontas County Commission,True,True,9,True,True,True,9,2024
+54077,WV,Preston County,Preston County Commission,True,False,1,False,True,False,1,2021
+54079,WV,,Putnam County Commission,True,False,7,False,True,False,7,2024
+54081,WV,,Raleigh County Commission,True,True,9,True,True,True,9,2024
+54083,WV,Randolph County,Randolph County Commission,True,False,4,False,True,False,4,2024
+54085,WV,Ritchie County,Ritchie County Commission,True,False,1,False,True,False,1,2024
+54087,WV,Roane County,Roane County Commission,True,False,3,False,True,False,3,2024
+54089,WV,Summers County,Summers County Commission,True,False,1,False,True,False,1,2021
+54091,WV,Taylor County,Taylor County Commission,True,False,2,False,True,False,2,2024
+54093,WV,Tucker County,Tucker County Commission,True,False,5,False,True,False,5,2023
+54095,WV,TYLER,TYLER COUNTY COMMISSION,True,False,1,False,True,False,1,2019
+54097,WV,Upshur County,Upshur County Commission,True,False,2,False,True,False,2,2021
+54099,WV,Wayne County,Wayne County Commission,True,False,3,False,True,False,3,2022
+54101,WV,Webster County,Webster County Commission,True,False,1,False,True,False,1,2021
+54103,WV,WETZEL,WETZEL COUNTY COMMISSION,True,False,1,False,True,False,1,2017
+54105,WV,WIRT,WIRT COUNTY COMMISSION,True,False,1,False,True,False,1,2016
+54107,WV,Wood County,Wood County Commission,True,False,6,False,True,False,6,2024
+54109,WV,Wyoming County,Wyoming County Commission,True,False,4,False,True,False,4,2022
+54155,OH,Cabell County,Cabell County Commission,True,True,7,False,True,True,6,2024
+54173,OH,Greenbrier County,Greenbrier County Commission,True,True,7,False,True,True,7,2024
+55001,WI,Adams County,"Adams County, Wisconsin",True,True,9,True,True,False,8,2024
+55003,WI,Ashland County,Ashland County,True,True,9,True,True,True,9,2024
+55005,WI,,Barron County Wisconsin,True,True,9,True,True,True,9,2024
+55007,WI,Bayfield County,"Bayfield County, Wisconsin",True,True,9,True,True,True,9,2024
+55009,WI,Brown County,"BROWN COUNTY, WISCONSIN",True,True,9,True,True,False,8,2024
+55011,WI,Buffalo County,"BUFFALO COUNTY, WISCONSIN",True,True,9,True,True,True,9,2024
+55013,WI,Burnett County,Burnett County,True,True,9,True,True,True,9,2024
+55015,WI,Calumet County,Calumet County,True,True,8,False,True,True,8,2024
+55017,WI,Chippewa County,CHIPPEWA COUNTY,True,True,9,True,True,True,9,2024
+55019,WI,,Clark County Wisconsin,True,True,9,True,True,True,9,2024
+55021,WI,Columbia County,"Columbia County, Wisconsin",True,False,8,False,True,False,8,2023
+55023,WI,Crawford County,"CRAWFORD COUNTY, WISCONSIN",True,True,9,True,True,True,9,2024
+55025,WI,Dane County,County of Dane,True,True,9,True,True,True,9,2024
+55027,WI,Dodge County,County of Dodge,True,True,6,False,True,True,6,2024
+55029,WI,Door County,"Door County, Wisconsin",True,True,9,True,True,True,9,2024
+55031,WI,Douglas County,DOUGLAS COUNTY,True,True,9,True,True,True,9,2024
+55033,WI,Dunn County,Dunn County,True,True,9,True,True,True,9,2024
+55035,WI,Eau Claire County,EAU CLAIRE COUNTY,True,True,9,True,True,True,9,2024
+55037,WI,,FLORENCE COUNTY,True,True,9,True,True,True,9,2024
+55039,WI,Fond du Lac County,Fond du Lac County,True,True,8,False,True,True,8,2024
+55041,WI,Forest County,FOREST COUNTY,True,True,9,True,True,True,9,2024
+55043,WI,,County of Grant,True,True,9,True,True,True,9,2024
+55045,WI,Green County,Green County,True,True,8,False,True,True,8,2024
+55047,WI,Green Lake County,Green Lake County,True,True,9,True,True,True,9,2024
+55049,WI,Iowa County,IOWA COUNTY,True,False,8,False,True,False,8,2023
+55051,WI,,IRON COUNTY,True,False,7,False,True,False,7,2024
+55053,WI,Jackson County,"JACKSON COUNTY, WISCONSIN",True,True,9,True,True,True,9,2024
+55055,WI,Jefferson County,"Jefferson County, Wisconsin",True,True,9,True,True,True,9,2024
+55057,WI,Juneau County,"JUNEAU COUNTY, WISCONSIN",True,True,9,True,True,True,9,2024
+55059,WI,Kenosha County,KENOSHA COUNTY,True,False,7,False,True,False,7,2024
+55061,WI,Kewaunee County,KEWAUNEE COUNTY,True,True,9,True,True,True,9,2024
+55063,WI,La Crosse County,La Crosse County,True,True,9,True,True,True,9,2024
+55065,WI,Lafayette County,Lafayette County,True,True,9,True,True,True,9,2024
+55067,WI,Langlade County,"Langlade County, Wisconsin",True,True,9,True,True,True,9,2024
+55069,WI,Lincoln County,"Lincoln, County, Wisconsin",True,True,9,True,True,True,9,2024
+55071,WI,Manitowoc County,MANITOWOC COUNTY,True,True,9,True,True,True,9,2024
+55075,WI,Marinette County,County of Marinette,True,True,8,False,True,True,8,2024
+55077,WI,Marquette County,Marquette County,True,True,10,True,True,True,10,2025
+55078,WI,,Menominee County,True,True,7,False,True,True,7,2024
+55079,WI,,County of Milwaukee,True,True,8,False,True,True,8,2024
+55081,WI,Monroe County,Monroe County,True,True,8,False,True,True,8,2024
+55083,WI,Oconto County,OCONTO COUNTY,True,True,9,True,True,True,9,2024
+55087,WI,Outagamie County,OUTAGAMIE COUNTY,True,True,8,False,True,False,7,2024
+55089,WI,Ozaukee County,Ozaukee County,True,True,9,True,True,True,9,2024
+55091,WI,PEPIN,Pepin County,True,True,8,False,True,True,8,2024
+55093,WI,Pierce County,"Pierce County, Wisconsin",True,True,9,True,True,True,9,2024
+55095,WI,Polk County,Polk County,True,True,9,True,True,False,8,2024
+55097,WI,Portage County,"Portage County, Wisconsin",True,True,9,True,True,True,9,2024
+55099,WI,Price County,Price County,True,True,9,True,True,True,9,2024
+55101,WI,Racine County,Racine County,True,True,9,True,True,True,9,2024
+55103,WI,,COUNTY OF RICHLAND,True,True,9,True,True,True,9,2024
+55105,WI,Rock County,Rock County,True,True,9,True,True,True,9,2024
+55107,WI,,Rusk County,True,True,9,True,True,True,9,2024
+55109,WI,,St. Croix County,True,True,9,True,True,True,9,2024
+55113,WI,Sawyer County,"Sawyer County, WI",True,True,9,True,True,True,9,2024
+55115,WI,Shawano County,Shawano County,True,True,9,True,True,True,9,2024
+55117,WI,Sheboygan County,"SHEBOYGAN COUNTY, WISCONSIN",True,True,9,True,True,True,9,2024
+55119,WI,Taylor County,"Taylor County, WI",True,True,9,True,True,True,9,2024
+55121,WI,Trempealeau County,Trempealeau County,True,True,9,True,True,True,9,2024
+55123,WI,Vernon County,Vernon County,True,True,9,True,True,True,9,2024
+55125,WI,Vilas County,Vilas County,True,True,9,True,True,True,9,2024
+55127,WI,Walworth County,WALWORTH COUNTY,True,True,9,True,True,True,9,2024
+55129,WI,Washburn County,"Washburn County, Wisconsin",True,True,9,True,True,True,9,2024
+55131,WI,Washington County,"WASHINGTON COUNTY, WISCONSIN",True,True,9,True,True,True,9,2024
+55133,WI,Waukesha County,Waukesha County,True,False,7,False,True,False,7,2024
+55135,WI,Waupaca County,WAUPACA COUNTY WISCONSIN,True,True,9,True,True,True,9,2024
+55137,WI,Waushara County,WAUSHARA COUNTY,True,True,9,True,True,True,9,2024
+55139,IL,Oneida County,County of Oneida,True,True,9,True,True,True,9,2024
+55141,WI,Wood County,"WOOD COUNTY, WISCONSIN",True,False,8,False,True,False,8,2024
+56001,WY,Albany County,"Albany County, Wyoming",True,True,10,True,True,True,10,2025
+56003,WY,,"Big Horn County, Wyoming",True,True,9,True,True,True,9,2025
+56005,WY,Campbell County,CAMPBELL COUNTY,True,True,9,True,True,True,9,2024
+56007,WY,Carbon County,"Carbon County, Wyoming",True,False,6,False,True,False,5,2024
+56009,WY,Converse County,Converse County,True,False,3,False,True,False,3,2024
+56011,WY,Crook County,Crook County Wyoming,True,False,5,False,True,False,5,2024
+56013,WY,Fremont County,"FREMONT COUNTY, WYOMING",True,False,7,False,True,False,7,2024
+56015,WY,Goshen County,"Goshen County, Wyoming",True,False,4,False,True,False,3,2024
+56017,WY,Hot Springs County,HOT SPRINGS COUNTY,True,False,5,False,True,False,5,2024
+56019,WY,Johnson County,"Johnson County, Wyoming",True,False,5,False,True,False,5,2023
+56021,WY,Laramie County,"Laramie County, Wyoming",True,True,9,True,True,True,9,2024
+56023,WY,Lincoln County,"Lincoln County, Wyoming",True,True,9,True,True,True,9,2024
+56025,WY,Natrona County,"NATRONA COUNTY, WYOMING",True,True,8,False,True,True,8,2024
+56029,WY,Park County,Park County,True,True,7,False,True,True,7,2024
+56031,WY,Platte County,Platte County Wyoming,True,False,3,False,True,False,3,2023
+56033,WY,Sheridan County,SHERIDAN COUNTY,True,True,9,True,True,False,8,2024
+56035,WY,Sublette County,Sublette County Wyoming,True,False,4,False,True,False,4,2022
+56037,WY,Sweetwater County,"Sweetwater County, Wyoming",True,True,9,True,True,True,9,2024
+56039,WY,Teton County,"TETON COUNTY, WYOMING",True,True,7,False,True,True,7,2024
+56041,WY,Uinta County,Uinta County,True,False,5,False,True,False,5,2024
+56043,WY,Washakie County,WASHAKIE COUNTY,True,False,5,False,True,False,5,2024
+56045,WY,Weston County,Weston County,True,False,6,False,True,False,6,2024

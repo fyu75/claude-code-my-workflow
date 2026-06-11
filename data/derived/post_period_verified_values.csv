@@ -1,0 +1,9 @@
+county_fips,county_name,state,true_property_tax_allfunds,true_fy,census2017_status,v2_status,source,note
+48371,Pecos County,TX,33643591,2023,plausible,WRONG_sub_fund,Pecos County ACFR FY2023 (co.pecos.tx.us),V2 $1.93M was ~1/17 of true; minor sub-fund. Oil county.
+35027,Lincoln County,NM,16895909,2022,plausible,WRONG_sub_fund,Lincoln County NM FY2022 audit,V2 $2.90M ~1/6 of true; one narrow levy.
+49003,Box Elder County,UT,13508335,2023,plausible(slight decline),WRONG_sub_levy,Box Elder County UT FY2023 financial statements,V2 $4.18M ~31% of true; county general levy only.
+51013,Arlington County,VA,1082591699,2024,plausible,WRONG_component,Arlington County VA ACFR FY2024,V2 $144.9M = personal-property line only; missed real estate (86% of total).
+18095,Madison County,IN,27973383,2024,WRONG_income_tax_bundled,roughly_ok_GF_slice,Indiana SBOA audit 84894A FY2024,Census 2017 $55.19M summed property+income tax (IN reports both as Taxes). V2 $26.3M ~ GF slice.
+19169,Story County,IA,28335867,2024,plausible,roughly_ok_GF_slice,Iowa Auditor of State FY2024,Both endpoints roughly fine; V2 ~ GF slice.
+26105,Missaukee County,MI,6756364,2024,WRONG_absorbed_other_entities,WRONG_18x,Missaukee County MI FY2024 AFR (FY2018=4.77M),BOTH wrong: Census $13.59M ~3x (absorbed road/school); V2 $123.5M ~18x (FIPS collision). True ~$4.8M-6.8M.
+36075,Oswego County,NY,48683047,2023,plausible,WRONG_component,Oswego County NY financial statements FY2023,Census $50.77M OK. V2 $16.76M captured only "other property tax items" missing core real-property line (NY bug).

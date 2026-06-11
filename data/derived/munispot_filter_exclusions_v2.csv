@@ -1,0 +1,47 @@
+geoid,state,county_name,reason,in_v2
+11001,DC,District of Columbia,District of Columbia,False
+18097,IN,Marion County,Marion County / Indianapolis (consolidated),False
+21111,KY,Jefferson County,Jefferson County / Louisville (consolidated),False
+24510,MD,Baltimore city,Baltimore city (independent),False
+29510,MO,St. Louis city,St. Louis city (independent),False
+32510,NV,Carson City,Carson City (consolidated),False
+42101,PA,Philadelphia County,Philadelphia County (consolidated),False
+51510,VA,Alexandria city,VA independent city,False
+51515,VA,Bedford city,VA independent city,False
+51520,VA,Bristol city,VA independent city,False
+51530,VA,Buena Vista city,VA independent city,False
+51540,VA,Charlottesville city,VA independent city,False
+51550,VA,Chesapeake city,VA independent city,False
+51570,VA,Colonial Heights city,VA independent city,False
+51580,VA,Covington city,VA independent city,False
+51590,VA,Danville city,VA independent city,False
+51595,VA,Emporia city,VA independent city,False
+51600,VA,Fairfax city,VA independent city,False
+51610,VA,Falls Church city,VA independent city,False
+51620,VA,Franklin city,VA independent city,False
+51630,VA,Fredericksburg city,VA independent city,False
+51640,VA,Galax city,VA independent city,False
+51650,VA,Hampton city,VA independent city,False
+51660,VA,Harrisonburg city,VA independent city,False
+51670,VA,Hopewell city,VA independent city,False
+51678,VA,Lexington city,VA independent city,False
+51680,VA,Lynchburg city,VA independent city,False
+51683,VA,Manassas city,VA independent city,False
+51685,VA,Manassas Park city,VA independent city,False
+51690,VA,Martinsville city,VA independent city,False
+51700,VA,Newport News city,VA independent city,False
+51710,VA,Norfolk city,VA independent city,False
+51720,VA,Norton city,VA independent city,False
+51730,VA,Petersburg city,VA independent city,False
+51735,VA,Poquoson city,VA independent city,False
+51740,VA,Portsmouth city,VA independent city,False
+51750,VA,Radford city,VA independent city,False
+51760,VA,Richmond city,VA independent city,False
+51770,VA,Roanoke city,VA independent city,False
+51775,VA,Salem city,VA independent city,False
+51790,VA,Staunton city,VA independent city,False
+51800,VA,Suffolk city,VA independent city,False
+51810,VA,Virginia Beach city,VA independent city,False
+51820,VA,Waynesboro city,VA independent city,False
+51830,VA,Williamsburg city,VA independent city,False
+51840,VA,Winchester city,VA independent city,False

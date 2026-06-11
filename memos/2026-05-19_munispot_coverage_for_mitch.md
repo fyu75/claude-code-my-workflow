@@ -232,20 +232,3 @@ This makes a proper **2017 → 2024 two-period DiD on General Fund outcomes** fe
 
 For the **property-tax channel specifically**, our hand-collected PDFs (23 counties) remain the better data source — the MuniSpot PT coverage is too thin for that mechanism. For the **capex channel**, the PDFs are necessary because GF data doesn't see it directly. The two datasets are complementary, not redundant.
 
----
-
-## Suggested next steps
-
-1. **Frank emails Raj** with the questions above this week (I can draft if useful). The state-exemption and property-tax labelling questions are the highest-priority — they may unlock additional rows from the existing delivery without a new acquisition.
-2. **Frank builds** the merged county-year panel (MuniSpot × DC presence × SDC bond issuance) and runs preliminary 2-period DiD on the 45-treated / 720-control sample. Will report back before pushing further.
-3. **Mitch / Henrik:** any flags on whether we should also reach out to MuniSpot via Chapman channels (since the license is in Mitch's name) about a re-delivery option for FY2025 + earlier years?
-
----
-
-*References:*
-
-- Raw delivery: `data/muni/` (gitignored, license-restricted)
-- Parquet conversion: `data/muni/parquet/` (gitignored)
-- Pre-filtered subsets: `data/derived/muni_{property_tax,total_revenue,total_expenditures}_*` (gitignored)
-- Coverage script: `scripts/python/32_convert_muni_csv_to_parquet.py`
-- README: `data/muni/README.md`

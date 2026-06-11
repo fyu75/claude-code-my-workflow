@@ -73,7 +73,7 @@ KEEP_ITEMS = {
     'E80': 'exp_curr_sewer',
     'E81': 'exp_curr_solid_waste',
     'E89': 'exp_curr_general_nec',
-    # Capital outlay (the canonical capex measure)
+    # Capital outlay (the standard capex measure)
     'F12': 'capex_elem_sec_educ',
     'F18': 'capex_higher_educ',
     'F25': 'capex_judicial',

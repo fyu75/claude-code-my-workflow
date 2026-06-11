@@ -1,0 +1,115 @@
+county_fips,county_name,STATE,CITY,dcname,mw_peak,YEARFACILITYBECAMEOPERATIONAL,dc_class,dominant,has_county_announce,batch,pid,operator,provider
+01089,Madison County,Alabama,Huntsville,Alabama 3,80.0,2023.0,clean_dc,True,True,1,10343777,"Meta Platforms, Inc.","Meta Platforms, Inc."
+01089,Madison County,Alabama,Huntsville,Alabama 5,80.0,2024.0,clean_dc,True,True,1,10343883,"Meta Platforms, Inc.","Meta Platforms, Inc."
+01089,Madison County,Alabama,Huntsville,Alabama 6,80.0,2025.0,clean_dc,True,True,1,10343958,"Meta Platforms, Inc.","Meta Platforms, Inc."
+01089,Madison County,Alabama,Huntsville,Alabama 7,80.0,2025.0,clean_dc,True,True,1,10343960,"Meta Platforms, Inc.","Meta Platforms, Inc."
+04013,Maricopa County,Arizona,Mesa,Mesa,152.2584,2016.0,clean_dc,True,True,2,10259384,Alphabet Inc.,Alphabet Inc.
+04013,Maricopa County,Arizona,Mesa,Mesa,152.2584,2016.0,clean_dc,True,True,2,10340938,Comarch SA,Comarch SA
+04013,Maricopa County,Arizona,Mesa,Mesa,152.2584,2016.0,clean_dc,True,True,2,10341277,"Amazon.com, Inc.","Amazon.com, Inc."
+04013,Maricopa County,Arizona,Mesa,Mesa,152.2584,2016.0,clean_dc,True,True,2,10343349,"Amazon.com, Inc.","Amazon.com, Inc."
+04013,Maricopa County,Arizona,Mesa,Mesa,152.2584,2016.0,clean_dc,True,True,2,10343449,Apple Inc.,Apple Inc.
+04013,Maricopa County,Arizona,Mesa,Mesa 1,70.08,2023.0,clean_dc,False,True,2,10340423,CyrusOne Inc.,CyrusOne Inc.
+04013,Maricopa County,Arizona,Mesa,Mesa 1,70.08,2023.0,clean_dc,False,True,2,10343779,"Meta Platforms, Inc.","Meta Platforms, Inc."
+04013,Maricopa County,Arizona,Mesa,Mesa 2,70.08,2024.0,clean_dc,False,True,2,10341289,"Amazon.com, Inc.","Amazon.com, Inc."
+04013,Maricopa County,Arizona,Mesa,Mesa 2,70.08,2024.0,clean_dc,False,True,2,10341775,CyrusOne Inc.,CyrusOne Inc.
+04013,Maricopa County,Arizona,Mesa,Mesa 2,70.08,2024.0,clean_dc,False,True,2,10343363,"Amazon.com, Inc.","Amazon.com, Inc."
+04013,Maricopa County,Arizona,Mesa,Mesa 2,70.08,2024.0,clean_dc,False,True,2,10343848,"Meta Platforms, Inc.","Meta Platforms, Inc."
+04013,Maricopa County,Arizona,Mesa,Mesa 3,70.08,2024.0,clean_dc,False,True,2,10343937,"Meta Platforms, Inc.","Meta Platforms, Inc."
+04013,Maricopa County,Arizona,Mesa,Mesa 3,70.08,2024.0,clean_dc,False,True,2,10362288,CyrusOne Inc.,CyrusOne Inc.
+13097,Douglas County,Georgia,Lithia Springs,Douglasville 2 (Woodside),240.0,2016.0,clean_dc,True,True,3,10343444,Alphabet Inc.,Alphabet Inc.
+13097,Douglas County,Georgia,Lithia Springs,Douglasville,100.0,2003.0,clean_dc,False,True,3,10343226,Alphabet Inc.,Alphabet Inc.
+13121,Fulton County,Georgia,Atlanta,ATL01-2,100.0,2025.0,mixed,True,True,4,10341848,"Edged Energy, LLC","Edged Energy, LLC"
+13121,Fulton County,Georgia,Atlanta,QTS Atlanta- Metro,52.718599999999995,2006.0,mixed,False,True,4,10054525,"QTS Realty Trust, LLC","QTS Realty Trust, LLC"
+13217,Newton County,Georgia,Social Circle,Social Circle 1,50.0,2021.0,clean_dc,True,True,4,10340097,"Meta Platforms, Inc.","Meta Platforms, Inc."
+13217,Newton County,Georgia,Social Circle,Social Circle 2,50.0,2022.0,clean_dc,True,True,4,10343749,"Meta Platforms, Inc.","Meta Platforms, Inc."
+13217,Newton County,Georgia,Social Circle,Social Circle 3,50.0,2024.0,clean_dc,True,True,4,10343863,"Meta Platforms, Inc.","Meta Platforms, Inc."
+13217,Newton County,Georgia,Social Circle,Social Circle 4,50.0,2025.0,clean_dc,True,True,4,10343995,"Meta Platforms, Inc.","Meta Platforms, Inc."
+13313,Whitfield County,Georgia,Dalton,Dalton 3,144.949175,2023.0,crypto,True,True,1,10366658,"Core Scientific, Inc.","Core Scientific, Inc."
+13313,Whitfield County,Georgia,Dalton,"Dalton 1, GA",97.5,2018.0,crypto,False,True,1,10362601,"Core Scientific, Inc.","Core Scientific, Inc."
+13313,Whitfield County,Georgia,Dalton,"Dalton 2, GA",97.5,2018.0,crypto,False,True,1,10362602,"Core Scientific, Inc.","Core Scientific, Inc."
+17037,DeKalb County,Illinois,Dekalb,DeKalb 3,99.6,2024.0,clean_dc,True,True,6,10343871,"Meta Platforms, Inc.","Meta Platforms, Inc."
+17037,DeKalb County,Illinois,Dekalb,DeKalb 4,99.6,2025.0,clean_dc,True,True,6,10344003,"Meta Platforms, Inc.","Meta Platforms, Inc."
+17037,DeKalb County,Illinois,Dekalb,DeKalb 1,90.0,2024.0,clean_dc,False,True,6,10343839,"Meta Platforms, Inc.","Meta Platforms, Inc."
+17037,DeKalb County,Illinois,Dekalb,DeKalb 2,90.0,2024.0,clean_dc,False,True,6,10343842,"Meta Platforms, Inc.","Meta Platforms, Inc."
+18141,St. Joseph County,Indiana,New Carlisle,New Carlisle 1,60.0,2024.0,clean_dc,True,True,5,10343877,"Amazon.com, Inc.","Amazon.com, Inc."
+18141,St. Joseph County,Indiana,New Carlisle,New Carlisle 2,60.0,2025.0,clean_dc,True,True,5,10343984,"Amazon.com, Inc.","Amazon.com, Inc."
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 5,60.0,2015.0,clean_dc,True,True,7,10343416,Alphabet Inc.,Alphabet Inc.
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 6,60.0,2015.0,clean_dc,True,True,7,10343419,Alphabet Inc.,Alphabet Inc.
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 8,60.0,2023.0,clean_dc,True,True,7,10343807,Alphabet Inc.,Alphabet Inc.
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 9,60.0,2023.0,clean_dc,True,True,7,10343809,Alphabet Inc.,Alphabet Inc.
+28089,Madison County,Mississippi,Canton,"Madison County, MS Canton 1",80.0,2025.0,clean_dc,True,True,7,10340470,"Amazon.com, Inc.","Amazon.com, Inc."
+28089,Madison County,Mississippi,Ridgeland,"Madison County, MS Ridgeland 1",80.0,2025.0,clean_dc,True,True,7,10344009,"Amazon.com, Inc.","Amazon.com, Inc."
+30093,Silver Bow County,Montana,Butte,Butte Montana,75.0,2020.0,mixed,True,False,2,10362621,Atlas Power Group LLC,Atlas Power Group LLC
+31153,Sarpy County,Nebraska,Springfield,Sarpy 1,80.0,2018.0,clean_dc,True,True,2,10343508,"Meta Platforms, Inc.","Meta Platforms, Inc."
+31153,Sarpy County,Nebraska,Springfield,Sarpy 6,80.0,2021.0,clean_dc,True,True,2,10343702,"Meta Platforms, Inc.","Meta Platforms, Inc."
+31153,Sarpy County,Nebraska,Springfield,Sarpy 7,80.0,2024.0,clean_dc,True,True,2,10343860,"Meta Platforms, Inc.","Meta Platforms, Inc."
+31153,Sarpy County,Nebraska,Springfield,Sarpy 8,80.0,2024.0,clean_dc,True,True,2,10343949,"Meta Platforms, Inc.","Meta Platforms, Inc."
+32003,Clark County,Nevada,Henderson,Henderson-1,60.0,2020.0,clean_dc,True,True,8,10183671,Alphabet Inc.,Alphabet Inc.
+32003,Clark County,Nevada,Henderson,Henderson-2,60.0,2020.0,clean_dc,True,True,8,10339746,Alphabet Inc.,Alphabet Inc.
+32003,Clark County,Nevada,Henderson,Henderson-3,60.0,2025.0,clean_dc,True,True,8,10343974,Alphabet Inc.,Alphabet Inc.
+32029,Storey County,Nevada,Sparks,US-RNO 2,214.656,2024.0,clean_dc,True,False,4,10343664,Alphabet Inc.,Alphabet Inc.
+32029,Storey County,Nevada,Sparks,US-RNO 4,174.55679999999998,2024.0,clean_dc,False,False,4,10343954,Alphabet Inc.,Alphabet Inc.
+32029,Storey County,Nevada,Sparks,Supernap Tahoe Reno 1,80.9856,2017.0,clean_dc,False,False,4,10181547,"Switch, Inc.","Switch, Inc."
+32029,Storey County,Nevada,Sparks,Supernap Tahoe Reno 3,53.6256,2025.0,clean_dc,False,False,4,10341835,"Switch, Inc.","Switch, Inc."
+32031,Washoe County,Nevada,Sparks,Reno 3 (4 more sections),54.9333333,2019.0,clean_dc,True,True,8,10343533,Apple Inc.,Apple Inc.
+32031,Washoe County,Nevada,Sparks,Reno 4 (4 more sections),54.9333333,2019.0,clean_dc,True,True,8,10343554,Apple Inc.,Apple Inc.
+35061,Valencia County,New Mexico,Los Lunas,Los Lunas 7,92.0,2024.0,clean_dc,True,True,2,10340426,"Meta Platforms, Inc.","Meta Platforms, Inc."
+35061,Valencia County,New Mexico,Los Lunas,Los Lunas 8,92.0,2024.0,clean_dc,True,True,2,10343936,"Meta Platforms, Inc.","Meta Platforms, Inc."
+36063,Niagara County,New York,Somerset,Lake Mariner,153.0,2022.0,mixed,True,True,7,10362655,TeraWulf Inc.,TeraWulf Inc.
+36063,Niagara County,New York,North Tonawanda,Tonawanda County,60.0,2021.0,mixed,False,True,7,10362642,Digi Power X Inc.,Digi Power X Inc.
+36063,Niagara County,New York,Niagara Falls,"Niagara Falls, NY (Alpha)",50.0,2023.0,mixed,False,True,7,10362892,Hut 8 Mining Corp.,Hut 8 Mining Corp.
+37039,Cherokee County,North Carolina,Marble,"Marble 2, NC",69.0,2018.0,mixed,True,False,4,10362604,"Core Scientific, Inc.","Core Scientific, Inc."
+38021,Dickey County,North Dakota,Ellendale,"Ellendale, ND",180.0,2023.0,crypto,True,True,8,10362703,Applied Digital Corporation,Applied Digital Corporation
+38021,Dickey County,North Dakota,Ellendale,"Ellendale, ND",180.0,2023.0,crypto,True,True,8,10362906,"MARA Holdings, Inc.","MARA Holdings, Inc."
+38021,Dickey County,North Dakota,Ellendale,"Ellendale, ND",180.0,2023.0,crypto,True,True,8,10362703,Applied Digital Corporation,Applied Digital Corporation
+38021,Dickey County,North Dakota,Ellendale,"Ellendale, ND",180.0,2023.0,crypto,True,True,8,10362906,"MARA Holdings, Inc.","MARA Holdings, Inc."
+38021,Dickey County,North Dakota,Ellendale,HPC datacenter North Dakota building 1,80.0,2025.0,crypto,False,True,8,10362262,Applied Digital Corporation,Applied Digital Corporation
+39045,Fairfield County,Ohio,Lancaster,Lancaster 1,50.0,2024.0,clean_dc,True,True,1,10343818,Alphabet Inc.,Alphabet Inc.
+39045,Fairfield County,Ohio,Lancaster,Lancaster 2,50.0,2024.0,clean_dc,True,True,1,10362325,Alphabet Inc.,Alphabet Inc.
+39049,Franklin County,Ohio,Lockbourne,Columbus (Lockbourne) 1,50.0,2024.0,clean_dc,True,True,5,10343966,Alphabet Inc.,Alphabet Inc.
+39049,Franklin County,Ohio,New Albany,New Albany 4a,50.0,2024.0,clean_dc,True,True,5,10362321,Alphabet Inc.,Alphabet Inc.
+39049,Franklin County,Ohio,New Albany,New Albany 5a,50.0,2025.0,clean_dc,True,True,5,10362322,Alphabet Inc.,Alphabet Inc.
+39049,Franklin County,Ohio,Lockbourne,Columbus (Lockbourne) 2,50.0,2025.0,clean_dc,True,True,5,10362323,Alphabet Inc.,Alphabet Inc.
+39089,Licking County,Ohio,Johnstown,Newton Court 1,60.0,2021.0,clean_dc,True,True,3,10343686,"Amazon.com, Inc.","Amazon.com, Inc."
+39089,Licking County,Ohio,Johnstown,Newton Court 2,60.0,2022.0,clean_dc,True,True,3,10343722,"Amazon.com, Inc.","Amazon.com, Inc."
+39089,Licking County,Ohio,Johnstown,Newton Court 3,60.0,2024.0,clean_dc,True,True,3,10343858,"Amazon.com, Inc.","Amazon.com, Inc."
+39089,Licking County,Ohio,New Albany,New Albany 3a,50.0,2023.0,clean_dc,False,True,3,10362320,Alphabet Inc.,Alphabet Inc.
+41049,Morrow County,Oregon,Boardman,PDX61,53.7,2018.0,clean_dc,True,True,1,10343505,"Amazon.com, Inc.","Amazon.com, Inc."
+41049,Morrow County,Oregon,Boardman,PDX62,53.4,2017.0,clean_dc,False,True,1,10343476,"Amazon.com, Inc.","Amazon.com, Inc."
+41049,Morrow County,Oregon,Boardman,PDX66,51.9,2021.0,clean_dc,False,True,1,10362540,"Amazon.com, Inc.","Amazon.com, Inc."
+41049,Morrow County,Oregon,Boardman,PDX92,50.0,2021.0,clean_dc,False,True,1,10362539,"Amazon.com, Inc.","Amazon.com, Inc."
+41059,Umatilla County,Oregon,Umatilla,PDX63,50.0,2022.0,clean_dc,True,True,8,10362533,"Amazon.com, Inc.","Amazon.com, Inc."
+41059,Umatilla County,Oregon,Umatilla,PDX63,50.0,2022.0,clean_dc,True,True,8,10362541,"Amazon.com, Inc.","Amazon.com, Inc."
+41059,Umatilla County,Oregon,Umatilla,PDX130,50.0,2023.0,clean_dc,True,True,8,10362544,"Amazon.com, Inc.","Amazon.com, Inc."
+41059,Umatilla County,Oregon,Umatilla,PDX131,50.0,2023.0,clean_dc,True,True,8,10362545,"Amazon.com, Inc.","Amazon.com, Inc."
+41059,Umatilla County,Oregon,Hermiston,PDX138,50.0,2024.0,clean_dc,True,True,8,10362548,"Amazon.com, Inc.","Amazon.com, Inc."
+42007,Beaver County,Pennsylvania,Hookstown,Beaver County,300.0,2024.0,crypto,True,True,6,10362757,500 N 4th Street LLC,500 N 4th Street LLC
+42007,Beaver County,Pennsylvania,Midland,"Midland, PA",100.0,2023.0,crypto,False,True,6,10362717,Mawson Infrastructure Group Inc.,Mawson Infrastructure Group Inc.
+48221,Hood County,Texas,McCamey,"McCamey, TX",200.0,2023.0,crypto,True,True,7,10362909,"MARA Holdings, Inc.","MARA Holdings, Inc."
+48221,Hood County,Texas,Granbury,Granbury/Wolf Hollow,100.0,2023.0,crypto,False,True,7,10362669,"MARA Holdings, Inc.","MARA Holdings, Inc."
+48221,Hood County,Texas,Granbury,Texas 3,65.4,2023.0,crypto,False,True,7,10362785,"MARA Holdings, Inc.","Compass Mining, Inc."
+48331,Milam County,Texas,Rockdale,Texas,742.0,2019.0,crypto,True,True,4,10362606,Bitdeer Norway As,Bitdeer Norway As
+48331,Milam County,Texas,Rockdale,"Rockdale, Texas",450.0,2021.0,crypto,False,True,4,10362630,"Riot Platforms, Inc.","Riot Platforms, Inc."
+48355,Nueces County,Texas,Corpus Christi,Saxet Energy Park,300.0,2023.0,mixed,True,True,3,10362734,Sabre56,Sabre56
+48355,Nueces County,Texas,Corpus Christi,Corpus Christi,100.0,2024.0,mixed,False,True,3,10349219,Crown Castle Inc.,Crown Castle Inc.
+48355,Nueces County,Texas,Corpus Christi,Corpus Christi,100.0,2024.0,mixed,False,True,3,10362745,Northern Data AG,Northern Data AG
+48371,Pecos County,Texas,Fort Stockton,Fort Stockton,325.0,2021.0,mixed,True,True,2,10362643,Lancium LLC,Lancium LLC
+48371,Pecos County,Texas,Fort Stockton,"Garden City, TX",100.0,2023.0,mixed,False,True,2,10362907,"MARA Holdings, Inc.","MARA Holdings, Inc."
+49035,Salt Lake County,Utah,West Jordan,Salt Lake City 2,72.0,2025.0,clean_dc,True,True,5,10362967,Novva Data Centers,Novva Data Centers
+49035,Salt Lake County,Utah,West Jordan,SLC-02,50.0,2020.0,clean_dc,False,True,5,10259659,"Aligned Data Centers (Phoenix), LLC","Aligned Data Centers (Phoenix), LLC"
+51107,Loudoun County,Virginia,Ashburn,IAD39,225.0,2018.0,clean_dc,True,True,5,10128968,"Digital Realty Trust, Inc.","Digital Realty Trust, Inc."
+51107,Loudoun County,Virginia,Sterling,24086 Bears School Road,95.985,2023.0,clean_dc,False,True,5,10340293,"Digital Realty Trust, Inc.","Digital Realty Trust, Inc."
+51107,Loudoun County,Virginia,Sterling,Digital Dulles 2,95.985,2024.0,clean_dc,False,True,5,10341211,"Digital Realty Trust, Inc.","Digital Realty Trust, Inc."
+51107,Loudoun County,Virginia,Sterling,Digital Dulles 4,95.985,2025.0,clean_dc,False,True,5,10341217,"Digital Realty Trust, Inc.","Digital Realty Trust, Inc."
+51153,Prince William County,Virginia,Gainesville,Gainesville East,107.6923077,2025.0,clean_dc,True,True,3,10343968,"Amazon.com, Inc.","Amazon.com, Inc."
+51153,Prince William County,Virginia,Bristow,Bristow 1 (Google RLF DC),93.8462477,2024.0,clean_dc,False,True,3,10341422,Nova Mango Farms LLC,Nova Mango Farms LLC
+51153,Prince William County,Virginia,Manassas,MCC3,58.461631999999994,2024.0,clean_dc,False,True,3,10340503,cloudHQ LLC,cloudHQ LLC
+51153,Prince William County,Virginia,Gainesville,Gainesville Crossing 2,55.384620000000005,2024.0,clean_dc,False,True,3,10341157,"Patrinely Group, LLC","Patrinely Group, LLC"
+53025,Grant County,Washington,Quincy,CO1 and CO2,71.1,2008.0,mixed,True,True,6,10343237,Microsoft Corporation,Microsoft Corporation
+53025,Grant County,Washington,Quincy,WA13,63.6,2023.0,mixed,False,True,6,10362197,"Vantage Data Centers Management Company, LLC","Vantage Data Centers Management Company, LLC"
+53025,Grant County,Washington,Quincy,MWH09,52.8,2022.0,mixed,False,True,6,10343746,Microsoft Corporation,Microsoft Corporation
+54047,McDowell County,Pennsylvania,Nesquehoning,Panther,90.0,2021.0,crypto,True,False,3,10362636,Bitfarms Ltd.,Bitfarms Ltd.
+56021,Laramie County,Wyoming,Cheyenne,Cheyenne,65.0,2013.0,mixed,True,True,6,10185099,"fifteenfortyseven Critical Systems Realty, LLC","fifteenfortyseven Critical Systems Realty, LLC"
+56021,Laramie County,Wyoming,Cheyenne,Cheyenne,65.0,2013.0,mixed,True,True,6,10343359,Microsoft Corporation,Microsoft Corporation
+56021,Laramie County,Wyoming,Cheyenne,Cheyenne 2,65.0,2015.0,mixed,True,True,6,10343417,Microsoft Corporation,Microsoft Corporation
+56021,Laramie County,Wyoming,Cheyenne,Cheyenne 3,65.0,2020.0,mixed,True,True,6,10343595,Microsoft Corporation,Microsoft Corporation

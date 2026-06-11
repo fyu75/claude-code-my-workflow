@@ -1,0 +1,43 @@
+county_fips,county_name,STATE,CITY,dcname,mw_peak,sp_op_year,dc_class,operator,provider,batch
+51107,Loudoun County,Virginia,Ashburn,IAD-01,50.00079,2019.0,clean_dc,"Aligned Data Centers (Phoenix), LLC","Aligned Data Centers (Phoenix), LLC",1
+51107,Loudoun County,Virginia,Sterling,NVAL2,60.0,2023.0,clean_dc,"STACK Infrastructure, Inc.","STACK Infrastructure, Inc.",1
+51107,Loudoun County,Virginia,Ashburn,IAD-02,56.6046,2020.0,clean_dc,"Aligned Data Centers (Phoenix), LLC","Aligned Data Centers (Phoenix), LLC",1
+51107,Loudoun County,Virginia,Sterling,IAD-03,72.0,2024.0,clean_dc,"Aligned Data Centers (Phoenix), LLC","Aligned Data Centers (Phoenix), LLC",1
+51107,Loudoun County,Virginia,Ashburn,Ashburn,69.23073720000001,2023.0,clean_dc,"Cologix, Inc.","Cologix, Inc.",1
+51107,Loudoun County,Virginia,Sterling,Sterling V Data Center,57.45,2017.0,clean_dc,CyrusOne Inc.,CyrusOne Inc.,1
+51107,Loudoun County,Virginia,Sterling,VA1,54.0,2022.0,clean_dc,"EdgeCore Internet Real Estate, LLC","EdgeCore Internet Real Estate, LLC",1
+28089,Madison County,Mississippi,Canton,"Madison County, MS Canton 1",80.0,2025.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",4
+51107,Loudoun County,Virginia,Leesburg,Leesburg 1,66.15385,2024.0,clean_dc,TA Realty LLC,TA Realty LLC,1
+51153,Prince William County,Virginia,Gainesville,Gainesville Crossing 1,55.384,2023.0,clean_dc,"Patrinely Group, LLC","Patrinely Group, LLC",4
+51107,Loudoun County,Virginia,Sterling,NVAL2b,60.0,2024.0,clean_dc,"STACK Infrastructure, Inc.","STACK Infrastructure, Inc.",1
+51153,Prince William County,Virginia,Bristow,Bristow 2,50.0001,2025.0,clean_dc,Yondr Group Holdings B.V.,Yondr Group Holdings B.V.,4
+04013,Maricopa County,Arizona,Phoenix,PHX06,54.0,2025.0,clean_dc,"Aligned Data Centers (Phoenix), LLC","Aligned Data Centers (Phoenix), LLC",3
+13097,Douglas County,Georgia,Lithia Springs,Douglasville,100.0,2003.0,clean_dc,Alphabet Inc.,Alphabet Inc.,4
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 10,60.0,2023.0,clean_dc,Alphabet Inc.,Alphabet Inc.,3
+28089,Madison County,Mississippi,Ridgeland,"Madison County, MS Ridgeland 1",80.0,2025.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",4
+04013,Maricopa County,Arizona,Mesa,Mesa 4,70.08,2024.0,clean_dc,"Meta Platforms, Inc.","Meta Platforms, Inc.",3
+04013,Maricopa County,Arizona,Mesa,Mesa 5,70.08,2025.0,clean_dc,"Meta Platforms, Inc.","Meta Platforms, Inc.",3
+51107,Loudoun County,Virginia,Sterling,Digital Dulles 3,95.985,2024.0,clean_dc,"Digital Realty Trust, Inc.","Digital Realty Trust, Inc.",1
+19155,Pottawattamie County,Iowa,Council Bluffs,Council Bluffs 2 building 4,60.0,2015.0,clean_dc,Alphabet Inc.,Alphabet Inc.,3
+39089,Licking County,Ohio,New Albany,New Albany 7a,50.0,2024.0,clean_dc,Alphabet Inc.,Alphabet Inc.,4
+39049,Franklin County,Ohio,New Albany,New Albany 6a,50.0,2025.0,clean_dc,Alphabet Inc.,Alphabet Inc.,4
+41049,Morrow County,Oregon,Boardman,PDX93,50.0,2022.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41049,Morrow County,Oregon,Boardman,PDX109,50.0,2022.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41049,Morrow County,Oregon,Boardman,PDX110,50.0,2023.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41049,Morrow County,Oregon,Boardman,PDX111,50.0,2023.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41049,Morrow County,Oregon,Boardman,PDX112,50.0,2024.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41059,Umatilla County,Oregon,Umatilla,PDX132,50.0,2024.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",3
+41059,Umatilla County,Oregon,Umatilla,PDX194,50.0,2024.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",3
+41049,Morrow County,Oregon,Boardman,PDX181,50.0,2024.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41049,Morrow County,Oregon,Boardman,PDX179,50.0,2024.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41049,Morrow County,Oregon,Boardman,PDX180,50.0,2024.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41049,Morrow County,Oregon,Boardman,PDX178,50.0,2024.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41049,Morrow County,Oregon,Boardman,PDX170,50.0,2024.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",2
+41059,Umatilla County,Oregon,Umatilla,PDX133,50.0,2025.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",3
+41059,Umatilla County,Oregon,Umatilla,PDX195,50.0,2025.0,clean_dc,"Amazon.com, Inc.","Amazon.com, Inc.",3
+42007,Beaver County,Pennsylvania,Midland,"Midland, PA",100.0,2023.0,crypto,Mawson Infrastructure Group Inc.,Mawson Infrastructure Group Inc.,4
+48355,Nueces County,Texas,Corpus Christi,Corpus Christi,100.0,2024.0,mixed,Northern Data AG,Northern Data AG,4
+36063,Niagara County,New York,Niagara Falls,"Niagara Falls, NY (Alpha)",50.0,2023.0,mixed,Hut 8 Mining Corp.,Hut 8 Mining Corp.,4
+48371,Pecos County,Texas,Fort Stockton,"Garden City, TX",100.0,2023.0,mixed,"MARA Holdings, Inc.","MARA Holdings, Inc.",4
+48221,Hood County,Texas,McCamey,"McCamey, TX",200.0,2023.0,crypto,"MARA Holdings, Inc.","MARA Holdings, Inc.",4
+51107,Loudoun County,Virginia,Leesburg,SBP2,57.508,2021.0,clean_dc,Alphabet Inc.,Alphabet Inc.,1

@@ -4,11 +4,11 @@ Numbered non-negotiable rules for content produced in this repository. Critic ag
 
 ## Pipeline invariants
 
-- **INV-1: Single source of truth.** Stata `.do` files in `scripts/stata/` are authoritative for analysis. Tables (`\input{}`) and figures (`\includegraphics{}`) in `paper/main.tex` are derived artifacts. Never hand-edit a `.tex` table or paste a number into the paper that doesn't trace to `output/`. See `single-source-of-truth.md`.
+- **INV-1: Authoritative source.** Stata `.do` files in `scripts/stata/` are authoritative for analysis. Tables (`\input{}`) and figures (`\includegraphics{}`) in `paper/main.tex` are derived artifacts. Never hand-edit a `.tex` table or paste a number into the paper that doesn't trace to `output/`. See `authoritative-source.md`.
 - **INV-2: Relative paths only.** No absolute paths anywhere (`/Users/…`, `C:\…`, `~`). R uses `here::here(…)`; Stata uses `$root/…` derived from `_config.do`. Catches every co-author's machine.
 - **INV-3: Reproducibility seed.** `set.seed(20260510)` (R) or `set seed $PROJECT_SEED` (Stata, with `$PROJECT_SEED 20260510` in `_config.do`) is set ONCE at the top of `00_run_all.{do,R}`. Never inside loops or functions. `set sortseed` matches `set seed` in Stata.
 - **INV-4: US-firm filter at the cleaning stage.** The "filter to US firms" step happens in `02_clean.do`, never silently in analysis scripts. Sample restriction must be visible in the data lineage.
-- **INV-5: Single bibliography.** `paper/refs.bib` is the canonical bib file. No per-section `.bib` files. All `\cite{}` keys resolve against this one file.
+- **INV-5: Single bibliography.** `paper/refs.bib` is the authoritative bib file. No per-section `.bib` files. All `\cite{}` keys resolve against this one file.
 - **INV-6: Stata version locked.** `version 19` at the top of `_config.do`. Every other Stata script inherits.
 
 ## Estimation invariants

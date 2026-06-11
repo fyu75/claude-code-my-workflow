@@ -1,0 +1,1951 @@
+geoid,state,county_name,recovery_type,covered_any_year,covered_2period,covered_n_years,covered_balanced9
+01001,AL,Autauga County,county_gp,True,False,5,False
+01005,AL,Barbour County,county_gp,True,False,3,False
+01007,AL,Bibb County,county_gp,True,False,2,False
+01021,AL,Chilton County,county_gp,True,False,4,False
+01025,AL,Clarke County,county_gp,True,False,1,False
+01027,AL,,county_gp,True,False,2,False
+01029,AL,Cleburne County,county_gp,True,False,3,False
+01031,AL,COFFEE,county_gp,True,False,6,False
+01043,AL,,county_gp,True,True,9,True
+01045,AL,,county_gp,True,False,1,False
+01051,AL,Elmore County,county_gp,True,False,3,False
+01053,AL,Escambia County,county_gp,True,False,2,False
+01057,AL,Fayette County,county_gp,True,False,3,False
+01061,AL,Geneva County,county_gp,True,False,1,False
+01067,AL,Henry County,county_gp,True,False,1,False
+01071,AL,Jackson County,county_gp,True,False,6,False
+01077,AL,Lauderdale County,county_gp,True,False,5,False
+01083,AL,Limestone County,county_gp,True,True,7,False
+01087,AL,Macon County,county_gp,True,False,4,False
+01089,AL,Madison County,county_gp,True,False,4,False
+01091,AL,Marengo County,county_gp,True,False,1,False
+01093,AL,MARION,county_gp,True,False,1,False
+01097,AL,Mobile County,county_gp,True,True,9,True
+01099,AL,Monroe County,county_gp,True,False,3,False
+01109,AL,Pike County,county_gp,True,False,4,False
+01113,AL,Russell County,county_gp,True,False,2,False
+01115,AL,St. Clair County,county_gp,True,False,5,False
+01123,AL,TALLAPOOSA,county_gp,True,False,2,False
+01127,AL,Walker County,county_gp,True,False,3,False
+01129,AL,Washington County,county_gp,True,True,9,True
+01133,AL,Winston County,county_gp,True,False,3,False
+02013,AK,Anchorage Municipality,county_equiv_municipality,True,False,8,False
+02016,AK,,county_equiv_municipality,True,True,9,True
+02020,AK,,county_equiv_municipality,True,False,2,False
+02050,AK,,county_equiv_municipality,True,True,9,True
+02060,AK,,county_equiv_municipality,True,False,8,False
+02063,AK,Chugach Census Area,county_equiv_municipality,True,True,9,True
+02068,AK,,county_equiv_municipality,True,False,2,False
+02070,AK,,county_equiv_municipality,True,False,6,False
+02090,AK,Fairbanks North Star Borough,county_equiv_municipality,True,True,9,True
+02100,AK,,county_equiv_municipality,True,False,8,False
+02105,AK,,county_equiv_municipality,True,False,6,False
+02110,AK,Juneau City and Borough,county_equiv_municipality,True,True,8,False
+02122,AK,Kenai Peninsula Borough,county_equiv_municipality,True,True,9,True
+02130,AK,KETCHIKAN-GATEWAY BOROUGH,county_equiv_municipality,True,True,8,False
+02150,AK,,county_equiv_municipality,True,True,9,True
+02158,AK,Kusilvak Census Area,county_equiv_municipality,True,False,6,False
+02164,AK,,county_equiv_municipality,True,False,5,False
+02170,AK,,county_equiv_municipality,True,True,9,True
+02180,AK,Nome Census Area,county_equiv_municipality,True,True,8,False
+02185,AK,NORTH SLOPE BOROUGH,county_equiv_municipality,True,True,8,False
+02188,AK,NORTHWEST ARCTIC BOROUGH,county_equiv_municipality,True,True,9,True
+02195,AK,,county_equiv_municipality,True,True,8,False
+02198,AK,,county_equiv_municipality,True,False,8,False
+02220,AK,Prince of Wales-Hyder Census Area,county_equiv_municipality,True,True,8,False
+02230,AK,,county_equiv_municipality,True,True,9,True
+02240,AK,,county_equiv_municipality,True,False,8,False
+02275,AK,,county_equiv_municipality,True,True,9,True
+02290,AK,,county_equiv_municipality,True,False,7,False
+04001,AZ,Apache County,county_gp,True,False,7,False
+04003,AZ,Cochise County,county_gp,True,True,9,True
+04005,AZ,Coconino County,county_gp,True,True,8,False
+04007,AZ,Gila County,county_gp,True,True,8,False
+04009,AZ,Graham County,county_gp,True,True,9,True
+04011,AZ,,county_gp,True,True,8,False
+04012,AZ,La Paz County,county_gp,True,True,9,True
+04013,AZ,Maricopa County,county_gp,True,False,8,False
+04015,AZ,Mohave County,county_gp,True,True,9,True
+04017,AZ,Navajo County,county_gp,True,True,9,True
+04019,AZ,Pima County,county_gp,True,True,9,True
+04021,AZ,Pinal County,county_gp,True,True,9,True
+04023,AZ,Santa Cruz County,county_gp,True,False,8,False
+04025,AZ,Yavapai County,county_gp,True,True,9,True
+04027,AZ,,county_gp,True,True,9,True
+05005,AR,,county_gp,True,False,1,False
+05031,AR,,county_gp,True,False,1,False
+05063,AR,INDEPENDENCE,county_gp,True,False,2,False
+05085,AR,Lonoke County,county_gp,True,False,1,False
+05087,AR,Madison County,county_gp,True,False,1,False
+05119,AR,Pulaski County,county_gp,True,True,6,False
+05137,AR,Stone County,county_gp,True,False,1,False
+06003,CA,,county_gp,True,True,9,True
+06005,CA,Amador County,county_gp,True,True,9,True
+06007,CA,Butte County,county_gp,True,True,9,True
+06009,CA,Calaveras County,county_gp,True,False,8,False
+06011,CA,Colusa County,county_gp,True,True,8,False
+06013,CA,Contra Costa County,county_gp,True,True,8,False
+06015,CA,Del Norte County,county_gp,True,True,9,True
+06017,CA,,county_gp,True,False,8,False
+06019,CA,Fresno County,county_gp,True,False,7,False
+06021,CA,GLENN,county_gp,True,True,9,True
+06023,CA,Humboldt County,county_gp,True,True,7,False
+06025,CA,Imperial County,county_gp,True,False,8,False
+06027,CA,,county_gp,True,True,9,True
+06029,CA,Kern County,county_gp,True,True,9,True
+06031,CA,KINGS,county_gp,True,True,7,False
+06033,CA,Lake County,county_gp,True,True,9,True
+06035,CA,Lassen County,county_gp,True,False,7,False
+06037,CA,Los Angeles County,county_gp,True,True,8,False
+06039,CA,Madera County,county_gp,True,True,8,False
+06041,CA,MARIN,county_gp,True,True,9,True
+06043,CA,Mariposa County,county_gp,True,True,8,False
+06045,CA,Mendocino County,county_gp,True,True,9,True
+06047,CA,Merced County,county_gp,True,True,9,True
+06049,CA,Modoc County,county_gp,True,True,7,False
+06051,CA,Mono County,county_gp,True,False,8,False
+06053,CA,MONTEREY,county_gp,True,True,9,True
+06055,CA,Napa County,county_gp,True,True,9,True
+06057,CA,Nevada County,county_gp,True,True,9,True
+06059,CA,Orange County,county_gp,True,False,8,False
+06061,CA,Placer County,county_gp,True,False,7,False
+06063,CA,Plumas County,county_gp,True,False,8,False
+06065,CA,Riverside County,county_gp,True,True,9,True
+06067,CA,Sacramento County,county_gp,True,True,9,True
+06071,CA,San Bernardino County,county_gp,True,True,9,True
+06073,CA,San Diego County,county_gp,True,False,5,False
+06075,CA,San Francisco County,county_gp,True,False,4,False
+06077,CA,San Joaquin County,county_gp,True,False,8,False
+06079,CA,San Luis Obispo County,county_gp,True,True,9,True
+06081,CA,San Mateo County,county_gp,True,False,4,False
+06083,CA,Santa Barbara County,county_gp,True,True,8,False
+06085,CA,Santa Clara County,county_gp,True,True,8,False
+06087,CA,Santa Cruz County,county_gp,True,True,9,True
+06089,CA,Shasta County,county_gp,True,False,8,False
+06091,CA,Sierra County,county_gp,True,True,8,False
+06093,CA,Siskiyou County,county_gp,True,True,9,True
+06095,CA,Solano County,county_gp,True,True,9,True
+06097,CA,Sonoma County,county_gp,True,False,1,False
+06099,CA,Stanislaus County,county_gp,True,True,9,True
+06101,CA,Sutter County,county_gp,True,True,9,True
+06103,CA,Tehama County,county_gp,True,True,8,False
+06105,CA,,county_gp,True,True,8,False
+06107,CA,Tulare County,county_gp,True,True,8,False
+06115,CA,Yuba County,county_gp,True,True,9,True
+08001,CO,Adams County,county_gp,True,True,9,True
+08003,CO,,county_gp,True,True,9,True
+08005,CO,Arapahoe County,county_gp,True,False,5,False
+08007,CO,Archuleta County,county_gp,True,True,8,False
+08009,CO,,county_gp,True,True,7,False
+08011,CO,,county_gp,True,True,9,True
+08013,CO,Boulder County,county_gp,True,True,9,True
+08014,CO,Broomfield County,county_gp,True,True,9,True
+08019,CO,Clear Creek County,county_gp,True,True,9,True
+08021,CO,,county_gp,True,True,9,True
+08023,CO,,county_gp,True,True,9,True
+08025,CO,Crowley County,county_gp,True,True,9,True
+08027,CO,,county_gp,True,False,6,False
+08029,CO,Delta County,county_gp,True,True,9,True
+08031,CO,Denver County,county_equiv_municipality,True,True,8,False
+08033,CO,Dolores County,county_gp,True,False,6,False
+08037,CO,,county_gp,True,False,7,False
+08041,CO,El Paso County,county_gp,True,True,9,True
+08043,CO,Fremont County,county_gp,True,False,6,False
+08045,CO,Garfield County,county_gp,True,True,9,True
+08047,CO,,county_gp,True,False,5,False
+08051,CO,Gunnison County,county_gp,True,True,9,True
+08053,CO,HINSDALE,county_gp,True,False,3,False
+08055,CO,HUERFANO,county_gp,True,False,7,False
+08063,CO,Kit Carson County,county_gp,True,True,7,False
+08065,CO,,county_gp,True,True,9,True
+08067,CO,La Plata County,county_gp,True,True,9,True
+08069,CO,Larimer County,county_gp,True,True,9,True
+08071,CO,Las Animas County,county_gp,True,False,4,False
+08073,CO,,county_gp,True,True,9,True
+08075,CO,Logan County,county_gp,True,True,9,True
+08077,CO,Mesa County,county_gp,True,False,7,False
+08079,CO,Mineral County,county_gp,True,False,1,False
+08081,CO,Moffat County,county_gp,True,True,9,True
+08083,CO,Montezuma County,county_gp,True,True,9,True
+08085,CO,Montrose County,county_gp,True,True,9,True
+08087,CO,MORGAN,county_gp,True,True,9,True
+08091,CO,Ouray County,county_gp,True,False,2,False
+08093,CO,Park County,county_gp,True,True,9,True
+08095,CO,PHILLIPS,county_gp,True,False,2,False
+08097,CO,Pitkin County,county_gp,True,True,8,False
+08099,CO,Prowers County,county_gp,True,True,9,True
+08101,CO,Pueblo County,county_gp,True,True,8,False
+08103,CO,Rio Blanco County,county_gp,True,True,9,True
+08105,CO,Rio Grande County,county_gp,True,True,9,True
+08107,CO,Routt County,county_gp,True,True,9,True
+08109,CO,Saguache County,county_gp,True,True,9,True
+08113,CO,San Miguel County,county_gp,True,False,5,False
+08117,CO,Summit County,county_gp,True,False,8,False
+08121,CO,Washington County,county_gp,True,False,1,False
+08125,CO,Yuma County,county_gp,True,True,8,False
+10001,DE,,county_gp,True,True,7,False
+10003,DE,New Castle County,county_gp,True,True,9,True
+10005,DE,Sussex County,county_gp,True,True,9,True
+12001,FL,Alachua County,county_gp,True,False,7,False
+12003,FL,Baker County,county_gp,True,False,5,False
+12009,FL,,county_gp,True,True,8,False
+12011,FL,Broward County,county_gp,True,True,9,True
+12013,FL,Calhoun County,county_gp,True,False,6,False
+12015,FL,CHARLOTTE,county_gp,True,False,4,False
+12017,FL,Citrus County,county_gp,True,True,9,True
+12019,FL,Clay County,county_gp,True,False,7,False
+12021,FL,Collier County,county_gp,True,True,9,True
+12023,FL,Columbia County,county_gp,True,False,4,False
+12027,FL,DeSoto County,county_gp,True,True,9,True
+12029,FL,,county_gp,True,False,3,False
+12033,FL,Escambia County,county_gp,True,True,9,True
+12035,FL,Flagler County,county_gp,True,True,9,True
+12037,FL,Franklin County,county_gp,True,True,9,True
+12039,FL,Gadsden County,county_gp,True,True,7,False
+12041,FL,Gilchrist County,county_gp,True,False,4,False
+12043,FL,Glades County,county_gp,True,False,6,False
+12045,FL,,county_gp,True,False,8,False
+12047,FL,Hamilton County,county_gp,True,False,5,False
+12049,FL,Hardee County,county_gp,True,False,6,False
+12053,FL,Hernando County,county_gp,True,True,9,True
+12055,FL,Highlands County,county_gp,True,False,4,False
+12057,FL,Hillsborough County,county_gp,True,True,9,True
+12059,AL,Holmes County,county_gp,True,True,8,False
+12061,FL,Indian River County,county_gp,True,True,9,True
+12063,FL,Jackson County,county_gp,True,True,9,True
+12067,FL,Lafayette County,county_gp,True,False,1,False
+12069,FL,Lake County,county_gp,True,True,9,True
+12071,FL,Lee County,county_gp,True,True,9,True
+12073,FL,Leon County,county_gp,True,True,9,True
+12075,FL,Levy County,county_gp,True,True,9,True
+12077,FL,Liberty County,county_gp,True,False,8,False
+12079,FL,MADISON,county_gp,True,False,4,False
+12081,FL,Manatee County,county_gp,True,True,9,True
+12083,FL,Marion County,county_gp,True,True,9,True
+12085,FL,Martin County,county_gp,True,True,9,True
+12087,FL,Monroe County,county_gp,True,True,9,True
+12089,FL,,county_gp,True,False,7,False
+12091,FL,Okaloosa County,county_gp,True,True,8,False
+12093,FL,Okeechobee County,county_gp,True,False,8,False
+12095,FL,Orange County,county_gp,True,False,4,False
+12097,FL,Osceola County,county_gp,True,True,9,True
+12099,FL,Palm Beach County,county_gp,True,False,1,False
+12103,FL,Pinellas County,county_gp,True,True,9,True
+12105,FL,Polk County,county_gp,True,True,9,True
+12107,FL,Putnam County,county_gp,True,True,9,True
+12109,FL,St. Johns County,county_gp,True,True,9,True
+12111,FL,St. Lucie County,county_gp,True,True,9,True
+12113,FL,Santa Rosa County,county_gp,True,True,9,True
+12115,FL,Sarasota County,county_gp,True,True,9,True
+12117,FL,Seminole County,county_gp,True,True,9,True
+12119,FL,Sumter County,county_gp,True,False,8,False
+12121,FL,Suwannee County,county_gp,True,False,5,False
+12123,FL,Taylor County,county_gp,True,False,5,False
+12125,FL,Union County,county_gp,True,False,1,False
+12127,FL,Volusia County,county_gp,True,True,8,False
+12129,FL,Wakulla County,county_gp,True,True,9,True
+12131,NC,Walton County,county_gp,True,True,9,True
+13001,GA,Appling County,county_gp,True,False,1,False
+13005,GA,BACON,county_gp,True,False,1,False
+13007,GA,,county_gp,True,False,2,False
+13009,GA,Baldwin County,county_gp,True,False,8,False
+13011,GA,BANKS,county_gp,True,False,2,False
+13013,GA,Barrow County,county_gp,True,False,6,False
+13015,GA,BARTOW,county_gp,True,True,9,True
+13017,GA,Ben Hill County,county_gp,True,False,7,False
+13019,GA,BERRIEN,county_gp,True,True,7,False
+13021,GA,Bibb County,county_gp,True,True,9,True
+13025,GA,Brantley County,county_gp,True,False,1,False
+13029,GA,Bryan County,county_gp,True,False,5,False
+13031,GA,Bulloch County,county_gp,True,True,8,False
+13039,GA,Camden County,county_gp,True,True,8,False
+13045,GA,Carroll County,county_gp,True,False,5,False
+13047,GA,Catoosa County,county_gp,True,True,8,False
+13049,GA,Charlton County,county_gp,True,False,1,False
+13053,GA,Jasper County,county_gp,True,False,1,False
+13055,GA,Chattooga County,county_gp,True,False,1,False
+13059,GA,Clarke County,county_gp,True,True,9,True
+13063,GA,Clayton County,county_gp,True,True,9,True
+13065,GA,Clinch County,county_gp,True,False,1,False
+13067,GA,Cobb County,county_gp,True,True,9,True
+13069,GA,Coffee County,county_gp,True,False,3,False
+13071,GA,Colquitt County,county_gp,True,False,3,False
+13073,GA,Columbia County,county_gp,True,True,8,False
+13075,GA,Cook County,county_gp,True,False,6,False
+13077,GA,Coweta County,county_gp,True,True,7,False
+13079,GA,Crawford County,county_gp,True,False,4,False
+13081,GA,CRISP,county_gp,True,False,8,False
+13083,GA,Dade County,county_gp,True,True,3,False
+13085,GA,Dawson County,county_gp,True,False,8,False
+13089,GA,DeKalb County,county_gp,True,False,8,False
+13091,GA,Dodge County,county_gp,True,False,5,False
+13093,GA,DOOLY,county_gp,True,False,1,False
+13095,GA,,county_gp,True,True,7,False
+13099,GA,Early County,county_gp,True,False,1,False
+13103,GA,Effingham County,county_gp,True,False,3,False
+13105,GA,Elbert County,county_gp,True,False,4,False
+13111,GA,FANNIN,county_gp,True,False,5,False
+13113,GA,Fayette County,county_gp,True,True,8,False
+13115,GA,Floyd County,county_gp,True,False,5,False
+13117,GA,Forsyth County,county_gp,True,True,9,True
+13119,GA,Franklin County,county_gp,True,False,3,False
+13123,GA,Gilmer County,county_gp,True,False,7,False
+13125,GA,Glascock County,county_gp,True,False,1,False
+13127,GA,Glynn County,county_gp,True,True,7,False
+13129,GA,,county_gp,True,False,3,False
+13131,GA,Grady County,county_gp,True,False,1,False
+13133,GA,Greene County,county_gp,True,True,3,False
+13137,GA,,county_gp,True,True,9,True
+13139,GA,Hall County,county_gp,True,True,8,False
+13141,GA,,county_gp,True,False,1,False
+13143,GA,Haralson County,county_gp,True,False,2,False
+13145,GA,Harris County,county_gp,True,False,4,False
+13147,GA,Hart County,county_gp,True,False,3,False
+13149,GA,,county_gp,True,False,2,False
+13151,GA,Henry County,county_gp,True,True,9,True
+13153,GA,Houston County,county_gp,True,False,6,False
+13157,GA,Jackson County,county_gp,True,False,6,False
+13159,GA,JASPER,county_gp,True,False,4,False
+13163,GA,Jefferson County,county_gp,True,False,4,False
+13165,GA,Jenkins County,county_gp,True,False,1,False
+13169,GA,JONES,county_gp,True,False,4,False
+13171,GA,Lamar County,county_gp,True,False,2,False
+13173,GA,Lanier County,county_gp,True,False,1,False
+13175,GA,,county_gp,True,True,8,False
+13177,GA,Lee County,county_gp,True,False,5,False
+13179,GA,Liberty County,county_gp,True,True,9,True
+13181,GA,Lincoln County,county_gp,True,True,9,True
+13183,GA,Long County,county_gp,True,False,3,False
+13185,GA,Lowndes County,county_gp,True,True,8,False
+13187,GA,Lumpkin County,county_gp,True,False,7,False
+13191,GA,McIntosh County,county_gp,True,False,4,False
+13195,GA,Madison County,county_gp,True,False,1,False
+13199,GA,MERIWETHER,county_gp,True,False,3,False
+13205,GA,,county_gp,True,False,2,False
+13207,GA,Monroe County,county_gp,True,False,4,False
+13209,GA,Montgomery County,county_gp,True,False,2,False
+13211,GA,,county_gp,True,False,2,False
+13213,GA,Murray County,county_gp,True,False,2,False
+13221,GA,Oglethorpe County,county_gp,True,False,1,False
+13223,GA,Paulding County,county_gp,True,True,9,True
+13225,GA,Peach County,county_gp,True,False,4,False
+13227,GA,Pickens County,county_gp,True,True,6,False
+13231,GA,,county_gp,True,False,2,False
+13233,GA,Polk County,county_gp,True,False,1,False
+13237,GA,Putnam County,county_gp,True,False,1,False
+13241,GA,,county_gp,True,False,4,False
+13247,GA,Rockdale County,county_gp,True,True,9,True
+13251,GA,,county_gp,True,False,1,False
+13253,GA,,county_gp,True,False,1,False
+13255,GA,Spalding County,county_gp,True,False,3,False
+13257,GA,,county_gp,True,False,4,False
+13259,GA,,county_gp,True,False,1,False
+13261,GA,Sumter County,county_gp,True,True,8,False
+13267,GA,Tattnall County,county_gp,True,False,4,False
+13269,GA,Taylor County,county_gp,True,False,2,False
+13271,GA,,county_gp,True,False,2,False
+13275,GA,Thomas County,county_gp,True,True,9,True
+13277,GA,Tift County,county_gp,True,False,3,False
+13279,GA,Toombs County,county_gp,True,False,3,False
+13281,GA,Towns County,county_gp,True,False,1,False
+13285,GA,Troup County,county_gp,True,True,9,True
+13287,GA,Turner County,county_gp,True,False,1,False
+13289,GA,Jones County,county_gp,True,False,3,False
+13291,GA,Union County,county_gp,True,False,4,False
+13293,GA,Upson County,county_gp,True,False,4,False
+13295,GA,Walker County,county_gp,True,False,5,False
+13297,GA,Walton County,county_gp,True,False,4,False
+13299,GA,Ware County,county_gp,True,False,7,False
+13301,GA,,county_gp,True,True,7,False
+13303,GA,Washington County,county_gp,True,False,3,False
+13305,GA,WAYNE,county_gp,True,True,5,False
+13311,GA,,county_gp,True,False,6,False
+13313,GA,Whitfield County,county_gp,True,False,7,False
+13315,GA,Wilcox County,county_gp,True,False,1,False
+13317,GA,Wilkes County,county_gp,True,False,1,False
+13321,GA,Worth County,county_gp,True,False,2,False
+15001,HI,Hawaii County,county_gp,True,True,4,False
+15003,HI,Honolulu County,county_equiv_municipality,True,True,9,True
+15007,HI,Kauai County,county_gp,True,True,8,False
+15009,HI,Maui County,county_gp,True,True,3,False
+16001,ID,Ada County,county_gp,True,True,8,False
+16003,ID,,county_gp,True,False,2,False
+16005,ID,Bannock County,county_gp,True,False,4,False
+16007,ID,Bear Lake County,county_gp,True,False,1,False
+16009,ID,,county_gp,True,False,1,False
+16013,ID,Blaine County,county_gp,True,False,4,False
+16015,ID,,county_gp,True,False,7,False
+16017,ID,Bonner County,county_gp,True,False,8,False
+16021,WA,Boundary County,county_gp,True,True,9,True
+16025,ID,,county_gp,True,False,1,False
+16027,ID,Canyon County,county_gp,True,False,4,False
+16031,ID,Cassia County,county_gp,True,False,8,False
+16035,ID,Clearwater County,county_gp,True,True,9,True
+16039,ID,,county_gp,True,False,1,False
+16043,ID,FREMONT,county_gp,True,False,3,False
+16045,ID,Gem County,county_gp,True,False,3,False
+16047,ID,,county_gp,True,False,5,False
+16049,ID,Idaho County,county_gp,True,True,9,True
+16051,ID,,county_gp,True,False,2,False
+16053,ID,JEROME,county_gp,True,False,4,False
+16055,ID,Kootenai County,county_gp,True,True,9,True
+16057,ID,LATAH,county_gp,True,False,5,False
+16059,ID,Lemhi County,county_gp,True,False,3,False
+16063,ID,,county_gp,True,False,2,False
+16069,ID,Nez Perce County,county_gp,True,False,5,False
+16071,ID,Oneida County,county_gp,True,False,1,False
+16073,ID,,county_gp,True,False,8,False
+16075,ID,Payette County,county_gp,True,False,2,False
+16079,ID,SHOSHONE,county_gp,True,True,8,False
+16083,ID,Twin Falls County,county_gp,True,False,5,False
+16085,ID,Valley County,county_gp,True,True,7,False
+16087,ID,WASHINGTON,county_gp,True,False,3,False
+17001,IL,Adams County,county_gp,True,True,9,True
+17005,IL,,county_gp,True,False,3,False
+17007,IL,Boone County,county_gp,True,True,9,True
+17011,IL,Bureau County,county_gp,True,False,8,False
+17015,IL,,county_gp,True,True,8,False
+17017,IL,Cass County,county_gp,True,False,7,False
+17019,IL,Champaign County,county_gp,True,False,8,False
+17021,IL,,county_gp,True,False,1,False
+17023,IL,Clark County,county_gp,True,False,2,False
+17029,IL,Coles County,county_gp,True,True,9,True
+17031,IL,Cook County,county_gp,True,True,9,True
+17033,IL,Crawford County,county_gp,True,False,3,False
+17037,IL,DeKalb County,county_gp,True,True,9,True
+17039,IL,De Witt County,county_gp,True,False,1,False
+17041,IL,,county_gp,True,False,1,False
+17043,IL,,county_gp,True,True,9,True
+17045,IL,Edgar County,county_gp,True,False,3,False
+17049,IL,Effingham County,county_gp,True,False,2,False
+17051,IL,,county_gp,True,False,5,False
+17053,IL,,county_gp,True,False,1,False
+17057,IL,Fulton County,county_gp,True,False,8,False
+17061,IL,Greene County,county_gp,True,False,5,False
+17065,IL,Hamilton County,county_gp,True,False,2,False
+17067,IL,Hancock County,county_gp,True,False,6,False
+17073,IL,Henry County,county_gp,True,False,8,False
+17075,IL,Iroquois County,county_gp,True,False,4,False
+17077,IL,,county_gp,True,False,4,False
+17081,IL,Jefferson County,county_gp,True,False,5,False
+17085,IL,Jo Daviess County,county_gp,True,False,2,False
+17089,IL,Kane County,county_gp,True,True,9,True
+17091,IL,Kankakee County,county_gp,True,True,9,True
+17093,IL,Kendall County,county_gp,True,True,9,True
+17095,IL,Knox County,county_gp,True,False,7,False
+17097,IL,LAKE,county_gp,True,False,4,False
+17099,IL,LaSalle County,county_gp,True,True,9,True
+17103,IL,Lee County,county_gp,True,True,9,True
+17105,IL,Livingston County,county_gp,True,False,5,False
+17107,IL,Logan County,county_gp,True,False,8,False
+17109,IL,,county_gp,True,False,4,False
+17113,IL,McLean County,county_gp,True,True,7,False
+17115,IL,Macon County,county_gp,True,True,9,True
+17119,IL,Madison County,county_gp,True,True,9,True
+17123,IL,,county_gp,True,False,1,False
+17125,IL,Mason County,county_gp,True,False,4,False
+17127,IL,MASSAC,county_gp,True,False,1,False
+17129,IL,Menard County,county_gp,True,False,2,False
+17131,IL,,county_gp,True,False,5,False
+17133,IL,Monroe County,county_gp,True,False,5,False
+17135,IL,Montgomery County,county_gp,True,False,1,False
+17137,IL,Morgan County,county_gp,True,True,8,False
+17141,IL,OGLE,county_gp,True,True,8,False
+17143,IL,Peoria County,county_gp,True,True,9,True
+17145,IL,Perry County,county_gp,True,False,5,False
+17147,IL,Piatt County,county_gp,True,False,3,False
+17149,IL,PIKE,county_gp,True,False,1,False
+17157,IL,,county_gp,True,False,3,False
+17159,IL,,county_gp,True,False,1,False
+17161,IL,Rock Island County,county_gp,True,True,9,True
+17165,IL,SALINE,county_gp,True,False,1,False
+17169,IL,Schuyler County,county_gp,True,False,1,False
+17171,IL,Scott County,county_gp,True,False,1,False
+17173,IL,SHELBY,county_gp,True,False,2,False
+17177,IL,Stephenson County,county_gp,True,True,8,False
+17179,IL,,county_gp,True,True,9,True
+17183,IL,Vermilion County,county_gp,True,True,9,True
+17185,IL,Wabash County,county_gp,True,False,1,False
+17187,IL,Warren County,county_gp,True,False,7,False
+17193,IL,WHITE,county_gp,True,False,1,False
+17195,IL,Whiteside County,county_gp,True,True,9,True
+17197,IL,Will County,county_gp,True,True,9,True
+17201,IL,Winnebago County,county_gp,True,True,9,True
+17203,IL,Woodford County,county_gp,True,False,3,False
+18003,IN,Allen County,county_gp,True,True,8,False
+18019,IN,Clark County,county_gp,True,False,4,False
+18035,IN,Delaware County,county_gp,True,False,5,False
+18039,IN,Elkhart County,county_gp,True,False,6,False
+18057,IN,Hamilton County,county_gp,True,True,9,True
+18063,IN,Hendricks County,county_gp,True,False,6,False
+18081,IN,Johnson County,county_gp,True,False,5,False
+18089,IN,,county_gp,True,False,2,False
+18091,IN,LaPorte County,county_gp,True,False,2,False
+18095,IN,,county_gp,True,False,6,False
+18097,IN,,county_equiv_municipality,True,True,7,False
+18105,IN,Monroe County,county_gp,True,False,6,False
+18127,IN,Porter County,county_gp,True,False,5,False
+18141,IN,St. Joseph County,county_gp,True,False,6,False
+18157,IN,Tippecanoe County,county_gp,True,False,6,False
+18163,IN,Vanderburgh County,county_gp,True,False,6,False
+18167,IN,Vigo County,county_gp,True,False,4,False
+19001,IA,ADAIR,county_gp,True,False,1,False
+19003,IA,Adams County,county_gp,True,False,1,False
+19005,IA,Allamakee County,county_gp,True,False,4,False
+19009,WI,Scott County,county_gp,True,False,7,False
+19011,IA,Benton County,county_gp,True,True,7,False
+19013,IA,Black Hawk County,county_gp,True,True,9,True
+19017,IA,Bremer County,county_gp,True,False,2,False
+19019,IA,Buchanan County,county_gp,True,False,3,False
+19021,IA,Buena Vista County,county_gp,True,False,3,False
+19029,IA,,county_gp,True,False,1,False
+19031,IA,Cedar County,county_gp,True,False,3,False
+19033,IA,Cerro Gordo County,county_gp,True,True,9,True
+19035,IA,CHEROKEE,county_gp,True,False,1,False
+19039,IA,,county_gp,True,False,1,False
+19043,IA,Clayton County,county_gp,True,False,4,False
+19045,IA,Clinton County,county_gp,True,False,7,False
+19047,IA,CRAWFORD,county_gp,True,False,2,False
+19049,IA,Dallas County,county_gp,True,True,7,False
+19051,IA,Davis County,county_gp,True,True,4,False
+19055,IA,Delaware County,county_gp,True,False,1,False
+19057,IA,Des Moines County,county_gp,True,False,7,False
+19059,IA,Dickinson County,county_gp,True,False,4,False
+19061,IA,Dubuque County,county_gp,True,True,9,True
+19065,IA,Fayette County,county_gp,True,True,5,False
+19067,IA,Floyd County,county_gp,True,True,4,False
+19069,IA,,county_gp,True,False,1,False
+19071,IA,Fremont County,county_gp,True,False,1,False
+19073,IA,Greene County,county_gp,True,False,2,False
+19075,IA,GRUNDY,county_gp,True,False,1,False
+19079,IA,HAMILTON,county_gp,True,False,1,False
+19083,IA,Hardin County,county_gp,True,False,1,False
+19087,IA,Henry County,county_gp,True,False,1,False
+19089,IA,Howard County,county_gp,True,False,5,False
+19095,IA,,county_gp,True,False,4,False
+19097,IA,Jackson County,county_gp,True,False,1,False
+19099,IA,Jasper County,county_gp,True,False,5,False
+19101,IA,Jefferson County,county_gp,True,False,3,False
+19103,IA,Johnson County,county_gp,True,False,8,False
+19105,IA,Jones County,county_gp,True,False,2,False
+19107,IA,Keokuk County,county_gp,True,False,2,False
+19109,IA,Kossuth County,county_gp,True,False,1,False
+19111,IA,Lee County,county_gp,True,False,8,False
+19113,IA,Linn County,county_gp,True,True,9,True
+19115,IA,,county_gp,True,False,3,False
+19117,IA,Lucas County,county_gp,True,False,2,False
+19121,IA,MADISON,county_gp,True,False,2,False
+19125,IA,MARION,county_gp,True,True,8,False
+19127,IA,Marshall County,county_gp,True,False,4,False
+19129,IA,,county_gp,True,False,7,False
+19133,IA,Monona County,county_gp,True,False,4,False
+19135,IA,Monroe County,county_gp,True,False,1,False
+19137,IA,Montgomery County,county_gp,True,False,1,False
+19139,IA,Muscatine County,county_gp,True,False,1,False
+19141,IA,O'Brien County,county_gp,True,False,3,False
+19145,IA,Page County,county_gp,True,False,1,False
+19147,IA,Palo Alto County,county_gp,True,False,2,False
+19149,IA,Plymouth County,county_gp,True,False,4,False
+19153,IA,Polk County,county_gp,True,True,8,False
+19155,IA,,county_gp,True,False,3,False
+19157,IA,Poweshiek County,county_gp,True,False,1,False
+19167,IA,Sioux County,county_gp,True,False,4,False
+19169,IA,Story County,county_gp,True,True,8,False
+19171,IA,Tama County,county_gp,True,False,3,False
+19173,IA,TAYLOR,county_gp,True,False,2,False
+19175,IA,Union County,county_gp,True,False,3,False
+19179,IA,Wapello County,county_gp,True,False,4,False
+19181,IA,Warren County,county_gp,True,False,5,False
+19183,IA,Washington County,county_gp,True,False,1,False
+19187,IA,Webster County,county_gp,True,True,9,True
+19191,IA,Winneshiek County,county_gp,True,False,8,False
+19193,IA,Woodbury County,county_gp,True,True,9,True
+20015,KS,BUTLER,county_gp,True,False,1,False
+20047,KS,,county_gp,True,False,1,False
+20055,KS,Finney County,county_gp,True,False,1,False
+20057,KS,,county_gp,True,False,1,False
+20091,KS,Johnson County,county_gp,True,True,9,True
+20113,KS,McPherson County,county_gp,True,False,1,False
+20173,KS,Sedgwick County,county_gp,True,True,8,False
+21007,KY,,county_gp,True,False,1,False
+21011,KY,,county_gp,True,False,1,False
+21013,KY,Bell County,county_gp,True,False,1,False
+21015,KY,,county_gp,True,False,7,False
+21019,KY,,county_gp,True,False,8,False
+21029,KY,Jefferson County,county_gp,True,False,1,False
+21037,KY,,county_gp,True,True,6,False
+21043,KY,,county_gp,True,False,2,False
+21045,KY,CASEY,county_gp,True,False,1,False
+21059,KY,,county_gp,True,False,1,False
+21069,KY,,county_gp,True,False,1,False
+21071,KY,,county_gp,True,False,1,False
+21073,KY,Franklin County,county_gp,True,False,2,False
+21081,KY,GRANT,county_gp,True,False,1,False
+21087,KY,GREEN,county_gp,True,False,1,False
+21099,KY,,county_gp,True,False,2,False
+21125,KY,,county_gp,True,False,1,False
+21135,KY,,county_gp,True,False,2,False
+21145,KY,McCracken County,county_gp,True,False,1,False
+21147,KY,,county_gp,True,False,1,False
+21151,KY,,county_gp,True,False,1,False
+21169,KY,Metcalfe County,county_gp,True,False,1,False
+21175,KY,,county_gp,True,False,2,False
+21177,KY,,county_gp,True,False,1,False
+21183,KY,OHIO,county_gp,True,False,2,False
+21189,KY,Owsley County,county_gp,True,False,1,False
+21195,KY,Pike County,county_gp,True,False,1,False
+21197,KY,,county_gp,True,False,1,False
+21205,KY,Rowan County,county_gp,True,False,1,False
+21209,KY,Scott County,county_gp,True,False,1,False
+21211,KY,,county_gp,True,False,1,False
+21235,KY,,county_gp,True,False,2,False
+22001,LA,Acadia Parish,county_gp,True,False,5,False
+22003,LA,,county_gp,True,False,3,False
+22005,LA,,county_gp,True,True,8,False
+22007,LA,,county_gp,True,True,7,False
+22009,LA,,county_gp,True,True,9,True
+22011,LA,Beauregard Parish,county_gp,True,False,1,False
+22013,LA,,county_gp,True,False,1,False
+22015,LA,Bossier Parish,county_gp,True,False,7,False
+22017,LA,CADDO,county_gp,True,False,3,False
+22019,LA,,county_gp,True,True,9,True
+22021,LA,,county_gp,True,False,1,False
+22023,LA,,county_gp,True,False,1,False
+22025,LA,,county_gp,True,False,1,False
+22033,LA,East Baton Rouge Parish,county_gp,True,False,4,False
+22037,LA,,county_gp,True,False,2,False
+22039,LA,,county_gp,True,True,7,False
+22041,LA,,county_gp,True,False,2,False
+22043,LA,,county_gp,True,False,5,False
+22045,LA,,county_gp,True,True,9,True
+22047,LA,,county_gp,True,True,9,True
+22051,LA,Jefferson Parish,county_gp,True,False,8,False
+22053,LA,,county_gp,True,False,6,False
+22057,LA,Lafourche Parish,county_gp,True,True,9,True
+22063,LA,,county_gp,True,True,8,False
+22065,LA,Madison Parish,county_gp,True,False,3,False
+22069,LA,Natchitoches Parish,county_gp,True,False,2,False
+22073,LA,Ouachita Parish,county_gp,True,True,9,True
+22075,LA,,county_gp,True,True,9,True
+22077,LA,,county_gp,True,True,5,False
+22079,LA,,county_gp,True,False,8,False
+22081,LA,,county_gp,True,False,1,False
+22087,LA,,county_gp,True,True,9,True
+22089,LA,,county_gp,True,True,8,False
+22091,LA,,county_gp,True,False,2,False
+22093,LA,St. James Parish,county_gp,True,False,4,False
+22095,LA,,county_gp,True,False,3,False
+22097,LA,ST LANDRY,county_gp,True,False,4,False
+22099,LA,St. Martin Parish,county_gp,True,False,1,False
+22101,LA,St. Mary Parish,county_gp,True,False,2,False
+22103,LA,,county_gp,True,True,9,True
+22105,LA,Tangipahoa Parish,county_gp,True,False,4,False
+22109,LA,,county_gp,True,True,9,True
+22111,LA,Union Parish,county_gp,True,False,1,False
+22113,LA,,county_gp,True,True,9,True
+22115,LA,,county_gp,True,True,4,False
+22117,LA,Washington Parish,county_gp,True,False,3,False
+22119,LA,,county_gp,True,True,9,True
+22121,LA,,county_gp,True,False,1,False
+22125,LA,,county_gp,True,False,6,False
+22127,LA,,county_gp,True,True,7,False
+23001,ME,Androscoggin County,county_gp,True,False,3,False
+23003,ME,Aroostook County,county_gp,True,False,2,False
+23005,ME,Cumberland County,county_gp,True,False,3,False
+23009,ME,Hancock County,county_gp,True,False,1,False
+23011,ME,KENNEBEC,county_gp,True,False,3,False
+23013,ME,Knox County,county_gp,True,True,9,True
+23019,ME,Penobscot County,county_gp,True,False,5,False
+23031,ME,York County,county_gp,True,False,4,False
+24001,MD,Allegany County,county_gp,True,True,8,False
+24003,MD,Anne Arundel County,county_gp,True,True,9,True
+24005,MD,Baltimore County,county_gp,True,True,9,True
+24009,MD,Calvert County,county_gp,True,True,9,True
+24011,MD,Caroline County,county_gp,True,True,6,False
+24013,MD,Carroll County,county_gp,True,True,7,False
+24015,MD,Cecil County,county_gp,True,True,8,False
+24017,MD,Charles County,county_gp,True,True,4,False
+24019,MD,DORCHESTER,county_gp,True,False,8,False
+24021,MD,Frederick County,county_gp,True,True,8,False
+24023,MD,Garrett County,county_gp,True,False,2,False
+24025,MD,Harford County,county_gp,True,False,8,False
+24029,MD,Kent County,county_gp,True,True,7,False
+24031,MD,Montgomery County,county_gp,True,True,3,False
+24033,MD,Prince George's County,county_gp,True,True,9,True
+24037,MD,St. Mary's County,county_gp,True,False,5,False
+24039,MD,Somerset County,county_gp,True,True,8,False
+24041,MD,,county_gp,True,True,9,True
+24043,MD,Washington County,county_gp,True,True,9,True
+24045,MD,Wicomico County,county_gp,True,False,6,False
+24047,MD,Worcester County,county_gp,True,True,8,False
+24510,MD,Baltimore city,county_equiv_municipality,True,True,9,True
+25001,MA,Barnstable County,county_gp,True,True,9,True
+25005,MA,Bristol County,county_gp,True,False,3,False
+25007,MA,Dukes County,county_gp,True,True,4,False
+25021,MA,Norfolk County,county_gp,True,False,2,False
+25023,MA,Plymouth County,county_gp,True,False,2,False
+26001,MI,Alcona County,county_gp,True,False,5,False
+26003,MI,Alger County,county_gp,True,False,4,False
+26005,MI,Allegan County,county_gp,True,True,9,True
+26007,MI,Alpena County,county_gp,True,True,9,True
+26009,MI,Antrim County,county_gp,True,False,2,False
+26011,MI,,county_gp,True,False,3,False
+26015,MI,Barry County,county_gp,True,True,9,True
+26017,MI,Bay County,county_gp,True,True,9,True
+26019,MI,BENZIE,county_gp,True,False,2,False
+26021,MI,Berrien County,county_gp,True,True,9,True
+26023,MI,,county_gp,True,False,6,False
+26025,MI,Calhoun County,county_gp,True,True,9,True
+26027,MI,Cass County,county_gp,True,False,3,False
+26031,MI,Cheboygan County,county_gp,True,True,9,True
+26033,MI,,county_gp,True,True,9,True
+26035,MI,Clare County,county_gp,True,False,5,False
+26037,MI,Clinton County,county_gp,True,True,9,True
+26039,MI,Crawford County,county_gp,True,True,9,True
+26041,MI,Delta County,county_gp,True,True,9,True
+26043,MI,DICKINSON,county_gp,True,False,4,False
+26045,MI,Eaton County,county_gp,True,True,9,True
+26047,MI,Emmet County,county_gp,True,True,9,True
+26049,MI,Genesee County,county_gp,True,True,9,True
+26051,MI,Gladwin County,county_gp,True,False,4,False
+26053,MI,Gogebic County,county_gp,True,False,4,False
+26055,MI,Grand Traverse County,county_gp,True,True,9,True
+26057,MI,Gratiot County,county_gp,True,True,9,True
+26059,MI,Hillsdale County,county_gp,True,False,5,False
+26061,MI,Houghton County,county_gp,True,True,8,False
+26063,MI,Huron County,county_gp,True,True,8,False
+26065,MI,Ingham County,county_gp,True,False,7,False
+26067,MI,Ionia County,county_gp,True,True,9,True
+26069,MI,Iosco County,county_gp,True,False,3,False
+26071,MI,Iron County,county_gp,True,True,9,True
+26073,MI,Isabella County,county_gp,True,True,8,False
+26075,MI,Jackson County,county_gp,True,True,9,True
+26077,MI,Kalamazoo County,county_gp,True,True,8,False
+26079,MI,Kalkaska County,county_gp,True,False,2,False
+26081,MI,Kent County,county_gp,True,True,9,True
+26085,MI,Lake County,county_gp,True,False,4,False
+26089,MI,,county_gp,True,False,2,False
+26091,MI,Lenawee County,county_gp,True,True,9,True
+26093,MI,Livingston County,county_gp,True,True,8,False
+26095,MI,Luce County,county_gp,True,False,6,False
+26099,MI,Macomb County,county_gp,True,False,7,False
+26101,MI,Manistee County,county_gp,True,True,6,False
+26103,MI,Marquette County,county_gp,True,True,9,True
+26105,MI,Mason County,county_gp,True,False,3,False
+26107,MI,Mecosta County,county_gp,True,False,7,False
+26109,MI,Menominee County,county_gp,True,False,1,False
+26111,MI,Midland County,county_gp,True,True,9,True
+26113,MI,,county_gp,True,False,1,False
+26115,MI,Monroe County,county_gp,True,True,9,True
+26117,MI,MONTCALM,county_gp,True,True,9,True
+26119,MI,Montmorency County,county_gp,True,False,1,False
+26123,MI,Newaygo County,county_gp,True,True,9,True
+26125,MI,Oakland County,county_gp,True,False,4,False
+26129,MI,,county_gp,True,False,2,False
+26133,MI,Osceola County,county_gp,True,False,3,False
+26137,MI,Otsego County,county_gp,True,False,4,False
+26139,MI,OTTAWA,county_gp,True,True,9,True
+26143,MI,Roscommon County,county_gp,True,False,1,False
+26145,MI,Saginaw County,county_gp,True,True,9,True
+26147,MI,St. Clair County,county_gp,True,True,9,True
+26149,MI,St. Joseph County,county_gp,True,True,9,True
+26151,MI,,county_gp,True,True,7,False
+26153,MI,Schoolcraft County,county_gp,True,False,1,False
+26155,MI,Shiawassee County,county_gp,True,True,9,True
+26157,MI,Tuscola County,county_gp,True,True,9,True
+26159,MI,Van Buren County,county_gp,True,True,9,True
+26161,MI,Washtenaw County,county_gp,True,True,9,True
+26163,MI,Wayne County,county_gp,True,True,9,True
+26165,MI,Wexford County,county_gp,True,True,8,False
+27001,MN,Aitkin County,county_gp,True,True,9,True
+27003,MN,ANOKA,county_gp,True,True,6,False
+27005,MN,Becker County,county_gp,True,False,3,False
+27007,MN,Beltrami County,county_gp,True,True,9,True
+27009,MN,Benton County,county_gp,True,True,9,True
+27011,MN,Big Stone County,county_gp,True,True,7,False
+27013,MN,Blue Earth County,county_gp,True,True,9,True
+27015,MN,Brown County,county_gp,True,True,9,True
+27017,MN,CARLTON,county_gp,True,False,8,False
+27019,MN,CARVER,county_gp,True,True,8,False
+27021,MN,,county_gp,True,True,8,False
+27023,MN,CHIPPEWA,county_gp,True,True,7,False
+27025,MN,CHISAGO,county_gp,True,False,1,False
+27027,MN,Clay County,county_gp,True,False,7,False
+27029,MN,Clearwater County,county_gp,True,True,9,True
+27031,MN,Cook County,county_gp,True,True,8,False
+27033,MN,Cottonwood County,county_gp,True,False,5,False
+27035,MN,Crow Wing County,county_gp,True,True,9,True
+27037,MN,Dakota County,county_gp,True,False,5,False
+27041,MN,Douglas County,county_gp,True,True,9,True
+27043,MN,Faribault County,county_gp,True,False,4,False
+27045,MN,FILLMORE,county_gp,True,True,9,True
+27047,MN,Freeborn County,county_gp,True,True,9,True
+27049,MN,GOODHUE,county_gp,True,True,9,True
+27051,MN,GRANT,county_gp,True,False,7,False
+27053,MN,Hennepin County,county_gp,True,True,7,False
+27055,MN,HOUSTON,county_gp,True,True,6,False
+27057,MN,Hubbard County,county_gp,True,False,6,False
+27059,MN,Isanti County,county_gp,True,False,8,False
+27063,MN,JACKSON,county_gp,True,False,4,False
+27065,MN,KANABEC,county_gp,True,True,9,True
+27067,MN,Kandiyohi County,county_gp,True,True,9,True
+27069,MN,KITTSON,county_gp,True,False,6,False
+27071,MN,Koochiching County,county_gp,True,False,8,False
+27073,MN,Lac qui Parle County,county_gp,True,False,6,False
+27075,MN,Lake County,county_gp,True,True,9,True
+27077,MN,Lake of the Woods County,county_gp,True,False,6,False
+27079,MN,Le Sueur County,county_gp,True,True,9,True
+27081,MN,Lincoln County,county_gp,True,False,4,False
+27083,MN,Lyon County,county_gp,True,False,3,False
+27085,MN,McLeod County,county_gp,True,True,8,False
+27087,MN,Mahnomen County,county_gp,True,True,8,False
+27089,MN,,county_gp,True,True,9,True
+27091,MN,Martin County,county_gp,True,False,1,False
+27093,MN,MEEKER,county_gp,True,True,8,False
+27095,MN,,county_gp,True,True,7,False
+27097,MN,Morrison County,county_gp,True,True,9,True
+27099,MN,Mower County,county_gp,True,True,9,True
+27101,MN,Murray County,county_gp,True,False,5,False
+27103,MN,Nicollet County,county_gp,True,False,7,False
+27105,MN,Nobles County,county_gp,True,True,9,True
+27107,MN,Norman County,county_gp,True,False,8,False
+27109,MN,Olmsted County,county_gp,True,True,9,True
+27111,MN,Otter Tail County,county_gp,True,True,9,True
+27113,MN,Pennington County,county_gp,True,True,9,True
+27115,MN,Pine County,county_gp,True,True,7,False
+27117,MN,Pipestone County,county_gp,True,False,3,False
+27119,MN,Polk County,county_gp,True,True,9,True
+27121,MN,,county_gp,True,False,6,False
+27123,MN,Ramsey County,county_gp,True,True,9,True
+27125,MN,,county_gp,True,False,3,False
+27127,MN,Redwood County,county_gp,True,False,5,False
+27129,MN,RENVILLE,county_gp,True,True,9,True
+27131,MN,Rice County,county_gp,True,True,9,True
+27133,MN,,county_gp,True,False,2,False
+27135,MN,,county_gp,True,True,9,True
+27137,MN,St. Louis County,county_gp,True,True,9,True
+27139,MN,Scott County,county_gp,True,True,4,False
+27141,MN,Sherburne County,county_gp,True,True,9,True
+27143,MN,SIBLEY,county_gp,True,True,7,False
+27145,MN,Stearns County,county_gp,True,True,9,True
+27147,MN,Steele County,county_gp,True,True,7,False
+27149,MN,Stevens County,county_gp,True,True,9,True
+27151,MN,Swift County,county_gp,True,True,9,True
+27153,MN,Todd County,county_gp,True,True,9,True
+27155,MN,TRAVERSE,county_gp,True,True,4,False
+27157,MN,Wabasha County,county_gp,True,True,9,True
+27159,MN,WADENA,county_gp,True,False,5,False
+27161,MN,Waseca County,county_gp,True,True,6,False
+27163,MN,Washington County,county_gp,True,True,8,False
+27165,MN,Watonwan County,county_gp,True,True,8,False
+27167,MN,Wilkin County,county_gp,True,False,8,False
+27169,MN,Winona County,county_gp,True,False,6,False
+27171,MN,Wright County,county_gp,True,True,9,True
+27173,MN,Yellow Medicine County,county_gp,True,True,9,True
+28003,MS,,county_gp,True,False,1,False
+28007,MS,ATTALA,county_gp,True,False,1,False
+28013,MS,Calhoun County,county_gp,True,False,2,False
+28021,MS,CLAIBORNE,county_gp,True,False,4,False
+28023,MS,,county_gp,True,False,1,False
+28027,MS,COAHOMA,county_gp,True,False,2,False
+28031,MS,Covington County,county_gp,True,False,3,False
+28035,MS,Forrest County,county_gp,True,True,8,False
+28039,MS,George County,county_gp,True,False,3,False
+28045,MS,Hancock County,county_gp,True,False,3,False
+28047,MS,Harrison County,county_gp,True,False,8,False
+28049,MS,Hinds County,county_gp,True,True,9,True
+28057,MS,Itawamba County,county_gp,True,False,2,False
+28059,MS,Jackson County,county_gp,True,True,8,False
+28067,MS,,county_gp,True,True,6,False
+28073,MS,Lamar County,county_gp,True,True,6,False
+28075,MS,Lauderdale County,county_gp,True,False,4,False
+28077,MS,Lawrence County,county_gp,True,False,1,False
+28081,MS,,county_gp,True,False,6,False
+28091,MS,Marion County,county_gp,True,False,2,False
+28093,MS,,county_gp,True,False,5,False
+28097,MS,Montgomery County,county_gp,True,False,3,False
+28099,MS,Neshoba County,county_gp,True,False,3,False
+28105,MS,Oktibbeha County,county_gp,True,False,2,False
+28109,MS,Pearl River County,county_gp,True,False,3,False
+28115,MS,Pontotoc County,county_gp,True,False,6,False
+28121,MS,Rankin County,county_gp,True,False,6,False
+28127,MS,Simpson County,county_gp,True,False,2,False
+28131,MS,Stone County,county_gp,True,False,5,False
+28135,MS,,county_gp,True,False,1,False
+28137,MS,Tate County,county_gp,True,False,1,False
+28139,MS,Tippah County,county_gp,True,False,3,False
+28141,MS,Tishomingo County,county_gp,True,False,1,False
+28143,MS,TUNICA,county_gp,True,False,1,False
+28145,MS,Union County,county_gp,True,False,3,False
+28153,MS,Wayne County,county_gp,True,False,1,False
+28159,MS,Winston County,county_gp,True,False,1,False
+29007,MO,Audrain County,county_gp,True,False,2,False
+29019,MO,Boone County,county_gp,True,True,9,True
+29021,MO,Buchanan County,county_gp,True,True,9,True
+29027,MO,Callaway County,county_gp,True,False,4,False
+29035,MO,,county_gp,True,False,1,False
+29037,MO,Cass County,county_gp,True,True,6,False
+29047,MO,Clay County,county_gp,True,True,9,True
+29069,MO,Dunklin County,county_gp,True,False,1,False
+29071,MO,Franklin County,county_gp,True,True,9,True
+29077,MO,Greene County,county_gp,True,False,7,False
+29091,MO,,county_gp,True,False,1,False
+29095,MO,Jackson County,county_gp,True,True,9,True
+29099,MO,JEFFERSON,county_gp,True,False,3,False
+29107,MO,LAFAYETTE,county_gp,True,False,1,False
+29153,MO,,county_gp,True,False,1,False
+29159,MO,Pettis County,county_gp,True,False,2,False
+29161,MO,,county_gp,True,False,1,False
+29165,MO,Platte County,county_gp,True,True,9,True
+29167,MO,POLK,county_gp,True,False,1,False
+29183,MO,,county_gp,True,True,9,True
+29189,MO,St. Louis County,county_gp,True,False,3,False
+29201,MO,,county_gp,True,False,1,False
+29213,MO,Taney County,county_gp,True,False,1,False
+29215,MO,Texas County,county_gp,True,False,1,False
+30001,MT,Beaverhead County,county_gp,True,True,9,True
+30003,MT,Big Horn County,county_gp,True,False,5,False
+30005,MT,,county_gp,True,False,2,False
+30007,MT,Broadwater County,county_gp,True,False,4,False
+30009,MT,Carbon County,county_gp,True,False,4,False
+30011,MT,Carter County,county_gp,True,False,1,False
+30013,MT,,county_gp,True,True,9,True
+30015,MT,Chouteau County,county_gp,True,False,5,False
+30017,MT,Custer County,county_gp,True,False,4,False
+30019,MT,DANIELS,county_gp,True,False,2,False
+30021,MT,Dawson County,county_gp,True,True,4,False
+30023,MT,Deer Lodge County,county_gp,True,True,9,True
+30025,MT,Fallon County,county_gp,True,False,4,False
+30027,MT,Fergus County,county_gp,True,False,7,False
+30029,MT,Flathead County,county_gp,True,True,9,True
+30031,MT,Gallatin County,county_gp,True,False,8,False
+30033,MT,,county_gp,True,False,4,False
+30035,MT,Glacier County,county_gp,True,False,2,False
+30039,MT,Granite County,county_gp,True,False,5,False
+30041,MT,Hill County,county_gp,True,False,8,False
+30043,MT,JEFFERSON,county_gp,True,False,5,False
+30045,MT,Judith Basin County,county_gp,True,False,3,False
+30047,MT,Lake County,county_gp,True,True,8,False
+30049,MT,Lewis and Clark County,county_gp,True,True,9,True
+30051,MT,Liberty County,county_gp,True,False,2,False
+30053,MT,Lincoln County,county_gp,True,True,9,True
+30057,MT,,county_gp,True,True,9,True
+30059,MT,MEAGHER,county_gp,True,False,1,False
+30061,MT,Mineral County,county_gp,True,False,8,False
+30063,MT,Missoula County,county_gp,True,False,8,False
+30065,MT,Musselshell County,county_gp,True,False,5,False
+30067,MT,Park County,county_gp,True,True,8,False
+30071,MT,,county_gp,True,False,2,False
+30073,MT,PONDERA,county_gp,True,False,4,False
+30075,MT,,county_gp,True,False,3,False
+30077,MT,Powell County,county_gp,True,False,6,False
+30081,MT,Ravalli County,county_gp,True,False,3,False
+30083,MT,Richland County,county_gp,True,False,6,False
+30085,MT,ROOSEVELT,county_gp,True,False,3,False
+30087,MT,Rosebud County,county_gp,True,True,6,False
+30089,MT,Sanders County,county_gp,True,True,9,True
+30091,MT,SHERIDAN,county_gp,True,False,2,False
+30095,MT,Stillwater County,county_gp,True,False,7,False
+30097,MT,Sweet Grass County,county_gp,True,False,2,False
+30099,MT,Teton County,county_gp,True,False,2,False
+30101,MT,Toole County,county_gp,True,False,7,False
+30105,MT,Valley County,county_gp,True,True,8,False
+30107,MT,WHEATLAND,county_gp,True,False,1,False
+30111,MT,Yellowstone County,county_gp,True,False,6,False
+31019,NE,Buffalo County,county_gp,True,False,2,False
+31025,DC,CASS,county_gp,True,False,2,False
+31037,NE,Colfax County,county_gp,True,False,1,False
+31039,NE,Cuming County,county_gp,True,False,1,False
+31043,NE,Dakota County,county_gp,True,False,2,False
+31047,NE,,county_gp,True,False,1,False
+31053,NE,Dodge County,county_gp,True,False,1,False
+31055,NE,Douglas County,county_gp,True,True,9,True
+31067,NE,Gage County,county_gp,True,False,1,False
+31079,NE,Hall County,county_gp,True,False,2,False
+31105,NE,Kimball County,county_gp,True,False,1,False
+31109,NE,LANCASTER,county_gp,True,False,8,False
+31111,NE,,county_gp,True,False,2,False
+31119,NE,Madison County,county_gp,True,False,1,False
+31131,NE,,county_gp,True,False,2,False
+31139,NE,PIERCE,county_gp,True,False,2,False
+31141,NE,Platte County,county_gp,True,False,1,False
+31153,NE,Sarpy County,county_gp,True,True,7,False
+31157,NE,Scotts Bluff County,county_gp,True,False,1,False
+31159,NE,SEWARD,county_gp,True,False,2,False
+31177,NE,Washington County,county_gp,True,False,1,False
+31179,NE,Wayne County,county_gp,True,False,1,False
+32001,NV,Churchill County,county_gp,True,True,9,True
+32003,NV,Clark County,county_gp,True,True,8,False
+32005,NV,Douglas County,county_gp,True,True,9,True
+32007,NV,Elko County,county_gp,True,True,9,True
+32009,NV,,county_gp,True,False,6,False
+32011,NV,,county_gp,True,False,2,False
+32013,NV,HUMBOLDT,county_gp,True,True,9,True
+32015,NV,Lander County,county_gp,True,True,4,False
+32017,NV,,county_gp,True,True,5,False
+32019,NV,Lyon County,county_gp,True,True,9,True
+32021,NV,,county_gp,True,True,9,True
+32023,NV,Nye County,county_gp,True,True,6,False
+32027,NV,Pershing County,county_gp,True,True,9,True
+32029,NV,,county_gp,True,False,6,False
+32031,NV,Washoe County,county_gp,True,True,9,True
+32033,NV,White Pine County,county_gp,True,False,7,False
+32510,NV,Carson City,county_equiv_municipality,True,True,9,True
+33001,NH,Belknap County,county_gp,True,False,3,False
+33003,NH,,county_gp,True,False,5,False
+33005,NH,Cheshire County,county_gp,True,True,9,True
+33007,NH,Coos County,county_gp,True,False,5,False
+33009,NH,,county_gp,True,False,8,False
+33011,NH,Hillsborough County,county_gp,True,True,5,False
+33013,NH,MERRIMACK,county_gp,True,False,5,False
+33015,NH,ROCKINGHAM,county_gp,True,False,3,False
+33017,NH,Strafford County,county_gp,True,False,5,False
+33019,NH,SULLIVAN,county_gp,True,False,6,False
+35001,NM,Bernalillo County,county_gp,True,True,8,False
+35003,NM,Catron County,county_gp,True,True,8,False
+35005,NM,Chaves County,county_gp,True,False,3,False
+35006,NM,Cibola County,county_gp,True,False,4,False
+35007,NM,Colfax County,county_gp,True,False,4,False
+35009,NM,Curry County,county_gp,True,False,2,False
+35013,NM,Doña Ana County,county_gp,True,True,9,True
+35017,NM,,county_gp,True,True,9,True
+35019,NM,GUADALUPE,county_gp,True,False,1,False
+35023,NM,Hidalgo County,county_gp,True,False,1,False
+35025,NM,Lea County,county_gp,True,True,9,True
+35027,NM,Lincoln County,county_gp,True,False,4,False
+35029,NM,Luna County,county_gp,True,True,9,True
+35031,NM,McKinley County,county_gp,True,True,8,False
+35035,NM,Otero County,county_gp,True,False,6,False
+35037,NM,QUAY,county_gp,True,False,1,False
+35039,NM,Rio Arriba County,county_gp,True,False,8,False
+35041,NM,Roosevelt County,county_gp,True,False,3,False
+35043,NM,Sandoval County,county_gp,True,True,8,False
+35045,NM,San Juan County,county_gp,True,True,9,True
+35047,NM,San Miguel County,county_gp,True,False,6,False
+35049,NM,Santa Fe County,county_gp,True,True,9,True
+35051,NM,Sierra County,county_gp,True,False,3,False
+35053,NM,,county_gp,True,False,6,False
+35055,NM,Taos County,county_gp,True,False,4,False
+35057,NM,TORRANCE,county_gp,True,False,1,False
+35061,NM,Valencia County,county_gp,True,False,6,False
+36001,NY,Albany County,county_gp,True,False,8,False
+36003,NY,Allegany County,county_gp,True,False,6,False
+36007,NY,Broome County,county_gp,True,True,9,True
+36009,NY,Cattaraugus County,county_gp,True,True,9,True
+36011,NY,Cayuga County,county_gp,True,True,9,True
+36013,NY,Chautauqua County,county_gp,True,True,9,True
+36017,NY,Chenango County,county_gp,True,True,9,True
+36019,NY,Clinton County,county_gp,True,True,7,False
+36021,NY,Columbia County,county_gp,True,True,8,False
+36023,NY,Cortland County,county_gp,True,True,9,True
+36025,NY,Delaware County,county_gp,True,True,9,True
+36027,NY,Dutchess County,county_gp,True,True,9,True
+36029,NY,Erie County,county_gp,True,True,9,True
+36031,NY,Essex County,county_gp,True,True,9,True
+36033,NY,Franklin County,county_gp,True,True,9,True
+36035,NY,,county_gp,True,True,8,False
+36037,NY,GENESEE,county_gp,True,True,9,True
+36039,NY,GREENE,county_gp,True,True,9,True
+36041,NY,,county_gp,True,False,6,False
+36045,NY,Jefferson County,county_gp,True,True,9,True
+36049,NY,Lewis County,county_gp,True,True,7,False
+36051,NY,Livingston County,county_gp,True,False,6,False
+36053,NY,Madison County,county_gp,True,True,8,False
+36055,NY,Monroe County,county_gp,True,True,8,False
+36057,NY,Montgomery County,county_gp,True,False,6,False
+36059,NY,Nassau County,county_gp,True,True,8,False
+36063,NY,Niagara County,county_gp,True,True,9,True
+36065,NY,Oneida County,county_gp,True,True,9,True
+36067,NY,Onondaga County,county_gp,True,False,5,False
+36069,NY,ONTARIO,county_gp,True,False,8,False
+36071,NY,ORANGE,county_gp,True,True,9,True
+36073,NY,Orleans County,county_gp,True,False,1,False
+36075,NY,Oswego County,county_gp,True,True,9,True
+36077,NY,Otsego County,county_gp,True,True,9,True
+36079,NY,Putnam County,county_gp,True,True,9,True
+36083,NY,Rensselaer County,county_gp,True,True,9,True
+36087,NY,Rockland County,county_gp,True,True,9,True
+36089,NY,ST LAWRENCE,county_gp,True,True,9,True
+36091,NY,Saratoga County,county_gp,True,True,8,False
+36095,NY,,county_gp,True,True,9,True
+36097,NY,Schuyler County,county_gp,True,True,9,True
+36099,NY,Seneca County,county_gp,True,True,9,True
+36103,NY,,county_gp,True,True,9,True
+36105,NY,,county_gp,True,True,9,True
+36107,NY,Tioga County,county_gp,True,True,9,True
+36109,NY,Tompkins County,county_gp,True,True,9,True
+36111,NY,Ulster County,county_gp,True,True,9,True
+36113,NY,,county_gp,True,True,9,True
+36115,NY,Washington County,county_gp,True,True,8,False
+36117,NY,Wayne County,county_gp,True,True,9,True
+36119,NY,WESTCHESTER,county_gp,True,True,9,True
+36121,NY,Wyoming County,county_gp,True,True,9,True
+36123,NY,Yates County,county_gp,True,True,9,True
+37001,NC,Alamance County,county_gp,True,True,9,True
+37003,NC,Alexander County,county_gp,True,True,9,True
+37005,NC,Alleghany County,county_gp,True,True,9,True
+37007,NC,Anson County,county_gp,True,True,8,False
+37009,NC,Ashe County,county_gp,True,False,1,False
+37011,NC,Avery County,county_gp,True,True,9,True
+37013,NC,Beaufort County,county_gp,True,True,9,True
+37015,NC,Bertie County,county_gp,True,False,7,False
+37017,NC,Bladen County,county_gp,True,True,9,True
+37019,NC,,county_gp,True,False,8,False
+37021,NC,,county_gp,True,True,9,True
+37023,NC,Burke County,county_gp,True,True,9,True
+37025,NC,Cabarrus County,county_gp,True,True,6,False
+37027,NC,,county_gp,True,True,9,True
+37029,NC,Camden County,county_gp,True,True,7,False
+37031,NC,Carteret County,county_gp,True,True,9,True
+37033,NC,,county_gp,True,False,8,False
+37035,NC,,county_gp,True,True,9,True
+37037,NC,Chatham County,county_gp,True,True,6,False
+37039,NC,Cherokee County,county_gp,True,True,9,True
+37041,NC,Chowan County,county_gp,True,True,9,True
+37043,NC,Clay County,county_gp,True,True,9,True
+37045,NC,Cleveland County,county_gp,True,True,9,True
+37047,NC,Columbus County,county_gp,True,True,9,True
+37049,NC,Craven County,county_gp,True,True,9,True
+37051,NC,Cumberland County,county_gp,True,True,9,True
+37053,NC,Currituck County,county_gp,True,True,9,True
+37055,NC,Dare County,county_gp,True,False,7,False
+37057,NC,Davidson County,county_gp,True,True,9,True
+37059,NC,Davie County,county_gp,True,True,9,True
+37061,NC,,county_gp,True,False,8,False
+37063,NC,Durham County,county_gp,True,True,9,True
+37065,NC,Rowan County,county_gp,True,True,9,True
+37067,NC,Forsyth County,county_gp,True,True,8,False
+37069,NC,Franklin County,county_gp,True,True,9,True
+37071,NC,Gaston County,county_gp,True,True,9,True
+37073,NC,Gates County,county_gp,True,True,9,True
+37075,NC,Graham County,county_gp,True,False,7,False
+37077,NC,Granville County,county_gp,True,False,6,False
+37079,NC,Greene County,county_gp,True,True,9,True
+37081,NC,Guilford County,county_gp,True,True,9,True
+37083,NC,Halifax County,county_gp,True,True,9,True
+37085,NC,Harnett County,county_gp,True,True,9,True
+37087,NC,Haywood County,county_gp,True,True,8,False
+37089,NC,Henderson County,county_gp,True,True,9,True
+37091,NC,,county_gp,True,True,8,False
+37093,NC,Hoke County,county_gp,True,True,9,True
+37095,NC,,county_gp,True,True,9,True
+37097,NC,Iredell County,county_gp,True,True,8,False
+37099,NC,Jackson County,county_gp,True,True,7,False
+37101,NC,,county_gp,True,True,9,True
+37103,NC,Jones County,county_gp,True,True,9,True
+37105,NC,Lee County,county_gp,True,True,9,True
+37107,NC,Lenoir County,county_gp,True,False,8,False
+37109,NC,Lincoln County,county_gp,True,True,9,True
+37111,NC,McDowell County,county_gp,True,True,9,True
+37113,NC,Macon County,county_gp,True,True,9,True
+37115,NC,Madison County,county_gp,True,True,8,False
+37117,NC,MARTIN,county_gp,True,True,9,True
+37119,NC,Mecklenburg County,county_gp,True,True,9,True
+37121,NC,Mitchell County,county_gp,True,True,9,True
+37123,NC,Montgomery County,county_gp,True,True,9,True
+37125,NC,Moore County,county_gp,True,True,8,False
+37127,NC,Nash County,county_gp,True,True,9,True
+37129,NC,New Hanover County,county_gp,True,False,8,False
+37131,NC,Northampton County,county_gp,True,True,9,True
+37133,NC,Onslow County,county_gp,True,True,9,True
+37135,NC,Orange County,county_gp,True,False,6,False
+37137,NC,Pamlico County,county_gp,True,True,9,True
+37139,NC,,county_gp,True,True,7,False
+37141,NC,Pender County,county_gp,True,True,9,True
+37143,NC,Perquimans County,county_gp,True,True,9,True
+37145,NC,,county_gp,True,True,9,True
+37147,NC,Pitt County,county_gp,True,True,9,True
+37149,NC,,county_gp,True,True,9,True
+37151,NC,Randolph County,county_gp,True,True,8,False
+37153,NC,,county_gp,True,True,7,False
+37155,NC,Robeson County,county_gp,True,False,1,False
+37157,NC,Rockingham County,county_gp,True,True,8,False
+37159,NC,Rowan County,county_gp,True,False,2,False
+37161,NC,Rutherford County,county_gp,True,True,8,False
+37163,NC,Sampson County,county_gp,True,True,9,True
+37165,NC,Scotland County,county_gp,True,True,8,False
+37167,NC,Stanly County,county_gp,True,True,9,True
+37169,NC,Stokes County,county_gp,True,True,9,True
+37171,NC,Surry County,county_gp,True,True,8,False
+37173,NC,,county_gp,True,True,9,True
+37175,NC,Transylvania County,county_gp,True,True,9,True
+37177,NC,,county_gp,True,True,9,True
+37179,NC,,county_gp,True,True,9,True
+37181,NC,Vance County,county_gp,True,True,9,True
+37183,NC,,county_gp,True,True,9,True
+37185,NC,Warren County,county_gp,True,True,9,True
+37187,NC,Washington County,county_gp,True,True,9,True
+37189,NC,Caldwell County,county_gp,True,True,9,True
+37191,NC,WAYNE,county_gp,True,True,9,True
+37193,NC,Wilkes County,county_gp,True,True,9,True
+37195,NC,,county_gp,True,True,9,True
+37197,NC,Yadkin County,county_gp,True,True,9,True
+37199,NC,Yancey County,county_gp,True,True,8,False
+38001,ND,,county_gp,True,False,3,False
+38007,ND,,county_gp,True,False,3,False
+38009,ND,,county_gp,True,False,3,False
+38011,ND,Bowman County,county_gp,True,False,5,False
+38015,ND,Burleigh County,county_gp,True,True,7,False
+38017,ND,Cass County,county_gp,True,False,6,False
+38019,ND,CAVALIER,county_gp,True,False,3,False
+38021,ND,Dickey County,county_gp,True,False,2,False
+38023,ND,Divide County,county_gp,True,False,4,False
+38025,ND,Dunn County,county_gp,True,False,5,False
+38033,ND,,county_gp,True,True,5,False
+38035,ND,Grand Forks County,county_gp,True,True,7,False
+38053,ND,MCKENZIE,county_gp,True,False,2,False
+38055,ND,McLean County,county_gp,True,False,1,False
+38057,ND,Mercer County,county_gp,True,False,2,False
+38059,ND,Morton County,county_gp,True,False,4,False
+38061,ND,Mountrail County,county_gp,True,False,3,False
+38067,ND,,county_gp,True,False,5,False
+38073,ND,Ransom County,county_gp,True,False,1,False
+38075,ND,Renville County,county_gp,True,False,1,False
+38077,ND,Richland County,county_gp,True,True,5,False
+38079,ND,Rolette County,county_gp,True,False,2,False
+38081,ND,Sargent County,county_gp,True,False,1,False
+38087,ND,,county_gp,True,False,3,False
+38089,ND,Stark County,county_gp,True,False,4,False
+38091,ND,,county_gp,True,False,2,False
+38093,ND,,county_gp,True,False,6,False
+38097,ND,Traill County,county_gp,True,False,4,False
+38099,ND,Walsh County,county_gp,True,False,2,False
+38101,ND,Ward County,county_gp,True,False,5,False
+38105,ND,Williams County,county_gp,True,False,2,False
+39005,OH,Ashland County,county_gp,True,True,9,True
+39007,OH,Ashtabula County,county_gp,True,False,8,False
+39009,OH,Athens County,county_gp,True,True,9,True
+39011,OH,Auglaize County,county_gp,True,True,8,False
+39015,OH,BROWN,county_gp,True,False,1,False
+39017,OH,Butler County,county_gp,True,False,1,False
+39019,OH,,county_gp,True,True,9,True
+39025,OH,Clermont County,county_gp,True,True,9,True
+39029,OH,Columbiana County,county_gp,True,True,9,True
+39031,OH,,county_gp,True,True,8,False
+39033,OH,Crawford County,county_gp,True,True,9,True
+39035,OH,CUYAHOGA,county_gp,True,False,4,False
+39039,OH,Defiance County,county_gp,True,True,9,True
+39041,OH,Delaware County,county_gp,True,True,9,True
+39043,OH,Erie County,county_gp,True,True,9,True
+39053,OH,Gallia County,county_gp,True,True,9,True
+39055,OH,Geauga County,county_gp,True,False,8,False
+39059,OH,Guernsey County,county_gp,True,False,1,False
+39063,OH,Hancock County,county_gp,True,True,9,True
+39065,OH,Hardin County,county_gp,True,False,3,False
+39067,OH,Harrison County,county_gp,True,False,1,False
+39069,OH,Henry County,county_gp,True,True,9,True
+39071,OH,,county_gp,True,False,2,False
+39073,OH,,county_gp,True,True,9,True
+39075,OH,Holmes County,county_gp,True,True,7,False
+39077,OH,Huron County,county_gp,True,True,9,True
+39081,OH,Jefferson County,county_gp,True,True,9,True
+39091,OH,Logan County,county_gp,True,True,9,True
+39095,OH,Lucas County,county_gp,True,True,7,False
+39099,OH,Franklin County,county_gp,True,True,9,True
+39105,OH,Meigs County,county_gp,True,True,9,True
+39109,OH,MIAMI,county_gp,True,True,8,False
+39111,OH,Monroe County,county_gp,True,True,9,True
+39113,OH,Montgomery County,county_gp,True,False,3,False
+39115,OH,Morgan County,county_gp,True,False,2,False
+39117,OH,Morrow County,county_gp,True,True,9,True
+39121,OH,,county_gp,True,True,9,True
+39123,OH,Ottawa County,county_gp,True,False,1,False
+39129,OH,Pickaway County,county_gp,True,True,9,True
+39131,OH,,county_gp,True,True,9,True
+39133,OH,Portage County,county_gp,True,True,9,True
+39135,OH,Preble County,county_gp,True,True,9,True
+39143,OH,Sandusky County,county_gp,True,True,7,False
+39151,OH,Stark County,county_gp,True,True,8,False
+39155,OH,TRUMBULL,county_gp,True,False,2,False
+39161,OH,Van Wert County,county_gp,True,True,6,False
+39165,OH,Warren County,county_gp,True,True,7,False
+39167,OH,Washington County,county_gp,True,True,9,True
+39173,OH,Wood County,county_gp,True,True,9,True
+39175,OH,,county_gp,True,False,1,False
+40015,OK,,county_gp,True,False,1,False
+40109,OK,Oklahoma County,county_gp,True,True,9,True
+41001,OR,Baker County,county_gp,True,False,2,False
+41003,OR,Benton County,county_gp,True,True,8,False
+41005,OR,Clackamas County,county_gp,True,True,6,False
+41007,OR,Clatsop County,county_gp,True,True,9,True
+41009,OR,,county_gp,True,True,9,True
+41011,OR,Coos County,county_gp,True,True,9,True
+41013,OR,Crook County,county_gp,True,True,8,False
+41015,OR,Curry County,county_gp,True,False,8,False
+41017,OR,Deschutes County,county_gp,True,True,9,True
+41019,OR,Douglas County,county_gp,True,True,9,True
+41021,OR,,county_gp,True,False,1,False
+41023,OR,Grant County,county_gp,True,False,7,False
+41025,OR,Harney County,county_gp,True,True,5,False
+41027,OR,HOOD RIVER,county_gp,True,True,7,False
+41029,OR,Jackson County,county_gp,True,True,9,True
+41031,OR,Jefferson County,county_gp,True,True,9,True
+41033,OR,Josephine County,county_gp,True,True,9,True
+41035,OR,Klamath County,county_gp,True,False,8,False
+41037,OR,Lake County,county_gp,True,True,8,False
+41039,OR,Lane County,county_gp,True,True,8,False
+41041,OR,Lincoln County,county_gp,True,True,7,False
+41043,OR,Linn County,county_gp,True,False,6,False
+41045,OR,,county_gp,True,True,4,False
+41047,OR,Marion County,county_gp,True,False,7,False
+41049,OR,Morrow County,county_gp,True,True,9,True
+41051,OR,Multnomah County,county_gp,True,True,9,True
+41053,OR,Polk County,county_gp,True,True,6,False
+41057,OR,TILLAMOOK,county_gp,True,False,6,False
+41061,OR,Union County,county_gp,True,True,9,True
+41065,OR,Wasco County,county_gp,True,False,5,False
+41067,OR,Washington County,county_gp,True,True,9,True
+41069,OR,,county_gp,True,False,2,False
+41071,OR,YAMHILL,county_gp,True,False,6,False
+42001,PA,Adams County,county_gp,True,True,8,False
+42003,PA,Allegheny County,county_gp,True,False,1,False
+42005,PA,Armstrong County,county_gp,True,True,6,False
+42007,PA,Beaver County,county_gp,True,True,8,False
+42009,PA,Bedford County,county_gp,True,True,7,False
+42011,PA,Berks County,county_gp,True,True,9,True
+42013,PA,Blair County,county_gp,True,True,8,False
+42015,PA,,county_gp,True,True,9,True
+42017,PA,Bucks County,county_gp,True,False,6,False
+42019,PA,Butler County,county_gp,True,True,9,True
+42021,PA,,county_gp,True,False,1,False
+42023,PA,Cameron County,county_gp,True,True,9,True
+42025,PA,Carbon County,county_gp,True,False,6,False
+42027,PA,Centre County,county_gp,True,True,9,True
+42029,PA,CHESTER,county_gp,True,False,8,False
+42031,PA,Clarion County,county_gp,True,False,8,False
+42033,PA,Clearfield County,county_gp,True,False,6,False
+42035,PA,Clinton County,county_gp,True,True,5,False
+42037,PA,Columbia County,county_gp,True,True,9,True
+42039,PA,CRAWFORD,county_gp,True,True,9,True
+42041,PA,Cumberland County,county_gp,True,True,8,False
+42043,PA,Dauphin County,county_gp,True,False,7,False
+42045,PA,Delaware County,county_gp,True,True,9,True
+42047,PA,Elk County,county_gp,True,True,9,True
+42049,PA,Erie County,county_gp,True,True,9,True
+42051,PA,Fayette County,county_gp,True,False,6,False
+42053,PA,Forest County,county_gp,True,True,8,False
+42055,PA,Franklin County,county_gp,True,True,9,True
+42057,PA,Fulton County,county_gp,True,True,9,True
+42059,PA,Greene County,county_gp,True,True,9,True
+42061,PA,Huntingdon County,county_gp,True,False,4,False
+42063,PA,Indiana County,county_gp,True,True,9,True
+42065,PA,Jefferson County,county_gp,True,True,8,False
+42073,PA,Lawrence County,county_gp,True,True,8,False
+42075,PA,Lebanon County,county_gp,True,False,2,False
+42077,PA,,county_gp,True,True,7,False
+42081,PA,Lycoming County,county_gp,True,False,7,False
+42083,PA,McKean County,county_gp,True,True,8,False
+42085,PA,,county_gp,True,True,8,False
+42087,PA,,county_gp,True,True,9,True
+42089,PA,Monroe County,county_gp,True,True,9,True
+42093,PA,Montour County,county_gp,True,False,1,False
+42095,PA,,county_gp,True,False,8,False
+42099,PA,,county_gp,True,False,7,False
+42101,PA,Philadelphia County,county_equiv_municipality,True,True,9,True
+42103,PA,Pike County,county_gp,True,True,9,True
+42105,PA,Potter County,county_gp,True,False,7,False
+42107,PA,Schuylkill County,county_gp,True,True,8,False
+42109,PA,Snyder County,county_gp,True,False,6,False
+42111,PA,Somerset County,county_gp,True,True,9,True
+42113,PA,,county_gp,True,False,6,False
+42115,PA,Susquehanna County,county_gp,True,True,9,True
+42117,PA,Tioga County,county_gp,True,False,2,False
+42121,PA,Venango County,county_gp,True,True,9,True
+42123,PA,Warren County,county_gp,True,False,8,False
+42125,PA,Washington County,county_gp,True,True,9,True
+42127,PA,Wayne County,county_gp,True,True,9,True
+42129,PA,Westmoreland County,county_gp,True,True,8,False
+42131,PA,Wyoming County,county_gp,True,False,1,False
+42133,PA,YORK,county_gp,True,True,9,True
+45001,SC,Abbeville County,county_gp,True,False,3,False
+45003,SC,Aiken County,county_gp,True,True,9,True
+45005,SC,,county_gp,True,True,3,False
+45007,SC,ANDERSON,county_gp,True,True,8,False
+45009,SC,Bamberg County,county_gp,True,False,1,False
+45013,SC,Beaufort County,county_gp,True,True,9,True
+45019,SC,,county_gp,True,True,9,True
+45021,SC,Cherokee County,county_gp,True,False,2,False
+45023,SC,Chester County,county_gp,True,False,5,False
+45025,SC,Chesterfield County,county_gp,True,False,2,False
+45027,SC,Clarendon County,county_gp,True,False,8,False
+45029,SC,Colleton County,county_gp,True,True,9,True
+45031,SC,Darlington County,county_gp,True,False,7,False
+45033,SC,Dillon County,county_gp,True,False,4,False
+45035,SC,Dorchester County,county_gp,True,False,8,False
+45039,SC,Fairfield County,county_gp,True,True,8,False
+45041,SC,Florence County,county_gp,True,False,8,False
+45045,SC,Greenville County,county_gp,True,True,9,True
+45047,SC,Greenwood County,county_gp,True,True,9,True
+45049,SC,Hampton County,county_gp,True,True,8,False
+45053,SC,,county_gp,True,False,6,False
+45055,SC,Kershaw County,county_gp,True,False,3,False
+45057,SC,Lancaster County,county_gp,True,True,9,True
+45059,SC,,county_gp,True,True,5,False
+45061,SC,Lee County,county_gp,True,False,1,False
+45063,SC,Lexington County,county_gp,True,True,9,True
+45065,SC,McCormick County,county_gp,True,False,3,False
+45067,SC,,county_gp,True,False,2,False
+45069,SC,MARLBORO,county_gp,True,False,3,False
+45073,SC,Oconee County,county_gp,True,False,8,False
+45075,SC,,county_gp,True,True,8,False
+45077,SC,Pickens County,county_gp,True,True,7,False
+45079,SC,Richland County,county_gp,True,True,9,True
+45081,SC,Saluda County,county_gp,True,False,2,False
+45083,SC,Spartanburg County,county_gp,True,True,9,True
+45085,SC,Sumter County,county_gp,True,True,8,False
+45087,SC,UNION,county_gp,True,False,5,False
+45089,SC,Williamsburg County,county_gp,True,False,6,False
+45091,SC,York County,county_gp,True,False,8,False
+47001,TN,Anderson County,county_gp,True,False,2,False
+47003,TN,,county_gp,True,True,9,True
+47005,TN,Benton County,county_gp,True,True,6,False
+47007,TN,Bledsoe County,county_gp,True,False,3,False
+47009,TN,Blount County,county_gp,True,True,5,False
+47011,TN,Bradley County,county_gp,True,True,6,False
+47013,TN,Campbell County,county_gp,True,False,5,False
+47015,TN,Cannon County,county_gp,True,True,8,False
+47017,TN,Carroll County,county_gp,True,False,4,False
+47019,TN,Carter County,county_gp,True,False,1,False
+47021,TN,Cheatham County,county_gp,True,True,8,False
+47023,TN,,county_gp,True,True,8,False
+47025,TN,,county_gp,True,True,6,False
+47027,TN,Clay County,county_gp,True,True,5,False
+47029,TN,Cocke County,county_gp,True,False,2,False
+47031,TN,Coffee County,county_gp,True,True,7,False
+47033,TN,,county_gp,True,True,7,False
+47035,TN,Cumberland County,county_gp,True,True,3,False
+47037,TN,,county_gp,True,False,2,False
+47039,TN,Decatur County,county_gp,True,True,6,False
+47041,TN,DeKalb County,county_gp,True,True,9,True
+47043,TN,,county_gp,True,True,7,False
+47045,TN,Dyer County,county_gp,True,False,1,False
+47047,TN,,county_gp,True,True,7,False
+47049,TN,Fentress County,county_gp,True,False,2,False
+47051,TN,FRANKLIN,county_gp,True,False,1,False
+47053,TN,Gibson County,county_gp,True,False,4,False
+47055,TN,Giles County,county_gp,True,True,9,True
+47057,TN,,county_gp,True,True,6,False
+47059,TN,Greene County,county_gp,True,True,2,False
+47061,TN,GRUNDY,county_gp,True,False,1,False
+47063,TN,Hamblen County,county_gp,True,True,5,False
+47065,TN,Hamilton County,county_gp,True,True,9,True
+47067,TN,Hancock County,county_gp,True,True,5,False
+47069,TN,Hardeman County,county_gp,True,True,7,False
+47071,TN,Hardin County,county_gp,True,True,7,False
+47073,TN,HAWKINS,county_gp,True,True,5,False
+47075,TN,Haywood County,county_gp,True,True,6,False
+47077,TN,Henderson County,county_gp,True,False,1,False
+47079,TN,Henry County,county_gp,True,False,3,False
+47081,TN,Hickman County,county_gp,True,True,9,True
+47083,TN,HOUSTON,county_gp,True,True,8,False
+47085,TN,Humphreys County,county_gp,True,True,7,False
+47087,TN,Jackson County,county_gp,True,True,8,False
+47089,TN,Jefferson County,county_gp,True,True,7,False
+47091,TN,Johnson County,county_gp,True,False,2,False
+47095,TN,Lake County,county_gp,True,True,6,False
+47097,TN,Lauderdale County,county_gp,True,True,5,False
+47099,TN,Lawrence County,county_gp,True,True,5,False
+47101,TN,Lewis County,county_gp,True,True,3,False
+47103,TN,,county_gp,True,True,5,False
+47105,TN,LOUDON,county_gp,True,True,3,False
+47107,TN,MCMINN,county_gp,True,True,8,False
+47109,TN,McNairy County,county_gp,True,False,2,False
+47111,TN,,county_gp,True,True,6,False
+47113,TN,Madison County,county_gp,True,True,2,False
+47115,TN,,county_gp,True,True,3,False
+47117,TN,Marshall County,county_gp,True,True,8,False
+47119,TN,Maury County,county_gp,True,False,1,False
+47121,TN,,county_gp,True,True,4,False
+47123,TN,,county_gp,True,True,4,False
+47125,TN,Montgomery County,county_gp,True,False,2,False
+47127,TN,Moore County,county_gp,True,True,6,False
+47129,TN,Morgan County,county_gp,True,False,2,False
+47131,TN,OBION,county_gp,True,True,9,True
+47133,TN,Overton County,county_gp,True,True,7,False
+47135,TN,Perry County,county_gp,True,True,9,True
+47137,TN,,county_gp,True,True,5,False
+47139,TN,Polk County,county_gp,True,True,7,False
+47141,TN,Putnam County,county_gp,True,True,3,False
+47143,TN,Rhea County,county_gp,True,False,2,False
+47145,TN,Roane County,county_gp,True,False,2,False
+47147,TN,,county_gp,True,True,5,False
+47149,TN,Rutherford County,county_gp,True,False,2,False
+47151,TN,Scott County,county_gp,True,False,5,False
+47155,TN,Sevier County,county_gp,True,True,7,False
+47157,TN,,county_gp,True,True,8,False
+47159,TN,Smith County,county_gp,True,True,7,False
+47161,TN,,county_gp,True,False,7,False
+47163,TN,Sullivan County,county_gp,True,False,1,False
+47165,TN,Sumner County,county_gp,True,True,7,False
+47167,TN,Tipton County,county_gp,True,True,8,False
+47171,TN,Unicoi County,county_gp,True,True,5,False
+47173,TN,Union County,county_gp,True,False,1,False
+47175,TN,Van Buren County,county_gp,True,True,7,False
+47177,TN,Warren County,county_gp,True,False,1,False
+47179,TN,WASHINGTON,county_gp,True,False,6,False
+47181,TN,Wayne County,county_gp,True,True,6,False
+47183,TN,WEAKLEY,county_gp,True,False,3,False
+47185,TN,,county_gp,True,True,8,False
+47187,TN,Williamson County,county_gp,True,True,3,False
+47189,TN,Wilson County,county_gp,True,True,5,False
+48001,TX,Anderson County,county_gp,True,True,5,False
+48005,TX,Angelina County,county_gp,True,False,6,False
+48007,TX,Aransas County,county_gp,True,True,9,True
+48009,TX,ARCHER,county_gp,True,False,1,False
+48015,NM,Eddy County,county_gp,True,True,8,False
+48019,TX,Bandera County,county_gp,True,False,3,False
+48021,TX,Bastrop County,county_gp,True,True,9,True
+48025,TX,Bee County,county_gp,True,False,4,False
+48027,TX,Bell County,county_gp,True,False,8,False
+48029,TX,Bexar County,county_gp,True,True,9,True
+48037,TX,Bowie County,county_gp,True,True,8,False
+48039,TX,Brazoria County,county_gp,True,True,9,True
+48043,TX,Brewster County,county_gp,True,True,6,False
+48047,TX,Brooks County,county_gp,True,False,2,False
+48051,TX,Burleson County,county_gp,True,False,2,False
+48053,TX,BURNET,county_gp,True,False,5,False
+48055,TX,,county_gp,True,False,2,False
+48057,TX,Calhoun County,county_gp,True,False,7,False
+48059,TX,CALLAHAN,county_gp,True,False,2,False
+48061,TX,Cameron County,county_gp,True,True,9,True
+48067,TX,Cass County,county_gp,True,False,4,False
+48071,TX,,county_gp,True,True,9,True
+48073,TX,Cherokee County,county_gp,True,False,3,False
+48077,TX,Clay County,county_gp,True,False,3,False
+48083,TX,COLEMAN,county_gp,True,False,1,False
+48085,TX,Collin County,county_gp,True,True,9,True
+48089,TX,,county_gp,True,False,5,False
+48091,TX,Comal County,county_gp,True,False,4,False
+48097,TX,Cooke County,county_gp,True,True,7,False
+48099,TX,Coryell County,county_gp,True,False,3,False
+48107,TX,Crosby County,county_gp,True,False,1,False
+48113,TX,Dallas County,county_gp,True,True,5,False
+48115,TX,Dawson County,county_gp,True,False,1,False
+48121,TX,Denton County,county_gp,True,True,8,False
+48127,TX,DIMMIT,county_gp,True,True,9,True
+48131,TX,Duval County,county_gp,True,True,6,False
+48133,TX,Eastland County,county_gp,True,False,1,False
+48135,TX,Ector County,county_gp,True,False,3,False
+48139,TX,Ellis County,county_gp,True,False,5,False
+48141,TX,El Paso County,county_gp,True,True,9,True
+48143,TX,Erath County,county_gp,True,False,2,False
+48147,TX,Fannin County,county_gp,True,False,3,False
+48157,FL,Fort Bend County,county_gp,True,True,9,True
+48161,TX,Freestone County,county_gp,True,False,2,False
+48167,TX,Galveston County,county_gp,True,True,9,True
+48171,TX,Gillespie County,county_gp,True,False,2,False
+48175,TX,,county_gp,True,False,2,False
+48177,TX,Gonzales County,county_gp,True,False,1,False
+48179,TX,Gray County,county_gp,True,False,1,False
+48181,TX,Grayson County,county_gp,True,True,9,True
+48183,TX,Gregg County,county_gp,True,True,8,False
+48187,TX,Guadalupe County,county_gp,True,True,8,False
+48189,TX,Hale County,county_gp,True,False,2,False
+48197,TX,HARDEMAN,county_gp,True,False,1,False
+48199,TX,Hardin County,county_gp,True,True,9,True
+48203,TX,Harrison County,county_gp,True,False,4,False
+48209,TX,Hays County,county_gp,True,True,8,False
+48213,TX,Henderson County,county_gp,True,False,4,False
+48215,TX,Hidalgo County,county_gp,True,True,9,True
+48217,TX,Hill County,county_gp,True,True,7,False
+48219,TX,HOCKLEY,county_gp,True,False,2,False
+48221,TX,Hood County,county_gp,True,False,4,False
+48223,TX,Hopkins County,county_gp,True,True,6,False
+48225,TX,Houston County,county_gp,True,True,8,False
+48227,TX,Howard County,county_gp,True,False,3,False
+48231,TX,HUNT,county_gp,True,False,4,False
+48233,TX,Hutchinson County,county_gp,True,False,1,False
+48239,TX,Jackson County,county_gp,True,False,2,False
+48241,TX,McLennan County,county_gp,True,False,6,False
+48245,TX,Jefferson County,county_gp,True,True,9,True
+48247,TX,Jim Hogg County,county_gp,True,False,4,False
+48249,TX,Jim Wells County,county_gp,True,False,5,False
+48251,TX,Johnson County,county_gp,True,False,4,False
+48253,TX,Jones County,county_gp,True,False,3,False
+48257,TX,,county_gp,True,False,4,False
+48259,TX,Kendall County,county_gp,True,False,3,False
+48261,TX,,county_gp,True,True,5,False
+48265,TX,KERR,county_gp,True,False,3,False
+48271,TX,,county_gp,True,True,7,False
+48273,TX,Kleberg County,county_gp,True,True,7,False
+48277,TX,Lamar County,county_gp,True,True,5,False
+48279,TX,,county_gp,True,False,1,False
+48281,TX,Lampasas County,county_gp,True,False,3,False
+48283,TX,La Salle County,county_gp,True,False,2,False
+48285,TX,Lavaca County,county_gp,True,False,2,False
+48287,TX,,county_gp,True,False,3,False
+48289,TX,,county_gp,True,True,2,False
+48291,TX,Liberty County,county_gp,True,True,9,True
+48293,TX,LIMESTONE,county_gp,True,False,2,False
+48297,TX,Live Oak County,county_gp,True,False,3,False
+48299,TX,Llano County,county_gp,True,False,2,False
+48303,TX,Lubbock County,county_gp,True,False,4,False
+48309,TX,McLennan County,county_gp,True,True,7,False
+48313,TX,,county_gp,True,False,3,False
+48315,TX,Marion County,county_gp,True,False,1,False
+48321,TX,Matagorda County,county_gp,True,True,9,True
+48323,TX,Maverick County,county_gp,True,False,5,False
+48325,TX,Medina County,county_gp,True,False,8,False
+48329,TX,Midland County,county_gp,True,False,5,False
+48331,TX,Milam County,county_gp,True,False,5,False
+48337,TX,,county_gp,True,True,3,False
+48339,TX,Montgomery County,county_gp,True,True,9,True
+48343,TX,Morris County,county_gp,True,False,1,False
+48347,TX,Nacogdoches County,county_gp,True,False,4,False
+48349,TX,Navarro County,county_gp,True,True,9,True
+48351,TX,,county_gp,True,False,7,False
+48353,TX,Nolan County,county_gp,True,False,1,False
+48355,TX,Nueces County,county_gp,True,True,9,True
+48361,TX,Orange County,county_gp,True,True,9,True
+48365,TX,Panola County,county_gp,True,False,4,False
+48367,TX,Parker County,county_gp,True,False,2,False
+48371,TX,Pecos County,county_gp,True,False,2,False
+48373,TX,Polk County,county_gp,True,True,8,False
+48375,TX,Potter County,county_gp,True,False,5,False
+48377,TX,,county_gp,True,False,1,False
+48381,TX,Randall County,county_gp,True,False,5,False
+48387,TX,Red River County,county_gp,True,False,3,False
+48391,TX,Refugio County,county_gp,True,False,7,False
+48397,TX,,county_gp,True,False,3,False
+48401,TX,Rusk County,county_gp,True,False,4,False
+48403,TX,Sabine County,county_gp,True,False,8,False
+48405,TX,,county_gp,True,False,1,False
+48407,TX,San Jacinto County,county_gp,True,True,6,False
+48409,TX,San Patricio County,county_gp,True,True,8,False
+48419,TX,Shelby County,county_gp,True,False,5,False
+48423,TX,Smith County,county_gp,True,True,8,False
+48427,TX,STARR,county_gp,True,True,8,False
+48429,TX,Stephens County,county_gp,True,False,2,False
+48437,TX,Swisher County,county_gp,True,False,5,False
+48439,TX,Tarrant County,county_gp,True,True,9,True
+48441,TX,Taylor County,county_gp,True,False,5,False
+48443,TX,Terrell County,county_gp,True,False,1,False
+48447,TX,Throckmorton County,county_gp,True,False,1,False
+48449,TX,Titus County,county_gp,True,True,8,False
+48451,TX,Tom Green County,county_gp,True,False,6,False
+48453,TX,Travis County,county_gp,True,True,8,False
+48455,TX,TRINITY,county_gp,True,False,2,False
+48457,TX,,county_gp,True,False,5,False
+48459,TX,Upshur County,county_gp,True,False,6,False
+48463,TX,,county_gp,True,True,6,False
+48465,TX,Val Verde County,county_gp,True,True,8,False
+48467,TX,Van Zandt County,county_gp,True,True,5,False
+48471,TX,Walker County,county_gp,True,False,7,False
+48473,TX,Waller County,county_gp,True,False,5,False
+48477,TX,Washington County,county_gp,True,True,6,False
+48479,TX,Webb County,county_gp,True,True,9,True
+48481,TX,Wharton County,county_gp,True,True,6,False
+48485,TX,Wichita County,county_gp,True,True,4,False
+48489,TX,Willacy County,county_gp,True,True,9,True
+48491,TX,Williamson County,county_gp,True,True,8,False
+48493,TX,WILSON,county_gp,True,False,1,False
+48497,TX,,county_gp,True,False,2,False
+48499,TX,Wood County,county_gp,True,False,3,False
+48505,TX,Webb County,county_gp,True,True,6,False
+48507,TX,Zavala County,county_gp,True,False,3,False
+49003,UT,Box Elder County,county_gp,True,False,4,False
+49007,UT,Carbon County,county_gp,True,False,5,False
+49013,UT,,county_gp,True,False,1,False
+49015,UT,Emery County,county_gp,True,True,8,False
+49017,UT,,county_gp,True,False,7,False
+49019,UT,Grand County,county_gp,True,True,9,True
+49021,UT,Iron County,county_gp,True,False,7,False
+49023,UT,Juab County,county_gp,True,False,3,False
+49025,UT,Kane County,county_gp,True,False,2,False
+49027,UT,Millard County,county_gp,True,False,4,False
+49029,UT,Morgan County,county_gp,True,False,1,False
+49037,UT,San Juan County,county_gp,True,False,6,False
+49039,UT,,county_gp,True,False,5,False
+49041,UT,Sevier County,county_gp,True,True,9,True
+49043,UT,SUMMIT,county_gp,True,False,1,False
+49047,UT,Uintah County,county_gp,True,False,7,False
+49049,UT,Utah County,county_gp,True,True,9,True
+49051,UT,Wasatch County,county_gp,True,True,9,True
+49053,UT,Washington County,county_gp,True,True,9,True
+49055,UT,Wayne County,county_gp,True,False,6,False
+51001,VA,Accomack County,county_gp,True,True,9,True
+51003,VA,Charlottesville city,county_gp,True,True,9,True
+51005,VA,Covington city,county_gp,True,True,9,True
+51007,VA,Amelia County,county_gp,True,True,9,True
+51009,VA,,county_gp,True,True,9,True
+51011,VA,Appomattox County,county_gp,True,True,9,True
+51013,VA,Arlington County,county_gp,True,True,9,True
+51015,VA,,county_gp,True,False,3,False
+51017,VA,Bath County,county_gp,True,True,9,True
+51019,VA,Bedford County,county_gp,True,True,9,True
+51021,VA,,county_gp,True,True,9,True
+51023,VA,Botetourt County,county_gp,True,True,9,True
+51025,VA,Brunswick County,county_gp,True,True,7,False
+51027,VA,,county_gp,True,True,9,True
+51029,VA,,county_gp,True,True,9,True
+51031,VA,Campbell County,county_gp,True,True,9,True
+51033,VA,Caroline County,county_gp,True,True,8,False
+51035,VA,Carroll County,county_gp,True,True,9,True
+51036,VA,,county_gp,True,True,9,True
+51037,VA,Charlotte County,county_gp,True,True,9,True
+51041,VA,Chesterfield County,county_gp,True,False,8,False
+51043,MD,Clarke County,county_gp,True,True,9,True
+51045,VA,,county_gp,True,True,9,True
+51047,VA,Culpeper County,county_gp,True,True,8,False
+51049,VA,Cumberland County,county_gp,True,True,9,True
+51051,VA,Dickenson County,county_gp,True,True,9,True
+51053,VA,,county_gp,True,True,9,True
+51057,VA,Essex County,county_gp,True,True,9,True
+51059,VA,Fairfax County,county_gp,True,True,9,True
+51061,VA,Fauquier County,county_gp,True,False,8,False
+51065,VA,Fluvanna County,county_gp,True,True,9,True
+51067,VA,Franklin County,county_gp,True,True,9,True
+51069,VA,Winchester city,county_gp,True,False,8,False
+51071,VA,Giles County,county_gp,True,True,9,True
+51073,VA,Gloucester County,county_gp,True,True,8,False
+51075,VA,Goochland County,county_gp,True,True,9,True
+51077,VA,Grayson County,county_gp,True,True,9,True
+51079,VA,Greene County,county_gp,True,True,9,True
+51081,VA,Greensville County,county_gp,True,False,8,False
+51083,VA,Halifax County,county_gp,True,True,9,True
+51085,VA,Hanover County,county_gp,True,True,8,False
+51087,VA,Henrico County,county_gp,True,True,9,True
+51089,VA,Martinsville city,county_gp,True,True,9,True
+51091,VA,Wise County,county_gp,True,False,6,False
+51093,VA,,county_gp,True,True,9,True
+51095,VA,James City County,county_gp,True,True,9,True
+51097,VA,,county_gp,True,True,9,True
+51099,VA,King George County,county_gp,True,True,6,False
+51101,VA,King William County,county_gp,True,True,9,True
+51103,VA,Lancaster County,county_gp,True,True,9,True
+51105,VA,,county_gp,True,True,9,True
+51107,VA,Loudoun County,county_gp,True,True,9,True
+51109,VA,Louisa County,county_gp,True,True,9,True
+51111,VA,Lunenburg County,county_gp,True,True,9,True
+51113,VA,Madison County,county_gp,True,True,9,True
+51115,VA,,county_gp,True,True,9,True
+51117,VA,Mecklenburg County,county_gp,True,True,9,True
+51119,VA,Middlesex County,county_gp,True,True,9,True
+51121,VA,Montgomery County,county_gp,True,True,9,True
+51125,VA,Nelson County,county_gp,True,True,9,True
+51127,VA,,county_gp,True,True,9,True
+51131,VA,,county_gp,True,True,9,True
+51133,VA,Northumberland County,county_gp,True,True,9,True
+51135,VA,Nottoway County,county_gp,True,True,9,True
+51139,VA,Page County,county_gp,True,False,8,False
+51141,VA,Patrick County,county_gp,True,True,9,True
+51143,VA,Pittsylvania County,county_gp,True,True,9,True
+51145,VA,Powhatan County,county_gp,True,True,9,True
+51147,VA,Prince Edward County,county_gp,True,True,9,True
+51149,VA,,county_gp,True,True,8,False
+51153,VA,Prince William County,county_gp,True,True,7,False
+51155,VA,Pulaski County,county_gp,True,True,9,True
+51157,VA,,county_gp,True,True,9,True
+51159,VA,,county_gp,True,True,9,True
+51161,VA,Roanoke County,county_gp,True,True,9,True
+51163,VA,ROCKBRIDGE,county_gp,True,True,9,True
+51165,VA,Harrisonburg city,county_gp,True,True,4,False
+51167,VA,,county_gp,True,True,9,True
+51169,VA,Scott County,county_gp,True,True,8,False
+51171,VA,Shenandoah County,county_gp,True,True,9,True
+51173,VA,Smyth County,county_gp,True,True,8,False
+51175,VA,Southampton County,county_gp,True,True,9,True
+51177,VA,Spotsylvania County,county_gp,True,True,8,False
+51179,VA,Stafford County,county_gp,True,True,9,True
+51181,VA,,county_gp,True,True,9,True
+51183,VA,,county_gp,True,True,9,True
+51185,VA,Tazewell County,county_gp,True,True,9,True
+51187,VA,Warren County,county_gp,True,False,8,False
+51191,VA,Washington County,county_gp,True,True,9,True
+51193,VA,,county_gp,True,True,9,True
+51195,VA,Wise County,county_gp,True,True,9,True
+51197,VA,Wythe County,county_gp,True,True,8,False
+51199,VA,York County,county_gp,True,True,7,False
+51510,VA,Alexandria city,county_equiv_municipality,True,True,9,True
+51520,VA,Bristol city,county_equiv_municipality,True,True,8,False
+51530,VA,Buena Vista city,county_equiv_municipality,True,True,9,True
+51540,VA,Charlottesville city,county_equiv_municipality,True,True,9,True
+51550,VA,Chesapeake city,county_equiv_municipality,True,True,8,False
+51570,VA,Colonial Heights city,county_equiv_municipality,True,True,9,True
+51580,VA,Covington city,county_equiv_municipality,True,True,9,True
+51590,VA,Danville city,county_equiv_municipality,True,True,9,True
+51595,VA,Emporia city,county_equiv_municipality,True,False,8,False
+51600,VA,Fairfax city,county_equiv_municipality,True,False,7,False
+51610,VA,Falls Church city,county_equiv_municipality,True,False,8,False
+51620,VA,Franklin city,county_equiv_municipality,True,True,9,True
+51630,VA,Fredericksburg city,county_equiv_municipality,True,True,9,True
+51640,VA,Galax city,county_equiv_municipality,True,True,9,True
+51650,VA,Hampton city,county_equiv_municipality,True,False,1,False
+51660,VA,Harrisonburg city,county_equiv_municipality,True,True,9,True
+51670,VA,,county_equiv_municipality,True,False,3,False
+51678,VA,Rockbridge County,county_equiv_municipality,True,False,4,False
+51680,VA,Lynchburg city,county_equiv_municipality,True,True,9,True
+51683,VA,Manassas city,county_equiv_municipality,True,True,9,True
+51685,VA,Manassas Park city,county_equiv_municipality,True,False,5,False
+51690,VA,Martinsville city,county_equiv_municipality,True,True,8,False
+51700,VA,Newport News city,county_equiv_municipality,True,True,7,False
+51710,VA,Norfolk city,county_equiv_municipality,True,False,6,False
+51720,VA,Wise County,county_equiv_municipality,True,False,5,False
+51730,VA,,county_equiv_municipality,True,False,7,False
+51735,VA,Poquoson city,county_equiv_municipality,True,True,9,True
+51740,VA,Portsmouth city,county_equiv_municipality,True,True,8,False
+51750,VA,Radford city,county_equiv_municipality,True,True,9,True
+51770,VA,Roanoke city,county_equiv_municipality,True,True,9,True
+51775,VA,Salem city,county_equiv_municipality,True,True,9,True
+51790,VA,Staunton city,county_equiv_municipality,True,True,9,True
+51800,VA,Suffolk city,county_equiv_municipality,True,True,8,False
+51810,VA,Virginia Beach city,county_equiv_municipality,True,True,9,True
+51820,VA,Waynesboro city,county_equiv_municipality,True,False,8,False
+51830,VA,Williamsburg city,county_equiv_municipality,True,True,9,True
+51840,VA,Winchester city,county_equiv_municipality,True,True,9,True
+53005,WA,Benton County,county_gp,True,False,7,False
+53007,WA,Chelan County,county_gp,True,False,7,False
+53011,WA,Clark County,county_gp,True,True,7,False
+53015,WA,Cowlitz County,county_gp,True,False,5,False
+53021,WA,Franklin County,county_gp,True,True,9,True
+53029,WA,Island County,county_gp,True,True,7,False
+53033,WA,King County,county_gp,True,True,4,False
+53035,WA,Kitsap County,county_gp,True,False,7,False
+53037,WA,,county_gp,True,True,8,False
+53041,WA,Lewis County,county_gp,True,True,9,True
+53045,WA,,county_gp,True,False,1,False
+53053,WA,PIERCE,county_gp,True,False,6,False
+53057,WA,Skagit County,county_gp,True,True,4,False
+53063,WA,Spokane County,county_gp,True,True,7,False
+53067,WA,Thurston County,county_gp,True,False,8,False
+53071,WA,Walla Walla County,county_gp,True,False,4,False
+53073,WA,,county_gp,True,False,7,False
+53077,WA,Yakima County,county_gp,True,False,4,False
+54001,WV,Barbour County,county_gp,True,False,2,False
+54003,WV,Berkeley County,county_gp,True,False,5,False
+54005,WV,,county_gp,True,False,1,False
+54007,WV,,county_gp,True,False,1,False
+54009,WV,Brooke County,county_gp,True,False,2,False
+54015,WV,CLAY,county_gp,True,False,3,False
+54019,OH,Fayette County,county_gp,True,True,7,False
+54023,WV,Grant County,county_gp,True,False,1,False
+54027,WV,HAMPSHIRE,county_gp,True,False,3,False
+54029,WV,Hancock County,county_gp,True,False,3,False
+54031,WV,Hardy County,county_gp,True,False,1,False
+54033,WV,Harrison County,county_gp,True,False,1,False
+54035,WV,Jackson County,county_gp,True,False,5,False
+54041,WV,Lewis County,county_gp,True,False,1,False
+54043,WV,Lincoln County,county_gp,True,False,6,False
+54045,WV,,county_gp,True,False,4,False
+54047,WV,McDowell County,county_gp,True,False,3,False
+54049,WV,MARION,county_gp,True,False,5,False
+54053,WV,Mason County,county_gp,True,True,4,False
+54055,WV,Mercer County,county_gp,True,False,5,False
+54057,WV,Mineral County,county_gp,True,True,4,False
+54059,WV,Mingo County,county_gp,True,False,5,False
+54065,WV,Morgan County,county_gp,True,False,1,False
+54067,WV,Nicholas County,county_gp,True,False,4,False
+54069,WV,Ohio County,county_gp,True,False,1,False
+54071,WV,PENDLETON,county_gp,True,False,2,False
+54075,WV,,county_gp,True,True,9,True
+54077,WV,,county_gp,True,False,1,False
+54079,WV,,county_gp,True,False,7,False
+54081,WV,Raleigh County,county_gp,True,False,5,False
+54083,WV,Randolph County,county_gp,True,False,4,False
+54085,WV,RITCHIE,county_gp,True,False,1,False
+54087,WV,Roane County,county_gp,True,False,3,False
+54089,WV,Summers County,county_gp,True,False,1,False
+54091,WV,Taylor County,county_gp,True,False,2,False
+54093,WV,Tucker County,county_gp,True,False,5,False
+54095,WV,TYLER,county_gp,True,False,1,False
+54097,WV,Upshur County,county_gp,True,False,2,False
+54099,WV,Wayne County,county_gp,True,False,3,False
+54101,WV,Webster County,county_gp,True,False,1,False
+54103,WV,WETZEL,county_gp,True,False,1,False
+54105,WV,WIRT,county_gp,True,False,1,False
+54107,WV,Wood County,county_gp,True,False,6,False
+54109,WV,Wyoming County,county_gp,True,False,4,False
+54155,OH,Cabell County,county_gp,True,True,6,False
+54173,OH,Greenbrier County,county_gp,True,True,7,False
+55001,WI,Adams County,county_gp,True,False,8,False
+55003,WI,Ashland County,county_gp,True,True,9,True
+55005,WI,,county_gp,True,True,9,True
+55007,WI,Bayfield County,county_gp,True,True,9,True
+55009,WI,Brown County,county_gp,True,False,8,False
+55011,WI,BUFFALO,county_gp,True,True,9,True
+55013,WI,Burnett County,county_gp,True,True,9,True
+55015,WI,CALUMET,county_gp,True,True,8,False
+55017,WI,Chippewa County,county_gp,True,True,9,True
+55019,WI,,county_gp,True,True,9,True
+55021,WI,COLUMBIA,county_gp,True,False,8,False
+55023,WI,Crawford County,county_gp,True,True,9,True
+55025,WI,Dane County,county_gp,True,True,9,True
+55027,WI,Dodge County,county_gp,True,True,6,False
+55029,WI,Door County,county_gp,True,True,9,True
+55031,WI,Douglas County,county_gp,True,True,9,True
+55033,WI,Dunn County,county_gp,True,True,9,True
+55035,WI,,county_gp,True,True,9,True
+55037,WI,,county_gp,True,True,9,True
+55039,WI,Fond du Lac County,county_gp,True,True,8,False
+55041,WI,Forest County,county_gp,True,True,9,True
+55043,WI,,county_gp,True,True,9,True
+55045,WI,Green County,county_gp,True,True,8,False
+55047,WI,GREEN LAKE,county_gp,True,True,9,True
+55049,WI,Iowa County,county_gp,True,False,8,False
+55051,WI,,county_gp,True,False,7,False
+55053,WI,Jackson County,county_gp,True,True,9,True
+55055,WI,Jefferson County,county_gp,True,True,9,True
+55057,WI,Juneau County,county_gp,True,True,9,True
+55059,WI,Kenosha County,county_gp,True,False,7,False
+55061,WI,Kewaunee County,county_gp,True,True,9,True
+55063,WI,La Crosse County,county_gp,True,True,9,True
+55065,WI,Lafayette County,county_gp,True,True,9,True
+55067,WI,Langlade County,county_gp,True,True,9,True
+55069,WI,Lincoln County,county_gp,True,True,9,True
+55071,WI,Manitowoc County,county_gp,True,True,9,True
+55075,WI,Marinette County,county_gp,True,True,8,False
+55077,WI,Marquette County,county_gp,True,True,9,True
+55078,WI,,county_gp,True,True,7,False
+55079,WI,Milwaukee County,county_gp,True,True,8,False
+55081,WI,MONROE,county_gp,True,True,8,False
+55083,WI,Oconto County,county_gp,True,True,9,True
+55087,WI,Outagamie County,county_gp,True,False,7,False
+55089,WI,Ozaukee County,county_gp,True,True,9,True
+55091,WI,PEPIN,county_gp,True,True,8,False
+55093,WI,Pierce County,county_gp,True,True,9,True
+55095,WI,Polk County,county_gp,True,False,8,False
+55097,WI,Portage County,county_gp,True,True,9,True
+55099,WI,Price County,county_gp,True,True,9,True
+55101,WI,RACINE,county_gp,True,True,9,True
+55103,WI,,county_gp,True,True,9,True
+55105,WI,Rock County,county_gp,True,True,9,True
+55107,WI,,county_gp,True,True,9,True
+55109,WI,,county_gp,True,True,9,True
+55113,WI,Sawyer County,county_gp,True,True,9,True
+55115,WI,Shawano County,county_gp,True,True,9,True
+55117,WI,Sheboygan County,county_gp,True,True,9,True
+55119,WI,Taylor County,county_gp,True,True,9,True
+55121,WI,Trempealeau County,county_gp,True,True,9,True
+55123,WI,,county_gp,True,True,9,True
+55125,WI,Vilas County,county_gp,True,True,9,True
+55127,WI,WALWORTH,county_gp,True,True,9,True
+55129,WI,Washburn County,county_gp,True,True,9,True
+55131,WI,Washington County,county_gp,True,True,9,True
+55133,WI,Waukesha County,county_gp,True,False,7,False
+55135,WI,Waupaca County,county_gp,True,True,9,True
+55137,WI,Waushara County,county_gp,True,True,9,True
+55139,WI,Winnebago County,county_gp,True,False,6,False
+55141,WI,Wood County,county_gp,True,False,8,False
+56001,WY,Albany County,county_gp,True,True,9,True
+56003,WY,,county_gp,True,True,8,False
+56005,WY,Campbell County,county_gp,True,True,9,True
+56007,WY,Carbon County,county_gp,True,False,5,False
+56009,WY,Converse County,county_gp,True,False,3,False
+56011,WY,Crook County,county_gp,True,False,5,False
+56013,WY,Fremont County,county_gp,True,False,7,False
+56015,WY,Goshen County,county_gp,True,False,3,False
+56017,WY,Hot Springs County,county_gp,True,False,5,False
+56019,WY,Johnson County,county_gp,True,False,5,False
+56021,WY,Laramie County,county_gp,True,True,9,True
+56023,WY,Lincoln County,county_gp,True,True,9,True
+56025,WY,Natrona County,county_gp,True,True,8,False
+56029,WY,Park County,county_gp,True,True,7,False
+56031,WY,Platte County,county_gp,True,False,3,False
+56033,WY,Sheridan County,county_gp,True,False,8,False
+56035,WY,Sublette County,county_gp,True,False,4,False
+56037,WY,Sweetwater County,county_gp,True,True,9,True
+56039,WY,Teton County,county_gp,True,True,7,False
+56041,WY,Uinta County,county_gp,True,False,5,False
+56043,WY,Washakie County,county_gp,True,False,5,False
+56045,WY,Weston County,county_gp,True,False,6,False

@@ -6,11 +6,11 @@ paths:
   - "output/**"
 ---
 
-# Single Source of Truth: Paper Chain
+# Authoritative Source: Paper Chain
 
 **Stata `.do` files in `scripts/stata/` are the authoritative source for analysis. Tables and figures in the paper are derived artifacts — never hand-edited.**
 
-## The SSOT Chain
+## The Authoritative Chain
 
 ```
 data/raw/ (S&P 451 Research SAS files)         data/external/ (ACFR, MSRB, NCSL, etc.)
@@ -71,6 +71,6 @@ ALWAYS propagate changes upstream: data → cleaning → analysis → output →
 
 ## Bibliography
 
-- `paper/refs.bib` is canonical. No per-section `.bib` files (INV-5).
+- `paper/refs.bib` is authoritative. No per-section `.bib` files (INV-5).
 - All `\cite{}` keys must resolve against `paper/refs.bib`.
 - Verify with `/validate-bib` before submission.

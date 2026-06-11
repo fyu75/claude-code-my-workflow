@@ -101,7 +101,7 @@ Expected output (abridged):
 
 ### Unverifiable
 
-- **C12** — draft cites "Borusyak et al. 2024 (working paper)". No canonical URL in provided sources. Recommend user supply DOI or arXiv link.
+- **C12** — draft cites "Borusyak et al. 2024 (working paper)". No authoritative URL in provided sources. Recommend user supply DOI or arXiv link.
 
 ### Verified
 

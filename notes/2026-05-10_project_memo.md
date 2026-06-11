@@ -118,7 +118,7 @@ Treat the 2022–2023 generative-AI inflection as exogenous to county fiscal fun
 
 ### A. Identification template (Million Dollar Plant family)
 
-- **Greenstone, Hornbeck & Moretti (2010, JPE)** — winners-vs-losers, the canonical design. *"Identifying Agglomeration Spillovers."*
+- **Greenstone, Hornbeck & Moretti (2010, JPE)** — winners-vs-losers, the classic design. *"Identifying Agglomeration Spillovers."*
 - **Gupta & Rodriguez (2024, JUE)** — "Firms for Funding": same design, school-finance outcomes. Very close cousin to our project.
 - **Garin & Rothbaum (2024 WP, NBER-pipeline)** — "The Long-Run Impacts of Public Industrial Investment: Evidence from World War II" — finds $1,200/yr long-run earnings gain from WWII plant openings; relevant for the "what happens 30 years later when DCs decay?" question.
 - **Slattery & Zidar (2020, JEP)** — "Evaluating State and Local Business Tax Incentives" — overview of place-based incentives; should be cited prominently.

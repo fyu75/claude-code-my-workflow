@@ -26,7 +26,7 @@ The paper estimates each of these channels. **Do not narrow to bond-yields-only 
 
 | Strategy | Reference | Notes |
 |---|---|---|
-| Winner-vs-loser counties | `greenstone2010_milliondollar` | Canonical template; needs runner-up county data |
+| Winner-vs-loser counties | `greenstone2010_milliondollar` | Classic template; needs runner-up county data |
 | Corporate-subsidy yields-spread design | `chava_subsidies` | Closest existing precedent (15.2 bps effect) |
 | Staggered DiD with heterogeneity-robust estimators | Callaway--Sant'Anna; de Chaisemartin--D'Haultfœuille | For panel of DC openings 2010–2025 |
 | Construction-company press releases (Ravenpack) | — | Alternative shock-timing source |

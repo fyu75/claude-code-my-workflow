@@ -49,7 +49,7 @@ master_supporting_docs/**/*.tex
 
 ### Bibliography location
 
-`paper/refs.bib` (canonical; INV-5).
+`paper/refs.bib` (authoritative; INV-5).
 
 ## Mode 2: Semantic (`--semantic`)
 
@@ -72,7 +72,7 @@ Multiple `.bib` entries describing the same paper under different keys. Symptoms
 | Same author+year+journal | Probable duplicate (MEDIUM) |
 | Title Jaccard > 0.85 on tokens ≥ 4 chars | Soft-duplicate (LOW) |
 
-For each flagged pair: list both keys, where each is cited, and recommend a canonical key (prefer most-cited, then alphabetically first).
+For each flagged pair: list both keys, where each is cited, and recommend a primary key (prefer most-cited, then alphabetically first).
 
 ### 2b. DOI verification (optional; network)
 
@@ -122,7 +122,7 @@ Gated behind `--cite-claim`. For the top-10 most-cited works per file, WebFetch 
 ## Critical Issues
 
 ### Duplicate entries
-| Keys | Signal | Citations | Recommended canonical |
+| Keys | Signal | Citations | Recommended primary key |
 |---|---|---|---|
 
 ### DOI mismatches
@@ -133,7 +133,7 @@ Gated behind `--cite-claim`. For the top-10 most-cited works per file, WebFetch 
 …
 
 ## Next steps
-1. Resolve duplicates — pick canonical key, update citations, remove orphans.
+1. Resolve duplicates — pick primary key, update citations, remove orphans.
 2. Fix DOI mismatches — verify paper in crossref or strip the wrong DOI.
 3. Review style-consistency notes.
 ```

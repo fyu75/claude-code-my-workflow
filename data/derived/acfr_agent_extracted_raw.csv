@@ -1,0 +1,40 @@
+county_raw,county_fips,fy,property_tax_gf,total_revenue_gf,capital_outlay_gf,property_tax_allfunds,total_revenue_allfunds,capital_outlay_allfunds,state_pt_structure,status,source_file
+Madison County AL,01089,2024,94586462.0,157167184.0,13538241.0,94586462.0,206178616.0,,,,adaf532f4da5e9c9b.output
+DeKalb County IL,17037,2024,18397122.0,36668234.0,0.0,27014521.0,72733382.0,,,,aea9fe67360ec79bb.output
+Grand Forks County ND,38035,2024,16804313.0,27210456.0,5800597.0,24503793.0,50985519.0,41672526.0,"nd county mill levies on real/personal property; county has no general sales tax authority; ""taxes"" line = property tax. govt",,af0bd8cecb6db2cac.output
+Franklin County OH,39049,2023,65799.0,726917.0,6740.0,531792.0,1813145.0,41073.0,categorical,,af4503717b6fd9a2e.output
+Dickey County ND,38021,2023,1523812.0,2529340.0,0.0,3438157.0,9441121.0,5359958.0,unified_mill_levy,,af807f562da5bdb2b.output
+Muskogee County OK,40101,2023,8115506.0,8115506.0,,,38274285.0,,oklahoma,,affb7648f3aa43165.output
+Cumberland County TN,47035,2023,15792000.0,34648322.0,383000.0,22988472.0,62148978.0,3070000.0,tn,,br8uyu10x.output
+Williams County ND,38105,2021,,38085682.0,1191142.0,,75727706.0,6148258.0,categorical,,br8uyu10x.output
+Stutsman County ND,38093,2024,6591999.0,12402042.0,0.0,9043665.0,26569077.0,2432317.0,"nd counties levy property tax only (no income/sales tax authority); ""taxes"" line in fund stmts = property tax; no oil/gas production tax present (stutsman is central nd, not bakken)",,br8uyu10x.output
+Ada County ID,16001,2023,124948138.0,254154775.0,12943658.0,151402592.0,305263189.0,42683286.0,idaho code title 63. counties levy countywide for general operations under statutory cap; voter,,br8uyu10x.output
+Union County OH,39159,2023,8060208.0,39256685.0,551337.0,19640539.0,91624748.0,4791079.0,categorical,,br8uyu10x.output
+Ellis County TX,48139,2022,53274941.0,62536831.0,2637994.0,69448640.0,85224040.0,6537043.0,"tx ad valorem; county rate $0.339338/$100 av fy2022; levied oct 1, delinquent feb 1; property values set by ellis county appraisal district",,br8uyu10x.output
+Fulton County GA,13121,2023,646600.0,814590.0,,697487.0,986979.0,80088.0,semi,,br8uyu10x.output
+Silver Bow County MT  — Butte-Silver Bow consolidated city-county,30093,2023,,,,,,,"montana uses department of revenue certified mill levy system. property types: real estate (due nov/may), personal property + mobile home (due jul/sep), centrally assessed (due nov/may). values recertified biennially. mt gross proceeds tax (mining) is a major revenue component here",,br8uyu10x.output
+Beaver County PA,42007,2023,57442473.0,79163708.0,2902586.0,57442473.0,224839161.0,10755937.0,consolidated,,br8uyu10x.output
+Maricopa County AZ,04013,2023,658345858.0,1928877696.0,86910196.0,759909013.0,3194460129.0,407453774.0,mixed,,br8uyu10x.output
+Sumner County TN,47165,2024,39086045.0,111542010.0,,59378711.0,175575279.0,61175534.0,tn levies under taxing authority of the county; school levy is embedded in the county's total tax levy.,,br8uyu10x.output
+Jackson County AL,01071,2022,4073385.0,11568604.0,111912.0,6622969.0,,1422264.0,consolidated (jackson county commission = primary government; no blended cus),,br8uyu10x.output
+Berkeley County SC,45015,2023,38663307.0,125984544.0,38499.0,48524362.0,252521370.0,56547839.0,semi,,br8uyu10x.output
+Whitfield County GA,13313,2022,20078821.0,49927950.0,,30871106.0,95310521.0,20019520.0,semi,,br8uyu10x.output
+Clay County MO,29047,2023,1587003.0,44218074.0,92393.0,5583527.0,104972289.0,2755177.0,"mo county retains only its own levy (~0.3087/$100 av in 2023). schools, cities, libraries levy separately via collector. county property tax = gf portion ($1.587m) + road & bridge ($4.013m) only; surtax ($947k) and 911 tax ($127k) reported separately. total assessed value (county",,br8uyu10x.output
+Loudon County TN,47105,2024,,,,,,,,,br8uyu10x.output
+Douglas County GA,13097,2023,112526722.0,132251881.0,,112526722.0,221101763.0,8947266.0,semi,,br8uyu10x.output
+St. Joseph County IN,18141,2023,45828739.0,92741445.0,101079.0,68408702.0,581572278.0,32319045.0,in circuit,,br8uyu10x.output
+Jackson County GA,13157,2023,76647798.0,89328567.0,0.0,39556236.0,132034482.0,16286753.0,semi,,br8uyu10x.output
+Pike County KY,21195,2022,9962775.0,12402242.0,0.0,9970085.0,43562090.0,804910.0,consolidated,,br8uyu10x.output
+Scott County TN,47151,2023,3506900.0,14615172.0,0.0,5347352.0,23974500.0,71315.0,tn,,br8uyu10x.output
+Newton County GA,13217,2023,39.5,87594740.0,0.0,52629600.0,134566084.0,25954904.0,semi,,br8uyu10x.output
+Licking County OH,39089,2023,5808411.0,93832950.0,14495049.0,37631504.0,186733812.0,,,,br8uyu10x.output
+Grant County WA,53025,2023,21351177.0,60540633.0,1204038.0,32594618.0,177010677.0,16617825.0,mixed,,br8uyu10x.output
+Cass County MI,26027,2023,12.844,20.536,0.0,16.099,80.37,0.542,"michigan ad valorem, millage",,br8uyu10x.output
+Sullivan County IN,18153,2022,6671909.0,8217828.0,67772.0,7592123.0,44683588.0,4062050.0,indiana cash,,br8uyu10x.output
+Sarpy County NE,31153,2024,64599397.0,112118544.0,8858454.0,67330539.0,154429780.0,40546462.0,wi counties levy against equalized value (dor,,br8uyu10x.output
+Meigs County TN,47121,2024,3405214.0,8906394.0,,3943824.0,14901674.0,1666118.0,tn,,br8uyu10x.output
+Ector County TX,48135,2022,50526756.0,63178493.0,0.0,55650519.0,112962376.0,15277811.0,tx standard ad valorem,,br8uyu10x.output
+McCracken County KY,21145,2022,19952622.0,25986624.0,157400.0,24372810.0,46454976.0,9339976.0,consolidated,,btkq49om0.output
+Union County KY,21225,2023,,3737700.0,642100.0,,13115714.0,1534700.0,consolidated,,btkq49om0.output
+Douglas County WA,53017,2024,7806014.0,32107215.0,2295158.0,15726082.0,68492181.0,11702132.0,mixed,,btkq49om0.output
+Fairfield County OH,39045,2023,13531353.0,75898024.0,0.0,49838059.0,192167721.0,38836214.0,categorical,,btkq49om0.output

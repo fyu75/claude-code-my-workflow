@@ -1,0 +1,7 @@
+county_fips,name,state,col,stored,census2017_usd,ratio,flag,fy
+13121,Fulton County,GA,property_tax_gf,646600,529029000,0.00122,LIKELY_x1000_TOO_SMALL(thousands-misread),2023
+39049,Franklin County,OH,property_tax_allfunds,531792,416877000,0.00128,LIKELY_x1000_TOO_SMALL(thousands-misread),2023
+13121,Fulton County,GA,property_tax_allfunds,697487,529029000,0.00132,LIKELY_x1000_TOO_SMALL(thousands-misread),2023
+48311,McMullen County,TX,property_tax_allfunds,14721368,180000,81.78538,suspicious_high(>20x_census),2022
+48311,McMullen County,TX,property_tax_gf,14721368,180000,81.78538,suspicious_high(>20x_census),2022
+38061,Mountrail County,ND,property_tax_gf,31621,4122000,0.00767,suspicious_low(<5%_of_census),2023

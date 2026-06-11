@@ -12,7 +12,7 @@ This memo scopes the work; it does not execute it. The full ingestion is roughly
 
 ## 1. Source landscape
 
-**The canonical source: Census Bureau "Annual Survey of State and Local Government Finances" (ASLGF)**, also branded as the "Census of Governments — Finance" file in years ending in 2 and 7. Free, public, raw text files (not API).
+**The authoritative source: Census Bureau "Annual Survey of State and Local Government Finances" (ASLGF)**, also branded as the "Census of Governments — Finance" file in years ending in 2 and 7. Free, public, raw text files (not API).
 
 URL hub: https://www.census.gov/programs-surveys/gov-finances.html
 
